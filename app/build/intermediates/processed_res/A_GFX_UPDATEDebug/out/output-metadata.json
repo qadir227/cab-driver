@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.cabdespatch.driversapp",
+  "variantName": "A_GFX_UPDATEDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 5130007,
+      "versionName": "5.137c-d",
+      "outputFile": "resources-A_GFX_UPDATEDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44000000"
+    android:paddingTop="@dimen/meter_padding_top_bottom"
+    android:paddingBottom="@dimen/meter_padding_top_bottom"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:background="#000000"
+        android:paddingTop="@dimen/meter_horizontal_padding"
+        android:paddingBottom="@dimen/meter_horizontal_padding"
+        android:paddingLeft="@dimen/metet_vertical_padding"
+        android:paddingRight="@dimen/metet_vertical_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include android:id="@+id/pounds_hundreds"
+                 layout="@layout/lcd_number"/>
+        <include android:id="@+id/pounds_tens"
+                 layout="@layout/lcd_number"/>
+        <include android:id="@+id/pounds_unit"
+                 layout="@layout/lcd_number"/>
+
+        <com.cabdespatch.driverapp.beta.views.FontableTextView
+            app:TextFont="digital.ttf"
+            android:textSize="@dimen/lcd_font"
+            android:text=":"
+            android:layout_gravity="center"
+            android:textColor="@color/Red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <include android:id="@+id/pence_tens"
+                 layout="@layout/lcd_number"/>
+        <include android:id="@+id/pence_unit"
+                 layout="@layout/lcd_number"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

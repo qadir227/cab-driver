@@ -1,0 +1,1257 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cabdespatch.driversapp"
+4    android:versionCode="5130007"
+5    android:versionName="5.137c-d" >
+6
+7    <uses-sdk
+7-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:8:5-70
+8        android:minSdkVersion="21"
+8-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:8:5-70
+9        android:targetSdkVersion="31" />
+9-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:8:5-70
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:10:5-67
+11-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:10:22-64
+12    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+12-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:11:5-82
+12-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:11:22-79
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:12:5-75
+13-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:12:22-72
+14    <uses-permission android:name="android.permission.READ_SMS" />
+14-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:13:5-67
+14-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:13:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+15-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:14:5-77
+15-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:14:22-74
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:15:5-71
+16-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:15:22-68
+17    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+17-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:16:5-89
+17-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:16:22-86
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:17:5-79
+18-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:17:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:18:5-76
+19-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:18:22-73
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:19:5-81
+20-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:19:22-78
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:20:5-79
+21-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:20:22-76
+22    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+22-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:21:5-85
+22-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:21:22-82
+23    <uses-permission android:name="android.permission.CALL_PHONE" />
+23-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:22:5-69
+23-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:22:22-66
+24    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+24-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:23:5-78
+24-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:23:22-75
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:24:5-68
+25-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:24:22-65
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:25:5-80
+26-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:25:22-77
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:26:5-66
+27-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:26:22-63
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+28-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:27:5-77
+28-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:27:22-74
+29
+30    <uses-feature
+30-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:29:5-31:36
+31        android:name="android.hardware.camera"
+31-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:30:9-47
+32        android:required="false" />
+32-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:31:9-33
+33
+34    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+34-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:14:5-81
+34-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:14:22-78
+35    <uses-permission android:name="android.permission.BLUETOOTH" />
+35-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:15:5-68
+35-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:15:22-65
+36    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+36-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:16:5-74
+36-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:16:22-71
+37
+38    <uses-feature
+38-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:18:5-20:35
+39        android:glEsVersion="0x00020000"
+39-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:19:9-41
+40        android:required="true" />
+40-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:20:9-32
+41    <uses-feature
+41-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:21:5-23:36
+42        android:name="android.hardware.location.gps"
+42-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:22:9-53
+43        android:required="false" />
+43-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:23:9-33
+44    <uses-feature
+44-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:24:5-26:36
+45        android:name="android.hardware.location.network"
+45-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:25:9-57
+46        android:required="false" /> <!-- Also implied, but also really needed -->
+46-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:26:9-33
+47    <uses-feature
+47-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:28:5-30:35
+48        android:name="android.hardware.touchscreen"
+48-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:29:9-52
+49        android:required="true" />
+49-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:30:9-32
+50    <uses-feature
+50-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:31:5-33:35
+51        android:name="android.hardware.screen.portrait"
+51-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:32:9-56
+52        android:required="true" /> <!-- any location is good enough for us -->
+52-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:33:9-32
+53    <uses-feature
+53-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:35:5-37:35
+54        android:name="android.hardware.location"
+54-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:36:9-49
+55        android:required="true" /> <!-- Only necessary because of missing checks. See: APPS-801 -->
+55-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:37:9-32
+56    <uses-feature
+56-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:39:5-41:35
+57        android:name="android.hardware.bluetooth"
+57-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:40:9-50
+58        android:required="true" /> <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+58-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:41:9-32
+59    <queries>
+59-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:8:5-12:15
+60
+61        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+62        <package android:name="com.android.chrome" />
+62-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:11:9-54
+62-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:11:18-51
+63        <!-- Added to check the default browser that will host the AuthFlow. -->
+64        <intent>
+64-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:13:9-17:18
+65            <action android:name="android.intent.action.VIEW" />
+65-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:17-69
+65-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:25-66
+66
+67            <data android:scheme="http" />
+67-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+67-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+68        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+69        <package android:name="com.google.android.apps.maps" />
+69-->[com.google.android.gms:play-services-maps:18.0.2] /Users/qadirhussain/.gradle/caches/transforms-3/c97b7249f45a43c4738b820034705e56/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+69-->[com.google.android.gms:play-services-maps:18.0.2] /Users/qadirhussain/.gradle/caches/transforms-3/c97b7249f45a43c4738b820034705e56/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+70    </queries>
+71
+72    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+72-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:25:5-77
+72-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:25:22-74
+73    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+73-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/53f5e453bc5732da0e1f2024815cb8ff/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+73-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/53f5e453bc5732da0e1f2024815cb8ff/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+74    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+74-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+74-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+75
+76    <permission
+76-->[androidx.core:core:1.9.0] /Users/qadirhussain/.gradle/caches/transforms-3/d0cb4c59d0bd2003bfd45c789a56dbfa/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+77        android:name="com.cabdespatch.driversapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+77-->[androidx.core:core:1.9.0] /Users/qadirhussain/.gradle/caches/transforms-3/d0cb4c59d0bd2003bfd45c789a56dbfa/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+78        android:protectionLevel="signature" />
+78-->[androidx.core:core:1.9.0] /Users/qadirhussain/.gradle/caches/transforms-3/d0cb4c59d0bd2003bfd45c789a56dbfa/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+79
+80    <uses-permission android:name="com.cabdespatch.driversapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+80-->[androidx.core:core:1.9.0] /Users/qadirhussain/.gradle/caches/transforms-3/d0cb4c59d0bd2003bfd45c789a56dbfa/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+80-->[androidx.core:core:1.9.0] /Users/qadirhussain/.gradle/caches/transforms-3/d0cb4c59d0bd2003bfd45c789a56dbfa/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+81
+82    <application
+82-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:33:5-264:19
+83        android:name="com.cabdespatch.driverapp.beta.CabApplication"
+83-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:34:9-39
+84        android:allowBackup="true"
+84-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:35:9-35
+85        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+85-->[androidx.core:core:1.9.0] /Users/qadirhussain/.gradle/caches/transforms-3/d0cb4c59d0bd2003bfd45c789a56dbfa/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+86        android:debuggable="true"
+87        android:icon="@mipmap/ic_launcher"
+87-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:36:9-43
+88        android:installLocation="internalOnly"
+88-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:37:9-47
+89        android:label="@string/app_name"
+89-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:38:9-41
+90        android:largeHeap="true"
+90-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:39:9-33
+91        android:testOnly="true"
+92        android:theme="@style/AppTheme" >
+92-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:40:9-40
+93        <activity
+93-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:41:9-43:40
+94            android:name="com.cabdespatch.driverapp.beta.activities2017.StripePaymentActivity"
+94-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:42:13-65
+95            android:exported="false" />
+95-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:43:13-37
+96        <activity
+96-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:44:9-46:40
+97            android:name="com.cabdespatch.driverapp.beta.activities2017.DriverPaymentActivity"
+97-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:45:13-65
+98            android:exported="false" />
+98-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:46:13-37
+99        <activity
+99-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:47:9-49:40
+100            android:name="com.cabdespatch.driverapp.beta.activities2017.DriverDocumentActivity"
+100-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:48:13-66
+101            android:exported="false" />
+101-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:49:13-37
+102
+103        <provider
+104            android:name="androidx.core.content.FileProvider"
+104-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:52:13-62
+105            android:authorities="com.cabdespatch.driversapp.provider"
+105-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:53:13-60
+106            android:exported="false"
+106-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:54:13-37
+107            android:grantUriPermissions="true" >
+107-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:55:13-47
+108            <meta-data
+108-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:56:13-58:58
+109                android:name="android.support.FILE_PROVIDER_PATHS"
+109-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:57:17-67
+110                android:resource="@xml/provider_paths" />
+110-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:58:17-55
+111        </provider>
+112        <!--
+113        <provider
+114            android:name="androidx.core.content.FileProvider"
+115            android:authorities="com.example.android.fileprovider"
+116            android:exported="false"
+117            android:grantUriPermissions="true">
+118            <meta-data
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+120                android:resource="@xml/provider_paths"></meta-data>
+121        </provider>
+122        -->
+123        <activity android:name="com.cabdespatch.driverapp.beta.activities2017.UpdateActivity" />
+123-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:71:9-67
+123-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:71:19-64
+124        <activity
+124-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:72:9-76:59
+125            android:name="com.cabdespatch.driverapp.beta.activities2017.PaymentActivity"
+125-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:73:13-59
+126            android:label="@string/title_activity_payment"
+126-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:74:13-59
+127            android:launchMode="singleTop"
+127-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:75:13-43
+128            android:theme="@style/AppTheme.NoActionBar" />
+128-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:76:13-56
+129
+130        <uses-library
+130-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:78:9-80:40
+131            android:name="org.apache.http.legacy"
+131-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:79:13-50
+132            android:required="false" />
+132-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:80:13-37
+133
+134        <activity android:name="com.cabdespatch.driverapp.beta.activities2017.TestActivity" />
+134-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:82:9-65
+134-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:82:19-62
+135
+136        <meta-data
+136-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:84:9-86:37
+137            android:name="firebase_analytics_collection_enabled"
+137-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:85:13-65
+138            android:value="false" />
+138-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:86:13-34
+139
+140        <service
+140-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:88:9-96:19
+141            android:name="com.cabdespatch.driverapp.beta.services.FirebaseMessagingService"
+141-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:89:13-62
+142            android:exported="true"
+142-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:90:13-36
+143            android:permission="com.google.android.c2dm.permission.SEND" >
+143-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:91:13-73
+144            <intent-filter>
+144-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:92:13-95:29
+145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+145-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:93:17-78
+145-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:93:25-75
+146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+146-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:94:17-81
+146-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:94:25-78
+147            </intent-filter>
+148        </service>
+149        <service
+149-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:97:9-102:57
+150            android:name="com.cabdespatch.driverapp.beta.services.DataService"
+150-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:98:13-49
+151            android:enabled="true"
+151-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:99:13-35
+152            android:exported="false"
+152-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:100:13-37
+153            android:foregroundServiceType="location"
+153-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:101:13-53
+154            android:label="Cab Despatch Data Service" />
+154-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:102:13-54
+155        <service
+155-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:103:9-107:61
+156            android:name="com.cabdespatch.driverapp.beta.services.UiBlockerService"
+156-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:104:13-54
+157            android:enabled="true"
+157-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:105:13-35
+158            android:exported="false"
+158-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:106:13-37
+159            android:label="Cab Despatch Security Service" />
+159-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:107:13-58
+160        <service
+160-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:108:9-111:39
+161            android:name="com.cabdespatch.driverapp.beta.services.SpeakService"
+161-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:109:13-50
+162            android:enabled="true"
+162-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:110:13-35
+163            android:exported="true" />
+163-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:111:13-36
+164
+165        <activity
+165-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:113:9-135:20
+166            android:name="com.cabdespatch.driverapp.beta.activities.Launcher"
+166-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:114:13-48
+167            android:configChanges="orientation|screenSize"
+167-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:115:13-59
+168            android:exported="true"
+168-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:116:13-36
+169            android:hardwareAccelerated="false"
+169-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:117:13-48
+170            android:label="@string/app_name" >
+170-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:118:13-45
+171            <intent-filter>
+171-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:119:13-125:29
+172                <action android:name="android.intent.action.MAIN" />
+172-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:120:17-69
+172-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:120:25-66
+173
+174                <category android:name="android.intent.category.LAUNCHER" />
+174-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:122:17-77
+174-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:122:27-74
+175                <category android:name="android.intent.category.HOME" />
+175-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:123:17-73
+175-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:123:27-70
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:17-76
+176-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:27-73
+177            </intent-filter>
+178            <intent-filter>
+178-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:126:13-134:29
+179                <action android:name="android.intent.action.VIEW" />
+179-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:17-69
+179-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:25-66
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:17-76
+181-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:27-73
+182
+183                <data android:scheme="file" />
+183-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+183-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+184                <data android:mimeType="text/*" />
+184-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+184-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:132:23-48
+185                <data android:pathPattern=".*\\.cdxda" />
+185-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+185-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:133:23-55
+186            </intent-filter>
+187        </activity>
+188        <activity
+188-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:136:9-141:70
+189            android:name="com.cabdespatch.driverapp.beta.activities2017.LoginActivity"
+189-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:137:13-57
+190            android:hardwareAccelerated="false"
+190-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:138:13-48
+191            android:label="@string/app_name"
+191-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:139:13-45
+192            android:launchMode="singleInstance"
+192-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:140:13-48
+193            android:windowSoftInputMode="adjustResize|stateHidden" />
+193-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:141:13-67
+194        <activity
+194-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:142:9-146:51
+195            android:name="com.cabdespatch.driverapp.beta.activities.EngineerModeMenu"
+195-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:143:13-56
+196            android:hardwareAccelerated="false"
+196-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:144:13-48
+197            android:label="@string/app_name"
+197-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:145:13-45
+198            android:launchMode="singleInstance" />
+198-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:146:13-48
+199        <activity
+199-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:147:9-152:71
+200            android:name="com.cabdespatch.driverapp.beta.activities.Password"
+200-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:148:13-48
+201            android:hardwareAccelerated="false"
+201-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:149:13-48
+202            android:label="@string/app_name"
+202-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:150:13-45
+203            android:launchMode="singleInstance"
+203-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:151:13-48
+204            android:windowSoftInputMode="adjustResize|stateVisible" />
+204-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:152:13-68
+205        <activity
+205-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:153:9-157:51
+206            android:name="com.cabdespatch.driverapp.beta.activities.FileBrowser"
+206-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:154:13-51
+207            android:hardwareAccelerated="false"
+207-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:155:13-48
+208            android:label="@string/app_name"
+208-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:156:13-45
+209            android:launchMode="singleInstance" />
+209-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:157:13-48
+210        <activity
+210-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:158:9-163:71
+211            android:name="com.cabdespatch.driverapp.beta.activities.AutoPlot"
+211-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:159:13-48
+212            android:hardwareAccelerated="false"
+212-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:160:13-48
+213            android:label="@string/title_activity_auto_plot"
+213-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:161:13-61
+214            android:launchMode="singleInstance"
+214-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:162:13-48
+215            android:windowSoftInputMode="adjustResize|stateVisible" />
+215-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:163:13-68
+216        <activity
+216-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:164:9-178:20
+217            android:name="com.cabdespatch.driverapp.beta.activities.ResumerActivity"
+217-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:165:13-55
+218            android:exported="true"
+218-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:166:13-36
+219            android:hardwareAccelerated="false"
+219-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:167:13-48
+220            android:label="@string/app_name"
+220-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:168:13-45
+221            android:launchMode="singleInstance" >
+221-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:169:13-48
+222            <intent-filter>
+222-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:170:13-177:29
+223                <action android:name="android.intent.action.VIEW" />
+223-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:17-69
+223-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:25-66
+224
+225                <category android:name="android.intent.category.DEFAULT" />
+225-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:17-76
+225-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:27-73
+226
+227                <data android:scheme="http" />
+227-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+227-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+228                <data android:scheme="https" />
+228-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+228-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+229            </intent-filter>
+230        </activity>
+231        <activity
+231-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:179:9-183:51
+232            android:name="com.cabdespatch.driverapp.beta.activities.ErrorActivity"
+232-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:180:13-53
+233            android:hardwareAccelerated="false"
+233-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:181:13-48
+234            android:label="@string/app_name"
+234-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:182:13-45
+235            android:launchMode="singleInstance" />
+235-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:183:13-48
+236        <activity
+236-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:184:9-187:48
+237            android:name="com.cabdespatch.driverapp.beta.activities.PlotList"
+237-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:185:13-48
+238            android:hardwareAccelerated="false"
+238-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:186:13-48
+239            android:label="@string/app_name" />
+239-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:187:13-45
+240        <activity
+240-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:188:9-191:48
+241            android:name="com.cabdespatch.driverapp.beta.activities2017.JobTotals"
+241-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:189:13-53
+242            android:hardwareAccelerated="false"
+242-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:190:13-48
+243            android:label="@string/app_name" />
+243-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:191:13-45
+244        <activity
+244-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:192:9-196:51
+245            android:name="com.cabdespatch.driverapp.beta.activities2017.DriverMessage"
+245-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:193:13-57
+246            android:hardwareAccelerated="false"
+246-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:194:13-48
+247            android:label="@string/title_activity_driver_message"
+247-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:195:13-66
+248            android:launchMode="singleInstance" />
+248-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:196:13-48
+249        <activity
+249-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:197:9-201:51
+250            android:name="com.cabdespatch.driverapp.beta.activities2017.ViewMessages"
+250-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:198:13-56
+251            android:hardwareAccelerated="false"
+251-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:199:13-48
+252            android:label="@string/app_name"
+252-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:200:13-45
+253            android:launchMode="singleInstance" />
+253-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:201:13-48
+254        <activity
+254-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:202:9-207:58
+255            android:name="com.cabdespatch.driverapp.beta.activities2017.ComposeMessage"
+255-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:203:13-58
+256            android:hardwareAccelerated="@bool/hw_acc_edit_text"
+256-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:204:13-65
+257            android:label="@string/app_name"
+257-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:205:13-45
+258            android:launchMode="singleInstance"
+258-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:206:13-48
+259            android:windowSoftInputMode="adjustResize" />
+259-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:207:13-55
+260        <activity
+260-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:208:9-212:51
+261            android:name="com.cabdespatch.driverapp.beta.activities.PanicActivity"
+261-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:209:13-53
+262            android:hardwareAccelerated="false"
+262-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:210:13-48
+263            android:label="@string/app_name"
+263-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:211:13-45
+264            android:launchMode="singleInstance" />
+264-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:212:13-48
+265        <activity
+265-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:213:9-217:51
+266            android:name="com.cabdespatch.driverapp.beta.activities2017.Settings"
+266-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:214:13-52
+267            android:hardwareAccelerated="false"
+267-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:215:13-48
+268            android:label="@string/app_name"
+268-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:216:13-45
+269            android:launchMode="singleInstance" />
+269-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:217:13-48
+270        <activity
+270-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:218:9-222:51
+271            android:name="com.cabdespatch.driverapp.beta.activities.ResetApp"
+271-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:219:13-48
+272            android:hardwareAccelerated="false"
+272-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:220:13-48
+273            android:label="@string/app_name"
+273-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:221:13-45
+274            android:launchMode="singleInstance" />
+274-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:222:13-48
+275        <activity
+275-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:223:9-227:51
+276            android:name="com.cabdespatch.driverapp.beta.activities2017.ViewJobHistory"
+276-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:224:13-58
+277            android:hardwareAccelerated="false"
+277-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:225:13-48
+278            android:label="@string/app_name"
+278-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:226:13-45
+279            android:launchMode="singleInstance" />
+279-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:227:13-48
+280        <activity
+280-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:228:9-232:51
+281            android:name="com.cabdespatch.driverapp.beta.activities2017.DocumentScanner"
+281-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:229:13-59
+282            android:hardwareAccelerated="false"
+282-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:230:13-48
+283            android:label="@string/app_name"
+283-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:231:13-45
+284            android:launchMode="singleInstance" />
+284-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:232:13-48
+285        <activity
+285-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:233:9-236:72
+286            android:name="com.cabdespatch.driverapp.beta.activities.ManagerModeMenu"
+286-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:234:13-55
+287            android:hardwareAccelerated="false"
+287-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:235:13-48
+288            android:label="@string/title_activity_manager_mode_menu" />
+288-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:236:13-69
+289        <activity
+289-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:237:9-240:68
+290            android:name="com.cabdespatch.driverapp.beta.activities.SoundChooser"
+290-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:238:13-52
+291            android:hardwareAccelerated="false"
+291-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:239:13-48
+292            android:label="@string/title_activity_sound_chooser" />
+292-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:240:13-65
+293        <activity
+293-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:241:9-243:58
+294            android:name="com.cabdespatch.driverapp.beta.activities.POD"
+294-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:242:13-43
+295            android:label="@string/title_activity_pod" />
+295-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:243:13-55
+296        <activity
+296-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:244:9-247:46
+297            android:name="com.cabdespatch.driverapp.beta.activities2017.LoggedInHost"
+297-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:245:13-56
+298            android:label="@string/title_activity_logged_in_host"
+298-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:246:13-66
+299            android:launchMode="singleTop" />
+299-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:247:13-43
+300        <activity
+300-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:248:9-251:46
+301            android:name="com.cabdespatch.driverapp.beta.activities2017.DataMonitorActivity"
+301-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:249:13-63
+302            android:label="Dev Monitor"
+302-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:250:13-40
+303            android:launchMode="singleTop" />
+303-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:251:13-43
+304        <activity
+304-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:252:9-254:48
+305            android:name="com.cabdespatch.driverapp.beta.activities2017.PermissionActivity"
+305-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:253:13-62
+306            android:label="@string/app_name" />
+306-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:254:13-45
+307
+308        <receiver
+308-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:256:9-263:20
+309            android:name="com.cabdespatch.driverapp.beta.InteropServices"
+309-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:257:13-44
+310            android:enabled="true"
+310-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:258:13-35
+311            android:exported="true" >
+311-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:259:13-36
+312            <intent-filter android:priority="999" >
+312-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:260:13-262:29
+312-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:260:28-50
+313                <action android:name="com.cabdespatch.interop.RESULT" />
+313-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:261:17-73
+313-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:261:25-70
+314            </intent-filter>
+315        </receiver>
+316
+317        <activity
+317-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:44:9-52:20
+318            android:name="com.sumup.merchant.reader.identitylib.ui.activities.LoginActivity"
+318-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:45:13-93
+319            android:configChanges="orientation|keyboardHidden|screenSize"
+319-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:46:13-74
+320            android:exported="true"
+320-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:47:13-36
+321            android:launchMode="singleTop"
+321-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:48:13-43
+322            android:screenOrientation="locked"
+322-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:49:13-47
+323            android:theme="@style/SumUpTheme.ActionBarNoShadow"
+323-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:50:13-64
+324            android:windowSoftInputMode="adjustResize" >
+324-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:51:13-55
+325        </activity>
+326        <activity
+326-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:53:9-58:57
+327            android:name="com.sumup.merchant.reader.ui.activities.CardReaderPaymentAPIDrivenPageActivity"
+327-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:54:13-106
+328            android:configChanges="orientation|keyboardHidden|screenSize"
+328-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:55:13-74
+329            android:screenOrientation="locked"
+329-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:56:13-47
+330            android:theme="@style/SumUpTheme.NoActionBar"
+330-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:57:13-58
+331            android:windowSoftInputMode="stateHidden" />
+331-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:58:13-54
+332        <activity
+332-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:59:9-63:49
+333            android:name="com.sumup.merchant.reader.ui.activities.PaymentSettingsActivity"
+333-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:60:13-91
+334            android:label="@string/sumup_navigation_payment_methods"
+334-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:61:13-69
+335            android:screenOrientation="locked"
+335-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:62:13-47
+336            android:theme="@style/SumUpTheme" />
+336-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:63:13-46
+337        <activity
+337-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:64:9-68:67
+338            android:name="com.sumup.merchant.reader.ui.activities.CardReaderSetupActivity"
+338-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:65:13-91
+339            android:configChanges="orientation|keyboardHidden|screenSize"
+339-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:66:13-74
+340            android:screenOrientation="locked"
+340-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:67:13-47
+341            android:theme="@style/SumUpTheme.ActionBarNoShadow" />
+341-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:68:13-64
+342        <activity
+342-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:69:9-73:67
+343            android:name="com.sumup.merchant.reader.troubleshooting.ui.BtTroubleshootingActivity"
+343-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:70:13-98
+344            android:configChanges="orientation|keyboardHidden|screenSize"
+344-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:71:13-74
+345            android:screenOrientation="locked"
+345-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:72:13-47
+346            android:theme="@style/SumUpTheme.ActionBarNoShadow" />
+346-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:73:13-64
+347        <activity
+347-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:74:9-80:20
+348            android:name="com.sumup.merchant.reader.api.LoadSumUpCardReaderSettingsActivity"
+348-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:75:13-93
+349            android:configChanges="orientation|keyboardHidden|screenSize"
+349-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:76:13-74
+350            android:label="@string/sumup_navigation_payment_methods"
+350-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:77:13-69
+351            android:screenOrientation="locked"
+351-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:78:13-47
+352            android:theme="@style/SumUpTheme" >
+352-->[com.sumup:merchant-sdk:3.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/AndroidManifest.xml:79:13-46
+353        </activity>
+354        <activity
+354-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:8:9-12:58
+355            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+355-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:9:13-80
+356            android:exported="false"
+356-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:10:13-37
+357            android:theme="@style/StripePaymentSheetDefaultTheme"
+357-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:11:13-66
+358            android:windowSoftInputMode="adjustResize" />
+358-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:12:13-55
+359        <activity
+359-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:13:9-17:58
+360            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+360-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:14:13-82
+361            android:exported="false"
+361-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:15:13-37
+362            android:theme="@style/StripePaymentSheetDefaultTheme"
+362-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:16:13-66
+363            android:windowSoftInputMode="adjustResize" />
+363-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:17:13-55
+364        <activity
+364-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:18:9-22:58
+365            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+365-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:19:13-82
+366            android:exported="false"
+366-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:20:13-37
+367            android:theme="@style/StripePaymentSheetDefaultTheme"
+367-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:21:13-66
+368            android:windowSoftInputMode="adjustResize" />
+368-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:22:13-55
+369        <activity
+369-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:23:9-26:69
+370            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+370-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:24:13-97
+371            android:exported="false"
+371-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:25:13-37
+372            android:theme="@style/StripePaymentSheetDefaultTheme" />
+372-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:26:13-66
+373        <activity
+373-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:27:9-30:69
+374            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+374-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:28:13-105
+375            android:exported="false"
+375-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:29:13-37
+376            android:theme="@style/StripePaymentSheetDefaultTheme" />
+376-->[com.stripe:paymentsheet:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/AndroidManifest.xml:30:13-66
+377        <activity
+377-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:8:9-13:61
+378            android:name="com.stripe.android.link.LinkForegroundActivity"
+378-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:9:13-74
+379            android:autoRemoveFromRecents="true"
+379-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:10:13-49
+380            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+380-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:11:13-115
+381            android:launchMode="singleTop"
+381-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:12:13-43
+382            android:theme="@style/StripeTransparentTheme" />
+382-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:13:13-58
+383        <activity
+383-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:14:9-31:20
+384            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+384-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:15:13-79
+385            android:autoRemoveFromRecents="true"
+385-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:16:13-49
+386            android:exported="true"
+386-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:17:13-36
+387            android:launchMode="singleInstance"
+387-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:18:13-48
+388            android:theme="@style/StripeTransparentTheme" >
+388-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:19:13-58
+389            <intent-filter>
+389-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:20:13-30:29
+390                <action android:name="android.intent.action.VIEW" />
+390-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:17-69
+390-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:25-66
+391
+392                <category android:name="android.intent.category.DEFAULT" />
+392-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:17-76
+392-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:27-73
+393                <category android:name="android.intent.category.BROWSABLE" />
+393-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:24:17-78
+393-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:24:27-75
+394
+395                <data
+395-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+396                    android:host="complete"
+397                    android:path="/com.cabdespatch.driversapp"
+398                    android:scheme="link-popup" />
+398-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+399            </intent-filter>
+400        </activity>
+401        <activity
+401-->[com.stripe:payments-ui-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/2de54fdcfd45093bbf5f43961e618334/transformed/jetified-payments-ui-core-20.27.3/AndroidManifest.xml:8:9-11:69
+402            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+402-->[com.stripe:payments-ui-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/2de54fdcfd45093bbf5f43961e618334/transformed/jetified-payments-ui-core-20.27.3/AndroidManifest.xml:9:13-80
+403            android:exported="false"
+403-->[com.stripe:payments-ui-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/2de54fdcfd45093bbf5f43961e618334/transformed/jetified-payments-ui-core-20.27.3/AndroidManifest.xml:10:13-37
+404            android:theme="@style/StripePaymentSheetDefaultTheme" />
+404-->[com.stripe:payments-ui-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/2de54fdcfd45093bbf5f43961e618334/transformed/jetified-payments-ui-core-20.27.3/AndroidManifest.xml:11:13-66
+405        <activity
+405-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:15:9-18:57
+406            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+406-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:16:13-76
+407            android:exported="false"
+407-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:17:13-37
+408            android:theme="@style/StripeDefaultTheme" />
+408-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:18:13-54
+409        <activity
+409-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:19:9-22:57
+410            android:name="com.stripe.android.view.PaymentMethodsActivity"
+410-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:20:13-74
+411            android:exported="false"
+411-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:21:13-37
+412            android:theme="@style/StripeDefaultTheme" />
+412-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:22:13-54
+413        <activity
+413-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:23:9-26:57
+414            android:name="com.stripe.android.view.PaymentFlowActivity"
+414-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:24:13-71
+415            android:exported="false"
+415-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:25:13-37
+416            android:theme="@style/StripeDefaultTheme" />
+416-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:26:13-54
+417        <activity
+417-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:27:9-31:58
+418            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+418-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:28:13-78
+419            android:exported="false"
+419-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:29:13-37
+420            android:theme="@style/StripeDefaultTheme"
+420-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:30:13-54
+421            android:windowSoftInputMode="adjustResize" />
+421-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:31:13-55
+422        <activity
+422-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:32:9-35:61
+423            android:name="com.stripe.android.view.PaymentRelayActivity"
+423-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:33:13-72
+424            android:exported="false"
+424-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:34:13-37
+425            android:theme="@style/StripeTransparentTheme" />
+425-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:35:13-58
+426        <!--
+427        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+428        launched the browser Activity will also handle the return URL deep link.
+429        -->
+430        <activity
+430-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:41:9-45:61
+431            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+431-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:42:13-85
+432            android:exported="false"
+432-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:43:13-37
+433            android:launchMode="singleTask"
+433-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:44:13-44
+434            android:theme="@style/StripeTransparentTheme" />
+434-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:45:13-58
+435        <activity
+435-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:46:9-63:20
+436            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+436-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:47:13-88
+437            android:exported="true"
+437-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:48:13-36
+438            android:launchMode="singleTask"
+438-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:49:13-44
+439            android:theme="@style/StripeTransparentTheme" >
+439-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:50:13-58
+440            <intent-filter>
+440-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:51:13-62:29
+441                <action android:name="android.intent.action.VIEW" />
+441-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:17-69
+441-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:25-66
+442
+443                <category android:name="android.intent.category.DEFAULT" />
+443-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:17-76
+443-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:27-73
+444                <category android:name="android.intent.category.BROWSABLE" />
+444-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:24:17-78
+444-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:24:27-75
+445
+446                <!-- Must match `DefaultReturnUrl#value`. -->
+447                <data
+447-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+448                    android:host="payment_return_url"
+449                    android:path="/com.cabdespatch.driversapp"
+450                    android:scheme="stripesdk" />
+450-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+451            </intent-filter>
+452        </activity>
+453        <activity
+453-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:64:9-67:57
+454            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+454-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:65:13-114
+455            android:exported="false"
+455-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:66:13-37
+456            android:theme="@style/StripeDefaultTheme" />
+456-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:67:13-54
+457        <activity
+457-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:68:9-71:66
+458            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+458-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:69:13-90
+459            android:exported="false"
+459-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:70:13-37
+460            android:theme="@style/StripeGooglePayDefaultTheme" />
+460-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:71:13-63
+461        <activity
+461-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:72:9-75:66
+462            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+462-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:73:13-103
+463            android:exported="false"
+463-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:74:13-37
+464            android:theme="@style/StripeGooglePayDefaultTheme" />
+464-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:75:13-63
+465        <activity
+465-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:76:9-79:68
+466            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+466-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:77:13-107
+467            android:exported="false"
+467-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:78:13-37
+468            android:theme="@style/StripePayLauncherDefaultTheme" />
+468-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:79:13-65
+469        <activity
+469-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:80:9-83:61
+470            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+470-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:81:13-97
+471            android:exported="false"
+471-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:82:13-37
+472            android:theme="@style/StripeTransparentTheme" />
+472-->[com.stripe:payments-core:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/AndroidManifest.xml:83:13-58
+473        <activity
+473-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/qadirhussain/.gradle/caches/transforms-3/1e361f431fd15102f59cc17577a5348f/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:8:9-11:54
+474            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+474-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/qadirhussain/.gradle/caches/transforms-3/1e361f431fd15102f59cc17577a5348f/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:9:13-81
+475            android:exported="false"
+475-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/qadirhussain/.gradle/caches/transforms-3/1e361f431fd15102f59cc17577a5348f/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:10:13-37
+476            android:theme="@style/Stripe3DS2Theme" />
+476-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/qadirhussain/.gradle/caches/transforms-3/1e361f431fd15102f59cc17577a5348f/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:11:13-51
+477        <activity
+477-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:21:9-64:20
+478            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+478-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:22:13-109
+479            android:exported="true" >
+479-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:23:13-36
+480            <intent-filter>
+480-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:24:13-63:29
+481                <action android:name="android.intent.action.VIEW" />
+481-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:17-69
+481-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:127:25-66
+482
+483                <category android:name="android.intent.category.DEFAULT" />
+483-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:17-76
+483-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:124:27-73
+484                <category android:name="android.intent.category.BROWSABLE" />
+484-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:24:17-78
+484-->[com.stripe:link:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/08721ebba30b0e47da23bc3ae89ef291/transformed/jetified-link-20.27.3/AndroidManifest.xml:24:27-75
+485
+486                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+487                <data
+487-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+488                    android:host="link-accounts"
+489                    android:pathPrefix="/com.cabdespatch.driversapp/authentication_return"
+490                    android:scheme="stripe-auth" />
+490-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+491
+492                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+493                <data
+493-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+494                    android:host="link-native-accounts"
+495                    android:pathPrefix="/com.cabdespatch.driversapp/authentication_return"
+496                    android:scheme="stripe-auth" />
+496-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+497
+498                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+499                <data
+499-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+500                    android:host="link-accounts"
+501                    android:path="/com.cabdespatch.driversapp/success"
+502                    android:scheme="stripe-auth" />
+502-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+503                <data
+503-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+504                    android:host="link-accounts"
+505                    android:path="/com.cabdespatch.driversapp/cancel"
+506                    android:scheme="stripe-auth" />
+506-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+507
+508                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+509                <data
+509-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+510                    android:host="native-redirect"
+511                    android:pathPrefix="/com.cabdespatch.driversapp"
+512                    android:scheme="stripe-auth" />
+512-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+513
+514                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+515                <data
+515-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:17-47
+516                    android:host="auth-redirect"
+517                    android:pathPrefix="/com.cabdespatch.driversapp"
+518                    android:scheme="stripe" />
+518-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:131:23-44
+519            </intent-filter>
+520        </activity>
+521        <activity
+521-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:65:9-68:57
+522            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+522-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:66:13-101
+523            android:exported="false"
+523-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:67:13-37
+524            android:theme="@style/StripeDefaultTheme" />
+524-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:68:13-54
+525        <activity
+525-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:69:9-73:58
+526            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+526-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:70:13-110
+527            android:exported="false"
+527-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:71:13-37
+528            android:theme="@style/StripeDefaultTheme"
+528-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:72:13-54
+529            android:windowSoftInputMode="adjustResize" />
+529-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:73:13-55
+530
+531        <provider
+531-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:75:9-79:43
+532            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+532-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:76:13-114
+533            android:authorities="com.cabdespatch.driversapp.financialconnections-init"
+533-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:77:13-77
+534            android:exported="false"
+534-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:78:13-37
+535            android:multiprocess="true" />
+535-->[com.stripe:financial-connections:20.27.3] /Users/qadirhussain/.gradle/caches/transforms-3/3d349d7609a7df1a0c2a4edb680f09d4/transformed/jetified-financial-connections-20.27.3/AndroidManifest.xml:79:13-40
+536
+537        <receiver
+537-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+538            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+538-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+539            android:exported="true"
+539-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+540            android:permission="com.google.android.c2dm.permission.SEND" >
+540-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+541            <intent-filter>
+541-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:35:13-37:29
+542                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+542-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:94:17-81
+542-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:94:25-78
+543            </intent-filter>
+544        </receiver>
+545        <!--
+546             FirebaseMessagingService performs security checks at runtime,
+547             but set to not exported to explicitly avoid allowing another app to call it.
+548        -->
+549        <service
+549-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+550            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+550-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+551            android:directBootAware="true"
+551-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+552            android:exported="false" >
+552-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+553            <intent-filter android:priority="-500" >
+553-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:48:13-50:29
+553-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:48:28-51
+554                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+554-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:93:17-78
+554-->/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/AndroidManifest.xml:93:25-75
+555            </intent-filter>
+556        </service>
+557        <service
+557-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:52:9-58:19
+558            android:name="com.google.firebase.components.ComponentDiscoveryService"
+558-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:53:13-84
+559            android:directBootAware="true"
+559-->[com.google.firebase:firebase-common:20.3.3] /Users/qadirhussain/.gradle/caches/transforms-3/3c5250e475200ffb8a52038dc86dad5b/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+560            android:exported="false" >
+560-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:54:13-37
+561            <meta-data
+561-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+562                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+562-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+563                android:value="com.google.firebase.components.ComponentRegistrar" />
+563-->[com.google.firebase:firebase-messaging:23.2.0] /Users/qadirhussain/.gradle/caches/transforms-3/7819925f93aa0720f04b055b1d7d6bb2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+564            <meta-data
+564-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/qadirhussain/.gradle/caches/transforms-3/992cd57f29ef6200589b1893a350bdb2/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+565                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+565-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/qadirhussain/.gradle/caches/transforms-3/992cd57f29ef6200589b1893a350bdb2/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+566                android:value="com.google.firebase.components.ComponentRegistrar" />
+566-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/qadirhussain/.gradle/caches/transforms-3/992cd57f29ef6200589b1893a350bdb2/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+567            <meta-data
+567-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/53f5e453bc5732da0e1f2024815cb8ff/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+568                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+568-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/53f5e453bc5732da0e1f2024815cb8ff/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+569                android:value="com.google.firebase.components.ComponentRegistrar" />
+569-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/53f5e453bc5732da0e1f2024815cb8ff/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+570            <meta-data
+570-->[com.google.firebase:firebase-installations:17.1.3] /Users/qadirhussain/.gradle/caches/transforms-3/7c1976353db908fa6510dbd07722a5e4/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+571                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+571-->[com.google.firebase:firebase-installations:17.1.3] /Users/qadirhussain/.gradle/caches/transforms-3/7c1976353db908fa6510dbd07722a5e4/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+572                android:value="com.google.firebase.components.ComponentRegistrar" />
+572-->[com.google.firebase:firebase-installations:17.1.3] /Users/qadirhussain/.gradle/caches/transforms-3/7c1976353db908fa6510dbd07722a5e4/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+573        </service>
+574        <service
+574-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/256a8d5a5013a26e9308b50929ffe056/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+575            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+575-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/256a8d5a5013a26e9308b50929ffe056/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+576            android:exported="false" >
+576-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/256a8d5a5013a26e9308b50929ffe056/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+577            <meta-data
+577-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/256a8d5a5013a26e9308b50929ffe056/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+578                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+578-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/256a8d5a5013a26e9308b50929ffe056/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+579                android:value="cct" />
+579-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/256a8d5a5013a26e9308b50929ffe056/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+580        </service>
+581        <service
+581-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/5ec10b63b61d7e8be1f4d97e8d3fc88d/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+582            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+582-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/5ec10b63b61d7e8be1f4d97e8d3fc88d/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+583            android:exported="false"
+583-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/5ec10b63b61d7e8be1f4d97e8d3fc88d/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+584            android:permission="android.permission.BIND_JOB_SERVICE" >
+584-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/5ec10b63b61d7e8be1f4d97e8d3fc88d/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+585        </service>
+586
+587        <receiver
+587-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/5ec10b63b61d7e8be1f4d97e8d3fc88d/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+588            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+588-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/5ec10b63b61d7e8be1f4d97e8d3fc88d/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+589            android:exported="false" />
+589-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/qadirhussain/.gradle/caches/transforms-3/5ec10b63b61d7e8be1f4d97e8d3fc88d/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+590
+591        <provider
+591-->[com.google.firebase:firebase-common:20.3.3] /Users/qadirhussain/.gradle/caches/transforms-3/3c5250e475200ffb8a52038dc86dad5b/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+592            android:name="com.google.firebase.provider.FirebaseInitProvider"
+592-->[com.google.firebase:firebase-common:20.3.3] /Users/qadirhussain/.gradle/caches/transforms-3/3c5250e475200ffb8a52038dc86dad5b/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+593            android:authorities="com.cabdespatch.driversapp.firebaseinitprovider"
+593-->[com.google.firebase:firebase-common:20.3.3] /Users/qadirhussain/.gradle/caches/transforms-3/3c5250e475200ffb8a52038dc86dad5b/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+594            android:directBootAware="true"
+594-->[com.google.firebase:firebase-common:20.3.3] /Users/qadirhussain/.gradle/caches/transforms-3/3c5250e475200ffb8a52038dc86dad5b/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+595            android:exported="false"
+595-->[com.google.firebase:firebase-common:20.3.3] /Users/qadirhussain/.gradle/caches/transforms-3/3c5250e475200ffb8a52038dc86dad5b/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+596            android:initOrder="100" />
+596-->[com.google.firebase:firebase-common:20.3.3] /Users/qadirhussain/.gradle/caches/transforms-3/3c5250e475200ffb8a52038dc86dad5b/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+597
+598        <receiver
+598-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+599            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+599-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+600            android:enabled="true"
+600-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+601            android:exported="false" >
+601-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+602        </receiver>
+603
+604        <service
+604-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+605            android:name="com.google.android.gms.measurement.AppMeasurementService"
+605-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+606            android:enabled="true"
+606-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+607            android:exported="false" />
+607-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+608        <service
+608-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+609            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+609-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+610            android:enabled="true"
+610-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+611            android:exported="false"
+611-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+612            android:permission="android.permission.BIND_JOB_SERVICE" />
+612-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/44bce0a3653fdaddf3ca0e4f37bf2031/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+613
+614        <activity
+614-->[com.google.android.gms:play-services-base:18.0.1] /Users/qadirhussain/.gradle/caches/transforms-3/3f0c828932a9dc2cc37d1a5fc769e9ee/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+615            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+615-->[com.google.android.gms:play-services-base:18.0.1] /Users/qadirhussain/.gradle/caches/transforms-3/3f0c828932a9dc2cc37d1a5fc769e9ee/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+616            android:exported="false"
+616-->[com.google.android.gms:play-services-base:18.0.1] /Users/qadirhussain/.gradle/caches/transforms-3/3f0c828932a9dc2cc37d1a5fc769e9ee/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+617            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+617-->[com.google.android.gms:play-services-base:18.0.1] /Users/qadirhussain/.gradle/caches/transforms-3/3f0c828932a9dc2cc37d1a5fc769e9ee/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+618
+619        <provider
+619-->[androidx.emoji2:emoji2:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/8168d3bbe47c0ecba3adbac3d6575cda/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+620            android:name="androidx.startup.InitializationProvider"
+620-->[androidx.emoji2:emoji2:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/8168d3bbe47c0ecba3adbac3d6575cda/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+621            android:authorities="com.cabdespatch.driversapp.androidx-startup"
+621-->[androidx.emoji2:emoji2:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/8168d3bbe47c0ecba3adbac3d6575cda/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+622            android:exported="false" >
+622-->[androidx.emoji2:emoji2:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/8168d3bbe47c0ecba3adbac3d6575cda/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+623            <meta-data
+623-->[androidx.emoji2:emoji2:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/8168d3bbe47c0ecba3adbac3d6575cda/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+624                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+624-->[androidx.emoji2:emoji2:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/8168d3bbe47c0ecba3adbac3d6575cda/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+625                android:value="androidx.startup" />
+625-->[androidx.emoji2:emoji2:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/8168d3bbe47c0ecba3adbac3d6575cda/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+626            <meta-data
+626-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/qadirhussain/.gradle/caches/transforms-3/d9b5e4dc011a1235ed9bac19c4c10605/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+627                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+627-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/qadirhussain/.gradle/caches/transforms-3/d9b5e4dc011a1235ed9bac19c4c10605/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+628                android:value="androidx.startup" />
+628-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/qadirhussain/.gradle/caches/transforms-3/d9b5e4dc011a1235ed9bac19c4c10605/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+629            <meta-data
+629-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+630                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+630-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+631                android:value="androidx.startup" />
+631-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+632        </provider>
+633
+634        <meta-data
+634-->[com.google.android.gms:play-services-basement:18.1.0] /Users/qadirhussain/.gradle/caches/transforms-3/bdd918d57f5e014002bbe99fb07818b4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+635            android:name="com.google.android.gms.version"
+635-->[com.google.android.gms:play-services-basement:18.1.0] /Users/qadirhussain/.gradle/caches/transforms-3/bdd918d57f5e014002bbe99fb07818b4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+636            android:value="@integer/google_play_services_version" />
+636-->[com.google.android.gms:play-services-basement:18.1.0] /Users/qadirhussain/.gradle/caches/transforms-3/bdd918d57f5e014002bbe99fb07818b4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+637
+638        <receiver
+638-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+639            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+639-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+640            android:directBootAware="false"
+640-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+641            android:enabled="true"
+641-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+642            android:exported="true"
+642-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+643            android:permission="android.permission.DUMP" >
+643-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+644            <intent-filter>
+644-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+645                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+645-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+645-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+646            </intent-filter>
+647            <intent-filter>
+647-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+648                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+648-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+648-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+649            </intent-filter>
+650            <intent-filter>
+650-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+651                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+651-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+651-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+652            </intent-filter>
+653            <intent-filter>
+653-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+654                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+654-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+654-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/qadirhussain/.gradle/caches/transforms-3/6b6a5b8085467188bcc5be50cf44014e/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+655            </intent-filter>
+656        </receiver>
+657
+658        <meta-data
+658-->[com.google.android.instantapps:instantapps:1.1.0] /Users/qadirhussain/.gradle/caches/transforms-3/bbc296826df7d033b5943ed0c5ce3460/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+659            android:name="aia-compat-api-min-version"
+659-->[com.google.android.instantapps:instantapps:1.1.0] /Users/qadirhussain/.gradle/caches/transforms-3/bbc296826df7d033b5943ed0c5ce3460/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
+660            android:value="1" />
+660-->[com.google.android.instantapps:instantapps:1.1.0] /Users/qadirhussain/.gradle/caches/transforms-3/bbc296826df7d033b5943ed0c5ce3460/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+661    </application>
+662
+663</manifest>

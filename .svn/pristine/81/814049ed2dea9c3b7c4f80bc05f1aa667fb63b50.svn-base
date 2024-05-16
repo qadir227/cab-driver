@@ -1,0 +1,6 @@
+<resources>
+
+    <dimen name="job_detail_button_width">64dip</dimen>
+    <dimen name="job_detail_button_height">64dip</dimen>
+
+</resources>

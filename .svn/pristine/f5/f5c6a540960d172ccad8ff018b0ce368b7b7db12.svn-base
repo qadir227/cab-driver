@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prosperity Dispatch</string>
+    <string name="dlg_initial_setup_title">Prosperity Dispatch Initial Setup</string>
+    <string name="reset_heading">Reset Prosperity Dispatch Android</string>
+    <string name="data_usage_warning">Please note that this app can use large volumes of mobile data. Please ensure that you have a suitable data package with your network provider before launching this app. You are strongly advised to ensure you have an unlimited data bundle with your provider.\n\nTo the greatest extent permissible under law, Prosperity Telecom Ltd, Cab Despatch Ltd and/or your reseller cannot, and will not, be responsible for any and all charges raised by your mobile operator.\n\nThis app is not to be used while your vehicle is in motion.</string>
+    <string name="app_still_running">Prosperity Dispatch is still running</string>
+    <string name="warning_must_set_default_sms">You must set Prosperity Dispatch to be your default SMS app</string>
+    <string name="error_message_data_recovery">Prosperity Dispatch has recovered from an unexpected data error. You do not need to take any further action.</string>
+    <string name="loading">Loading Prosperity Dispatch...</string>
+    <string name="checking_in">Checking in with Prosperity Dispatch</string>
+
+</resources>

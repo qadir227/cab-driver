@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-86:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/bb173793e1f6280bb06b5243c4049481/transformed/jetified-paymentsheet-20.27.3/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "93",
+                        "endColumns": "45",
+                        "endOffsets": "134"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,93,144,200",
+                        "endColumns": "37,50,55,48",
+                        "endOffsets": "88,139,195,244"
+                    },
+                    "to": {
+                        "startLines": "2,21,22,25",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,1257,1308,1479",
+                        "endColumns": "37,50,55,48",
+                        "endOffsets": "88,1303,1359,1523"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/10a3325006fa0354ed036ce6ef8441b0/transformed/appcompat-1.6.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "139,208,277,347,421,497,556,627",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "203,272,342,416,492,551,622,690"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/f4883979393d2cf6830f76ef73a33ed6/transformed/material-1.8.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,673,732,795",
+                        "endLines": "2,3,4,5,6,7,9,10,11,12,13,17",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,668,727,790,962"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18,20,23,24,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "695,755,825,896,968,1026,1084,1193,1364,1420,1528,1591",
+                        "endLines": "12,13,14,15,16,17,19,20,23,24,26,30",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "750,820,891,963,1021,1079,1188,1252,1415,1474,1586,1758"
+                    }
+                }
+            ]
+        }
+    ]
+}

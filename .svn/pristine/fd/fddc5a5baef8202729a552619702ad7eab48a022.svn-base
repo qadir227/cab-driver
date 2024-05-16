@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:theme="@style/dialog_style"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+    <ImageView
+       android:src="@drawable/n_appbackground"
+       android:scaleType="fitXY"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:layout_alignLeft="@+id/actualcontent"
+       android:layout_alignRight="@id/actualcontent"
+       android:layout_alignTop="@id/actualcontent"
+       android:layout_alignBottom="@id/actualcontent"/>
+    
+    <LinearLayout
+	    android:id="@+id/actualcontent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingTop="@dimen/dialog_horizontal_padding"
+	    android:paddingBottom="@dimen/dialog_horizontal_padding"
+	    android:paddingLeft="@dimen/dialog_vertical_padding"
+	    android:paddingRight="@dimen/dialog_vertical_padding">
+
+
+    <TextView
+      android:id="@+id/dlgPassword_lblTitle"
+      android:layout_width="fill_parent"
+      android:gravity="center_horizontal"
+      android:layout_height="wrap_content"
+      android:textSize="@dimen/dialog_title"
+      android:text=""/>
+
+
+
+     <LinearLayout android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+     
+
+          <!-- <TextView
+            android:id="@+id/dlgPassword_lblCompanyId"
+            android:textSize="@dimen/dialog_label"
+            android:text="Company Id: "
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/> -->
+
+          <EditText
+            android:id="@+id/dlgPassword_txtCompanyId"
+            android:hint="@string/company_id"
+            android:textColor="@color/NavajoWhite"
+            android:textSize="@dimen/dialog_prompt"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"/>
+
+          </LinearLayout>
+          
+     <LinearLayout android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+
+         <!--
+          <TextView
+              android:id="@+id/dlgPassword_lblPassword"
+              android:textSize="@dimen/dialog_label"
+            android:text="Password: "
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/> -->
+
+		 <com.google.android.material.textfield.TextInputLayout
+			 android:id="@+id/etPasswordLayout"
+			 android:layout_width="match_parent"
+			 android:layout_height="wrap_content"
+			 app:passwordToggleEnabled="true">
+
+			 <com.google.android.material.textfield.TextInputEditText
+				 android:id="@+id/dlgPassword_txtPassword"
+				 android:hint="@string/password"
+				 app:passwordToggleEnabled="true"
+				 android:textColor="@color/NavajoWhite"
+				 android:textSize="@dimen/dialog_prompt"
+				 android:inputType="textPassword"
+				 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"/>
+
+
+		 </com.google.android.material.textfield.TextInputLayout>
+
+
+
+ 
+    </LinearLayout>
+
+
+  <!-- button bar -->
+      <LinearLayout
+          android:orientation="horizontal"
+          android:paddingTop="@dimen/dialog_horizontal_padding"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content">
+
+          <ImageButton
+          android:id="@+id/dlgPassword_btnCancel"
+          android:layout_width="@dimen/yesno_ico_width"
+	          android:layout_height="@dimen/yesno_ico_height"
+	          android:layout_weight="1"
+	          android:scaleType="centerInside"
+	          android:background="@drawable/layout_listitem"
+	          android:src="@drawable/n_icono"/>
+
+          
+
+          <ImageButton
+          android:id="@+id/dlgPassword_btnGo"
+          android:layout_width="@dimen/yesno_ico_width"
+	          android:layout_height="@dimen/yesno_ico_height"
+	          android:layout_weight="1"
+	          android:scaleType="centerInside"
+	          android:background="@drawable/layout_listitem"
+	          android:src="@drawable/n_icoyes"/>
+
+
+</LinearLayout>
+
+      </LinearLayout>
+
+</RelativeLayout>

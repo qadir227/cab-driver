@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string msgid="406453423630273620" name="close_drawer">"Fechar menu de navegação"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Fechar planilha"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiado para a área de transferência"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Entrada inválida"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Janela pop-up"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Menu suspenso"</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir no navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartilhar link"</string>
+    <string msgid="6827826412747255547" name="in_progress">"Em andamento"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Parcialmente selecionada"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Menu de navegação"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Não selecionado"</string>
+    <string msgid="875452955155264703" name="off">"Desativado"</string>
+    <string msgid="8655164131929253426" name="on">"Ativado"</string>
+    <string msgid="5941395253238309765" name="range_end">"Fim do intervalo"</string>
+    <string msgid="7097486360902471446" name="range_start">"Início do intervalo"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string msgid="6043586758067023" name="selected">"Selecionado"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sumup_app_outdated">Esta versão da aplicação SumUp não está atualizada. Faça download da nova versão por favor.</string>
+    <string name="sumup_bt_reset_air_message">Pressione o botão de ligar/desligar até que apareça no ecrã %1$s. Pode demorar um pouco. Quando aparecer %2$s, solte imediatamente o botão.</string>
+    <string name="sumup_bt_reset_instructions_message">Siga estes dois passos para resolver o problema de conectividade entre o seu dispositivo e o leitor de cartões.</string>
+    <string name="sumup_bt_reset_instructions_title">Reconfigurar o Bluetooth</string>
+    <string name="sumup_bt_reset_mobile_description">Toque no botão abaixo para reconfigurar o Bluetooth neste dispositivo.</string>
+    <string name="sumup_bt_reset_option_phone">No seu telefone</string>
+    <string name="sumup_bt_reset_option_reader">No seu leitor de cartões</string>
+    <string name="sumup_bt_reset_option_tablet">No seu tablet</string>
+    <string name="sumup_btn_call_support">Contacte o serviço de suporte</string>
+    <string name="sumup_btn_cancel">Cancelar</string>
+    <string name="sumup_btn_connect">Ligar</string>
+    <string name="sumup_btn_dismiss">Cerrar</string>
+    <string name="sumup_btn_done">Concluído</string>
+    <string name="sumup_btn_edit">Editar</string>
+    <string name="sumup_btn_later">Mais tarde</string>
+    <string name="sumup_btn_next">Seguinte</string>
+    <string name="sumup_btn_no">Não</string>
+    <string name="sumup_btn_ok">Aceitar</string>
+    <string name="sumup_btn_previous">Anterior</string>
+    <string name="sumup_btn_proceed">Continuar</string>
+    <string name="sumup_btn_rescan">Digitalizar</string>
+    <string name="sumup_btn_retry">Tentar novamente</string>
+    <string name="sumup_btn_skip">Pular</string>
+    <string name="sumup_btn_yes">Sim</string>
+    <string name="sumup_button_retry">Tentar novamente</string>
+    <string name="sumup_camera_permission_request_text">Precisamos de ter acesso à sua câmara para que possa tirar fotografias aos seus produtos.</string>
+    <string name="sumup_cancel_pending_payment_message">Tem a certeza de que quer cancelar?</string>
+    <string name="sumup_cancel_pending_payment_title">Pagamento pendente</string>
+    <string name="sumup_card_checkout_cvv_hint">CVV</string>
+    <string name="sumup_card_checkout_expiry_date_label">Validade</string>
+    <string name="sumup_card_checkout_expiry_month_hint">MM</string>
+    <string name="sumup_card_checkout_expiry_year_hint">AA</string>
+    <string name="sumup_card_checkout_insert_and_turn_on_card_reader">Conecte e ligue o seu leitor de cartões</string>
+    <string name="sumup_card_checkout_security_code">Código de segurança</string>
+    <string name="sumup_card_reader_battery_level">%1$d%% Bateria</string>
+    <string name="sumup_checking_firmware_info">À procura de atualizações de firmware</string>
+    <string name="sumup_checkout_connecting_bt">A conectar…</string>
+    <string name="sumup_checkout_power_on_reader">Ligar o leitor de cartões</string>
+    <string name="sumup_confirm_pairing_air">Por favor, confirme o pedido de emparelhamento no seu %1$s E no leitor de cartões.</string>
+    <string name="sumup_confirm_pairing_air_ios">Por favor, confirme o pedido de emparelhamento no seu %1$s E no leitor de cartões.</string>
+    <string name="sumup_connection_lost">A conexão foi perdida.</string>
+    <string name="sumup_downloading_firmware">Download da atualização em progresso</string>
+    <string name="sumup_elv_legal_text">Ich ermächtige %1$s, %2$s, %3$s, %4$s, und von diesem hierzu beauftragten Dritte („die Unternehmen“) den heute fälligen, oben genannten Betrag von meinem Bankkonto durch Lastschrift einzuziehen. Ich weise mein Kreditinstitut unwiderruflich an bei Nichteinlösung der Lastschrift den Unternehmen und/oder der HIT GmbH, Eiffestraße 76, 20537 Hamburg auf Anforderung meinen Namen und meine Anschrift zur Geltendmachung der Forderung mitzuteilen. Datenschutzrechtliche Information: Meine Zahlungsdaten (Kontonummer, Bankleitzahl, Kartenverfallsdatum, Kartenfolgenummer, Datum, Uhrzeit, Zahlungsbetrag, Terminalkennung, Ort, Unternehmen und Filiale) werden zur Kartenprüfung und Zahlungsabwicklung an SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland weitergegeben. Sollte im Rahmen der Zahlungsabwicklung die Lastschrift von meiner Bank nicht eingelöst werden (Rücklastschrift) oder sollte ich der Lastschrift widersprechen, stimme ich zu, dass diese Tatsachen in eine Sperrdatei aufgenommen werden außer wenn ich im Zusammenhang mit dem Widerruf erklärtermaßen Rechte aus dem zu Grunde liegenden Geschäft (z.B. Gewährleistungsrechte) geltend gemacht habe. Die Sperrung wird nach vollständigem Forderungsausgleich wieder aufgehoben und die gespeicherten Daten gelöscht. Dritte, die eine vertragliche Vereinbarung mit den Unternehmen zur Nutzung der Sperrdatei haben, können für Zwecke der Missbrauchsbekämpfung und zur Risikominimierung von Zahlungsausfällen ihre elektronischen Zahlungsvorgänge gegen die Sperrdatei abgleichen. Speichernde Stelle für die Zwecke der Kartenprüfung und Zahlungsabwicklung sind die HIT GmbH, Eiffestr. 76, 20537 Hamburg und die SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland, die auch die Sperrdatei für teilnehmende Händler führen. Diese Unternehmen erteilen insoweit auch an anderen Händler, die auf die Sperrdatei zugreifen eine Empfehlung, ob eine Zahlung im Wege des Lastschrifteinzugs akzeptiert werden sollte.</string>
+    <string name="sumup_elv_legal_text_short">Hiermit erteile ich die Ermächtigung zum Lastschrifteinzug.</string>
+    <string name="sumup_err_no_recent_geo_location_received">Não foi possível encontrar a sua localização. Por favor verifique se o seu GPS ou serviço de localização estão activados e a funcionar corretamente.  </string>
+    <string name="sumup_error">Erro</string>
+    <string name="sumup_error_cannot_send_email">O correio electrónico não foi enviado; não há app de e-mail configurada.</string>
+    <string name="sumup_error_io">Erro de conexão. Verifique a sua conexão de internet e tente novamente.</string>
+    <string name="sumup_error_payment_method_required">Precisa selecionar um modo de pagamento.</string>
+    <string name="sumup_error_payment_method_required_desc">Precisa ativar pelo menos um método de pagamento para usar a SumUp.</string>
+    <string name="sumup_error_system_webview_exception">Ocorreu um erro com o Android System WebView. Atualize-o ou ligue para o Apoio ao Cliente.</string>
+    <string name="sumup_error_unexpected_response">O servidor enviou uma resposta inesperada. Tente novamente.</string>
+    <string name="sumup_external_storage_permission_request_text">Para fazer o download dos relatórios de pagamentos, a SumUp precisa de ter acesso ao armazenamento externo do seu dispositivo.</string>
+    <string name="sumup_failed_transaction">Transação falhou</string>
+    <string name="sumup_firmware_update_canceled">Atualização cancelada</string>
+    <string name="sumup_fragment_send_receipt">Enviar recibo</string>
+    <string name="sumup_geolocation_unavailable_title">Geolocalização requerida</string>
+    <string name="sumup_grant_usb_permission">Para continuar, tem de permitir o acesso via USB.</string>
+    <string name="sumup_help">Ajuda</string>
+    <string name="sumup_installment_cancelled">Cancelado</string>
+    <string name="sumup_items_many">%1$s itens</string>
+    <string name="sumup_items_none">Nenhum item</string>
+    <string name="sumup_items_one">Nenhum item</string>
+    <string name="sumup_l10n_app_processing">Processando…</string>
+    <string name="sumup_l10n_card_checkout_card_number">Número do cartão</string>
+    <string name="sumup_l10n_card_checkout_checking_device">Verificando dispositivo…</string>
+    <string name="sumup_l10n_card_checkout_insert_card_reader">Insira o leitor de cartões</string>
+    <string name="sumup_l10n_err_card_payment_expired">A data de validade de seu cartão expirou. Por favor utilize outro cartão.</string>
+    <string name="sumup_l10n_order_hint_custom_item">Artigo</string>
+    <string name="sumup_l10n_payment_failure">Pagamento não autorizado</string>
+    <string name="sumup_l10n_phone_number_confirmation_invalid_for_country">%1$s não parece um número de telemóvel válido em %2$s. \n \nEditar o número introduzido, ou insira um prefixo internacional válido se o país de origem é diferente de %2$s.</string>
+    <string name="sumup_l10n_phone_number_confirmation_outside_of_country">Parece que o número %1$s não tem origem em %2$s. \n \nConfirme com o cliente que o número de telemóvel está correto antes de prosseguir com a operação.</string>
+    <string name="sumup_l10n_print_failed_cover_open">A tampa da impressora está aberta. Feche a tampa e tente novamente.</string>
+    <string name="sumup_l10n_print_failed_generic">Não foi possível imprimir. Verifique a impressora e tente novamente.</string>
+    <string name="sumup_l10n_print_failed_image_unavailable">Não foi possível carregar os dados dos recibos. Tente novamente.</string>
+    <string name="sumup_l10n_print_failed_paper_empty">Impressora esteja sem papel.</string>
+    <string name="sumup_l10n_print_failed_printer_offline">Não foi possível ligar a impressora de recibos.</string>
+    <string name="sumup_label_external_storage">Armazenamento Externo</string>
+    <string name="sumup_location_permission_request_text">De forma a garantir um serviço seguro, a SumUp precisa saber qual a localização das suas transações. Por isso, é necessário autorizar o acesso à sua localização.</string>
+    <string name="sumup_location_permission_request_title">Serviços de Localização</string>
+    <string name="sumup_login_btn_forgot_password">Se esqueceu da sua palavra-passe?</string>
+    <string name="sumup_login_btn_log_in">Iniciar sessão</string>
+    <string name="sumup_login_btn_title">Iniciar sessão</string>
+    <string name="sumup_login_error_email_invalid">Verifique que o endereço do correio electrônico está correto</string>
+    <string name="sumup_login_error_email_missing">Insira o endereço do correio eletrônico vinculado à sua conta SumUp</string>
+    <string name="sumup_login_error_password_missing">Insira a palavra-passe da sua conta SumUp</string>
+    <string name="sumup_login_error_shelves_not_loaded">Não tem sido possível obter a informação de conta.\nTente iniciar sessão novamente.</string>
+    <string name="sumup_login_failed_message">Ocorreu um problema com a configuração da conta. Tente novamente ou contacte o Apoio ao Cliente.</string>
+    <string name="sumup_login_failed_title">Falha no início de sessão</string>
+    <string name="sumup_login_hint_email">Correio eletrónico</string>
+    <string name="sumup_login_hint_password">Palavra-passe</string>
+    <string name="sumup_login_session_expired">A sessão expirou, verifique se outro usuário não está conectado com a mesma conta noutro dispositivo.</string>
+    <string name="sumup_merchant_activation_code">Activation Code</string>
+    <string name="sumup_navigation_payment_methods">Modo de pagamento</string>
+    <string name="sumup_navigation_payment_methods_multiple_options">Modo de pagamento</string>
+    <string name="sumup_no_account_question">Não tem uma conta?</string>
+    <string name="sumup_no_air_usb_device">Dispositivo desconhecido. Por favor, conecte um Leitor de Cartões SumUp Air.</string>
+    <string name="sumup_no_usb_device">Conecte o seu leitor de cartões Air através de um cabo USB e permita o acesso nas configurações do seu dispositivo.</string>
+    <string name="sumup_order_charge">Pagar</string>
+    <string name="sumup_pairing_in_notification_bar">Por favor, verifique a barra de notificações se não encontrar o pedido de emparelhamento</string>
+    <string name="sumup_pax_setup_add_terminal">Novo leitor</string>
+    <string name="sumup_payment_setting_card_reader">Leitor de cartões</string>
+    <string name="sumup_payment_setting_cash_payment">Pagamento em numerário</string>
+    <string name="sumup_payment_to_title">Pago a</string>
+    <string name="sumup_permission_explanation_continue">Continuar</string>
+    <string name="sumup_phone">smartphone</string>
+    <string name="sumup_please_wait">Por favor, aguarde…</string>
+    <string name="sumup_please_wait_connecting">Por favor, aguarde. A conectar…</string>
+    <string name="sumup_pp_btn_fw_abort">Cancelar</string>
+    <string name="sumup_pp_setup_air_no_btle">O seu smartphone ou tablet não suporta Bluetooth 4.0. Verifique se existe alguma atualização disponível para o seu dispositivo.</string>
+    <string name="sumup_pp_setup_charge_batteries">Certifique-se que as pilhas do leitor de cartões estão carregadas</string>
+    <string name="sumup_pp_setup_check_power">Verifique se o leitor de cartões está ligado</string>
+    <string name="sumup_pp_setup_connected">Conectado!</string>
+    <string name="sumup_pp_setup_connection_failed">Não foi possível conectar. Tente novamente ou contacte o Apoio ao Cliente da SumUp em %1$s</string>
+    <string name="sumup_pp_setup_connection_failed_no_support">Não foi possível conectar ao leitor de cartões. Por favor, tente novamente.</string>
+    <string name="sumup_pp_setup_do_firmware_update_now_mandatory">Faça a atualização antes de %1$s.</string>
+    <string name="sumup_pp_setup_firmware_cancel_sure">Tem a certeza que quer cancelar a atualização?</string>
+    <string name="sumup_pp_setup_firmware_update_do_now">Está disponível uma atualização de firmware para o seu leitor de cartões. A atualização irá demorar alguns minutos.\n\nÉ altamente recomendável que instale a atualização para garantir o melhor desempenho do seu dispositivo.</string>
+    <string name="sumup_pp_setup_firmware_update_installing">A instalar, por favor aguarde…</string>
+    <string name="sumup_pp_setup_firmware_update_minutes_remaining">Faltam %1$s minutos</string>
+    <string name="sumup_pp_setup_firmware_update_one_minute_remaining">Falta um minuto</string>
+    <string name="sumup_pp_setup_help_additional_steps">Se continua a ter dificuldades em conectar ao leitor de cartões, tente um dos seguintes passos:</string>
+    <string name="sumup_pp_setup_help_air_reset">Reponha as configurações do leitor de cartões ao pressionar o botão de ligar/desligar durante 20 segundos. Certifique-se de que o leitor está desligado e que não está ligado ao carregador.</string>
+    <string name="sumup_pp_setup_help_bt_toggle_button">Reiniciar Bluetooth</string>
+    <string name="sumup_pp_setup_help_bt_toggle_header">Não foi possível conectar ao leitor de cartões através de Bluetooth.\nTente reiniciar a sua ligação Bluetooth antes de tentar novamente.</string>
+    <string name="sumup_pp_setup_help_give_up">Em alternativa, contacte a nossa equipa de Apoio ao Cliente em %1$s</string>
+    <string name="sumup_pp_setup_help_optional_support">Se precisar de ajuda adicional, contacte a nossa equipa de Apoio ao Cliente em %1$s</string>
+    <string name="sumup_pp_setup_help_pin_plus_replace_batteries">Troque as pilhas do leitor de cartões</string>
+    <string name="sumup_pp_setup_help_reboot_device">Reinicie o seu %1$s</string>
+    <string name="sumup_pp_setup_mode_to_bt">Verifique se o dispositivo está em modo Bluetooth. Altere o modo pressionando o botão de ligar/desligar durante 10 seg.</string>
+    <string name="sumup_pp_setup_multiple_devices">Encontrámos vários dispositivos.</string>
+    <string name="sumup_pp_setup_searching">À procura de leitores de cartões</string>
+    <string name="sumup_pp_setup_select_bt_device">Compare os últimos dígitos do número de série na parte de trás do leitor</string>
+    <string name="sumup_pp_setup_text_firmware_update_failed">A atualização falhou. Por favor, desligue e volte a ligar o leitor de cartões e tente novamente.</string>
+    <string name="sumup_pp_setup_text_firmware_update_ongoing">Por favor, não utilize o telefone até que a atualização esteja concluída.</string>
+    <string name="sumup_print">Imprimir</string>
+    <string name="sumup_print_autoprint_receipts">Imprimir sempre recibos</string>
+    <string name="sumup_print_failed_bluetooth_disabled">O Bluetooth está desativado. Ative o Bluetooth e tente novamente.</string>
+    <string name="sumup_print_failed_no_cash_drawer">A impressora selecionada não é compatível gavetas de dinheiro.</string>
+    <string name="sumup_print_no_printers_found">Nenhuma impressora encontrada</string>
+    <string name="sumup_print_open_cash_drawer">Abrir gaveta de dinheiro</string>
+    <string name="sumup_print_open_drawer_automatically">Abrir gaveta de dinheiro automaticamente</string>
+    <string name="sumup_print_searching_printers">Procura de impressoras…</string>
+    <string name="sumup_print_select_printer">Selecionar impressora</string>
+    <string name="sumup_print_test_page">Imprimir página de teste</string>
+    <string name="sumup_printer_available">Disponível</string>
+    <string name="sumup_printer_settings_copies_label">Número de cópias</string>
+    <string name="sumup_printer_settings_disabled">Desativado</string>
+    <string name="sumup_printer_settings_none_paired">Não emparelhado</string>
+    <string name="sumup_printer_settings_toggle_label">Ativar impressora</string>
+    <string name="sumup_printer_unavailable">Indisponível</string>
+    <string name="sumup_reader_not_found_message">O leitor de cartões que termina em %1$s não foi encontrado. Certifique-se de que o leitor está ligado e dentro do alcance.</string>
+    <string name="sumup_reader_off_and_unplugged_message">Certifique-se de que o dispositivo está desligado e desconectado da fonte de alimentação.</string>
+    <string name="sumup_reader_off_and_unplugged_title">Desconecte e desligue</string>
+    <string name="sumup_receipt_request_failed">Houve um erro ao enviar o recibo. Verifique sua conexão com a Internet e tente novamente.\n\nAlternativamente, pode enviar o recibo da operação a qualquer momento a partir da tela de \'Histórico das vendas\'.</string>
+    <string name="sumup_reset_reader_confirmation_message">Depois de soltar o botão de ligar/desligar, ouvirá um sinal sonoro que confirma que o Bluetooth foi reconfigurado.</string>
+    <string name="sumup_reset_reader_confirmation_title">Reconfiguração concluída</string>
+    <string name="sumup_reset_reader_title">Iniciar a reconfiguração</string>
+    <string name="sumup_select_an_option">Selecione uma opção</string>
+    <string name="sumup_send_receipt_email_field_label">Correio eletrônico</string>
+    <string name="sumup_send_receipt_phone_number_label">Número de telemóvel</string>
+    <string name="sumup_service_unavailable_message">Estamos a trabalhar na resolução do problema. Por favor tente mais tarde.</string>
+    <string name="sumup_service_unavailable_title">Serviço indisponível</string>
+    <string name="sumup_sign_up">Registe-se</string>
+    <string name="sumup_signature_btn_close_legal_page">Fechar texto</string>
+    <string name="sumup_signature_in_parcelados">in %1$d parcelados</string>
+    <string name="sumup_signature_sign_here">Assine aqui</string>
+    <string name="sumup_signature_try_again_button_title">Tentar novamente</string>
+    <string name="sumup_successful_transaction">Transação bem-sucedida</string>
+    <string name="sumup_tablet">tablet</string>
+    <string name="sumup_tipping_signature_including_tip_hint">(%1$s gorjeta incl.)</string>
+    <string name="sumup_transaction_cancelled_card_not_charged">Nenhum débito foi efetuado no cartão.</string>
+    <string name="sumup_transaction_cancelled_generic">Pagamento cancelado</string>
+    <string name="sumup_transaction_cancelled_reader_error">O leitor não respondeu como esperado. </string>
+    <string name="sumup_transaction_cancelled_reader_error_detail">Verifique se o volume do seu telemóvel está no máximo e se tem carga suficiente.</string>
+    <string name="sumup_transaction_connection_lost">Não foi possível conectar seu dispositivo com a SumUp.</string>
+    <string name="sumup_transaction_failed_generic">Pagamento abortado</string>
+    <string name="sumup_transaction_message_checking_status">Por favor aguarde - estamos a verificar o estado da transação</string>
+    <string name="sumup_transaction_not_processed_desc">A transação não foi processada por problemas com a conexão de rede.</string>
+    <string name="sumup_transaction_not_processed_details">O cartão não foi cobrado. Pode tentar novamente com o mesmo cartão.</string>
+    <string name="sumup_transaction_unexpected_response">Ocorreu um erro ao comunicar com o servidor</string>
+    <string name="sumup_tx_cancel_please_wait">A transação está a ser cancelada, por favor aguarde</string>
+    <string name="sumup_tx_cancel_power_off">Para cancelar a transação, clique no botão de ligar/desligar do leitor de cartões</string>
+    <string name="sumup_verification_camera_permission_request_title">Câmara</string>
+    <string name="sumup_verify_phone_number">Verificar número de telemóvel</string>
+    <string msgid="2561197295334830845" name="switch_role">"Chave"</string>
+    <string msgid="1672349317127674378" name="tab">"Guia"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>%%"</string>
+</resources>

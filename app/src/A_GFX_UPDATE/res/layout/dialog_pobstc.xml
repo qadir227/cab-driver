@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/dialog_style"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/actualcontent"
+        android:layout_alignRight="@id/actualcontent"
+        android:layout_alignTop="@id/actualcontent"
+        android:layout_alignBottom="@id/actualcontent"/>
+
+    <LinearLayout
+        android:id="@+id/actualcontent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/dialog_horizontal_padding"
+        android:paddingBottom="@dimen/dialog_horizontal_padding"
+        android:paddingLeft="@dimen/dialog_vertical_padding">
+
+        <ImageButton
+            android:id="@+id/dlg_btnBack"
+            android:background="@drawable/layout_listitem"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:src="@drawable/n_icoback"
+            android:tint="@color/Black"
+            android:layout_width="@dimen/back_ico"
+            android:layout_height="@dimen/back_ico"
+            android:scaleType="centerInside"
+            android:layout_gravity="left"/>
+
+
+        <LinearLayout
+            tools:layout_width="196dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="64dp"
+            android:orientation="horizontal"
+            android:id="@+id/dlg_STP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="64dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:padding="@dimen/job_button_padding"
+            android:background="@drawable/btn_job_stp">
+
+            <ImageView
+                android:src="@drawable/ico_btn_stp"
+                android:layout_weight="30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="@string/job_button_stp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:maxLines="1"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="24dp"
+            android:layout_height="6dp" />
+
+        <LinearLayout
+            tools:layout_width="196dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="horizontal"
+            android:id="@+id/dlg_POB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="64dp"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:padding="@dimen/job_button_padding"
+            android:background="@drawable/btn_job_pob">
+
+            <ImageView
+                android:src="@drawable/ico_btn_pob"
+                android:layout_weight="30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="@string/job_button_pob"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:textColor="@color/Black"
+                android:maxLines="1"
+                android:layout_width="0dp"
+                android:layout_weight="70"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

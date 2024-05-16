@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-86:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "413",
+                        "endColumns": "63",
+                        "endOffsets": "472"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/10a3325006fa0354ed036ce6ef8441b0/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "885",
+                        "endLines": "20",
+                        "endColumns": "13",
+                        "endOffsets": "1157"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,176,232,293,352,413,465,524,595,651,700,761",
+                        "endColumns": "55,64,55,60,58,60,51,58,70,55,48,60,59",
+                        "endOffsets": "106,171,227,288,347,408,460,519,590,646,695,756,816"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,176,232,293,352,477,529,588,659,715,764,825",
+                        "endColumns": "55,64,55,60,58,60,51,58,70,55,48,60,59",
+                        "endOffsets": "106,171,227,288,347,408,524,583,654,710,759,820,880"
+                    }
+                }
+            ]
+        }
+    ]
+}

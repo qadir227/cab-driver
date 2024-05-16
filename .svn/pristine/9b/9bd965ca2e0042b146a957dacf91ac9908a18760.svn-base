@@ -1,0 +1,1595 @@
+        5.10 (26/02/2023)
+        New
+            *   Changes to build system to prepare for Stripe payments
+                (new minimum SDK 21)
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.08 (05/03/2022???)
+        New
+            *   Upgraded to AndroidX
+            *   Added driver document scanning
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.06 (20/11/2021)
+        New
+            *   Reintroduced safety panel
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.04 (06/08/2021)
+        New
+            *   Supports fare and destination plot on job offer
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.02 (25/06/2021)
+        New
+            *   Supports voice messages
+            *   Debug builds ignore errors with check-in to Cabdespatch
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.00 r5 (27/04/2021)
+        New
+            *   Added background location request to permission activity
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.00 r4 (26/04/2021)
+        New
+            *   Added background location request to permission activity
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.00 r3 (19/04/2021)
+        New
+            *   Added background location permission to manifest
+        Fixed
+            *
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+        5.00 r2 (?)
+        New
+            *   Updated SumUP SDK to v3.3.0
+        Fixed
+            *   Restored missing "RECORD_AUDIO" permission from manifest.
+        Known Issues
+            *	Dark overlay doesn't show when opening the launcher menu for a second time after
+                resuming the activity
+
+
+		5.00 (30/12/2020)
+		New
+			*
+		Fixed
+			*   Removed obsolete call to AndroidBug5497Workaround, thus hopefully
+			    resolving layout issue on login screen
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+
+		4.98 (01/08/2020)
+		New
+			*   Added bids to future jobs
+		Fixed
+			*   Now resets check-in attempts to zero on every successful check-in
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.96 (04/02/2020)
+		New
+			*   Removed erroneous status messages on payment completion
+			*   Replaced all references to Log.x with DebugManager.Log method calls
+		Fixed
+			*   Added try/catch around url loading in Flight WebView as this appears to
+			    cause issues on certain devices
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.94 r6 (19/06/2019)
+		New
+			*
+		Fixed
+			*   No longer crashes when trying to start Data Service on Android Pie
+			    (https://stackoverflow.com/a/52383103/1203540)
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.94 r4 (19/06/2019)
+		New
+			*
+		Fixed
+			*   No longer crashes when trying to make http connections at startup on devices running Android Pie
+			    (https://developer.android.com/about/versions/pie/android-9.0-changes-28#apache-p)
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.94 r2 (18/06/2019)
+		New
+			*	New Icon
+		Fixed
+			*
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.94 (11/06/2019)
+		New
+			*	FireData support (available in the manager mode menu)
+			*   Probably other things (?!)
+		Fixed
+			*   LocalMeter no longer briefly shows starting meter rate when resuming from other activity (driver message etc)
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.92 r4 (13/02/2019)
+		New
+			*	5-second lockout on menu button after logging in
+		Fixed
+			*
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.92 r4 (13/02/2019)
+		New
+			*	5-second lockout on menu button after logging in
+		Fixed
+			*
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.92 r2 (30/01/2019)
+		New
+			*
+		Fixed
+			*	cabdespatchGPS now respects the GPS accuracy PDA setting
+			*	SMS permission checks removed
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.92 r1 unreleased (testing with thistle)
+		    - Temporarily removed firebase id handling
+		    - cabdespatchGPS now respects the GPS accuracy PDA setting
+		4.92 unreleased (testing with Apollo)
+		    - Include Firebase Handling Code
+
+		4.90 r4 (beta - 11/12/2018)
+		New
+			*	"Launch Cabdespatch" icon in launcher now mimics main launcher icon
+		Fixed
+			*	Tray icon colour changed so as to show up properly against the yellow background
+			*	Fixed 2 ANRs in psQueue java
+			*	Attempts to fix ANR when restarting the Data Service on Android v8+
+			*	Fixed the start-navigation no-intent-found catch (was previously catching
+				IllegaStateException, should have been catching
+				android.content.ActivityNotFoundException
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.90 r2 (04/12/2018)
+		New
+			*
+		Fixed
+			*	ANR fixes in job screen
+			*	Fixed occasional ANR on driver message countdown
+			*	Fixed ANR message when user tries to call office after explicitly denying permission in
+				app settings
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.90 (beta 28/09/2018)
+		New
+			*	Clear/Break popup menu implemented when long press on clear button (SS 4.117+)
+			*	If KitKat lockdown is chosen, the app will refuse to launch without external
+				lockdown app installed and running
+		Fixed
+			*	Fixed issue when closing down speak service
+			*	Proguard now excludes SMS classes
+			*	Caught NPE in Launcher.onActivityResult
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.88 (19/09/2018)
+		New
+			*	New versioning system to facilitate more frequent updates
+				*	Bug-fix only releases will have a "Revision" number displayed on the
+					screen (if greater than zero) and reported to Socket Server (v4.115++)
+				*	Releases with new features will increase the version number as normal
+			*	Shows a warning when mock locations are detected
+			*	Reports WiFi status to Socket Server (ssv4.155++) (untested...)
+		Fixed
+			*	Several NPE errors fixed
+		Known Issues
+			*	Kitkat lockdown no longer works
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.862 (13/09/2018)
+		New
+			*	Added firebase crashlytics
+		Fixed
+			*	No longer crashes when clearing flagdown jobs (NPE in cdJob)
+			*	Potential fix for crash when resuming activites after taking card payments
+		Known Issues
+			*	Kitkat lockdown no longer works
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.86 (31/08/2018)
+		New
+			*	Nothing
+		Fixed
+			*	No longer crashes when expanding job details
+			*	Data activities no longer crash the app when attempting to restart Data Service
+				while in the background on Oreo devices
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.84 (published to beta on 22/08/2018, production on 28/08/2018)
+		New
+			*	Refactored & Simplified Data Service, keeping hold of a static reference to it's
+				instance, as well as having a static reference to RunTimer
+			*	Supports price strings in price update messages (SS v4.11+)
+		Fixed
+			*	Hopefully fixed interactions being handled multiple times
+			*	Hopefully fixed issues with DataService not always terminating correctly
+			*   Reduced the frequency of certain CPU-intensive checks, and cooled down all tickers
+				from 0.5 seconds to 1 second, which should imporve performance on low-end devices
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.83 (published to beta on 10/08/2018)
+		New
+			*	Updated theme to respect Cab Despatch colour scheme
+			*   Now quits from login activity after advising a restart is required
+		Fixed
+			*	Fixed broken dialogs introduced with update to SDK 25 in 4.80
+		    *   SMS permissions fixed and from-device SMS re-implemented
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.82 (09/08/2018)
+		New
+			*
+		Fixed
+		    *   "Cab Despatch is Still Running" Notification now shows on Android Oreo devices
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+        4.81 (08/08/2018)
+		New
+			*
+		Fixed
+		    *   Temporary fix for SMS permission issues (SMS disabled)
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+
+        4.80 (07/08/2018)
+		New
+			*   Now targets SDK v26
+			*   Permission request management at startup
+		    *   Added 'show password' toggle to initial setup screen
+		    *   "Use Panic" remote setting respected
+		    *   Supports job price string from SS (v4.104++)
+		Fixed
+		    *   Trap data is now reset when launching the app
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.66 (24/04/2018) - Requires Socket Server v4++
+		New
+		    *   New launcher 'back-button' behavior:
+		        *   If set as default launcher (home app), the press is ignored
+		        *   If not set as home app, then quits immediately (no more minimum wait)
+		    *   Supports settings being sent on logoff messages (for configuring pin-login)
+		    *	Supports booking fee on price slide (SS v3.772++)
+		    *   Sends meter price on STC
+		    *	Now allows POB if the driver has passed through, but no longer in, the pickup plot
+		    *   SignalR Improvments
+		    *   Now shows "Awaiting Fare" on meter if meter fare is equal to 0
+		    *   Support for 'ticking meter'
+		    *	Now syncs correct job status with SS on job resend (requires SS v3.766++)
+			*	Now supports job-note requirement on a per-job basis (requires SS v3.763++)
+			*	No longer shows price slide if fare is zero
+			*   New STC price amend behavior when used in conjunction with SS v3.770++
+			        SS 3.770++ price amends are received as part of the STC ack. Price amends that
+			        are received in this way pop a toast up on the screen displaying the new amount.
+			        The full data message with details is added to the driver message history, and is
+			        viewable there, but not displayed on screen as standard.
+			*   Various bug fixes and improvements :D
+		Fixed
+		    *   SumUP presumably no longer crashes on disconnect
+		    *   Improved keyboard hiding after inputting fares
+		    *   Job fare is now reverted to pre-surcharge rate following an unsuccessful cc payment
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.64 (20/10/2017)
+		New
+			*	Properly supports auto-accept (requires SS v3.760)
+		Fixed
+		    *   Now only sends lat/lon if cabdespatchGPS reports a valid fix
+			*	Added workaround for excessive network on/off messages hammering
+				background threads in StatusBar.java
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.622 (31/08/2017)
+		New
+			*	Added "Resume App" button to LoggedInHost so users can press it if they get "stuck"
+		Fixed
+			*
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.62 (25/08/2017)
+		New
+			*	Supports job amends
+		Fixed
+			*	Price amends are now respected on the job screen again
+			*	Possible fixes to DataActivity.BroadcastReceipt and DriverMessage.GlobalLayout
+				error reports
+			*	Changed launch mode of LoggedInHost to SingleTop, to prevent it creating multiple
+				copies of it's tick timer
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.62 (25/08/2017)
+		New
+			*	Supports job amends
+		Fixed
+			*	Price amends are now respected on the job screen again
+			*	Possible fixes to DataActivity.BroadcastReceipt and DriverMessage.GlobalLayout
+				error reports
+			*	Changed launch mode of LoggedInHost to SingleTop, to prevent it creating multiple
+				copies of it's tick timer
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.60 (04/08/2017)
+		New
+			*	Nothing
+		Fixed
+			*	TickingActivity no longer allows duplicate TickingObjects to be created
+				(bug introduced when introducing data-checks whilst activity paused)
+			*	Debug Connector check now only runs once every few minutes - previously ran
+				at every TickingActivity tick (about once ever 500ms!)
+			*	Debug Connector check now runs in a background thread
+			*	Various null-reference issues resolved
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.52 (27/07/2017)
+		New
+			*	Sends device make & model, and data mode upon login
+			*	Added option in Manager Mode menu to switch SignalR on where available
+			*	Now shows "TCP Data" or "Proxy Data" on login screen, under the company name
+			    in release builds
+		Fixed
+			*	Delays on resuming the app when pressing the notification icon should now
+			   	be minimal
+			*   Pressing the back button while a menu is showing will now close the menu
+			*   Pressing the back button on the login screen no longer closes the
+			    activity
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.51 (22/07/2017)
+		New
+			*	Nothing
+		Fixed
+			*	Reverted to standard launch mode for LoggedInActivity to stop the app exiting
+				to launcher after checking job totals
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+		4.50 (20/07/2017)
+		New
+			*	SignalR Data System Support
+			*	Autocofig - App now pulls down ip address & port number or SignalR server address
+			 	when checking in at startup
+		Fixed
+			*	Job Offer and Driver Messages now force app to front
+			*	Lost signal checks are now still performed when app is not at the front
+			*	Confirmation-required messages no longer display countdown
+			*	'Use alternative location providers' now defaults to on
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after
+				resuming the activity
+
+
+		4.49 (07/06/2017)
+			Re-release of 4.48 as Google had failed to acknowledge removal of device admin permission
+
+		4.48 (07/06/2017)
+		New
+			*	Updated SumUP API to version 2.3
+		Fixed
+			*	Added null reference checks to driver message countdown
+			*	Rank plot updates now work for 'innner' plots
+			*	Abstracted CabDepatchNetwork class ready for SignalR implementation
+			*	SettableSet.getEntries() now returns modifiable data set
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after resuming the activity
+
+		4.46 (26/05/2017)
+		New
+			*
+		Fixed
+		 	*	Removed redundant broadcast handler
+			*	Added synclock to STATUSMANGER.getDriverMessages()
+			*	No longer crashes when a driver inputs a blank fare
+			*	No longer accepts leading zeros in driver numbers
+			*	Plot divert/set destination plot no longer cause a crash
+			*	Removed unnecessary admin receiver and associated permission
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after resuming the activity
+
+		4.44 (24/05/2017)
+		Full rollout
+		New
+			*	Now sends charger connected status with data messages
+			*	job offer and new message notifications when screen is off
+		Fixed
+			*	Navigation quick-button now gets hidden when navigation is disabled in PDA Settings
+			*	All dialog boxes now use correct color schemes
+			*	Added space, full stop and comma to allowed letters in driver notes
+			*	Now respects "speech prices" setting value
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after resuming the activity
+
+
+		4.42 (24 Central Exclusive)
+		New
+			*	No longer allows app to launch if external storage is unavailable (untested)
+			*	Supports multi-line driver notes on job
+		Fixed
+			*	Hardware/Android UI back button now sets driver message to read on driver message screen
+			*	Menu text should now appear black on *all* devices (untested)
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after resuming the activity
+
+
+		4.41 (26/04/2017)
+		Staged rollout moving beta 4.37 into production
+		New
+			*
+		Fixed
+			*	Re-engineerd menu opening process on launcher screen to overcome Google's inconsistencies...
+			*	Fixed spacing issues on the driver screen "work/cars/future" work button bar
+		Known Issues
+			*	Dark overlay doesn't show when opening the launcher menu for a second time after resuming the activity
+
+
+		4.40 (19/04/2017 - 25/05/2017)
+		Staged rollout moving beta 4.37 into production
+			*	19/04/2017 - target 20% of all users
+
+
+
+
+
+
+		4.37 (28/03/2017)
+		New
+				*	Custom (theamable colour ) checkbox and radio button drawables (big)
+				*	Status bar no longer shows on 'compose message' screen
+				*	EditText is now bottom-aligned on 'compose message' screen and on 'driver notes' dialog
+				*	Hardware back button now mimicks software back button on 'compose message' screen
+		Fixed
+				*	Re-engineerd SMS request handling to ensure messages are deleted, and so Textback Succeeded/Failed
+					are actually shown to the user
+		Known Issues
+				*	If driver drives onto rank while under offer, on_rank status is not set
+				*	(?) Layout issues with compose message on small screens
+
+		4.36 (22/03/2017)
+		New
+				*	Supports driver/job notes preset
+				*	Tidied up View Messages screen
+		Fixed
+				*	When viewing messages that are now displayed in reverse order of when they were received,
+					rather than apparently randomly
+				*	ViewMessages screen no longer allows you to swipe if there's only one message
+					to show
+				*	No longer crashes on plot-divert
+				*	All activities now register themselves with bugsense
+		Known Issues
+				*	If driver drives onto rank while under offer, on_rank status is not set
+				*	Layout issues with compose message on small screens
+
+		4.35
+		New
+				*	Basic skinning support
+		Fixed
+				*	No longer crashes on POD
+				*	Screen now stays on whenever a DataActivity superclass is running
+		Known Issues
+				*	If driver drives onto rank while under offer, on_rank status is not set
+				*	?Driver Message screen takes priority over job offer screen when driver message is currently being shown
+
+		4.34
+		New
+				*	New beta - complete overhaul of screen switching mostly using fragments as opposed to activities
+		Fixed
+				*
+		Known Issues
+				*	Screen switches off when on a job
+				*	Crashes on POD
+				*	If driver drives onto rank while under offer, on_rank status is not set
+				*	?Driver Message screen takes priority over job offer screen when driver message is currently being shown
+
+		4.22
+		New
+				*
+		Fixed
+				*	Now handles log-off/out-of-shift messages correctly
+		Known Issues
+				*	If driver drives onto rank while under offer, on_rank status is not set
+				*	Driver Message screen takes priority over job offer screen when driver message is currently being shown
+
+		4.214 (aka 4.22 RC1 - 22/01/2017)
+		New
+				*   Minor stability improvements
+				*	Behind-the-scenes changes to Fair Meter ready for new modes to be implemented in future
+		Fixed
+				*	Nothing
+		Known Issues
+				*	Devices that have previously enabled Fair Meter will need to re-enable after the update
+				*	If driver drives onto rank while under offer, on_rank status
+					is not set
+				*	Driver Message screen takes priority over job offer screen
+					when driver message is currently being shown
+
+		4.213 (aka 4.22 beta 2 - 18/01/2017)
+		New
+				*   Nothing
+		Fixed
+				*	Job Status button now re-appears after 5 seconds after being pressed
+				*	DataService/LoggedInActivity restart fix?
+		Known Issues
+				*	If driver drives onto rank while under offer, on_rank status
+					is not set
+				*	Driver Message screen takes priority over job offer screen
+					when driver message is currently being shown
+
+		4.212 (aka 4.22 beta 2 - 17/01/2017)
+		New
+				*   Nothing
+		Fixed
+				*	Fair Meter setting now defaults to OFF
+		Known Issues
+				*	If driver drives onto rank while under offer, on_rank status
+					is not set
+				*	Driver Message screen takes priority over job offer screen
+					when driver message is currently being shown
+
+		4.211 (aka 4.22 beta 1 - 16/01/2017)
+		New
+				*   Fair Meter (Socket Server v3.655 required)
+				*	Increased time for driver to get off rank after job offer to 90 seconds (from 30)
+				* 	Sends 'message-read' confirmation if requested to do so by SS (ss v3.7++)
+				*	Parses newline entries when displaying driver messages (ss v3.705++)
+				*	Handles auto-confirm messages (ss v3.705++)
+				*	Driver Notes on Job Clear (ss v3.705++)
+				* 	Sends jobID with driver messages when driver is on a job
+				*	EXPERIMENTAL - support for connectionless data (ss v7.709++)
+		Fixed
+				*	On-Rank now behaves as expected
+				*	Now sends JobID with history message (credit card payments)
+				*	Data Service automatically quits when Launcher Activity's onResume() is called
+				*	Job Offer countdown timer now stops when driver presses reject
+				*	Job Screen preferred start slide setting now works
+				*	Now accepts fair requests on flagdown job clear if configured to do so
+		Known Issues
+				*	If driver drives onto rank while under offer, on_rank status
+					is not set
+				*	Driver Message screen takes priority over job offer screen
+					when driver message is currently being shown
+
+		4.20 (19/10/2016)
+		New
+				*   Reworked driver messaging system
+					--> * Support for messages that require confirmation
+				*   Credit card payment now available when driver is POB
+				*   Waiting time now ends if driver exceeds safety panel threshold (untested)
+				*   Now logs driver off when break times out
+				*   Refactored mock location checks
+		Fixed
+				*	Corrected typo in the word 'accumulated' on waiting time screen
+		Known Issues
+				*	Driver Message screen takes priority over job offer screen
+					when driver message is currently being shown
+
+		4.18 (09/09/2016)
+        New
+                *   Support for IP address/PortNo being sent in chackin results
+        Fixed
+                *	Re-engineered location service to work around bizzare
+                    gps issues on some devices
+        Known Issues
+                *
+
+		4.16 (07/09/2016)
+        New
+                *   Support for IP address/PortNo being sent in chackin results
+        Fixed
+                *	Potential fix for job offer occasionally not coming to front
+                *	Fixed issue preventing the login icon showing when drivers restart the app
+                    after quitting
+        Known Issues
+                *
+
+	4.14 (26/08/2016)
+        New
+                *	On Rank
+                *	Job Details now fade in when job screen is displayed
+                *   New activity transaction animations
+        Fixed
+                *	Holds driver messages while job is under offer
+        Known Issues
+                *
+
+
+	4.12 (21/07/2016)
+		New
+				*	"Small Screen" optimizations available in settings
+				*	Minor style adjustments
+		Fixed
+				*	Buttons now always show on waiting time screen
+				*	Ignores plot "polygon"s with less than 3 points
+				*	New logic to try and help prevent job offers not showing
+		Known Issues
+				*
+
+
+	4.10 (25/06/2016 - 29/06/2016)
+		New
+				*	Now clears Job History and Driver Messages when a Pin Login driver logs out
+				*	TaxiMeter "Integration"
+				*	Sets media volume to 85% of max on Job Offer, and reverts it after Job Offer has finished
+					(Release Builds only...)
+				*	SumUp Integration
+				*	New price input box when office request price from pda (share's SumUp price input box...)
+				*	New pseudo messagebox dialog
+				*  Panic Activity is now a locked Activity (no job offers or driver messages etc can launch over it)
+		Fixed
+				*  Panic Activity stops alert sound when back button is pressed
+		Known Issues
+				*
+
+	4.09 (14/04/2016)
+		New
+				*	extra error handling logic in DataService run timer schedulings and in Driver Message
+					_newMessage
+		Fixed
+				*
+		Known Issues
+                *
+
+	4.08 (18/03/2016)
+        New
+        		*	No longer says "and zero zero pence" when speaking prices which only
+        			have a pound unit value
+        Fixed
+        		*   No longer bombs out when attempting to run release version of app! :)
+        		*	Now finishes Job Offer activity if current job status is NOT_ON_JOB *or* UNDER_OFFER
+        Known Issues
+                *
+
+	4.07 (17/03/2016)
+        New
+        		*	Added better information to some pre-handled error reports
+        		*	Tidied up code which handles stringArrays in preferences (driver messages/no show reasons etc...)
+        		*	Added debug log to catch any blocked urls, and activity to show this information
+        Fixed
+        		*   Fixed intent spam in Resumer Activity when non locked-down user accidently sets
+        		    us as default app for Web Browsing
+        		*	Fixed issue introduced in last build where job offers would not come through
+        		   	when a Driver Message was showing, due to activity locking
+        		*	No longer sends empty PODs to server
+        Known Issues
+                *	Release build fails to start launcher due to null referenc error!
+                *	On certain occasions, it is possible for Job Details to be displayed
+                	after rejecting a job, if there is a pending intent waiting after
+                	Job Offer activity released lock
+
+	4.06 (20/01/2016 - 24 Central Only)
+        New
+        		*	Will send SMS messages on instruction from SS (Android v4+ only)
+        		*	Launcher Activity greys out 'Launch Cabdespatch' icon if there is no network
+                    connection
+        		*	'Launch Cabdespatch' also greys out for 10 seconds each time it is pressed
+        		*	Activities can now acquire a lock so as to prevent the Activity Swither replacing them
+        				When an Activity acquires a lock will be displayed until both the lock is released
+        				and	another activity has been requested by the system or the user.
+        				If the BroadcastHandler	receives a new request while an activity has
+        				aquired a lock, the request is kept	pending until the lock is released.
+        				No stack is in place, the last pending request is the one that is honoured
+        				when the lock is released.
+
+        				Currently used by JobOffer Activity (replacing previous Job Status logic),
+        				and DriverMessage Activity
+
+        				 This is in order to pave way for CC payment systems
+        		*	Reverted to old (RC18-) network class
+        Fixed
+        		*   Added logic to prevent LoginActivity getting stuck with 'no connection to server'
+                *   Now respects navigation disabled setting on Job Screen
+                *   Plugged up leaky broadcast handlers in LoginActivity and BaseActivity
+        Known Issues
+                *
+
+	4.05 (17/12/2015)
+        New
+        		*   Changelog moved to separate file
+                *   Navigate to Via's (requres SS v3.60+)
+        Fixed
+                *   No longer allows blank driver numbers or company IDs on initial setup
+                *   Some navigation links didn't have try/catch for no "activity found
+                    to handle intent"
+        Known Issues
+                *   Doesn't respect navigation disabled setting on Job Screen
+
+    4.03 (11/11/2015)
+        New
+                *   Reports to user if external storage is unavailable when starting up
+                *   Re-tries checkin if no response is received, up to 4 times
+                    before displaying an error message
+                *   Now automatically detects if text has been truncated on any slide
+                    on the job screen, and shows the 'pop-out' button if needed
+        Fixed
+                *
+        Known Issues
+                *
+
+	4.02 (20/10/2015)
+        New
+                *   Added sound to panic activity
+                *   Added STC button to menu when current status is already STC ('re-price' button)
+                *   Inverted colours of STC button in menu so it is visible against the yellow background
+        Fixed
+                *   Fixed transparency issues in new Hi Res icon
+                *   Fixed massive icon size in cdToast layout
+                *   No longer reports incorrectjobstatus error to bugsense
+                *   No longer presents itself as a package installer
+                *   Now warns if no navigation app is installed, instead of crashing
+                *   Fixed issue in new network code where connections may not have
+                    been recreated after first failed attempt
+        Known Issues
+                *
+
+    4.01 (13/10/2015)
+        New
+                *   Hi Res Icon
+                *   Removed labels on intial setup dialog and password dialog and replaced with hints
+                *   Changed the colour of the progress bar on job offer so it stands out against the
+                    background a little better (only works on certain devices...???)
+                *   Updated notification layout
+        Fixed
+                *   Potential fix for 'Timer Was Cancelled' error in LoggedInActivity
+                *   Potential fix for null reference in DriverMessage Activity
+                *   Workaround for PackageManager inadaquacies - STATUSMAANGER.getAppVersionNumber()
+        Known Issues
+                *
+
+    4.0 (13/10/2015)
+        New
+                *   First Release
+
+
+
+
+
+
+    Release Candidate 19PG(30/09/2015)
+    ***SOCKET SERVER v3.521 or higher required!!!***
+        New
+                *   Re-engineered network class, Android mode now receives data in the
+                    same way as Classic mode [did], and messaging class understands the new
+                    'data waiting' message type
+                *   ****REMOVED SUPPORT FOR CLASSIC DATA****, as it became broken when implementing
+                    the above. PDAs will always use Andorid Data, regardless of what setting you set
+                    in CDXP
+                *   Closed public access to the generic .speak(_string) function in
+                    SOUNDMANAGER. All speach requests must now come through a gateway
+                    function
+                *   Narrowed down the primary parameter in all SOUNDMANAGER functions from
+                    Activity to Context
+                *   General code tidy up
+        Fixed
+                *   Stopped memory leak which occured when a connection wasn't immadately available
+                    after being lost (re-connection hammering)
+                *   Removed 'soft-loggoff' silliness and replaces it with JobAccept resends
+                *   Updated ResumerActivty's 'best-guess' mode to handle on break and waiting time
+                *   Network receive loop now understands "}" as valid data recieved in relation to
+                    the "lastDataReceived" variable (in Classic data mode on previous builds, this
+                    would have been the reason for "I'm sorry I've lost singal" messages while on
+                    job)
+        Known Issues
+                *
+
+
+        Release Candidate 18PG(22/09/2015)
+        New
+                *   Added support for "Plot Announcements" switch setting
+                *   Set location updates to maximum once every 2 seconds
+        Fixed
+                *   Network class now cleans up its threads when finishing
+                *   No longer checks for cake if a cake check is already in progress
+                *   BackOrNoBackButtonActivity only schedules a new checkForService if it's not paused
+                *   If ResumerActivity can't find a specific Activity to resume, it makes a 'best-guess'
+                    based on App state, rather than refusing to launch anything
+        Known Issues
+                *
+
+        Release Candidate 17PG(02/07/2015)
+        New
+                *   Solidified yes/no button icons
+                *   Added driver setting for initial slide on job screen
+                *   Tidied up settings activity layout
+                *   Updated all edit text/radio button controls in the app to ICS style
+                *   Shortened back button lockout on launcher to 10 seconds
+        Fixed
+                *   Strips leading zeros from driver number
+                *   Fixed problem in settings activity when back button was not visible when
+                    launched a second time
+                *   Possible fix to psQueue.add
+                *   Further fixes to Job Offer music selection (avoids crash when only one
+                    file in the sounds directory)
+                *   Probable fix to dismiss-dialog bug (new class DismissableDialog)
+                *   Probable workaround to Android5497 crash
+                    (workaround to a workaround.... cool)
+        Known Issues
+                *
+
+        Release Candidate 16PG(01/05/2015)
+        New
+                *   Safety panel (untested)
+                *   Allows manager to switch off data-enabled cheat check
+                *   Launcher now updates status icons when connectivity/gps settings have changed
+        Fixed
+                *   Probable fix for crashing after signature check when prompting for price
+                *   Fixed issue with drivers being unable to press voice if their settings version (obsolete...) is equal to zero
+                *   Fixed issue introduced in RC15: any items in logged out menu which required a new activity would auto-close as soon
+                    as they started (appearing like a crash to end-users)
+        Known Issues
+                *
+
+        Release Candidate 15PG (29/03/2015)
+        New
+                *   Hardware back button now works on menu activity, compose message, driver message activity, and job totals activity
+                *   Made flagdown job screen panel marginally less ugly
+                *   Added padding to job details panels
+                *   Added manager-mode option to disable gps checks
+                *   Removed some unused graphic resources
+                *   Ciruit fees added to menu (untested)
+        Fixed
+                *   Added missing graphics
+                *   Fixed issue where selecting some menu items while logged out would return user to launcher menu
+                *   Resolved issue whereby launching the menu from login activity via the hardware menu button would only work
+                    a single time (subsequent presses of the hardware button would not show the menu)
+        Known Issues
+                *   ???
+
+    Release Candidate 14PG (20/03/2015)
+        New
+                *   Moved http handler from Launcher activity to Resumer activity
+                *   Added https handler
+                *   Added flight info to job screen (requires Socket Server v3.220 or higher)
+        Fixed
+                *   Fixed invalid_job_time_string error in one part of ViewJobHistory activity
+                *   Changed 'play' graphic to yellow colour when pausing job screen
+                *   Added logging of invalid_job_time_string error to another part of ViewJobHistory activity
+                *   No longer crashes if no suitable job offer sounds are found (plays beeps instead)
+                *   No longer crashes when account job is cleared with no signature entered
+        Known Issues
+                *   Some graphics missing
+
+    Release Candidate 12PG (12/03/2015)
+        New
+                *   Gets preset messages from Socket Server (requires SS v3.219++)
+                *   POD signature screen for account jobs
+                *   Releaxed minimum required accuracy for GPS fix to 50m
+        Fixed
+                *   Nothing
+        Known Issues
+                *   Some graphics missing
+
+        Release Candidate 11PG (04/03/2015)
+        New
+                *   Switched the job screen order from pickup-destination-via to picukup-via-destination
+                *   Added speak icon to via job details
+                *   No longer allows users to launch Cab Despatch if mock locations have been enabled
+                *   Logs off driver and sends a cheat report to Socket Server upon uses disabling GPS or Mobile Data,
+                    or enabling mock locations
+        Fixed
+                *   Changed reported speed from meters/second to miles/hour
+                *   Via count on job screen actually works (instead of every Via being reported as 'Via 0')
+        Known Issues
+                *   Some graphics missing
+
+        Release Candidate 10a PG ()
+        New
+                *   Requested a large heap in the manifest, to help prevent out of memory issues
+                    (applies to API v11 [Honeycomb]+ devices only)
+        Fixed
+                *   Removed hardware acceleration on all activities in an attempt to save VM-budget crashes
+                    (http://stackoverflow.com/a/8349220/1203540)
+        Known Issues
+                *   Some graphics missing
+
+        Release Candidate 10 PG (19/02/2015)
+        New
+                *   Changed background on job screen panel action icons (to nothing)
+                *   Now allows you to press STP button anywhere
+                *   Manager mode menu no longer requires password if Debug Connector is installed on device
+                *   Relaxed the criteria which causes the GPS light to turn red
+                *   Removed intents QUICKBOOT_POWERON and BOOT_COMPLETED from BroadcastReceiver in manifest; as they
+                    are no longer used
+        Fixed
+                *   No longer restarts the Data Service after a QUIT user request has been broadcast
+                *   Login Activity now finishes properly after selecting quit from the menu
+                *   Re-coded countdown timer on Login Screen so it really resets when a button is pressed
+                *   If job screen is shown when not on a job, it will revert app status and return to driver screen
+                *   Added try/catch to OnGlobalLayoutListener in DriverMessage activity
+                *   Driver messages now get added properly if they arrive whilst the driver is already on the message screen
+                *   Message scroll speed on Driver Message screen no longer increases every time a message is added
+        Known Issues
+                *   Some graphics missing
+
+
+        Release Candidate 8 PG (12/02/2015)
+        New
+                *   Supports 'Credit Card Paid' header
+                *   Forces autoplot every time a cars/jobs message is received (*unless one is already in progress)
+        Fixed
+                *   Flight Mode Hack is off by default
+        Known Issues
+                * 	Some graphics missing
+
+    Release Candidate 7a PG (08/02/2015)
+        New
+                *   Nothing
+        Fixed
+                *   Data Service no longer wipes out driver number when restarting on a pin-login enabled device
+                *   Alternative Location Providers and Enforce Minimum Distance checkboxes in manager menu should now
+                    function correctly in all situations (was previously possible for them to get 'stuck')
+        Known Issues
+                * 	Some graphics missing
+
+
+        Release Candidate 7 PG (08/02/2015)
+        New
+                *   Advises by speech when entering/leaving flight mode
+                *   Speech handler moved from Data Service into its own separate service
+        Fixed
+                *   Nothing
+        Known Issues
+                * 	Some graphics missing
+
+
+        Release Candidate 6 PG (05/02/2015)
+        New
+                *   Flight mode hack
+        Fixed
+                *   Added two options to Manager Mode menu to combat device crashes on unstable devices
+                    *   Use alternative providers (to allow location providers other than GPS) - default FALSE
+                    *   Enforce minimum distance moved limit (only recieves a location if moved more than 0.2 meters) - default TRUE
+        Known Issues
+                * 	Some graphics missing
+
+
+        Release Candidate 5a PG (05/02/2015)
+                New
+                *   Nothing
+        Fixed
+                *   Now shows a slightly different no network message ("You may not have a network connection")
+                    and highlights this message in RED if the current network status returns null
+                        (http://stackoverflow.com/a/9664824/1203540) - this usually happens if the device only has wifi and wifi is not connected
+        Known Issues
+                * 	Some graphics missing
+
+
+        Release Candidate 5 PG (unreleased)
+        New
+                *   Built with proguad obscufication
+        Fixed
+                *   Nothing
+        Known Issues
+                * 	Some graphics missing
+
+
+        Release Candidate 5 (01/02/2015)
+        New
+                *   Restricted 'secret wipe' mode on login screen to devices with debug-connector installed only
+                *   Moved 'reset device' from Engineer Mode Menu to Manager Mode Menu
+                *   Now updates price on Job Screen when price update is received
+                *   'pop-out' button added to 'Notes' panel on job screen
+                *   Contains auto-update code (not activated until release version - this reports version 9.999)
+        Fixed
+                *   No longer possible to pin-login without entering a driver number first (doing so before would casue SS to send a reset message to wipe the app settings)
+                *   Now shows a "Not Implemented" message on "Play Store Update" in Manager menu, instead of linking
+                    to Thai Alphabet Flashcards
+        Known Issues
+                * 	Some graphics missing
+                * 	Somebody stole our package name!
+
+        Release Candidate 4 (26/01/2015)
+        New
+                *	Job Offer Sound manager available in the manager mode menu
+                *	Can now get to the menu on the launcher screen by tapping the gps graphic 4 times rapidly
+                *	Chooses a sound at random on the job offer screen rather than defaulting to the first one
+                *	Relaxed Location Provider criteria
+        Fixed
+                *   On manager mode password screen, the engineer mode warning ("Only use this screen if you have been advised by...") has been removed
+        Known Issues
+                * 	???
+
+        Release Candidate 3c
+        New
+                *	Removed minimum distance travelled critera in Location Manager request updates call
+        Fixed
+                *   Nothing
+        Known Issues
+                * 	???
+
+        Release Candidate 3b
+        New
+                *	Job history is now selectable when logged in (but not when on a job)
+                *	Launcher will not quit until it has been running for at least 20 seconds
+        Fixed
+                *   Waiting time screen now appears after selecting from menu
+                *   No longer says "You have been logged off" in status bar unless you have
+                    actually been logged in previously
+        Known Issues
+                * 	???
+
+    Release Candidate 3a
+            New
+                    *	Added support for hiding pickup zone on job offer
+            Fixed
+                    *   nothing
+            Known Issues
+                    * 	???
+
+    Release Candidate 3
+            New
+                    *	Switched from BugSense to MINT
+                    *	Added additional generic error handler
+                    *	Created additional debug info for JobTotals screen crash
+                    *	Copied background image to res/raw
+                    *	Added gps fix & accuracy info to outgoing data messages
+                    *	Turned down location manager to request updates at max intervals of 200ms or 2 meters
+            Fixed
+                    *   Switch Have-You-Moved to job status ON-ROUTE (was previously POB)
+            Known Issues
+                    * 	???
+
+            Release Candidate 2
+            New
+                    *	POB Nudge
+                    *	Have You Moved
+            Fixed
+                    *	Fixed issue with ErrorActivity not adding additional crash details
+                    *	Fixed handled-exception "INCORRECT_JOB_STATUS" error being thrown after driver clears job
+                    *	PDA now ignores PDA Update data messages (these are for Windows Mobile only)
+                        - previously threw handled error
+            Known Issues
+                    * 	???
+
+
+            Release Candidate 1b
+            New
+                    *	Switched to Android Studio/Gradle based build
+                    *	Manager mode added (access from launcher's menu)
+            Fixed
+                    *	Hopefully fixed crash handling 'boot completed' broadcast
+                    *	Fixed crash on entering settings menu (corrupt xml file)
+                    *	Now shows driver messages in history starting with the most recently received (previously started at first message reveived)
+            Known Issues
+                    * 	???
+
+
+    		Release Candidate 1a (11/12/2014)
+	       	New
+	       		*	Nothing
+		    Fixed
+		    	*	Fixed app auto-exiting in inappropriate activities.
+		   	Known Issues
+		    	* 	???
+
+    		Release Candidate 1 (10/12/2014)
+	       	New
+	       		*	5 minute timeout on login screen
+		    Fixed
+		    	*	Added pin login to the list of settings that require a restart
+		   	Known Issues
+		    	* 	???
+
+
+    		Beta 36 (07/12/2014)
+	       	New
+	       		*	Supports Job Totals
+	       		*	Supports Kit-Kat lockdown mode
+	       		*	Supports Barring of Navigation
+	       		*	Lockdown, KitKat lockdown, fullscreen,navigation settings
+	       			now delivered remotely
+	       		*	Prevents log-in if lockdown settings have been changed and device has not
+	       			yet been rebooted
+	       		*	Supports http view intents:
+	       				*	if locked down, access denied message will show
+	       				*	if not locked down, the user will be prompted to select
+	       					a different app to view the site with
+		    Fixed
+		    	*	Nothing
+		   	Known Issues
+		    	* 	???
+
+
+            Beta 35 (03/12/2014)
+	       	New
+	       		*	Nothing
+		    Fixed
+		    	*	Fixed null reference exception in time break screen onPause which occurred if
+		    		the driver had no break remaining
+		    	*	Fixed null reference exception in onPause in Driver Message screen
+		   	Known Issues
+		    	* 	???
+
+            Beta 34 (??/??/????)
+	       	New
+	       		*	New graphics
+	       		*	Tweak to the way requested time of job is displayed in the Job History Screen
+	       		*	Removed voice settings menu item (this must be set in CDXP now)
+		    Fixed
+		    	*	Added code to unbind drawables when destroying activites, in an attempt to
+		    		release heap memory (http://stackoverflow.com/a/15722609/1203540)
+		    	* 	Menu would cause 'force quit' message on pre SDK 11 devices if items
+		    		needed to be greyed out (disabled)
+		   	Known Issues
+		    	* 	???
+
+
+            Beta 33 (16/11/2014)
+	       	New
+	       		*	Now accepts data connection mode setting
+	       		*	Will automatically log off and restart app if any of the following
+	       			settings have changed at login:
+	       				*	IP Address
+	       				*	Port Number
+	       				*	Ping frequency
+	       				*	Data connection mode
+	       		*	Further improvements to Job History screen
+	       		*	Shows an asterisk next to the version number on login screen if running on classic data
+	       		*	New GPS/WiFi/3G status graphics
+		    Fixed
+		    	* 	Account numbers / cash now display properly on all jobs
+		    	* 	Fixed problem with "blank" GPS Message Box
+		    	* 	Fixed issue with Textback button not lighting up when arriving in correct plot
+		   	Known Issues
+		    	* 	Some graphics missing
+
+
+        Beta 32 (15/11/2014)
+	       	New
+	       		*	Reports unknown message types from Socket Server as errors
+	       		*	Improved the look of the Job History screen
+	       		*	Force quit option added to menu if Debug Connector is installed
+	       			(simulate a reboot of PDAie quit without logging off first)
+	       		*	Now supports "Work Waiting at Destination" (untested)
+	       		*	Only grays out signal bar when DataService is stopping
+		    Fixed
+		    	* 	Properly grays out inactive menu items
+		    	* 	Resolved issue which prevented activities restarting the data service
+		    		while running
+		   	Known Issues
+		    	* 	Some graphics missing
+		    	* 	Issue with account numbers on some jobs?
+
+        Beta 31 (14/11/2014)
+	       	New
+	       		*	Nothing
+		    Fixed
+		    	* 	GPS Status button reinstated
+		   	Known Issues
+		    	* 	Some graphics missing
+
+    	Beta 30 (14/11/2014)
+       	New
+       		*	Removed a lot of unused graphics from build
+       		*	Speaks plot names on work available message
+       		*	Understands new style zone files, which include speech data
+       		*	Now cuts off speech when switching activities
+       		*	Removed a lot of unused graphics from build
+       		*	Added cash/account details to the price slide on job screen
+   			*	Only need to enter unlock code for engineer mode once per day if you also have
+   				debug connector installed
+	    Fixed
+	    	* 	Nothing
+	   	Known Issues
+	    	* 	Some graphics missing
+
+
+    	Beta 29 (13/11/2014)
+       	New
+   			*	Job time removed from job offer screen
+   			*	Job time added to job screen
+	    Fixed
+	    	* 	Reverted to old autoplot code
+	   	Known Issues
+	    	* 	Some graphics missing
+
+
+        Beta 28 (12/11/2014)
+       	New
+   			*	Automatically sends new login request after receiving new settings message
+   			*	Accepts remote reset messages from SS - 'resets' app on receive
+   			*	Responds to plot header in cars/jobs message
+   			*	Added additional debug information to crash & error reports
+   			*	Navigation button is now hidden if CompanyID has not yet been set
+	    Fixed
+	    	* 	New keeps reference to background bitmap in memory to try and avoid
+	    		crashes on low-memory devices (Galaxy Ace)
+	    	* 	Catches and reports to bugsense invalid job time strings
+	    	*	Forces a plot update on ack clear
+	   	Known Issues
+	    	* 	Some graphics missing
+
+
+    Beta 27 (06/11/2014)
+       		New
+   			*	Nothing
+	    Fixed
+	    	* 	fixed NRE in 6-second plot check code
+	   	Known Issues
+	    	* 	Some graphics missing
+
+    Beta 26 (Sometime early November)
+       		New
+   			*	6-second new plot check
+	    Fixed
+	    	* 	Now updates settings on each login (requires SocketServer v3.218 or higher)
+	   	Known Issues
+	    	* 	Some graphics missing
+
+
+    Beta 25 (sometime early november)
+       		New
+   			*	Now saves driver messages/no show excuses when the star icon is lit
+   			*	Long press on an item in ComposeMessage prompts for deletion
+   			*	Increased 'good' accuracy thresholds to 15m
+   			*	New battery graphics
+	    Fixed
+	    	* 	Re-plotting in NAT fixed
+	    	* 	Fixed issue where after logging in and back out again, the login screen would not receive
+	    		battery status update messages
+	    	* 	Fixed "issue" with layout not resizing correctly in ComposeMessage activity
+	    		(http://stackoverflow.com/a/19494006/1241783)
+	    	*	Cursor now put at the end of the text when using a preset in the ComposeMessageActivity
+	    		(used to be at the beginning)
+	   	Known Issues
+	   		* 	Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+
+
+    	Beta 24 (31/10/2014)
+   		New
+   			*	Nothing
+	    Fixed
+	    	* 	Re-plotting in NAT (hopefully!) fixed
+	   	Known Issues
+	   		* 	Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+
+        Beta 23 (31/10/2014)
+   		New
+   			*	Decreased 'good' accuracy thresholds to 10m
+   			*	Added View Jobs History menu item (no icon yet)
+	    Fixed
+	    	* 	Fixed issue where non-lockdowned devices would sometimes
+	    		return to the login screen when pressing the 'back' button
+	    		in the launcher
+	   	Known Issues
+	   		* 	Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+
+
+        Beta 22  (30/10/2014)
+   		New
+   			*	Pop-up for default Navigation location
+   			*	Default navigation location added to settings
+   			*	Added Time of Job on Job Offer screen for pre-bookings
+   			*	Reports job distances of "-1" as "Unknown" on Job Offer Screen
+   			*	Button for speak on pickup and destination of job screen (no icon yet)
+   			*	Skips downloading of zone sounds (not required with tts)
+	    Fixed
+	    	* 	Really, actually changed to Classic data (request was previously ignored in network class... oops!)
+	   	Known Issues
+	   		* 	Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+
+
+        Beta 21 (25/10/2014)
+   		New
+   			*	Long press on TEXTBACK button brings a pop-up to choose between TEXTBACK or POB
+   			*	Shows version number on launcher screen
+   			*	Responds to server pings *[subsequently removed]
+	    Fixed
+	    	*	Data service only sends plot if request is for a different plot than the previous one sent
+   				(or the request is sent on job clear)
+	   	Known Issues
+	   		* 	Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+
+
+        Beta 20  (22/10/2014)
+   		New
+   			*	Added support for enabling/disabling of GPS settings (no way to switch yet)
+   			*	Rejects any location which is lower than ([accuracyThreshold] * [poorAccuracyMultiplier])m (currently set to 20 * 1.5 = 30)
+   			*	Now waits for three updates in same plot before confirming location update (untested and may break functionality)
+   			*	Added app reset feature. Available in two ways:
+   					*	In Engineer Menu, or
+   					* On login screen tap CabDespatch Logo six times within two seconds. Device will say "thank you", then go directly into menu
+   					   and a "Reset App" feature will have been unlocked
+	    Fixed
+	    	* Nothing
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+
+
+         Beta 19 ( 19/10/2014)
+   		New
+   			*	No longer sends driver message when avoiding a reject
+   			*	Sends version number '2' instead of '100'
+	    Fixed
+	    	* Nothing
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+         Beta 18 ( 18/10/2014)
+   		New
+   			*	Switched to classic data mode (*see beta22 - this change didn't happen!)
+	    Fixed
+	    	* Now checks to see if current job status is under offer before allowing 'reject-before-accept' to be sent
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+        Beta 17 ( 18/10/2014)
+   		New
+   			*	Increased ping interval to 30 seconds
+   			*	Changed package name to com.cabdespatch.driverapp.beta
+   			*	Made changes so that no screen changes should ever occer whilst under offer
+   			*	Cancelled the countdown timer when driver presses back on drivermessage screen
+	   		*	Set statusbar to blue when device is running with fixed GPS location
+	    Fixed
+	    	* Fixed bug where 'fixed GPS location' would only work if the device has previously had a GPS fix
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+    Beta 16 ( 21/09/2014)
+   		New
+	   		*	Now announces when signal is lost
+	    Fixed
+	    	* Fixed bug where connectivity would only be checked at the start of an activity, as opposed to every couple of minutes
+	    	*  Fixed issue with cars available and future jobs tabs being mixed up (also fixes graphical glitches)
+	    	*  Fixed issue causing small-screened devices to crash on job offer (missing 'please wait'  item in layout)
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+    Beta 15(15/09/2014)
+   		New
+	   		*	Nothing
+	    Fixed
+	    	* Sends plot message after clear
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	* 	Graphical glitches when moving from Future Jobs tab to Work Available tab
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+      Beta 14(15/09/2014) - Shows 12a as version number
+   		New
+	   		*	Now defaults to showing bids instead of cars
+	    Fixed
+	    	* Bidding now sends correct plot!
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	* 	Graphical glitches when moving from Future Jobs tab to Work Available tab
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+    Beta 13
+    	null
+
+
+   Beta 12(15/09/2014)
+   		New
+	   		*	Nothing
+	    Fixed
+	    	* Removed "some detail here" message on launcher start
+	    	* Plots in "NAT" rather than "ERR" when no plot found
+	    	* Fixed issue causing device to crash as soon as location updated
+	    	* Confirmed fixed unnecessary plot updates
+	    	* Fixed issue where manually plotting would override autoplot until driver reaches a new area
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	* 	Graphical glitches when moving from Future Jobs tab to Work Available tab
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+    Beta 11(13/09/2014)
+   		New
+	   		*	Restricted future jobs only to companies that have setting enabled
+	   		*	Implemented price requests from driver when enabled in pda settings
+	    Fixed
+	    	* Fixed issue where it was possible to get stuck on the login screen in certain circumstances
+	    	* No longer re-plots in "ERR"
+	    	* Possibly fixed unnecessary plot updates
+	   	Known Issues
+	   		* Doesn't automatically fetch new settings (need to clear data and reconfigure) when they've been changed in settings editor
+	    	* 	Some graphics missing
+	    	* 	Graphical glitches when moving from Future Jobs tab to Work Available tab
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+   	Beta 10(23/08/2014)
+   		New
+	   		*	Added support for future jobs
+	    Fixed
+	    	*INothing
+	   	Known Issues
+	    	* 	Some graphics missing
+	    	* 	Graphical glitches when moving from Future Jobs tab to Work Available tab
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+   	 Beta 9(20/08/2014) **Never Used
+	   	New
+	   		*	Added additional checks to ensure the wrong activity is not being displayed
+	   		*	Added support for NoNoShow
+	    Fixed
+	    	*	Increased min ping time to 10 seconds
+	   	Known Issues
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+   	 Beta 8(20/07/2014)
+	   	New
+	   		*	Nothing
+	    Fixed
+	    	*	Fixed data-service-respawning-after-exit issue
+	      	*	GPS light now lights up when the device gains a lock (and goes back out when it doesn't!)
+	   	Known Issues
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+   	 Beta 7(18/07/2014)
+	   	New
+	   		*	Nothing
+	    Fixed
+	      	*	Fixed issue where 'Exit' menu icon didn't work
+	   	Known Issues
+	   		* 	GPS Icon doesn't light up, even when the device has a valid signal
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+	 Beta 6(18/07/2014)
+	   	New
+	   		*	Nothing
+	    Fixed
+	      	*	Fixed issue where 'back' icon on menu didn't always work
+	   		*	Fixed issue where battery icon may not always show charging status
+	   	Known Issues
+	   		* 	GPS Icon doesn't light up, even when the device has a valid signal
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+    Beta 5(16/07/2014)
+    	New
+    		*	Now does soft logout, rather that reject if no ack is received on job accept
+    		*	Framework in place for asking prices on clear (no way to trigger it yet)
+       	Fixed
+    		*	Now ignores login ack messages if already logged in (help prevent 'screen jump')
+    	Known Issues
+	    	* 	Some graphics missing
+	    	* 	Back button doesn't always work on menus
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+    Beta 4(09/07/2014)
+    	New
+    		*	"Attatch Debugger" option appears in the menu when used in conjunction with the unlocker app
+    	Fixed
+    		*	Plot messages are now sent to Socket Server on location change
+    		*	Correct Lat & Lon now sent to Socket Server
+    		*	Visibility of font in status bar improved
+    	Known Issues
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+    Beta 3(26/06/2014)
+    	New
+    		*	Connected to BugSense
+    	Fixed
+    		*	Current activity restarted when data service is restarted
+    	Known Issues
+	    	* 	Some graphics missing
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)
+
+
+    Beta 2(25/06/2014)
+	    New
+	    	*	Now logs how many times data service has been killed (new SS and DB update required)
+	    Fixed
+	    	* 	Startup dialog progress bar layout issue
+	    Known Issues
+	    	* 	Some graphics missing
+	    	*	Current activity is restarted when data service is restarted
+	    	*	No way to reset in-app (have to use *manage apps* and *clear data*)

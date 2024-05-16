@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_instruction_margin_top">@dimen/margin_4x</dimen>
+    <dimen name="stripe_ciw_stripe_edit_text_size">15sp</dimen>
+    <string name="sumup_setting_image_folder">mdpi</string>
+</resources>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "803144030977",
+    "firebase_url": "https://cab-despatch-drivers-app.firebaseio.com",
+    "project_id": "cab-despatch-drivers-app",
+    "storage_bucket": "cab-despatch-drivers-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803144030977:android:1ba9226def69f370",
+        "android_client_info": {
+          "package_name": "com.cabdespatch.driverapp.devmode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803144030977-ius18mpi06c2jqtleoimghehdivc9cs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsHf7NIiVRBw4xv7FybTvequTAtHAMSU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803144030977-ius18mpi06c2jqtleoimghehdivc9cs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803144030977:android:9e3631f86bdbd231",
+        "android_client_info": {
+          "package_name": "com.cabdespatch.driversapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803144030977-ius18mpi06c2jqtleoimghehdivc9cs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsHf7NIiVRBw4xv7FybTvequTAtHAMSU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803144030977-ius18mpi06c2jqtleoimghehdivc9cs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803144030977:android:24e96b9e727a08f3759900",
+        "android_client_info": {
+          "package_name": "com.cabwave.driversapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803144030977-ius18mpi06c2jqtleoimghehdivc9cs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsHf7NIiVRBw4xv7FybTvequTAtHAMSU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803144030977-ius18mpi06c2jqtleoimghehdivc9cs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

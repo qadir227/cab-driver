@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-86:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/10a3325006fa0354ed036ce6ef8441b0/transformed/appcompat-1.6.1/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1187,1262,1349,1529",
+                        "endLines": "15,16,20,24",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "1257,1344,1524,1716"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/res/values-v28/bools.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "45",
+                        "endOffsets": "98"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/f4883979393d2cf6830f76ef73a33ed6/transformed/material-1.8.0/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,248,343,441,529,617,705,793,880,967,1054,1141",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,17",
+                        "endColumns": "97,94,94,97,87,87,87,87,86,86,86,86,10",
+                        "endOffsets": "148,243,338,436,524,612,700,788,875,962,1049,1136,1423"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "101,199,294,389,487,575,663,751,839,926,1013,1100,1721",
+                        "endLines": "3,4,5,6,7,8,9,10,11,12,13,14,28",
+                        "endColumns": "97,94,94,97,87,87,87,87,86,86,86,86,10",
+                        "endOffsets": "194,289,384,482,570,658,746,834,921,1008,1095,1182,2003"
+                    }
+                }
+            ]
+        }
+    ]
+}

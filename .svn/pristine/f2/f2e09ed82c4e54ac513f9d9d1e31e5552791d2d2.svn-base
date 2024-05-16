@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin_small">8dp</dimen>
+    <dimen name="activity_vertical_margin_small">8dp</dimen>
+
+    <dimen name="jobdetail_horizontal_margin">8dp</dimen>
+    <dimen name="jobdetail_vertical_margin">8dp</dimen>
+
+    <dimen name="settings_indent">48dp</dimen>
+
+    <dimen name="dialog_vertical_padding">16dp</dimen>
+    <dimen name="dialog_horizontal_padding">16dp</dimen>
+
+    <dimen name="dialog_horizontal_margin">32dp</dimen>
+    <dimen name="dialog_vertical_margin">32dp</dimen>
+
+    <dimen name="status_bar_text">20dip</dimen>
+
+    <dimen name="launcher_ico">48dp</dimen>
+    <dimen name="action_ico">48dp</dimen>
+    <dimen name="back_ico">48dip</dimen>
+    <dimen name="menu_ico">48dp</dimen>
+
+    <dimen name="yesno_ico_width">128dip</dimen>
+    <dimen name="yesno_ico_height">64dip</dimen>
+
+    <dimen name="launcher_item_text">26sp</dimen>
+    <dimen name="dialog_title">26sp</dimen>
+    <dimen name="dialog_subtitle">24sp</dimen>
+    <dimen name="dialog_content">22sp</dimen>
+    <dimen name="dialog_label">22sp</dimen>
+    <dimen name="dialog_prompt">18sp</dimen>
+
+    <dimen name="pinlogin_label">22sp</dimen>
+    <dimen name="pinlogin_prompt">18sp</dimen>
+
+    <dimen name="activity_title">26sp</dimen>
+    <dimen name="job_offer_plot">48sp</dimen>
+    <dimen name="job_offer_detail">22sp</dimen>
+
+    <dimen name="pod_label">36sp</dimen>
+
+
+    <dimen name="bab_margin_horizontal">8dip</dimen>
+    <dimen name="bab_margin_vertical">6dip</dimen>
+
+    <dimen name="media_row_button_width">64dip</dimen>
+    <dimen name="media_row_button_height">64dip</dimen>
+
+    <dimen name="media_row_text">48dip</dimen>
+
+    <dimen name="manager_engineer_menu_item_clear">12dip</dimen>
+    <dimen name="job_detail_button_width">64dip</dimen>
+    <dimen name="job_detail_button_height">64dip</dimen>
+    <dimen name="job_detail_button_width_small">32dip</dimen>
+    <dimen name="job_detail_button_height_small">32dip</dimen>
+
+    <dimen name="job_detail_heading">48sp</dimen>
+    <dimen name="job_detail_detail">36sp</dimen>
+    <dimen name="job_detail_popout">18sp</dimen>
+    <dimen name="job_detail_heading_small">28sp</dimen>
+    <dimen name="job_detail_detail_small">20sp</dimen>
+    <!-- dimen name="job_detail_popout_small">18sp</dimen -->
+
+    <dimen name="notification_icon">48dp</dimen>
+    <dimen name="notification_margin_lr">16dp</dimen>
+    <dimen name="notification_margin_tb">8dp</dimen>
+    <dimen name="notification_title">18dp</dimen>
+    <dimen name="notification_content">12dp</dimen>
+    <dimen name="toast_icon">64dip</dimen>
+    <dimen name="toast_icon_small">32dip</dimen>
+    <dimen name="overlay_button_width">64dp</dimen>
+    <dimen name="overlay_button_height">64dp</dimen>
+    <dimen name="overlay_margin_leftright">32dip</dimen>
+    <dimen name="overlay_margin_topbottom">32dip</dimen>
+    <dimen name="lcd_digit_width">48dip</dimen>
+    <dimen name="lcd_font">72dip</dimen>
+    <dimen name="meter_horizontal_padding">12dip</dimen>
+    <dimen name="meter_digit_margin">2dip</dimen>
+    <dimen name="messagebox_new_icon_width">64dip</dimen>
+    <dimen name="messagebox_new_icon_height">64dip</dimen>
+    <dimen name="on_rank_prompt">24dip</dimen>
+    <dimen name="message_box_button_text">24dip</dimen>
+    <dimen name="meter_padding_top_bottom">12dp</dimen>
+    <dimen name="metet_vertical_padding">24dip</dimen>
+    <dimen name="fair_meter_font_size">48dip</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="menu_side_padding">60dp</dimen>
+    <dimen name="menu_left_side_padding">6dip</dimen>
+    <dimen name="menu_header_text">24dip</dimen>
+    <dimen name="menu_detail_text">14dip</dimen>
+    <dimen name="view_message_text_size">32sp</dimen>
+    <dimen name="view_message_header">18sp</dimen>
+    <dimen name="overlay_menu_item_text">18sp</dimen>
+    <dimen name="overlay_menuu_outline">4dp</dimen>
+    <dimen name="large_spinner_please_wait">48dp</dimen>
+
+    <dimen name="checkbox_size">32dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="payment_screen_text">26dp</dimen>
+    <dimen name="job_button_padding">8dp</dimen>
+    <dimen name="bottom_buttons_height">64dp</dimen>
+    <dimen name="job_offer_icon">48dip</dimen>
+    <dimen name="job_offer_detail_new">24dip</dimen>
+    <dimen name="large_button_text">28dp</dimen>
+</resources>

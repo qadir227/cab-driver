@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cab Despatch</string>
+    <string name="dlg_initial_setup_title">Cab Despatch Initial Setup</string>
+    <string name="dlg_price_title">Set Job Fare \:</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="launch_cabdespatch">Launch</string>
+    <string name="title_activity_auto_plot">AutoPlotActivity</string>
+    <string name="title_activity_job_offer">Job Offer</string>
+    <string name="title_activity_job_screen">JobScreen</string>
+    <string name="title_activity_plot_list">PlotList</string>
+    <string name="title_activity_driver_message">DriverMessage</string>
+    <string name="speak_lost_singal">I\'m sorry, we\'ve lost signal</string>
+    <string name="reset_heading">Reset Cab Despatch Android</string>
+    <string name="reset_prompt">Are you sure you wish to reset this app to default state?</string>
+    <string name="reset_confirm">App data has been reset successfully</string>
+    <string name="thankyou">Thank you</string>
+    <string name="jobhistory">Job History</string>
+    <string name="jobtotals">Job Totals</string>
+    <string name="messages">Messages</string>
+    <string name="updating">Updating...</string>
+    <string name="total_jobs">...from a total of +N jobs</string>
+    <string name="title_activity_manager_mode_menu">Manager Mode Menu</string>
+    <string name="manager_mode_lock_web_access">Lock Web Access</string>
+    <string name="manager_mode_update_app_directly">Update App</string>
+    <string name="manager_mode_update_play_store">Play Store Update</string>
+    <string name="manager_mode_google">Go to Google</string>
+    <string name="speak_are_you_POB">Are you P O B?</string>
+    <string name="speak_have_you_moved">Have you moved?</string>
+    <string name="title_activity_sound_chooser">SoundChooser</string>
+    <string name="manager_mode_job_offer_music">Manage Job Offer Sounds</string>
+    <string name="downloading_update">Downloading Update...</string>
+    <string name="flight_mode_hack">Flight Mode Hack</string>
+    <string name="use_alternative_location_providers">Include alternative location providers</string>
+    <string name="use_enforce_movement_limits">Enforce minimum movement distance</string>
+    <string name="warning_requires_root">*root access required</string>
+    <string name="speak_flight_mode_disabled">Flight Mode Disabled</string>
+    <string name="speak_flight_mode_enabled">Flight Mode Enabled</string>
+    <string name="speak_work_waiting_at_destination">There is work waiting at your destination</string>
+    <string name="title_activity_pod">POD</string>
+    <string name="circuitfees">Circuit Fees</string>
+    <string name="do_gps_checks">Require GPS to be turned on</string>
+    <string name="do_mobiledata_checks">Perform Mobile Data Checks</string>
+    <string name="data_usage_warning">Please note that this app can use large volumes of mobile data. Please ensure that you have a suitable data package with your network provider before launching this app. You are strongly advised to ensure you have an unlimited data bundle with your provider.\n\nTo the greatest extent permissible under law, Cab Despatch Ltd and/or your reseller cannot, and will not, be responsible for any and all charges raised by your mobile operator.\n\nThis app is not to be used while your vehicle is in motion.</string>
+
+    <string name="device_admin">Kiosk Mode Demo</string>
+    <string name="i_understand">I Understand</string>
+    <string name="please_confirm">Please confirm that you have understood the warning</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting_job_screen_first_slide">Job Screen Start Slide</string>
+    <string name="slide_time">Time</string>
+    <string name="slide_price">Price</string>
+    <string name="slide_pickup">Pickup</string>
+    <string name="slide_destination">Destination</string>
+    <string name="slide_name">Name</string>
+    <string name="slide_comments">Comments</string>
+    <string name="setting_tag_time">TIME</string>
+    <string name="setting_tag_price">PRICE</string>
+    <string name="setting_tag_pickup">PICKUP</string>
+    <string name="setting_tag_destination">DESTINATION</string>
+    <string name="setting_tag_name">NAME</string>
+    <string name="setting_tag_comments">COMMENTS</string>
+    <string name="company_id">Company ID</string>
+    <string name="driver_no">Driver Number</string>
+    <string name="password">Password</string>
+    <string name="app_still_running">Cab Despatch is still running</string>
+    <string name="notification_cab_lock_install_title">Install CabLock First</string>
+    <string name="notification_cab_lock_install_detail">Press here to install CabLock before continuing</string>
+    <string name="navigation_app_not_found">You do not have any suitable navigation apps installed</string>
+    <string name="btn_stc">STC</string>
+    <string name="error_storage_issue">The external storage of this device is inaccessible or corrupt. If you are connected to a computer via USB please disconnect and try again. If your device has an SD card slot, please make sure an SD card is inserted.</string>
+    <string name="warning_must_set_default_sms">You must set Cab Despatch Android to be your default SMS app</string>
+    <string name="TEXTBACK_SENT">Textback Sent</string>
+    <string name="TEXTBACK_FAILED">Textback Failed</string>
+    <string name="TEXTBACK_DISABLED">Messaging is disabled on this device. Please contact the office</string>
+    <string name="TEXTBACK_INCORRECTLY_CONFIGURED">Messaging is not correctly configured on this device. Please contact the office</string>
+    <string name="TEXTBACK_SECURITY_ERROR">Textback unavailable on this device. Please contact your office.</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="payment">Journey Fee</string>
+    <string name="warning_web_browsing_unavaliable">Web browsing has been disabled on this device</string>
+    <string name="title_not_available">Not Available</string>
+    <string name="manager_mode_show_logs">Show Logs</string>
+    <string name="_bug_6137_error_message">Your device does not support launching URLs from this application</string>
+    <string name="no_browser_installed">You don\'t have a web browser installed</string>
+    <string name="title_view_website">View Website</string>
+    <string name="your_price_is">Your Price Is</string>
+    <string name="pounds">Pounds</string>
+    <string name="pence">Pence</string>
+    <string name="toast_iptables_bin_installed">IPTables Installed</string>
+    <string name="surcharge_prompt">Including a surcharge of £$s, the price will be</string>
+    <string name="setting_tag_vehicle_type">Vehicle Type</string>
+    <string name="confirm_surcharge_prompt">Please ensure the customer accepts the total fare above, including a surcharge of £%s</string>
+    <string name="confirm_no_surcharge_prompt">Please ensure the customer accepts the above fare</string>
+    <string name="menuitem_call_customer">Call Customer</string>
+    <string name="unable_to_call_no_phone_number_provided">Unable to call customer as no phone number was provided</string>
+    <string name="settings_title_meter">Taxi Meter</string>
+    <string name="settings_checkbox_meter">Enable Taxi Meter</string>
+    <string name="warning_taxi_meter_not_installed">TaxiMeter app is not installed</string>
+    <string name="warning_could_not_start_meter_app">Unable to start TaxiMeter app</string>
+    <string name="settings_checkbox_small_screen">Small Screen Optimizations</string>
+    <string name="settings_title_display">Display</string>
+    <string name="error_message_data_recovery">Cab Despatch has recovered from an unexpected data error. You do not need to take any further action.</string>
+    <string name="on_rank">ON RANK</string>
+    <string name="leaveRankPrompt">Leave Rank to See Job Details</string>
+    <string name="loading">Loading Cab Despatch...</string>
+    <string name="checking_in">Checking in with Cab Despatch</string>
+    <string name="fair_meter_current_fare">Current Fare:</string>
+    <string name="fair_meter_awaiting_fare">Awaiting Fare</string>
+
+    <string name="dlg_drivernotes_title">Driver notes:</string>
+    <string name="enter_notes_here">...enter notes here</string>
+    <string name="you_are_on_rank">You are on rank</string>
+    <string name="logged_out">Logged Out</string>
+    <string name="you_have_been_logged_out">You have been logged out</string>
+    <string name="title_activity_logged_in_host">LoggedInHost</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="menu_item_manager_mode">Manager Mode</string>
+    <string name="menu_item_engineer_mode">Engineer Mode</string>
+    <string name="enable_meter">Meter Enabled</string>
+    <string name="please_input_fare">Please input a valid fare</string>
+    <string name="resume_app">Resume App</string>
+    <string name="auto_job">You have a new job</string>
+    <string name="messages_waiting">you have $ messages waiting</string>
+    <string name="message_waiting">You have a message waiting</string>
+    <string name="price_amend_short">The fare has been updated to: £$</string>
+    <string name="no_flagdown_available_no_gps_fix">This device does not have a GPS fix. Flagdown is currently unavailable.</string>
+    <string name="credit_card_payments_unavialble_on_this_device">Sorry, credit card payments are unavailable on this device</string>
+    <string name="price_slide_title_updated">Updated Price</string>
+    <string name="permission_failed_quit_message">This app cannot function without the ability to %1, and will now quit.</string>
+    <string name="permission_failed_quit_message_screen_draw">This application can\'t run without screen overlay permission</string>
+    <string name="prompt_enable_screen_draw">Please enable this setting, then press \'back\' to launch the application</string>
+    <string name="play_store_not_installed">Play Store does not appear to be installed on this device</string>
+    <string name="disable_mock_locations_to_log_in">Please disable mock locations before logging in</string>
+    <string name="cablock_downloading">Cab Lock is Downloading</string>
+    <string name="cablock_downloading_detail">Press here to install once complete</string>
+    <string name="cablock_name">Cab Locker</string>
+    <string name="dialog_install_cablock_top_content">Cab Locker needs to be installed in order for this application to run. Press the button labelled \"Download\" to download now. If you believe you have already downloaded the app, then click on \"Show Downloads\" to install it from your download manager.</string>
+    <string name="install_cablack_on_show_downloads_prompt">Press on the item labelled \"Cab Locker\" to proceed with installation</string>
+    <string name="cablock_fatal_error">Cab Locker is required to use this app on this device but cannot launch. Please contact support for assitance.</string>
+    <string name="permission_error" type="id">Permission Error\nPlease restart the application and accept any permission requests</string>
+    <string name="job_button_stp">T/BACK</string>
+    <string name="job_button_pob">POB</string>
+    <string name="job_button_stc">STC</string>
+    <string name="job_button_clear">CLEAR</string>
+    <string name="btn_panic_text">PANIC</string>
+    <string name="btn_plot_text">PLOT</string>
+    <string name="safety_panel_text">SAFETY PANEL</string>
+    <string name="title_driver_payment">Circuit Fees Payment</string>
+    <string name="title_make_payment">Make Payment</string>
+
+    <!--
+		<string name="broadcast_activity_switch">com.cabdespatch.driversapp.activity_switch</string>
+		<string name="broadcast_lock_release">com.cabdespatch.driversapp.lock_release</string> -->
+
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-86:/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/res/values-w600dp/dimens.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "76,19",
+                        "endColumns": "56,55",
+                        "endOffsets": "128,70"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,112",
+                        "endColumns": "56,55",
+                        "endOffsets": "107,163"
+                    }
+                }
+            ]
+        }
+    ]
+}

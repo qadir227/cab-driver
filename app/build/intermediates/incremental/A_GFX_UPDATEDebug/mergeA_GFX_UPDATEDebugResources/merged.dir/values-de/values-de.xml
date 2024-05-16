@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d neue Benachrichtigung</item>
+    <item quantity="other">%d neue Benachrichtigungen</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AUS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="bottomsheet_action_collapse">Ansicht am unteren Rand minimieren</string>
+    <string name="bottomsheet_action_expand">Ansicht am unteren Rand maximieren</string>
+    <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
+    <string name="bottomsheet_drag_handle_clicked">Auf Ziehpunkt doppelt getippt</string>
+    <string name="bottomsheet_drag_handle_content_description">Ziehpunkt</string>
+    <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
+    <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Text löschen</string>
+    <string msgid="406453423630273620" name="close_drawer">"Navigationsmenü schließen"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Tabelle schließen"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivieren</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installieren</string>
+    <string name="common_google_play_services_install_text">Zur Nutzung von %1$s sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_notification_channel_name">Verfügbarkeit von Google Play-Diensten</string>
+    <string name="common_google_play_services_notification_ticker">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal.</string>
+    <string name="common_google_play_services_unsupported_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Aktualisieren</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_google_play_services_updating_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="common_google_play_services_wear_update_text">Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert.</string>
+    <string name="common_open_on_phone">Auf Smartphone öffnen</string>
+    <string name="common_signin_button_text">Anmelden</string>
+    <string name="common_signin_button_text_long">Über Google anmelden</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link in Zwischenablage kopiert"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Ungültige Eingabe"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Pop-up-Fenster"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Drop-down-Menü"</string>
+    <string name="error_icon_content_description">Fehler</string>
+    <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Link kopieren"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Im Browser öffnen"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Link teilen"</string>
+    <string name="icon_content_description">Dialogfeldsymbol</string>
+    <string msgid="6827826412747255547" name="in_progress">"In Bearbeitung"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Teilweise aktiviert"</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
+    <string name="material_hour_24h_suffix">%1$s Stunden</string>
+    <string name="material_hour_selection">Stunde auswählen</string>
+    <string name="material_hour_suffix">%1$s Uhr</string>
+    <string name="material_minute_selection">Minuten auswählen</string>
+    <string name="material_minute_suffix">%1$s Minuten</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">In den Uhrzeitmodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="material_timepicker_hour">Stunde</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
+    <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Mehr als %1$d neue Benachrichtigungen</string>
+    <string name="mtrl_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="mtrl_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuelle Auswahl: %1$s</string>
+    <string name="mtrl_picker_cancel">Abbrechen</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Datum auswählen</string>
+    <string name="mtrl_picker_date_header_unselected">Ausgewähltes Datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Spalte \"Wochentag\": %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ungültiges Format.</string>
+    <string name="mtrl_picker_invalid_format_example">Beispiel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Format: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ungültiger Bereich.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Zum Jahr %1$s wechseln</string>
+    <string name="mtrl_picker_out_of_range">Außerhalb des Bereichs: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Enddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Zeitraum auswählen</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum – Enddatum</string>
+    <string name="mtrl_picker_save">Speichern</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Enddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">T</string>
+    <string name="mtrl_picker_text_input_month_abbr">M</string>
+    <string name="mtrl_picker_text_input_year_abbr">J</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">In den Kalendereingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
+    <string name="mtrl_timepicker_cancel">Abbrechen</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Navigationsmenü"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Nicht ausgewählt"</string>
+    <string msgid="875452955155264703" name="off">"Aus"</string>
+    <string msgid="8655164131929253426" name="on">"An"</string>
+    <string name="password_toggle_content_description">Passwort anzeigen</string>
+    <string msgid="5941395253238309765" name="range_end">"Bereichsende"</string>
+    <string msgid="7097486360902471446" name="range_start">"Bereichsstart"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string msgid="6043586758067023" name="selected">"Ausgewählt"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stripe_3ds2_bzv_issuer_image_description">Bild des Ausstellers</string>
+    <string name="stripe_3ds2_bzv_payment_system_image_description">Bild des Zahlungssystems</string>
+    <string name="stripe_3ds2_czv_whitelist_no_label">Nein</string>
+    <string name="stripe_3ds2_czv_whitelist_yes_label">Ja</string>
+    <string name="stripe_3ds2_hzv_cancel_label">Abbrechen</string>
+    <string name="stripe_3ds2_hzv_header_label">Sicherer Bezahlvorgang</string>
+    <string name="stripe_3ds2_processing">Wird verarbeitet\u2026</string>
+    <string name="stripe_acc_label_card_number">Kartennummer</string>
+    <string name="stripe_acc_label_card_number_node">%s, Kartennummer</string>
+    <string name="stripe_acc_label_cvc_node">%s, Prüfziffer</string>
+    <string name="stripe_acc_label_expiry_date">Ablaufdatum</string>
+    <string name="stripe_acc_label_expiry_date_node">%s, Ablaufdatum</string>
+    <string name="stripe_acc_label_zip">Postleitzahl</string>
+    <string name="stripe_acc_label_zip_short">ZIP</string>
+    <string name="stripe_add_bank_account">Bankkonto hinzufügen</string>
+    <string name="stripe_add_new_payment_method">Neue Zahlungsmethode hinzufügen</string>
+    <string name="stripe_add_payment_method">Zahlungsmethode hinzufügen</string>
+    <string name="stripe_added">%s hinzugefügt</string>
+    <string name="stripe_address_city_required">Bitte geben Sie Ihren Ort ein</string>
+    <string name="stripe_address_country_invalid">Das Land ist ungültig.</string>
+    <string name="stripe_address_county_required">Bitte geben Sie Ihr Land ein</string>
+    <string name="stripe_address_label_address">Adresse</string>
+    <string name="stripe_address_label_address_line1">Adresszeile 1</string>
+    <string name="stripe_address_label_address_line1_optional">Adresszeile 1 (optional)</string>
+    <string name="stripe_address_label_address_line2">Adresszeile 2</string>
+    <string name="stripe_address_label_address_line2_optional">Adresszeile 2 (optional)</string>
+    <string name="stripe_address_label_address_optional">Adresse (optional) </string>
+    <string name="stripe_address_label_ae_emirate">Emirat</string>
+    <string name="stripe_address_label_apt_optional">Wohnung/Gebäude (optional)</string>
+    <string name="stripe_address_label_au_suburb_or_city">Vorort oder Stadt</string>
+    <string name="stripe_address_label_bb_jm_parish">Parish</string>
+    <string name="stripe_address_label_cedex">Cedex</string>
+    <string name="stripe_address_label_city">Ort</string>
+    <string name="stripe_address_label_city_optional">Ort (optional)</string>
+    <string name="stripe_address_label_country">Land</string>
+    <string name="stripe_address_label_country_or_region">Land oder Region</string>
+    <string name="stripe_address_label_county">Kreis/Bezirk</string>
+    <string name="stripe_address_label_county_optional">Kreis/Bezirk (optional)</string>
+    <string name="stripe_address_label_department">Departement</string>
+    <string name="stripe_address_label_district">Distrikt</string>
+    <string name="stripe_address_label_full_name">Vollständiger Name</string>
+    <string name="stripe_address_label_hk_area">Region</string>
+    <string name="stripe_address_label_ie_eircode">Eircode</string>
+    <string name="stripe_address_label_ie_townland">Townland</string>
+    <string name="stripe_address_label_in_pin">Pin</string>
+    <string name="stripe_address_label_island">Insel</string>
+    <string name="stripe_address_label_jp_prefecture">Präfektur</string>
+    <string name="stripe_address_label_kr_do_si">Do Si</string>
+    <string name="stripe_address_label_name">Name</string>
+    <string name="stripe_address_label_neighborhood">Viertel</string>
+    <string name="stripe_address_label_oblast">Oblast</string>
+    <string name="stripe_address_label_phone_number">Telefonnummer</string>
+    <string name="stripe_address_label_phone_number_optional">Telefonnummer (optional)</string>
+    <string name="stripe_address_label_post_town">Ort oder Stadt</string>
+    <string name="stripe_address_label_postal_code">Postleitzahl</string>
+    <string name="stripe_address_label_postal_code_optional">Postleitzahl (optional)</string>
+    <string name="stripe_address_label_postcode">Postleitzahl</string>
+    <string name="stripe_address_label_postcode_optional">Postleitzahl (optional)</string>
+    <string name="stripe_address_label_province">Provinz / Kanton</string>
+    <string name="stripe_address_label_province_optional">Kanton (optional)</string>
+    <string name="stripe_address_label_region_generic">Bundesland/Kanton/Region</string>
+    <string name="stripe_address_label_region_generic_optional">Bundesland / Kanton / Region (optional)</string>
+    <string name="stripe_address_label_state">Bundesland</string>
+    <string name="stripe_address_label_state_optional">Bundesland (optional)</string>
+    <string name="stripe_address_label_suburb">Vorort</string>
+    <string name="stripe_address_label_village_township">Dorf oder Gemeinde</string>
+    <string name="stripe_address_label_zip_code">Postleitzahl</string>
+    <string name="stripe_address_label_zip_code_optional">Postleitzahl (optional)</string>
+    <string name="stripe_address_label_zip_postal_code">Postleitzahl</string>
+    <string name="stripe_address_label_zip_postal_code_optional">Postleitzahl (optional)</string>
+    <string name="stripe_address_name_required">Bitte geben Sie Ihren Namen ein</string>
+    <string name="stripe_address_phone_number_required">Bitte gehen Sie Ihre Telefonnummer ein</string>
+    <string name="stripe_address_postal_code_invalid">Postleitzahl ist ungültig</string>
+    <string name="stripe_address_postcode_invalid">Ihre Postleitzahl ist ungültig</string>
+    <string name="stripe_address_province_required">Bitte geben Sie Ihren Kanton ein</string>
+    <string name="stripe_address_region_generic_required">Bitte gehen Sie Ihr(e/n) Bundesland / Kanton / Region ein</string>
+    <string name="stripe_address_required">Bitte geben Sie Ihre Adresse ein</string>
+    <string name="stripe_address_search_content_description">Suchen</string>
+    <string name="stripe_address_state_required">Bitte geben Sie Ihren Bundesland ein</string>
+    <string name="stripe_address_zip_invalid">Ihre Postleitzahl ist ungültig.</string>
+    <string name="stripe_address_zip_postal_invalid">Ihre Postleitzahl ist ungültig</string>
+    <string name="stripe_affirm_buy_now_pay_later">Ratenzahlung mit &lt;img src=\"affirm\">.</string>
+    <string name="stripe_afterpay_clearpay_message"><![CDATA[Zahlen Sie mit <img/> in <num_installments/> zinslosen Raten zu je <installment_price/>.]]></string>
+    <string name="stripe_au_becs_account_name">Name des/der Kontoinhaber/in</string>
+    <string name="stripe_au_becs_bsb_number">BSB-Nummer</string>
+    <string name="stripe_au_becs_mandate">Indem Sie Ihre Bankkontoinformationen angeben und diese Zahlung bestätigen, stimmen Sie dieser Lastschriftanfrage und der &lt;a href=\"https://stripe.com/au-becs-dd-service-agreement/legal\">Dienstleistungsvereinbarung zu Lastschriftenanfragen&lt;/a> zu und ermächtigen Stripe Payments Australia Pty Ltd ACN 160 180 343, Lastschriftnutzer-ID 507156 („Stripe“), Ihr Konto über das Bulk Electronic Clearing System (BECS) im Namen von %s (der „Händler“) mit jedem mit dem Händler separat abgesprochenen Betrag zu belasten. Sie bestätigen, dass Sie entweder Kontoinhaber/in oder Zeichnungsberechtigter/Zeichnungsberechtigte des oben angeführten Kontos sind.</string>
+    <string name="stripe_back">Zurück</string>
+    <string name="stripe_bank_account_ending_in">Bankkonto mit den Endziffern %s entfernen</string>
+    <string name="stripe_becs_mandate_acceptance">\n    Indem Sie Ihre Bankkontodetails angeben und diese Zahlung bestätigen, stimmen Sie dieser\n   Lastschriftanfrage und der Dienstleistungsvereinbarung zu Lastschriftenanfragen zu und autorisieren\n    Stripe Payments Australia Pty Ltd ACN 160 180 343 Lastschriftnutzer-ID, Nummer 507156\n    (\"Stripe\"), Ihr Konto über das Bulk Electronic Clearing System (BECS) im\n    Namen von %1$s (der \"Händler\") mit jedem mit dem Händler separat abgesprochenen\n    Betrag zu belasten. Sie bestätigen ferner, dass Sie entweder Kontoinhaber/in oder Zeichnungsberechtigter/Zeichnungsberechtigte\n    des oben angeführten Kontos sind.\n    </string>
+    <string name="stripe_becs_widget_account_number">Kontonummer</string>
+    <string name="stripe_becs_widget_account_number_incomplete">Die Kontonummer ist unvollständig.</string>
+    <string name="stripe_becs_widget_account_number_required">Ihre Kontonummer ist erforderlich.</string>
+    <string name="stripe_becs_widget_bsb">BSB</string>
+    <string name="stripe_becs_widget_bsb_incomplete">Die eingegebene BSB-Nummer ist unvollständig.</string>
+    <string name="stripe_becs_widget_bsb_invalid">Die eingegebene BSB-Nummer ist ungültig.</string>
+    <string name="stripe_becs_widget_email">E-Mail-Adresse</string>
+    <string name="stripe_becs_widget_email_invalid">Die E-Mail-Adresse ist ungültig.</string>
+    <string name="stripe_becs_widget_email_required">Ihre E-Mail-Adresse ist erforderlich.</string>
+    <string name="stripe_becs_widget_name">Name</string>
+    <string name="stripe_becs_widget_name_required">Ihr Name ist erforderlich.</string>
+    <string name="stripe_billing_details">Rechnungsadresse</string>
+    <string name="stripe_billing_same_as_shipping">Rechnungsadresse und Versandadresse sind identisch.</string>
+    <string name="stripe_blank_and_required">Dieses Feld darf nicht leer sein.</string>
+    <string name="stripe_cancel">Abbrechen</string>
+    <string name="stripe_card_declined">Ihre Karte wurde abgelehnt.</string>
+    <string name="stripe_card_ending_in">%1$s, endend auf %2$s</string>
+    <string name="stripe_change">Ändern</string>
+    <string name="stripe_close">Schließen</string>
+    <string name="stripe_contact_information">Kontaktinformationen</string>
+    <string name="stripe_continue_button_label">Weiter</string>
+    <string name="stripe_delete_payment_method">Zahlungsmethode löschen</string>
+    <string name="stripe_delete_payment_method_prompt_title">Zahlungsmethode löschen?</string>
+    <string name="stripe_done">Fertig</string>
+    <string name="stripe_edit">Bearbeiten</string>
+    <string name="stripe_email">E-Mail</string>
+    <string name="stripe_email_is_invalid">Ihre E-Mail-Adresse ist ungültig.</string>
+    <string name="stripe_eps_bank">EPS-Bank</string>
+    <string name="stripe_expiration_date_hint">MM/JJ</string>
+    <string name="stripe_expired_card">Ihre Karte ist abgelaufen.</string>
+    <string name="stripe_expiry_date_hint">MM/JJ</string>
+    <string name="stripe_expiry_label_short">Ablauf</string>
+    <string name="stripe_failure_connection_error">Wir haben Schwierigkeiten, eine Verbindung zu unserem Zahlungsanbieter herzustellen. Bitte prüfen Sie Ihre Internetverbindung und versuchen Sie es noch einmal.</string>
+    <string name="stripe_failure_reason_authentication">Wir können Ihre Zahlungsmethode nicht authentifizieren. Bitte wählen Sie eine andere Zahlungsmethode und versuchen Sie es noch einmal.</string>
+    <string name="stripe_failure_reason_timed_out">Zeitüberschreitung bei der Authentifizierung Ihrer Zahlungsmethode – versuchen Sie es noch einmal.</string>
+    <string name="stripe_form_label_optional">%s (optional)</string>
+    <string name="stripe_fpx_bank_offline">%s ─ offline</string>
+    <string name="stripe_generic_decline">Ihre Zahlungsmethode wurde abgelehnt.</string>
+    <string name="stripe_iban_incomplete">Die eingegebene IBAN ist unvollständig.</string>
+    <string name="stripe_iban_invalid_country">Die eingegebene IBAN ist ungültig. „%s“ ist kein unterstützter Ländercode.</string>
+    <string name="stripe_iban_invalid_start">Ihre IBAN sollte mit einem zweistelligen Ländercode beginnen.</string>
+    <string name="stripe_ideal_bank">iDEAL-Bank</string>
+    <string name="stripe_incomplete_expiry_date">Ablaufdatum der Karte ist unvollständig.</string>
+    <string name="stripe_incomplete_phone_number">Unvollständige Telefonnummer</string>
+    <string name="stripe_inline_sign_up_header">Meine Angaben für sichere Bezahlungen mit nur einem Klick speichern</string>
+    <string name="stripe_internal_error">Es ist ein interner Fehler aufgetreten.</string>
+    <string name="stripe_invalid_bank_account_iban">Die eingegebene IBAN ist ungültig.</string>
+    <string name="stripe_invalid_card_number">Die Kartennummer ist ungültig.</string>
+    <string name="stripe_invalid_cvc">Sicherheitscode der Karte ist ungültig.</string>
+    <string name="stripe_invalid_email_address">Ungültige E-Mail-Adresse: %s</string>
+    <string name="stripe_invalid_expiry_month">Der Ablaufmonat Ihrer Karte ist ungültig.</string>
+    <string name="stripe_invalid_expiry_year">Das Ablaufjahr der Karte ist ungültig.</string>
+    <string name="stripe_invalid_owner_name">Ihr Name ist ungültig.</string>
+    <string name="stripe_invalid_shipping_information">Ungültige Versandadresse</string>
+    <string name="stripe_invalid_upi_id">Ungültige UPI-ID</string>
+    <string name="stripe_invalid_zip">Postleitzahl ist unvollständig.</string>
+    <string name="stripe_klarna_buy_now_pay_later">Jetzt kaufen oder später mit Klarna bezahlen.</string>
+    <string name="stripe_klarna_pay_later">Später mit Klarna bezahlen.</string>
+    <string name="stripe_log_out">Von Link abmelden</string>
+    <string name="stripe_name_on_card">Name auf Karte</string>
+    <string name="stripe_p24_bank">Przelewy24 Bank</string>
+    <string name="stripe_pay_button_amount">%s zahlen</string>
+    <string name="stripe_payment_method_add_new_card">Neue Karte hinzufügen …</string>
+    <string name="stripe_payment_method_add_new_fpx">Bankkonto (FPX) auswählen …</string>
+    <string name="stripe_payment_method_bank">Bank</string>
+    <string name="stripe_paymentsheet_ach_continue_mandate"><![CDATA[Indem Sie fortfahren, akzeptieren Sie die Autorisierung von Zahlungen gemäß <terms>diesen Bedingungen</terms>.]]></string>
+    <string name="stripe_paymentsheet_ach_save_mandate"><![CDATA[Indem Sie Ihr Bankkonto für %s speichern, akzeptieren Sie die Autorisierung von Zahlungen gemäß <terms>diesen Bedingungen</terms>.]]></string>
+    <string name="stripe_paymentsheet_ach_something_went_wrong">Bei der Verknüpfung Ihres Kontos ist ein Fehler aufgetreten.\nVersuchen Sie es bitte später erneut.</string>
+    <string name="stripe_paymentsheet_add_payment_method_button_label">+ Hinzufügen</string>
+    <string name="stripe_paymentsheet_add_payment_method_card_information">Kartendaten</string>
+    <string name="stripe_paymentsheet_add_payment_method_title">Zahlungsinformationen hinzufügen</string>
+    <string name="stripe_paymentsheet_address_element_primary_button">Adresse speichern</string>
+    <string name="stripe_paymentsheet_address_element_shipping_address">Versandadresse</string>
+    <string name="stripe_paymentsheet_buy_using_upi_id">Per UPI-ID kaufen</string>
+    <string name="stripe_paymentsheet_choose_payment_method">Zahlungsmethode auswählen </string>
+    <string name="stripe_paymentsheet_close">Schließen</string>
+    <string name="stripe_paymentsheet_enter_address_manually">Adresse manuell eingeben</string>
+    <string name="stripe_paymentsheet_microdeposit">In ein bis zwei Werktagen wird Stripe Ihrem Konto einen Betrag von 0,01 USD gutschreiben. Danach erhalten Sie eine E-Mail mit weiteren Anweisungen zur Durchführung der Zahlung an %s.</string>
+    <string name="stripe_paymentsheet_or_pay_using">Oder zahlen mit</string>
+    <string name="stripe_paymentsheet_or_pay_with_card">Oder mit Karte bezahlen</string>
+    <string name="stripe_paymentsheet_pay_button_label">Zahlen</string>
+    <string name="stripe_paymentsheet_pay_using">Zahlen mit</string>
+    <string name="stripe_paymentsheet_pay_with_bank_title">In nur wenigen Schritten von Ihrem Bankkonto aus zahlen.</string>
+    <string name="stripe_paymentsheet_payment_method_au_becs_debit">AU BECS-Lastschriftverfahren</string>
+    <string name="stripe_paymentsheet_payment_method_card">Karte</string>
+    <string name="stripe_paymentsheet_payment_method_sepa_debit">SEPA-Lastschrift</string>
+    <string name="stripe_paymentsheet_primary_button_processing">Wird verarbeitet …</string>
+    <string name="stripe_paymentsheet_remove_bank_account_title">Bankkonto entfernen</string>
+    <string name="stripe_paymentsheet_remove_pm">%s entfernen</string>
+    <string name="stripe_paymentsheet_save_for_future_payments">Für zukünftige Zahlungen speichern</string>
+    <string name="stripe_paymentsheet_save_this_card_with_merchant_name">Karte für zukünftige Zahlungen von %s speichern</string>
+    <string name="stripe_paymentsheet_select_payment_method">Zahlungsmethode auswählen</string>
+    <string name="stripe_paymentsheet_total_amount">Gesamt: %s</string>
+    <string name="stripe_paypal_mandate">Indem Sie Ihre Zahlung bei PayPal bestätigen, erklären Sie sich damit einverstanden, dass %s Ihr PayPal-Konto zur Durchführung zukünftiger Zahlungen gemäß der Nutzungsbedingungen belastet.</string>
+    <string name="stripe_pm_set_as_default">Als Standard-Zahlungsmethode festlegen</string>
+    <string name="stripe_price_free">Kostenlos</string>
+    <string name="stripe_processing_error">Fehler bei der Verarbeitung Ihrer Karte – versuchen Sie es in ein paar Sekunden noch einmal.</string>
+    <string name="stripe_remove">Entfernen</string>
+    <string name="stripe_removed">%s entfernt</string>
+    <string name="stripe_save_for_future_payments_with_merchant_name">Für zukünftige %s-Zahlungen speichern</string>
+    <string name="stripe_scan_card">Karte scannen</string>
+    <string name="stripe_secure_checkout">Sicherer Checkout</string>
+    <string name="stripe_sepa_mandate">Durch Angabe der Zahlungsinformationen und Bestätigung der Zahlung ermächtigen Sie (A) %s und Stripe, unseren Zahlungsdienstleister, Zahlungen von Ihrem Konto mittels Lastschrift einzuziehen. Zugleich (B) weisen Sie Ihr Kreditinstitut gemäß diesen Anweisungen an, Ihr Konto entsprechend zu belasten. Sie haben im Rahmen Ihrer Rechte Anspruch auf Erstattung von Ihrem Kreditinstitut gemäß den vereinbarten Bedingungen mit Ihrem Kreditinstitut. Sie können innerhalb von 8 Wochen, beginnend mit dem Belastungsdatum, die Erstattung des belasteten Betrages verlangen. Es gelten dabei die mit Ihrem Kreditinstitut vereinbarten Bedingungen. Weiterhin erklären Sie sich damit einverstanden, die Vorabankündigung bis spätestens 2 Tage vor Zahlungseinzug zu erhalten.</string>
+    <string name="stripe_setup_button_label">Einrichten</string>
+    <string name="stripe_show_menu">Menü anzeigen</string>
+    <string name="stripe_sign_up">Bei Link registrieren</string>
+    <string name="stripe_sign_up_header">Mit nur einem Klick sicher bezahlen</string>
+    <string name="stripe_sign_up_message">Bei %s und tausenden anderen Händlern schneller bezahlen.</string>
+    <string name="stripe_sign_up_terms"><![CDATA[Indem Sie Link beitreten, stimmen Sie den <terms>Nutzungsbedingungen</terms> und der <privacy>Datenschutzerklärung</privacy> zu.]]></string>
+    <string name="stripe_title_add_a_card">Karte hinzufügen</string>
+    <string name="stripe_title_add_an_address">Adresse hinzufügen</string>
+    <string name="stripe_title_bank_account">Bankkonto</string>
+    <string name="stripe_title_payment_method">Zahlungsmethode</string>
+    <string name="stripe_title_select_shipping_method">Versandmethode auswählen</string>
+    <string name="stripe_upi_id_label">UPI-ID</string>
+    <string name="stripe_upi_polling_cancel">Abbrechen und anders bezahlen</string>
+    <string name="stripe_upi_polling_header">Zahlung genehmigen</string>
+    <string name="stripe_upi_polling_message">Öffnen Sie Ihre UPI-App, um die Zahlung per %s zu genehmigen.</string>
+    <string name="stripe_upi_polling_payment_failed_message">Bitte gehen Sie zurück und wählen Sie eine andere Zahlungsmethode.</string>
+    <string name="stripe_upi_polling_payment_failed_title">Zahlung fehlgeschlagen</string>
+    <string name="stripe_verification_change_email">E-Mail ändern</string>
+    <string name="stripe_verification_code_sent">Code wurde gesendet</string>
+    <string name="stripe_verification_header">Verifizierungscode eingeben</string>
+    <string name="stripe_verification_header_inline">Bei Ihrem Link-Konto anmelden</string>
+    <string name="stripe_verification_header_prefilled">Nutzen Sie Ihre gespeicherten Angaben, um den Kauf schneller abzuschließen.</string>
+    <string name="stripe_verification_message">Geben Sie den an %s gesendeten Code ein, um Link als Ihre Standard-Zahlungsmethode festzulegen.</string>
+    <string name="stripe_verification_not_email">Nicht %s?</string>
+    <string name="stripe_verification_resend">Code erneut senden</string>
+    <string name="stripe_verify_your_payment">Zahlung verifizieren</string>
+    <string name="stripe_wallet_bank_account_terms"><![CDATA[Indem Sie fortfahren, akzeptieren Sie die Autorisierung von Zahlungen gemäß <terms>diesen Bedingungen</terms>.]]></string>
+    <string name="stripe_wallet_collapsed_payment">Zahlung</string>
+    <string name="stripe_wallet_default">Standard</string>
+    <string name="stripe_wallet_expanded_title">Zahlungsmethoden</string>
+    <string name="stripe_wallet_pay_another_way">Andere Zahlungsmethode wählen</string>
+    <string name="stripe_wallet_recollect_cvc_error">Geben Sie aus Sicherheitsgründen bitte den Sicherheitscode Ihrer Karte erneut ein.</string>
+    <string name="stripe_wallet_remove_account_confirmation">Sind Sie sicher, dass Sie dieses verknüpfte Konto entfernen möchten?</string>
+    <string name="stripe_wallet_remove_card">Karte entfernen</string>
+    <string name="stripe_wallet_remove_card_confirmation">Sind Sie sicher, dass Sie diese Karte entfernen möchten?</string>
+    <string name="stripe_wallet_remove_linked_account">Verknüpftes Konto entfernen</string>
+    <string name="stripe_wallet_set_as_default">Als Standard festlegen</string>
+    <string name="stripe_wallet_unavailable">Nicht verfügbar für diesen Kauf</string>
+    <string name="stripe_wallet_update_card">Karte aktualisieren</string>
+    <string name="stripe_wallet_update_expired_card_error">Diese Karte ist abgelaufen. Aktualisieren Sie die Kartendaten oder ändern Sie die Zahlungsmethode.</string>
+    <string name="sumup_app_outdated">Ihre Version der App ist veraltet. Bitte führen Sie ein Update durch.</string>
+    <string name="sumup_bt_reset_air_message">Halten Sie die Anschalttaste gedrückt, bis auf dem Bildschirm %1$s erscheint. Das kann etwas dauern. Lassen Sie die Anschalttaste los, sobald %2$s erscheint.</string>
+    <string name="sumup_bt_reset_instructions_message">Befolgen Sie diese zwei Schritte, um das Verbindungsproblem zwischen diesem Gerät und Ihrem Kartenleser zu lösen.</string>
+    <string name="sumup_bt_reset_instructions_title">Bluetooth Verbindung zurücksetzen</string>
+    <string name="sumup_bt_reset_mobile_description">Tippen Sie auf die Schaltfläche weiter unten, um Bluetooth auf diesem Gerät zurückzusetzen.</string>
+    <string name="sumup_bt_reset_option_phone">Auf Ihrem Telefon</string>
+    <string name="sumup_bt_reset_option_reader">Auf Ihrem Kartenleser</string>
+    <string name="sumup_bt_reset_option_tablet">Auf Ihrem Tablet</string>
+    <string name="sumup_btn_call_support">Anrufen</string>
+    <string name="sumup_btn_cancel">Abbrechen</string>
+    <string name="sumup_btn_connect">Verbinden</string>
+    <string name="sumup_btn_dismiss">Schließen</string>
+    <string name="sumup_btn_done">Fertig</string>
+    <string name="sumup_btn_edit">Ändern</string>
+    <string name="sumup_btn_later">Später</string>
+    <string name="sumup_btn_next">Weiter</string>
+    <string name="sumup_btn_no">Nein</string>
+    <string name="sumup_btn_ok">OK</string>
+    <string name="sumup_btn_previous">Zurück</string>
+    <string name="sumup_btn_proceed">Senden</string>
+    <string name="sumup_btn_rescan">Suchen</string>
+    <string name="sumup_btn_retry">Erneut versuchen</string>
+    <string name="sumup_btn_skip">Überspringen</string>
+    <string name="sumup_btn_yes">Ja</string>
+    <string name="sumup_button_retry">Erneut versuchen</string>
+    <string name="sumup_camera_permission_request_text">SumUp benötigt Zugriff auf Ihre Kamera, damit Sie Fotos von Ihren Produkten machen und Barcodes scannen können.</string>
+    <string name="sumup_cancel_pending_payment_message">Sind sie sicher, dass Sie die Transaktion abbrechen möchten?</string>
+    <string name="sumup_cancel_pending_payment_title">Ausstehende Zahlung</string>
+    <string name="sumup_card_checkout_cvv_hint">CVV</string>
+    <string name="sumup_card_checkout_expiry_date_label">Gültig bis</string>
+    <string name="sumup_card_checkout_expiry_month_hint">MM</string>
+    <string name="sumup_card_checkout_expiry_year_hint">JJ</string>
+    <string name="sumup_card_checkout_insert_and_turn_on_card_reader">Kartenterminal verbinden und einschalten</string>
+    <string name="sumup_card_checkout_security_code">Sicherheitscode</string>
+    <string name="sumup_card_reader_battery_level">%1$d%% Batterie</string>
+    <string name="sumup_checking_firmware_info">Verfügbarkeit von Softwareaktualisierung für das Kartenterminal wird überprüft</string>
+    <string name="sumup_checkout_connecting_bt">Verbindung wird hergestellt…</string>
+    <string name="sumup_checkout_power_on_reader">Kartenterminal einschalten</string>
+    <string name="sumup_confirm_pairing_air">Bitte bestätigen Sie die Kopplung auf Ihrem %1$s UND auf dem Kartenterminal.</string>
+    <string name="sumup_confirm_pairing_air_ios">Bitte bestätigen Sie die Kopplung auf Ihrem %1$s UND auf dem Kartenterminal.</string>
+    <string name="sumup_connection_lost">Keine Verbindung</string>
+    <string name="sumup_downloading_firmware">Softwareaktualisierung wird heruntergeladen</string>
+    <string name="sumup_elv_legal_text">Ich ermächtige %1$s, %2$s, %3$s, %4$s, und von diesem hierzu beauftragten Dritte („die Unternehmen“) den heute fälligen, oben genannten Betrag von meinem Bankkonto durch Lastschrift einzuziehen. Ich weise mein Kreditinstitut unwiderruflich an bei Nichteinlösung der Lastschrift den Unternehmen und/oder der HIT GmbH, Eiffestraße 76, 20537 Hamburg auf Anforderung meinen Namen und meine Anschrift zur Geltendmachung der Forderung mitzuteilen. Datenschutzrechtliche Information: Meine Zahlungsdaten (Kontonummer, Bankleitzahl, Kartenverfallsdatum, Kartenfolgenummer, Datum, Uhrzeit, Zahlungsbetrag, Terminalkennung, Ort, Unternehmen und Filiale) werden zur Kartenprüfung und Zahlungsabwicklung an SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland weitergegeben. Sollte im Rahmen der Zahlungsabwicklung die Lastschrift von meiner Bank nicht eingelöst werden (Rücklastschrift) oder sollte ich der Lastschrift widersprechen, stimme ich zu, dass diese Tatsachen in eine Sperrdatei aufgenommen werden außer wenn ich im Zusammenhang mit dem Widerruf erklärtermaßen Rechte aus dem zu Grunde liegenden Geschäft (z.B. Gewährleistungsrechte) geltend gemacht habe. Die Sperrung wird nach vollständigem Forderungsausgleich wieder aufgehoben und die gespeicherten Daten gelöscht. Dritte, die eine vertragliche Vereinbarung mit den Unternehmen zur Nutzung der Sperrdatei haben, können für Zwecke der Missbrauchsbekämpfung und zur Risikominimierung von Zahlungsausfällen ihre elektronischen Zahlungsvorgänge gegen die Sperrdatei abgleichen. Speichernde Stelle für die Zwecke der Kartenprüfung und Zahlungsabwicklung sind die HIT GmbH, Eiffestr. 76, 20537 Hamburg und die SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland, die auch die Sperrdatei für teilnehmende Händler führen. Diese Unternehmen erteilen insoweit auch an anderen Händler, die auf die Sperrdatei zugreifen eine Empfehlung, ob eine Zahlung im Wege des Lastschrifteinzugs akzeptiert werden sollte.</string>
+    <string name="sumup_elv_legal_text_short">Hiermit erteile ich die Ermächtigung zum Lastschrifteinzug.</string>
+    <string name="sumup_err_no_recent_geo_location_received">Ihr aktueller Standort konnte noch nicht festgestellt werden. Bitte stellen Sie sicher, dass die Standortdienste aktiviert sind.  </string>
+    <string name="sumup_error">Fehler</string>
+    <string name="sumup_error_cannot_send_email">E-Mail kann nicht gesendet werden, bitte richten Sie zunächst einen E-Mail Account auf Ihrem Gerät ein.</string>
+    <string name="sumup_error_io">Es konnte keine Verbindung zum Server hergestellt werden. Bitte prüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.</string>
+    <string name="sumup_error_payment_method_required">Zahlungsmethode benötigt</string>
+    <string name="sumup_error_payment_method_required_desc">Um SumUp nutzen zu können, muss mindestens eine Zahlungsmethode aktiviert sein.</string>
+    <string name="sumup_error_system_webview_exception">Ein Problem ist mit Android System WebView aufgetreten. Aktualisieren Sie die App oder kontaktieren Sie unseren Support.</string>
+    <string name="sumup_error_unexpected_response">Bei der Kommunikation mit dem Server ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.</string>
+    <string name="sumup_external_storage_permission_request_text">Um Auszahlungsberichte herunterladen zu können, benötigt SumUp Zugriff auf den externen Speicher deines Geräts</string>
+    <string name="sumup_failed_transaction">Transaktion fehlgeschlagen</string>
+    <string name="sumup_firmware_update_canceled">Update abgebrochen</string>
+    <string name="sumup_fragment_send_receipt">Beleg senden</string>
+    <string name="sumup_geolocation_unavailable_title">Ihr aktueller Standort wird benötigt.</string>
+    <string name="sumup_grant_usb_permission">Um fortzufahren, müssen Sie den Zugriff per USB erlauben.</string>
+    <string name="sumup_help">Hilfe</string>
+    <string name="sumup_installment_cancelled">Abgebrochen</string>
+    <string name="sumup_items_many">%1$s Artikel</string>
+    <string name="sumup_items_none">Keine Artikel</string>
+    <string name="sumup_items_one">Ein Artikel</string>
+    <string name="sumup_l10n_app_processing">In Bearbeitung…</string>
+    <string name="sumup_l10n_card_checkout_card_number">Kartennummer</string>
+    <string name="sumup_l10n_card_checkout_checking_device">Prüfe Kartenleser…</string>
+    <string name="sumup_l10n_card_checkout_insert_card_reader">Kartenleser einstecken</string>
+    <string name="sumup_l10n_err_card_payment_expired">Ihre Karte ist abgelaufen. Bitte benutzen Sie eine andere Karte.</string>
+    <string name="sumup_l10n_order_hint_custom_item">Artikel</string>
+    <string name="sumup_l10n_payment_failure">Zahlung fehlgeschlagen</string>
+    <string name="sumup_l10n_phone_number_confirmation_invalid_for_country">%1$s sieht nicht wie eine gültige Handynummer für %2$s aus. \nBitte korrigieren Sie die Nummer oder geben Sie eine gültige internationale Vorwahl ein, falls es sich um eine Handynummer außerhalb von %2$s handelt.</string>
+    <string name="sumup_l10n_phone_number_confirmation_outside_of_country">%1$s sieht nach einer Handynummer außerhalb von %2$s aus. \nBevor Sie fortfahren, lassen Sie sich bitte von Ihrem Kunden bestätigen, dass die Nummer korrekt ist.</string>
+    <string name="sumup_l10n_print_failed_cover_open">Druckerabdeckung ist offen. Bitte Abdeckung schließen und erneut versuchen.</string>
+    <string name="sumup_l10n_print_failed_generic">Drucken nicht möglich. Bitte Drucker überprüfen und erneut versuchen.</string>
+    <string name="sumup_l10n_print_failed_image_unavailable">Belegdetails konnten nicht geladen werden. Bitte erneut probieren.</string>
+    <string name="sumup_l10n_print_failed_paper_empty">Papier im Drucker ist leer.</string>
+    <string name="sumup_l10n_print_failed_printer_offline">Druckerverbindung konnte nicht hergestellt werden.</string>
+    <string name="sumup_label_external_storage">Externer Speicher</string>
+    <string name="sumup_location_permission_request_text">Um eine optimale Sicherheit gewährleisten zu können, muss SumUp den Ort, an dem eine Zahlung durchgeführt wird, überprüfen können. Für die Nutzung der SumUp App müssen daher die Ortungsdienste aktiviert sein.</string>
+    <string name="sumup_location_permission_request_title">Standortdienste</string>
+    <string name="sumup_login_btn_forgot_password">Passwort vergessen</string>
+    <string name="sumup_login_btn_log_in">Einloggen</string>
+    <string name="sumup_login_btn_title">Login</string>
+    <string name="sumup_login_error_email_invalid">Überprüfen Sie ob Ihre E-Mail-Adresse richtig eingegeben wurde</string>
+    <string name="sumup_login_error_email_missing">Geben Sie die E-Mail-Adresse Ihres SumUp Kontos ein</string>
+    <string name="sumup_login_error_password_missing">Geben Sie Ihr Passwort für das SumUp Konto ein</string>
+    <string name="sumup_login_error_shelves_not_loaded">Leider konnten Ihre Kontoinformationen nicht abgerufen werden.\nBitte loggen Sie sich erneut ein.</string>
+    <string name="sumup_login_failed_message">Es ist ein Problem bei der Konfiguration Ihres Accounts aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support.</string>
+    <string name="sumup_login_failed_title">Anmeldung fehlgeschlagen</string>
+    <string name="sumup_login_hint_email">E-Mail Adresse</string>
+    <string name="sumup_login_hint_password">Passwort</string>
+    <string name="sumup_login_session_expired">Sie wurden abgemeldet. Vermutlich haben Sie sich auf einem anderen Gerät parallel eingeloggt.</string>
+    <string name="sumup_merchant_activation_code">Activation Code</string>
+    <string name="sumup_navigation_payment_methods">Zahlungsmethode</string>
+    <string name="sumup_navigation_payment_methods_multiple_options">Zahlungsmethode</string>
+    <string name="sumup_no_account_question">Noch kein Account?</string>
+    <string name="sumup_no_air_usb_device">Dieses Gerät ist unbekannt. Bitte schließen Sie ein SumUp Air Kartenterminal an.</string>
+    <string name="sumup_no_usb_device">Schließen Sie Ihr Air Kartenterminal per USB-Kabel an und erlauben Sie den Zugriff in Ihren Geräteeinstellungen.</string>
+    <string name="sumup_order_charge">Bezahlen</string>
+    <string name="sumup_pairing_in_notification_bar">Bitte überprüfen Sie Ihre Benachrichtigungsleiste für den Verbindungsaufbau.</string>
+    <string name="sumup_pax_setup_add_terminal">Neuer Kartenleser</string>
+    <string name="sumup_payment_setting_card_reader">Kartenleser</string>
+    <string name="sumup_payment_setting_cash_payment">Barzahlung</string>
+    <string name="sumup_payment_to_title">Zahlung an</string>
+    <string name="sumup_permission_explanation_continue">Fortfahren</string>
+    <string name="sumup_phone">Smartphone</string>
+    <string name="sumup_please_wait">Bitte warten…</string>
+    <string name="sumup_please_wait_connecting">Bitte warten. Verbindung wird hergestellt…</string>
+    <string name="sumup_pp_btn_fw_abort">Update abbrechen</string>
+    <string name="sumup_pp_setup_air_no_btle">Leider unterstützt Ihr Telefon/Tablet kein Bluetooth 4.0. Bitte überprüfen Sie, ob ein Software Update verfügbar ist.</string>
+    <string name="sumup_pp_setup_charge_batteries">Bitte stellen Sie sicher, dass das Kartenterminals aufgeladen ist</string>
+    <string name="sumup_pp_setup_check_power">Stellen Sie sicher, dass Ihr Kartenterminal eingeschaltet ist</string>
+    <string name="sumup_pp_setup_connected">Verbunden!</string>
+    <string name="sumup_pp_setup_connection_failed">Verbindung fehlgeschlagen. Bitte erneut versuchen oder Support unter %1$s kontaktieren.</string>
+    <string name="sumup_pp_setup_connection_failed_no_support">Wir konnten keine Verbindung zu Ihrem Kartenterminal herstellen. Bitte versuchen Sie es noch einmal.</string>
+    <string name="sumup_pp_setup_do_firmware_update_now_mandatory">Bitte stellen Sie sicher, dass Sie das Update bis zum %1$s durchführen.</string>
+    <string name="sumup_pp_setup_firmware_cancel_sure">Sind Sie sicher, dass Sie das Update abbrechen möchten?</string>
+    <string name="sumup_pp_setup_firmware_update_do_now">Ein Firmware Update ist für Ihr Kartenterminal verfügbar. Das Update dauert nur wenige Minuten.\n\nUm sicherzustellen, dass Ihr Gerät optimal funktioniert, empfehlen wir, das Update zu installieren.</string>
+    <string name="sumup_pp_setup_firmware_update_installing">Wird installiert, bitte warten…</string>
+    <string name="sumup_pp_setup_firmware_update_minutes_remaining">noch %1$s Minuten</string>
+    <string name="sumup_pp_setup_firmware_update_one_minute_remaining">Noch 1 Minute verbleibend</string>
+    <string name="sumup_pp_setup_help_additional_steps">Sollte die Verbindung zum Kartenterminal weiterhin nicht aufgebaut werden können, folgen Sie bitte diesen zusätzlichen Schritten:</string>
+    <string name="sumup_pp_setup_help_air_reset">Setzen Sie das Kartenterminal zurück, indem Sie den An-/Aus-Schalter 20 Sekunden gedrückt halten. Bitte achten Sie darauf, dass das Terminal ausgeschalten und an kein Ladegerät angeschlossen ist.</string>
+    <string name="sumup_pp_setup_help_bt_toggle_button">Bluetooth zurücksetzen</string>
+    <string name="sumup_pp_setup_help_bt_toggle_header">Wir können Ihr Smartphone/Tablet nicht per Bluetooth mit dem Kartenterminal verbinden.\nBitte setzen Sie Ihre Bluetooth-Verbindung zurück, bevor Sie es erneut versuchen.</string>
+    <string name="sumup_pp_setup_help_give_up">Alternativ können Sie unser Support Team unter %1$s kontaktieren.</string>
+    <string name="sumup_pp_setup_help_optional_support">Sollten Sie zusätzliche Hilfe benötigen, kontaktieren Sie bitte unser Support Team unter %1$s.</string>
+    <string name="sumup_pp_setup_help_pin_plus_replace_batteries">Replace the batteries of the card terminal</string>
+    <string name="sumup_pp_setup_help_reboot_device">%1$s neu starten</string>
+    <string name="sumup_pp_setup_mode_to_bt">Stellen Sie sicher, dass das Terminal im Bluetooth Modus ist. Zur Änderung den An-/Ausschalter des Terminals 10 Sekunden drücken.</string>
+    <string name="sumup_pp_setup_multiple_devices">Mehrere Kartenterminal gefunden.</string>
+    <string name="sumup_pp_setup_searching">Suche nach Kartenterminals</string>
+    <string name="sumup_pp_setup_select_bt_device">Bitte vergleichen Sie die Seriennummer auf der Rückseite Ihres Terminals</string>
+    <string name="sumup_pp_setup_text_firmware_update_failed">Das Update ist fehlgeschlagen. Bitte führen Sie folgende Schritte durch: \n\n1. Schalten Sie das Kartenterminal aus und wieder ein. \n2. Öffnen Sie die Einstellungen Ihres Smartphones und schalten Sie WLAN aus. \n3. Wählen Sie \"Erneut versuchen\" in der SumUp App, um das Update erneut zu starten. Bitte beachten Sie, dass das Update über 20 Minuten dauert.</string>
+    <string name="sumup_pp_setup_text_firmware_update_ongoing">Bitte verwenden Sie Ihr Smartphone/Tablet nicht bis das Update abgeschlossen ist.</string>
+    <string name="sumup_print">Drucken</string>
+    <string name="sumup_print_autoprint_receipts">Immer Beleg drucken</string>
+    <string name="sumup_print_failed_bluetooth_disabled">Bluetooth ist deaktiviert. Bitte aktivieren Sie Bluetooth und versuchen Sie es erneut.</string>
+    <string name="sumup_print_failed_no_cash_drawer">Der ausgewählte Drucker unterstützt keine Kassenschublade.</string>
+    <string name="sumup_print_no_printers_found">Kein Drucker gefunden.</string>
+    <string name="sumup_print_open_cash_drawer">Kassenschublade öffnen</string>
+    <string name="sumup_print_open_drawer_automatically">Schublade autom. öffnen</string>
+    <string name="sumup_print_searching_printers">Nach Druckern suchen…</string>
+    <string name="sumup_print_select_printer">Drucker auswählen</string>
+    <string name="sumup_print_test_page">Testseite drucken</string>
+    <string name="sumup_printer_available">Verfügbar</string>
+    <string name="sumup_printer_settings_copies_label">Anzahl Kopien</string>
+    <string name="sumup_printer_settings_disabled">Deaktiviert</string>
+    <string name="sumup_printer_settings_none_paired">Nicht gekoppelt</string>
+    <string name="sumup_printer_settings_toggle_label">Drucken aktivieren</string>
+    <string name="sumup_printer_unavailable">Nicht verfügbar</string>
+    <string name="sumup_reader_not_found_message">Ihr Kartenterminal mit der Endung %1$s konnte nicht gefunden werden. Bitte vergewissern Sie sich, das das Kartenterminal eingeschaltet ist und sich in Reichweite befindet.</string>
+    <string name="sumup_reader_off_and_unplugged_message">Stellen Sie sicher, dass das Gerät ausgeschaltet ist und der Netzstecker gezogen wurde.</string>
+    <string name="sumup_reader_off_and_unplugged_title">Netzstecker ziehen und ausschalten</string>
+    <string name="sumup_receipt_request_failed">Versenden des Beleges ist fehlgeschlagen. Bitte überprüfen Sie Ihre Internetverbindung und probieren Sie es erneut.\n\nAlternativ können Sie den Beleg für diese Transaktion jederzeit aus der Transaktionsübersicht versenden.</string>
+    <string name="sumup_reset_reader_confirmation_message">Nach dem Loslassen der Power-Taste, hören Sie einen Piepton, der bestätigt, dass Bluetooth zurückgesetzt wurde.</string>
+    <string name="sumup_reset_reader_confirmation_title">Zurücksetzen abgeschlossen</string>
+    <string name="sumup_reset_reader_title">Zurücksetzen starten</string>
+    <string name="sumup_select_an_option">Select an option</string>
+    <string name="sumup_send_receipt_email_field_label">E-Mail-Adresse</string>
+    <string name="sumup_send_receipt_phone_number_label">Handynummer</string>
+    <string name="sumup_service_unavailable_message">Wir arbeiten mit Hochdruck daran, das Problem zu beheben. Bitte versuchen Sie es später erneut.</string>
+    <string name="sumup_service_unavailable_title">Service nicht verfügbar</string>
+    <string name="sumup_sign_up">Registrieren</string>
+    <string name="sumup_signature_btn_close_legal_page">OK</string>
+    <string name="sumup_signature_in_parcelados">in %1$d parcelados</string>
+    <string name="sumup_signature_sign_here">Bitte hier unterschreiben</string>
+    <string name="sumup_signature_try_again_button_title">Erneut versuchen</string>
+    <string name="sumup_successful_transaction">Transaktion erfolgreich</string>
+    <string name="sumup_tablet">Tablet</string>
+    <string name="sumup_tipping_signature_including_tip_hint">(inkl. %1$s Trinkgeld)</string>
+    <string name="sumup_transaction_cancelled_card_not_charged">Die Karte wurde nicht belastet.</string>
+    <string name="sumup_transaction_cancelled_generic">Transaktion abbrechen</string>
+    <string name="sumup_transaction_cancelled_reader_error">Der Kartenleser antwortet nicht wie erwartet. </string>
+    <string name="sumup_transaction_cancelled_reader_error_detail">Bitte stellen Sie sicher, dass der Kartenleser geladen ist und die Lautstärke des Endgeräts auf das Maximum eingestellt ist.</string>
+    <string name="sumup_transaction_connection_lost">Die Verbindung zum SumUp Server wurde unterbrochen.</string>
+    <string name="sumup_transaction_failed_generic">Transaktion fehlgeschlagen</string>
+    <string name="sumup_transaction_message_checking_status">Bitte warten - der Status der Zahlung wird überprüft</string>
+    <string name="sumup_transaction_not_processed_desc">Die Zahlung konnte aufgrund von Netzwerkproblemen nicht durchgeführt werden</string>
+    <string name="sumup_transaction_not_processed_details">Die Karte wurde nicht belastet. Sie können erneut versuchen, die Zahlung durchzuführen.</string>
+    <string name="sumup_transaction_unexpected_response">Ein Fehler ist bei der Kommunikation mit dem Server aufgetreten</string>
+    <string name="sumup_tx_cancel_please_wait">Bitte warten, die Zahlung wird abgebrochen.</string>
+    <string name="sumup_tx_cancel_power_off">Bitte drücken Sie den Aus/Ausschalter vom Kartenterminal, um die Zahlung abzubrechen.</string>
+    <string name="sumup_verification_camera_permission_request_title">Kamera</string>
+    <string name="sumup_verify_phone_number">Handynummer überprüfen</string>
+    <string msgid="2561197295334830845" name="switch_role">"Wechseln"</string>
+    <string msgid="1672349317127674378" name="tab">"Tab"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> Prozent."</string>
+    <string name="wallet_buy_button_place_holder">Über Google kaufen</string>
+</resources>

@@ -1,0 +1,1110 @@
+[
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ice_cream_edit.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ice_cream_edit.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_credit_card_logo.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/credit_card_logo.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_jpob.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_jpob.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/raw_n_appbackground.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/raw/n_appbackground.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoreturnjob.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoreturnjob.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icosendmessage.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icosendmessage.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_msgbox.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_msgbox.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icomanageapps.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/drawable/n_icomanageapps.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_out_to_left.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/out_to_left.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_iconavigate.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/drawable/n_iconavigate.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_filemanager_row.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/filemanager_row.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_overlay_backtocabdespatch.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/overlay_backtocabdespatch.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icogps.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icogps.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_installcablock.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_installcablock.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_ico_stop.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_ico_stop.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_ico3g.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_ico3g.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_sendcars.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/sendcars.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_ico_jobtotals.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_ico_jobtotals.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_clear_enabled.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_clear_enabled.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoplot_divert.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoplot_divert.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_star_light.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/star_light.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_composemessage.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_composemessage.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_auto_plot.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_auto_plot.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_pob.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_pob.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_stc.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_stc.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/menu_cab_despatch_launcher.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/menu/cab_despatch_launcher.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_iconoshow.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_iconoshow.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_price.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_price.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_password.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_password.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-xhdpi_drawer_shadow.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-xhdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_row_jobtotal.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_jobtotal.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_stp_enabled.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_stp_enabled.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_jstc.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_jstc.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_multiline_disabled_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_multiline_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icomenu_black.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icomenu_black.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_textback_disabled.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_textback_disabled.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_stp.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_stp.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_panic_armed.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_panic_armed.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_waitingtime.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_waitingtime.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_in_from_right.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/in_from_right.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-hdpi_drawer_shadow.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-hdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_star_dull.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/star_dull.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icomenu.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icomenu.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icononet.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icononet.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoyes_enabled.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoyes_enabled.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_busy.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_busy.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_iconogps.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_iconogps.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_yellow_rounded.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_yellow_rounded.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_out_to_left_fast.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/out_to_left_fast.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_launchermain.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_launchermain.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_temp_sel.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/temp_sel.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ico_btn_panic.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ico_btn_panic.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icocall.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/drawable/n_icocall.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_network_nofix.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_network_nofix.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoviewmessages.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoviewmessages.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_pob_pressed.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_pob_pressed.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_yellow_button_round.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/yellow_button_round.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icospeak.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icospeak.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_stc_invert.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_stc_invert.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_menu_overlay_item.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/menu_overlay_item.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_breakbut.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/breakbut.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_full_charge.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_full_charge.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_alert.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/alert.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_panic_armed_press.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_panic_armed_press.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_viewinflipper.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_viewinflipper.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_fade_in_fast.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/fade_in_fast.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_pob_enabled.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_pob_enabled.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icowifi.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icowifi.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_row_cars.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_cars.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icostop.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icostop.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/raw_busybox_g1.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/raw/busybox_g1"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_pob_disabled.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_pob_disabled.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_jstp.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_jstp.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_panic.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_panic.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_initial_setup.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_initial_setup.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_driver_payment.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_driver_payment.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icopause.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icopause.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/color_radiobox_tint.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/color/radiobox_tint.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_panic_armed.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_panic_armed.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_fade_out_fast.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/fade_out_fast.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_paypal_logo.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/paypal_logo.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ico_btn_pob.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ico_btn_pob.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_high.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_high.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_login_compat.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_login_compat.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_lcd_number.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/lcd_number.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_gps_nofix.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_gps_nofix.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_low_charge.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_low_charge.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_stp_pressed.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_stp_pressed.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_yellowbase.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_yellowbase.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icosettings.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icosettings.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_list.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_list.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icowaitingtime.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icowaitingtime.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoplay.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoplay.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_settings_runmode.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_runmode.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_job_screen.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/layout/fragment_job_screen.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_drivernotes.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_drivernotes.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/menu_menu_pod.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/menu/menu_pod.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_jflag.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_jflag.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_textback_click.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_textback_click.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_messagebox_new.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_messagebox_new.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_pob.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_pob.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoexit.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoexit.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_medium.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_medium.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_layout_listitem_panic.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/layout_listitem_panic.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_toast.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/toast.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_coin.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/coin.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_temp_unsel.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/temp_unsel.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_nineninenine.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/nineninenine.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_appbackground.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_appbackground.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_checkbox.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/checkbox.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_checkbox_checked.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/checkbox_checked.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_disabled_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_default_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_default_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoyes.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoyes.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_multiline_default_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_multiline_default_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_datamonitor.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_datamonitor.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_driver_message.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_driver_message.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_big_icon.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/big_icon.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_pod.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_pod.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_settings.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_multiline_activated_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_multiline_activated_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_settings_meter.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_meter.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_filebrowser.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_filebrowser.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_mobilesplashscreenwide.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/mobilesplashscreenwide.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_ico_meter.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_ico_meter.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_messageitem.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/messageitem.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_row_media_browser.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_media_browser.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_pob_click.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_pob_click.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_chk_fave.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/chk_fave.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ico_btn_stp.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ico_btn_stp.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_stc_enabled.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_stc_enabled.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_yellow_enabled.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_yellow_enabled.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_panic_unarmed.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_panic_unarmed.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_box_selected.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/box_selected.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_settings_voicemode.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_voicemode.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_critical.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_critical.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-mdpi_drawer_shadow.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-mdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_driverscreen.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/layout/fragment_driverscreen.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-mdpi_ic_drawer.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-mdpi/ic_drawer.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoplot_press.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoplot_press.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_update.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_update.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_lcd.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_lcd.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_row_plot.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_plot.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_settings_navlocation.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_navlocation.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_settings_officenumber.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_officenumber.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/menu_logged_in_host.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/menu/logged_in_host.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_logged_in_host.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_logged_in_host.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_clear.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_clear.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_layout_listitem.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/layout_listitem.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoyes_disabled.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoyes_disabled.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ico_btn_plot.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ico_btn_plot.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/menu_menu_manager_mode_menu.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/menu/menu_manager_mode_menu.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_out_to_right.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/out_to_right.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ico_btn_stc.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ico_btn_stc.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_stc_click.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_stc_click.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_in_from_right_fast.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/in_from_right_fast.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoplot_disable.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoplot_disable.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoplot.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoplot.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_manager_mode_menu.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_manager_mode_menu.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_clear_pressed.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_clear_pressed.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_logged_in.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_logged_in.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icobreak.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icobreak.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icocall_black.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icocall_black.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_test.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_test.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_engineerpassword.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_engineerpassword.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_panic_unarmed_press.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_panic_unarmed_press.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_datawarning.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_datawarning.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_ico_circuitfees.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_ico_circuitfees.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/anim_in_from_left.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/anim/in_from_left.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_break.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_break.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_notification.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/notification.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_datarecd.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_datarecd.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ico_btn_clear.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ico_btn_clear.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_settings_job_screen_start.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_job_screen_start.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/color_checkbox_tint.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/color/checkbox_tint.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_ico_card.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_ico_card.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icocar.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icocar.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_clear_click.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_clear_click.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_joboffer.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_joboffer.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_iconavigatemenu.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_iconavigatemenu.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_ico_camera.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/ico_camera.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_demo_overlay.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/demo_overlay.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_stc_standard.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_stc_standard.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_fair_meter.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_fair_meter.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_checkbox_unchecked.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/checkbox_unchecked.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_disabled.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_disabled.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_dialog_yellowbox.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/dialog_yellowbox.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_jplot.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_jplot.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icologin.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icologin.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_network_fix.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_network_fix.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_settings_display.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_display.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_box_unselected.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/box_unselected.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/xml_provider_paths.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_high_charge.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_high_charge.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_sound_chooser.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_sound_chooser.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_document_scan.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_document_scan.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoback.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/drawable/n_icoback.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_gpsstatus.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_gpsstatus.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_web_view.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_disabled_focused_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_disabled_focused_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/raw_iptables_armv5.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/raw/iptables_armv5"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icovoice.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icovoice.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_ico_popout.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_ico_popout.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_radiobox_checked.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/radiobox_checked.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_low.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_low.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_vertical_progress_bar.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/vertical_progress_bar.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_focused_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_focused_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_multiline_focused_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_multiline_focused_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_popout.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_popout.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_multiline_disabled_focused_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_multiline_disabled_focused_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/menu_menu_sound_chooser.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/menu/menu_sound_chooser.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_radiobutton.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/radiobutton.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icoflag.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icoflag.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_iconone.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_iconone.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_stc_pressed.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_stc_pressed.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_engineermenu.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_engineermenu.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_clearbreak.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_clearbreak.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_yellow_button.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/yellow_button.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_medium_charge.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_medium_charge.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_driver_screen.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_driver_screen.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-xhdpi_ic_drawer.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-xhdpi/ic_drawer.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-hdpi_ic_drawer.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-hdpi/ic_drawer.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_stripe_payment.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_stripe_payment.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_mobilesplashscreenwide_invert.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/mobilesplashscreenwide_invert.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_critica_chargel.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_critica_chargel.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_textback.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_textback.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_radio_carsjobs.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/radio_carsjobs.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_jclear.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_jclear.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_job_clear.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_job_clear.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_job_detail.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/job_detail.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icosettings_small.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icosettings_small.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_gps_fix.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_gps_fix.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_yellow.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_yellow.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/color_button_tint.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/color/button_tint.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icono.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icono.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_gpay_logo.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/gpay_logo.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_panic.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_panic.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_startup.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_startup.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_yellow_pressed.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_yellow_pressed.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/color_dialog_button_text_only.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/color/dialog_button_text_only.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_pobstc.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/layout/dialog_pobstc.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_icojobhistory.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_icojobhistory.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_fragment_statusbar.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_statusbar.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_textfield_activated_holo_light.9.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/textfield_activated_holo_light.9.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/color_ui_text.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/color/ui_text.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/menu_view_messages.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/menu/view_messages.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_payment.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_menu.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/menu.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_dialog_navlocation.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_navlocation.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_n_battery_full.png.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/n_battery_full.png"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/menu_global.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/menu/global.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable_btn_yellow_disabled.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable/btn_yellow_disabled.xml"
+    }
+]

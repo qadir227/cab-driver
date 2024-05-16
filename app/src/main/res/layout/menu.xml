@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                style="@style/Root"
+                android:id="@+id/frmMenu_base"
+                android:layout_marginRight="@dimen/menu_side_padding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+              android:theme="@style/menu_style"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingLeft="@dimen/menu_left_side_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/frmMenu_btnBack"
+                android:background="@drawable/layout_listitem"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:src="@drawable/big_icon"
+                android:layout_width="@dimen/back_ico"
+                android:layout_height="@dimen/back_ico"
+                android:scaleType="centerInside"
+                android:layout_gravity="left|center"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:duplicateParentState="true"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:text="@string/app_name"
+                    android:textSize="@dimen/menu_header_text"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:id="@+id/lblMenuSubHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:duplicateParentState="true"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    tools:text="V 4.214"
+                    android:textSize="@dimen/menu_detail_text"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <ScrollView
+            android:paddingLeft="@dimen/menu_left_side_padding"
+            android:id="@+id/frmMenu_scroller"
+            android:background="@color/colorPrimary"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <LinearLayout
+                android:id="@+id/frmMenu_layoutMenuItems"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnReset"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@null" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="@string/reset_heading"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnCallCustomer"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icocall_black" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="@string/menuitem_call_customer"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnFlagDown"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icoflag" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Flag Down"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnSettings"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icosettings" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Settings"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnManageCircuitFees"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_ico_circuitfees" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Manage Account"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnVoice"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icovoice" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Voice"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnNavigate"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_iconavigatemenu" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Navigate"
+                        android:textSize="22dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnBreak"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icobreak" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Break"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnViewMessages"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icoviewmessages" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="View Messages"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnSendMessage"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icosendmessage" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Send Message"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnJobButton"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_iconone" />
+
+                    <TextView
+                        android:id="@+id/frmMenu_lblJobButton"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text=""
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnPlotDivert"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icoplot_divert" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Plot Divert"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnPOB"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/ico_btn_pob" />
+
+                    <TextView
+                        android:id="@+id/frmMenu_btnPOBButton_Text"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="POB"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnSTC"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/ico_btn_stc" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="@string/btn_stc"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnAddStop"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_ico_stop" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Add Stop"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnWaitingTime"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icowaitingtime" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Waiting Time"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnNoShow"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_iconoshow" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:id="@+id/frmMenu_btnNoShowText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="No Show"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnReturnJob"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icoreturnjob" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="Return Job"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnJobHistory"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icojobhistory" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="@string/jobhistory"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnJobTotals"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_ico_jobtotals" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="@string/jobtotals"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnCircuitFees"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_ico_circuitfees" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dip"
+                        android:text="@string/circuitfees"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnLogOff"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icoexit" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:text="Log Off"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnScanDocument"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/ico_camera" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:text="Scan Document"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnExit"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_listitem"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/n_icoexit" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:text="Exit"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnDebug"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/big_icon" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:text="Attatch Debugger (Engineer)"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/frmMenu_btnEngineerQuit"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:scaleType="fitCenter"
+                        android:duplicateParentState="true"
+                        android:layout_width="@dimen/menu_ico"
+                        android:layout_height="@dimen/menu_ico"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:src="@drawable/big_icon" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:gravity="center_vertical"
+                        android:text="Force Quit (Engineer)"
+                        android:textSize="32dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:background="@color/TransparentBlack"
+        android:id="@+id/dlg_container"
+        android:visibility="gone"
+        tools:visibility="invisible"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+                    
+
+
+</RelativeLayout>

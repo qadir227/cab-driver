@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-86:/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/158660da5a0f6990f28fd8ec37316c8b/transformed/jetified-payments-core-20.27.3/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "231",
+                        "endColumns": "63",
+                        "endOffsets": "290"
+                    }
+                },
+                {
+                    "source": "/Users/qadirhussain/.gradle/caches/transforms-3/4b192117e1cd071b9cdd5203dfb0ea27/transformed/jetified-merchant-sdk-3.3.0/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,111,172,231,280,341",
+                        "endColumns": "55,60,58,48,60,60",
+                        "endOffsets": "106,167,226,275,336,397"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,6,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,111,172,295,344,405",
+                        "endColumns": "55,60,58,48,60,60",
+                        "endOffsets": "106,167,226,339,400,461"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="zero">%d jaunu paziņojumu</item>
+    <item quantity="one">%d jauns paziņojums</item>
+    <item quantity="other">%d jauni paziņojumi</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Pārvietoties uz sākuma ekrānu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Pārvietoties uz augšu"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Citas opcijas"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gatavs"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Skatīt visu"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Izvēlieties lietotni"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"IZSLĒGT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"IESLĒGT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alternēšanas taustiņš +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Vadīšanas taustiņš +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"dzēšanas taustiņš"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"ievadīšanas taustiņš"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funkcijas taustiņš +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta taustiņš +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Pārslēgšanas taustiņš +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"atstarpes taustiņš"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Simbolu taustiņš +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Poga Izvēlne +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Meklējiet…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Notīrīt vaicājumu"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Meklēšanas vaicājums"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Meklēt"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Iesniegt vaicājumu"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Meklēt ar balsi"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Kopīgot ar:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Kopīgot ar lietojumprogrammu <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sakļaut"</string>
+    <string name="bottomsheet_action_collapse">Sakļaut ekrāna apakšdaļas lapu</string>
+    <string name="bottomsheet_action_expand">Izvērst ekrāna apakšdaļas lapu</string>
+    <string name="bottomsheet_action_expand_halfway">Izvērst līdz pusei</string>
+    <string name="bottomsheet_drag_handle_clicked">Tika veikts dubultskāriens uz vilkšanas tura</string>
+    <string name="bottomsheet_drag_handle_content_description">Vilkšanas turis</string>
+    <string name="character_counter_content_description">Ievadītās rakstzīmes: %1$d no %2$d</string>
+    <string name="character_counter_overflowed_content_description">Pārsniegts rakstzīmju skaita ierobežojums (%1$d no %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Notīrīt tekstu</string>
+    <string msgid="406453423630273620" name="close_drawer">"Aizvērt navigācijas izvēlni"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Aizvērt izklājlapu"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Iespējot</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Lai lietotne %1$s darbotos, ir jāiespējo Google Play pakalpojumi.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play pakalpojumu iespējošana</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalēt</string>
+    <string name="common_google_play_services_install_text">Lai lietotne %1$s darbotos, ierīcē ir jāinstalē Google Play pakalpojumi.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play pakalpojumu iegūšana</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play pakalpojumu pieejamība</string>
+    <string name="common_google_play_services_notification_ticker">Google Play pakalpojumu kļūda</string>
+    <string name="common_google_play_services_unknown_issue">Lietotnē %1$s ir radusies problēma ar Google Play pakalpojumu darbību. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="common_google_play_services_unsupported_text">Lai lietotne %1$s darbotos, ir nepieciešami Google Play pakalpojumi, taču jūsu ierīce tos neatbalsta.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Atjaunināt</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Lai lietotne %1$s darbotos, jums ir jāatjaunina Google Play pakalpojumi.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play pakalpojumu atjaunināšana</string>
+    <string name="common_google_play_services_updating_text">Lai lietotne %1$s darbotos, ir jāinstalē Google Play pakalpojumi. Pašlaik notiek to atjaunināšana.</string>
+    <string name="common_google_play_services_wear_update_text">Ir nepieciešama jauna Google Play pakalpojumu versija. Drīzumā tā tiks instalēta.</string>
+    <string name="common_open_on_phone">Atvērt tālrunī</string>
+    <string name="common_signin_button_text">Pierakstīties</string>
+    <string name="common_signin_button_text_long">Pierakstīties ar Google kontu</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Saite ir kopēta starpliktuvē."</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Nederīga ievade"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Uznirstošais logs"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Nolaižamā izvēlne"</string>
+    <string name="error_icon_content_description">Kļūda</string>
+    <string name="exposed_dropdown_menu_content_description">Rādīt nolaižamo izvēlni</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopēt saiti"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Atvērt pārlūkprogrammā"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Kopīgot saiti"</string>
+    <string name="icon_content_description">Dialoglodziņa ikona</string>
+    <string msgid="6827826412747255547" name="in_progress">"Notiek apstrāde"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Daļēji atzīmēta"</string>
+    <string name="item_view_role_description">Cilne</string>
+    <string name="material_clock_toggle_content_description">Atlasiet “AM” (priekšpusdienā) vai “PM” (pēcpusdienā).</string>
+    <string name="material_hour_24h_suffix">%1$s stundas</string>
+    <string name="material_hour_selection">Atlasiet stundu</string>
+    <string name="material_hour_suffix">plkst. %1$s</string>
+    <string name="material_minute_selection">Atlasiet minūtes.</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Lai ievadītu laiku, ieslēdziet pulksteņa režīmu.</string>
+    <string name="material_timepicker_hour">Stunda</string>
+    <string name="material_timepicker_minute">Minūte</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Laika atlasīšana</string>
+    <string name="material_timepicker_text_input_mode_description">Lai ievadītu laiku, ieslēdziet teksta ievades režīmu.</string>
+    <string name="mtrl_badge_numberless_content_description">Jauns paziņojums</string>
+    <string name="mtrl_chip_close_icon_content_description">Noņemt: %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Vairāk nekā %1$d jauni paziņojumi</string>
+    <string name="mtrl_picker_a11y_next_month">Pāriet uz nākamo mēnesi</string>
+    <string name="mtrl_picker_a11y_prev_month">Pāriet uz iepriekšējo mēnesi</string>
+    <string name="mtrl_picker_announce_current_selection">Pašreizējā atlase: %1$s</string>
+    <string name="mtrl_picker_cancel">Atcelt</string>
+    <string name="mtrl_picker_confirm">Labi</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Atlasiet datumu</string>
+    <string name="mtrl_picker_date_header_unselected">Atlasītais datums</string>
+    <string name="mtrl_picker_day_of_week_column_header">Dienu sleja: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Nederīgs formāts.</string>
+    <string name="mtrl_picker_invalid_format_example">Piemērs: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Izmantojiet: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Nederīgs diapazons.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Pāriet uz šo gadu: %1$s</string>
+    <string name="mtrl_picker_out_of_range">Ārpus diapazona: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Sākuma datums–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–beigu datums</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Atlasiet diapazonu</string>
+    <string name="mtrl_picker_range_header_unselected">Sākuma datums–beigu datums</string>
+    <string name="mtrl_picker_save">Saglabāt</string>
+    <string name="mtrl_picker_text_input_date_hint">Datums</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Beigu datums</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Sākuma datums</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">g</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Pārslēgties uz kalendāra ievades režīmu</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Pieskarties, lai pārslēgtos uz dienas atlasīšanu</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Pārslēgties uz teksta ievades režīmu</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Pieskarties, lai pārslēgtos uz gada atlasīšanu</string>
+    <string name="mtrl_timepicker_cancel">Atcelt</string>
+    <string name="mtrl_timepicker_confirm">Labi</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Navigācijas izvēlne"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Nav atlasīts"</string>
+    <string msgid="875452955155264703" name="off">"Izslēgts"</string>
+    <string msgid="8655164131929253426" name="on">"Ieslēgts"</string>
+    <string name="password_toggle_content_description">Rādīt paroli</string>
+    <string msgid="5941395253238309765" name="range_end">"Diapazona beigas"</string>
+    <string msgid="7097486360902471446" name="range_start">"Diapazona sākums"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Meklēt"</string>
+    <string msgid="6043586758067023" name="selected">"Atlasīts"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sumup_app_outdated">Aplikācijas versija ko tu lieto ir novecojusi, lūdzu, atjaunini to uz jaunāko versiju.</string>
+    <string name="sumup_bt_reset_air_message">Nospied un turi ieslēgšanas un izslēgšanas pogu, līdz displejā parādās %1$s. Tas var aizņemt vairākas sekundes. Kad parādās %2$s, uzreiz atlaid pogu.</string>
+    <string name="sumup_bt_reset_instructions_message">Veic šīs divas darbības, lai atrisinātu problēmu savienot šo ierīci ar karšu termināli.</string>
+    <string name="sumup_bt_reset_instructions_title">Bluetooth atiestatīšana</string>
+    <string name="sumup_bt_reset_mobile_description">Lai atiestatītu Bluetooth šajā ierīcē, pieskaries pogai zemāk.</string>
+    <string name="sumup_bt_reset_option_phone">Tavā viedtālrunī</string>
+    <string name="sumup_bt_reset_option_reader">Tavā karšu terminālī</string>
+    <string name="sumup_bt_reset_option_tablet">Tavā planšetdatorā</string>
+    <string name="sumup_btn_call_support">Zvanīt</string>
+    <string name="sumup_btn_cancel">Atcelt</string>
+    <string name="sumup_btn_connect">Savienot</string>
+    <string name="sumup_btn_dismiss">Atmest</string>
+    <string name="sumup_btn_done">Gatavs</string>
+    <string name="sumup_btn_edit">Labot</string>
+    <string name="sumup_btn_later">Vēlāk</string>
+    <string name="sumup_btn_next">Tālāk</string>
+    <string name="sumup_btn_no">Nē</string>
+    <string name="sumup_btn_ok">LABI</string>
+    <string name="sumup_btn_previous">Atpakaļ</string>
+    <string name="sumup_btn_proceed">Turpināt</string>
+    <string name="sumup_btn_rescan">Meklēt vēlreiz</string>
+    <string name="sumup_btn_retry">Mēģiniet vēlreiz</string>
+    <string name="sumup_btn_skip">Izlaist</string>
+    <string name="sumup_btn_yes">Jā</string>
+    <string name="sumup_button_retry">Mēģiniet vēlreiz</string>
+    <string name="sumup_camera_permission_request_text">Lai uzņemtu produkta attēlu, SumUp nepieciešama piekļuve tavai kamerai</string>
+    <string name="sumup_cancel_pending_payment_message">Vai tiešām vēlies atcelt šo darījumu?</string>
+    <string name="sumup_cancel_pending_payment_title">Gaida maksājumu</string>
+    <string name="sumup_card_checkout_cvv_hint">CVV</string>
+    <string name="sumup_card_checkout_expiry_date_label">Derīguma termiņš</string>
+    <string name="sumup_card_checkout_expiry_month_hint">MM</string>
+    <string name="sumup_card_checkout_expiry_year_hint">GG</string>
+    <string name="sumup_card_checkout_insert_and_turn_on_card_reader">Lūdzu pievienojiet un ieslēdziet karšu lasītāju.</string>
+    <string name="sumup_card_checkout_security_code">Drošības kods</string>
+    <string name="sumup_card_reader_battery_level">%1$d%% baterija</string>
+    <string name="sumup_checking_firmware_info">Meklēt programmaparatūras atjauninājumus</string>
+    <string name="sumup_checkout_connecting_bt">Savienojas…</string>
+    <string name="sumup_checkout_power_on_reader">Ieslēdziet karšu terminālu</string>
+    <string name="sumup_confirm_pairing_air">Lūdzu apstiprini savienošanas pieprasījumu uz sava %1$s un uz karšu termināļa.</string>
+    <string name="sumup_confirm_pairing_air_ios">Ja parādās savienojuma uzaicinājums, lūdzu, apstiprini pieteikumu savā tālruni %1$s un karšu terminālī.</string>
+    <string name="sumup_connection_lost">Nav interneta savienojuma.</string>
+    <string name="sumup_downloading_firmware">Lejupielādē programmaparatūras atjauninājums</string>
+    <string name="sumup_elv_legal_text">Ich ermächtige %1$s, %2$s, %3$s, %4$s, und von diesem hierzu beauftragten Dritte („die Unternehmen“) den heute fälligen, oben genannten Betrag von meinem Bankkonto durch Lastschrift einzuziehen. Ich weise mein Kreditinstitut unwiderruflich an bei Nichteinlösung der Lastschrift den Unternehmen und/oder der HIT GmbH, Eiffestraße 76, 20537 Hamburg auf Anforderung meinen Namen und meine Anschrift zur Geltendmachung der Forderung mitzuteilen. Datenschutzrechtliche Information: Meine Zahlungsdaten (Kontonummer, Bankleitzahl, Kartenverfallsdatum, Kartenfolgenummer, Datum, Uhrzeit, Zahlungsbetrag, Terminalkennung, Ort, Unternehmen und Filiale) werden zur Kartenprüfung und Zahlungsabwicklung an SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland weitergegeben. Sollte im Rahmen der Zahlungsabwicklung die Lastschrift von meiner Bank nicht eingelöst werden (Rücklastschrift) oder sollte ich der Lastschrift widersprechen, stimme ich zu, dass diese Tatsachen in eine Sperrdatei aufgenommen werden außer wenn ich im Zusammenhang mit dem Widerruf erklärtermaßen Rechte aus dem zu Grunde liegenden Geschäft (z.B. Gewährleistungsrechte) geltend gemacht habe. Die Sperrung wird nach vollständigem Forderungsausgleich wieder aufgehoben und die gespeicherten Daten gelöscht. Dritte, die eine vertragliche Vereinbarung mit den Unternehmen zur Nutzung der Sperrdatei haben, können für Zwecke der Missbrauchsbekämpfung und zur Risikominimierung von Zahlungsausfällen ihre elektronischen Zahlungsvorgänge gegen die Sperrdatei abgleichen. Speichernde Stelle für die Zwecke der Kartenprüfung und Zahlungsabwicklung sind die HIT GmbH, Eiffestr. 76, 20537 Hamburg und die SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland, die auch die Sperrdatei für teilnehmende Händler führen. Diese Unternehmen erteilen insoweit auch an anderen Händler, die auf die Sperrdatei zugreifen eine Empfehlung, ob eine Zahlung im Wege des Lastschrifteinzugs akzeptiert werden sollte.</string>
+    <string name="sumup_elv_legal_text_short">Hiermit erteile ich die Ermächtigung zum Lastschrifteinzug.</string>
+    <string name="sumup_err_no_recent_geo_location_received">Nav atrasta vieta. Lūdzu, pārliecinies, ka tavs GPS vai atrašanās vietas pakalpojumi ir iespējoti un darbojas.  </string>
+    <string name="sumup_error">Kļūme</string>
+    <string name="sumup_error_cannot_send_email">Nevar nosūtīt e-pastu; netika atrasta konfigurēta e-pasta lietojumprogramma.</string>
+    <string name="sumup_error_io">Nevarēja izveidot savienojumu ar serveri. Lūdzu pārbaudi savu interneta savienojumu un mēģini vēlreiz.</string>
+    <string name="sumup_error_payment_method_required">Jāizvēlās maksājuma metode</string>
+    <string name="sumup_error_payment_method_required_desc">Lai izmantotu SumUp ir jāaktivizē vismaz viena maksājumu metode.</string>
+    <string name="sumup_error_system_webview_exception">Radās komponenta Android System WebView kļūda. Atjauniniet to vai sazinieties ar atbalsta komandu.</string>
+    <string name="sumup_error_unexpected_response">Mēs esam saņēmuši negaidītu atbildi no servera.\nLūdzu mēģiniet vēlreiz.</string>
+    <string name="sumup_external_storage_permission_request_text">Lai varētu lejupielādēt izmaksu atskaites, SumUp ir nepieciešama piekļuve jūsu ierīces ārējai krātuvei.</string>
+    <string name="sumup_failed_transaction">Maksājums neizdevās</string>
+    <string name="sumup_firmware_update_canceled">Atjaunināšana tika atcelta</string>
+    <string name="sumup_fragment_send_receipt">Nosūtīt čeku</string>
+    <string name="sumup_geolocation_unavailable_title">Nepieciešama ģeogrāfiskā atrašanās vieta</string>
+    <string name="sumup_grant_usb_permission">Lai turpinātu, Tev jāpiešķir atļauja piekļuvei, izmantojot USB.</string>
+    <string name="sumup_help">Palīdzība</string>
+    <string name="sumup_installment_cancelled">Atcelts</string>
+    <string name="sumup_items_many">%1$s vienības</string>
+    <string name="sumup_items_none">Nav vienību</string>
+    <string name="sumup_items_one">Viena vienība</string>
+    <string name="sumup_l10n_app_processing">Apstrādā…</string>
+    <string name="sumup_l10n_card_checkout_card_number">Kartes numurs</string>
+    <string name="sumup_l10n_card_checkout_checking_device">Pārbauda karšu lasītāju…</string>
+    <string name="sumup_l10n_card_checkout_insert_card_reader">Pievienojiet karšu lasītāju</string>
+    <string name="sumup_l10n_err_card_payment_expired">Tavas kartes derīguma termiņš ir beidzies. Lūdzu, izmanto citu karti.</string>
+    <string name="sumup_l10n_order_hint_custom_item">Priekšmets</string>
+    <string name="sumup_l10n_payment_failure">Darījums neizdevās</string>
+    <string name="sumup_l10n_phone_number_confirmation_invalid_for_country">%1$s neizskatās kā derīgs mobilā tālruņa numurs %2$s.\n \nLūdzu, rediģē ievadīto numuru vai ievieto derīgu starptautisko zvanu kodu, ja tas ir mobilā tālruņa numurs ārpus %2$s.</string>
+    <string name="sumup_l10n_phone_number_confirmation_outside_of_country">%1$s izskatās ka mobilā tālruņa numurs ir ārpus %2$s.\n \nPirms turpinat, lūdzu, pārliecinieties, ka ievadītais numurs ir pareizs.</string>
+    <string name="sumup_l10n_print_failed_cover_open">Printera vāks ir atvērts. Aizveriet vāku un mēģiniet vēlreiz.</string>
+    <string name="sumup_l10n_print_failed_generic">Nevarēja izdrukāt. Pārbaudiet printeri un mēģiniet vēlreiz.</string>
+    <string name="sumup_l10n_print_failed_image_unavailable">Neizdevās lejupielādēt čeka informāciju. Mēģini vēlreiz.</string>
+    <string name="sumup_l10n_print_failed_paper_empty">Printerim ir beidzies papīrs.</string>
+    <string name="sumup_l10n_print_failed_printer_offline">Nevarēja izveidot savienojumu ar printeri.</string>
+    <string name="sumup_label_external_storage">Ārējā krātuve</string>
+    <string name="sumup_location_permission_request_text">Lai nodrošinātu drošu pakalpojumu sniegšanu, SumUp ir jāzina, kur notiek darījumi. Tāpēc, izmantojot lietojumprogrammu, SumUp ir jāatver tava atrašanās vieta.</string>
+    <string name="sumup_location_permission_request_title">Lokalizācijas pakalpojumi</string>
+    <string name="sumup_login_btn_forgot_password">Aizmirsu savu paroli</string>
+    <string name="sumup_login_btn_log_in">Pieslēgties</string>
+    <string name="sumup_login_btn_title">Pieslēgties</string>
+    <string name="sumup_login_error_email_invalid">Pārliecinieties, ka ievadītā e-pasta adrese ir pareiza</string>
+    <string name="sumup_login_error_email_missing">Ievadi savu SumUp konta e-pasta adresi</string>
+    <string name="sumup_login_error_password_missing">Ievadi savu SumUp konta paroli</string>
+    <string name="sumup_login_error_shelves_not_loaded">Atvaino, tava konta informāciju nevarēja ielādēt.\nMēģini pieteikties vēlreiz.</string>
+    <string name="sumup_login_failed_message">Radās problēma ar tava konta konfigurāciju. Lūdzu, mēģini vēlreiz vai zvani uz atbalstu.</string>
+    <string name="sumup_login_failed_title">Pieslēgšanās neizdevās</string>
+    <string name="sumup_login_hint_email">E-pasta adrese</string>
+    <string name="sumup_login_hint_password">Parole</string>
+    <string name="sumup_login_session_expired">Tu esi izrakstījies, visticamāk, sakarā ar pierakstīšanos tajā pašā kontā izmantojot citu ierīci.</string>
+    <string name="sumup_merchant_activation_code">Activation Code</string>
+    <string name="sumup_navigation_payment_methods">Maksājumu veidi</string>
+    <string name="sumup_navigation_payment_methods_multiple_options">Maksājumu veidi</string>
+    <string name="sumup_no_account_question">Neesi vēl reģistrējies?</string>
+    <string name="sumup_no_air_usb_device">Šī ierīce nav zināma. Lūdzu, pievienojiet SumUp Air karšu lasītāju.</string>
+    <string name="sumup_no_usb_device">Pievieno savu Air karšu termināli, izmantojot USB kabeli, un atļauj piekļuvi ierīces iestatījumiem.</string>
+    <string name="sumup_order_charge">Pieņemt maksājumu</string>
+    <string name="sumup_pairing_in_notification_bar">Lūdzu, pārbaudiet paziņojumu joslu savienojumu pieprasījumiem</string>
+    <string name="sumup_pax_setup_add_terminal">Jauns termināls</string>
+    <string name="sumup_payment_setting_card_reader">Karšu lasītājs</string>
+    <string name="sumup_payment_setting_cash_payment">Skaidras naudas maksājums</string>
+    <string name="sumup_payment_to_title">Samaksāts</string>
+    <string name="sumup_permission_explanation_continue">Turpināt</string>
+    <string name="sumup_phone">tālrunis</string>
+    <string name="sumup_please_wait">Lūdzu uzgaidiet…</string>
+    <string name="sumup_please_wait_connecting">Lūdzu uzgaidiet. Savienojas…</string>
+    <string name="sumup_pp_btn_fw_abort">Pārtraukt atjaunināšanu</string>
+    <string name="sumup_pp_setup_air_no_btle">Tava ierīce neatbalsta Bluetooth 4.0. Lūdzu, pārbaudi, vai tavai ierīcei ir pieejams programmatūras atjauninājums.</string>
+    <string name="sumup_pp_setup_charge_batteries">Lūdzu, pārliecinieties, lai karšu lasītāja akumulators ir uzlādēts</string>
+    <string name="sumup_pp_setup_check_power">Lūdzu pārliecinieties, ka karšu lasītājs ir ieslēgts.</string>
+    <string name="sumup_pp_setup_connected">Savienots!</string>
+    <string name="sumup_pp_setup_connection_failed">Nevarēja savienot. Lūdzu mēģiniet vēlreiz vai sazinieties ar Klientu atbalsta centru %1$s</string>
+    <string name="sumup_pp_setup_connection_failed_no_support">Nevarējām izveidot savienojumu ar karšu termināli. Lūdzu, mēģini vēlreiz.</string>
+    <string name="sumup_pp_setup_do_firmware_update_now_mandatory">Lūdzu, pārliecinieties, ka atjauninat to pirms %1$s.</string>
+    <string name="sumup_pp_setup_firmware_cancel_sure">Vai esi pārliecināts, ka vēlies atcelt atjaunināšanu?</string>
+    <string name="sumup_pp_setup_firmware_update_do_now">Kartes terminālim ir pieejams programmaparatūras atjauninājums. Atjaunināšana prasīs dažas minūtes. \n\nMēs iesakām ieinstalēt atjauninājumus, lai nodrošinātu optimālu ierīces veiktspēju.</string>
+    <string name="sumup_pp_setup_firmware_update_installing">Notiek instalēšana, lūdzu, uzgaidiet..</string>
+    <string name="sumup_pp_setup_firmware_update_minutes_remaining">Atlikušas %1$s minūtes</string>
+    <string name="sumup_pp_setup_firmware_update_one_minute_remaining">Atlikusi viena minūte</string>
+    <string name="sumup_pp_setup_help_additional_steps">Izskatās, ka tev ir grūtības izveidot savienojumu ar karšu termināli. Tu vari izmēģināt kādu no sekojošajiem soļiem:</string>
+    <string name="sumup_pp_setup_help_air_reset">Restartējiet savu karšu lasītāju, 20 sekundes turot ieslēgšanas pogu. Lūdzu pārliecinieties, ka ierīce ir izslēgta un nav pievienota uzlādes iekārtai.</string>
+    <string name="sumup_pp_setup_help_bt_toggle_button">Restartējiet Bluetooth</string>
+    <string name="sumup_pp_setup_help_bt_toggle_header">Mēs nevaram izveidot savienojumu ar tavu ierīci, izmantojot Bluetooth \nLūdzu, mēģini restartēt savu bluetooth savienojumu, un mēģini vēlreiz.</string>
+    <string name="sumup_pp_setup_help_give_up">Ja nepieciešams, lūdzu sazinieties ar mūsu Klientu atbalsta centru %1$s</string>
+    <string name="sumup_pp_setup_help_optional_support">Ja tev nepieciešama palīdzība, lūdzu sazinies ar mūsu Klientu atbalsta komandu %1$s</string>
+    <string name="sumup_pp_setup_help_pin_plus_replace_batteries">Lūdzu nomainiet baterijas karšu terminālam</string>
+    <string name="sumup_pp_setup_help_reboot_device">Restartē %1$s</string>
+    <string name="sumup_pp_setup_mode_to_bt">Pārliecinieties, ka ierīce ir Bluetooth režīmā. Mainiet režīmu, nospiežot termināļa barošanas pogu un turot to 10 sekundes</string>
+    <string name="sumup_pp_setup_multiple_devices">Atrasti vairāki termināļi.</string>
+    <string name="sumup_pp_setup_searching">Notiek karšu lasītāja skanēšana</string>
+    <string name="sumup_pp_setup_select_bt_device">Salīdzini sērijas numura pēdējos ciparus termināļa aizmugurē</string>
+    <string name="sumup_pp_setup_text_firmware_update_failed">Atjauninājums nav izdevies. Lūdzu, atkal izslēdziet un ieslēdziet karšu terminālu, un mēģiniet vēlreiz.</string>
+    <string name="sumup_pp_setup_text_firmware_update_ongoing">Lūdzu neizmanto savu viedtālruni līdz konfigurācijas proces ir pabeigts.</string>
+    <string name="sumup_print">Drukāt</string>
+    <string name="sumup_print_autoprint_receipts">Vienmēr izdrukā čekus</string>
+    <string name="sumup_print_failed_bluetooth_disabled">Bluetooth ir atvienots. Ieslēdziet to un mēģiniet vēlreiz.</string>
+    <string name="sumup_print_failed_no_cash_drawer">Izvēlētais printeris neatbalsta kases sistēmu.</string>
+    <string name="sumup_print_no_printers_found">Netika atrasts neviens printeris</string>
+    <string name="sumup_print_open_cash_drawer">Atvērt kasi</string>
+    <string name="sumup_print_open_drawer_automatically">Atvērt kasi automātiski</string>
+    <string name="sumup_print_searching_printers">Meklē printerus…</string>
+    <string name="sumup_print_select_printer">Izvēlēties printeri</string>
+    <string name="sumup_print_test_page">Izdrukāt testa lapu</string>
+    <string name="sumup_printer_available">Pieejams</string>
+    <string name="sumup_printer_settings_copies_label">Kopiju skaits</string>
+    <string name="sumup_printer_settings_disabled">Atspējots</string>
+    <string name="sumup_printer_settings_none_paired">Nav savienots</string>
+    <string name="sumup_printer_settings_toggle_label">Iespējot čeku drukāšanu</string>
+    <string name="sumup_printer_unavailable">Nav pieejams</string>
+    <string name="sumup_reader_not_found_message">Tavs karšu terminālis, kura numurs beidzas ar %1$s, netika atrasts. Pārliecinies, ka terminālis ir ieslēgts un atrodas pietiekami tuvu ierīcei.</string>
+    <string name="sumup_reader_off_and_unplugged_message">Pārliecinies, ka ierīce ir izslēgta un atvienota no elektrības padeves.</string>
+    <string name="sumup_reader_off_and_unplugged_title">Atvieno un izslēdz</string>
+    <string name="sumup_receipt_request_failed">Čeka nosūtīšana neizdevās. Lūdzu, pārbaudi savu interneta savienojumu un mēģini vēlreiz.\n \nJebkurā laikā var nosūtīt čeku par šo darījumu no ekrāna \"Maksājumu vēsture\".</string>
+    <string name="sumup_reset_reader_confirmation_message">Kad atlaidīsi ieslēgšanas un izslēgšanas pogu, dzirdēsi skaņas signālu, kas liecina par to, ka Bluetooth ir atiestatīts.</string>
+    <string name="sumup_reset_reader_confirmation_title">Atiestatīšana pabeigta</string>
+    <string name="sumup_reset_reader_title">Sākt atiestatīšanu</string>
+    <string name="sumup_select_an_option">Izvēlieties opciju</string>
+    <string name="sumup_send_receipt_email_field_label">E-pasta adrese</string>
+    <string name="sumup_send_receipt_phone_number_label">Mobilā tālruņa numurs</string>
+    <string name="sumup_service_unavailable_message">Mēs cītīgi strādājam, lai novērstu problēmu. Lūdzu, pamēģiniet vēlreiz vēlāk.</string>
+    <string name="sumup_service_unavailable_title">Pakalpojums nav pieejams</string>
+    <string name="sumup_sign_up">Reģistrēties</string>
+    <string name="sumup_signature_btn_close_legal_page">Aizvērt Nosacījumus</string>
+    <string name="sumup_signature_in_parcelados">in %1$d parcelados</string>
+    <string name="sumup_signature_sign_here">Lūdzu parakstieties šeit</string>
+    <string name="sumup_signature_try_again_button_title">Mēģiniet vēlreiz</string>
+    <string name="sumup_successful_transaction">Maksājums pabeigts</string>
+    <string name="sumup_tablet">planšetdators</string>
+    <string name="sumup_tipping_signature_including_tip_hint">(iekļaujot dzeramnaudu %1$s)</string>
+    <string name="sumup_transaction_cancelled_card_not_charged">Nauda no kartes netika noņemta.</string>
+    <string name="sumup_transaction_cancelled_generic">Pārskaitījums atcelts</string>
+    <string name="sumup_transaction_cancelled_reader_error">Ierīce nereaģēja kā plānots </string>
+    <string name="sumup_transaction_cancelled_reader_error_detail">Lūdzu pārliecinies, ka tava ierīce ir uzlādēta un viedtālrunim ir ieslēgta skaņa uz maksimālo.</string>
+    <string name="sumup_transaction_connection_lost">Savienojums ar SumUp serveri tika pazaudēts</string>
+    <string name="sumup_transaction_failed_generic">Pārskaitījums neizdevās</string>
+    <string name="sumup_transaction_message_checking_status">Lūdzu, uzgaidiet - mēs pārbaudām darījuma statusu</string>
+    <string name="sumup_transaction_not_processed_desc">Darījumu nevarēja apstrādāt tīkla problēmu dēļ.</string>
+    <string name="sumup_transaction_not_processed_details">Nauda no kartes nav noņemta. Tu vari droši mēģināt veikt maksājumu atkārtoti.</string>
+    <string name="sumup_transaction_unexpected_response">Radās kļūme savienojoties ar serveri</string>
+    <string name="sumup_tx_cancel_please_wait">Darījums tiek atcelts, lūdzu uzgaidiet</string>
+    <string name="sumup_tx_cancel_power_off">Lai atceltu darījumu, lūdzu, nospiediet ieslēgšanas pogu uz karšu pieņemšanas termināļa</string>
+    <string name="sumup_verification_camera_permission_request_title">Kamera</string>
+    <string name="sumup_verify_phone_number">Apstipriniet savu tālruņa numuru</string>
+    <string msgid="2561197295334830845" name="switch_role">"Slēdzis"</string>
+    <string msgid="1672349317127674378" name="tab">"Cilne"</string>
+    <string msgid="5946805113151406391" name="template_percent">"Procenti: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
+    <string name="wallet_buy_button_place_holder">Iegādāties, izmantojot Google</string>
+</resources>

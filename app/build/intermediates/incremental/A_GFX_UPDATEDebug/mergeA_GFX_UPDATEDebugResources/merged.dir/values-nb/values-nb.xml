@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nytt varsel</item>
+    <item quantity="other">%d nye varsler</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Naviger hjem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Gå opp"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Flere alternativer"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Ferdig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Velg en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"slett"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funksjon+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mellomrom"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Søk"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Slett søket"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Søkeord"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Søk"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Utfør søket"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Talesøk"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="bottomsheet_action_collapse">Skjul feltet nederst</string>
+    <string name="bottomsheet_action_expand">Vis feltet nederst</string>
+    <string name="bottomsheet_action_expand_halfway">Vis halve feltet nederst</string>
+    <string name="bottomsheet_drag_handle_clicked">Dobbelttrykket på håndtaket</string>
+    <string name="bottomsheet_drag_handle_content_description">Håndtak</string>
+    <string name="character_counter_content_description">%1$d av %2$d tegn er skrevet inn</string>
+    <string name="character_counter_overflowed_content_description">Tegngrensen er overskredet – %1$d av %2$d</string>
+    <string name="clear_text_end_icon_content_description">Fjern teksten</string>
+    <string msgid="406453423630273620" name="close_drawer">"Lukk navigasjonsmenyen"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Lukk arket"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktivér</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Installer Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Tjenester-tilgjengelighet</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Tjenester-feil</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Oppdater</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s kjører ikke med mindre du oppdaterer Google Play Tjenester.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Oppdater Google Play-tjenester</string>
+    <string name="common_google_play_services_updating_text">%1$s kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå.</string>
+    <string name="common_google_play_services_wear_update_text">Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund.</string>
+    <string name="common_open_on_phone">Åpne på telefonen</string>
+    <string name="common_signin_button_text">Logg på</string>
+    <string name="common_signin_button_text_long">Logg på med Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linken er kopiert til utklippstavlen"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Ugyldige inndata"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Forgrunnsvindu"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Rullegardinmeny"</string>
+    <string name="error_icon_content_description">Feil</string>
+    <string name="exposed_dropdown_menu_content_description">Vis rullegardinmenyen</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopiér linken"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Åpne i nettleseren"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Del link"</string>
+    <string name="icon_content_description">Dialogboksikon</string>
+    <string msgid="6827826412747255547" name="in_progress">"Pågår"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Delvis avmerket"</string>
+    <string name="item_view_role_description">Fane</string>
+    <string name="material_clock_toggle_content_description">Velg AM eller PM</string>
+    <string name="material_hour_24h_suffix">%1$s timer</string>
+    <string name="material_hour_selection">Velg time</string>
+    <string name="material_hour_suffix">%1$s null-null</string>
+    <string name="material_minute_selection">Angi minutter</string>
+    <string name="material_minute_suffix">%1$s minutter</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Bytt til klokkemodus for tidsinndata.</string>
+    <string name="material_timepicker_hour">Time</string>
+    <string name="material_timepicker_minute">Minutt</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Velg tidspunkt</string>
+    <string name="material_timepicker_text_input_mode_description">Bytt til tekstinndatamodus for tidsinndata.</string>
+    <string name="mtrl_badge_numberless_content_description">Nytt varsel</string>
+    <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Flere enn %1$d nye varsler</string>
+    <string name="mtrl_picker_a11y_next_month">Endre til neste måned</string>
+    <string name="mtrl_picker_a11y_prev_month">Endre til forrige måned</string>
+    <string name="mtrl_picker_announce_current_selection">Gjeldende valg: %1$s</string>
+    <string name="mtrl_picker_cancel">Avbryt</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Velg dato</string>
+    <string name="mtrl_picker_date_header_unselected">Valgt dato</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolonne for dager: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ugyldig format.</string>
+    <string name="mtrl_picker_invalid_format_example">Eksempel: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Bruk: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ugyldig område.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naviger til år %1$s</string>
+    <string name="mtrl_picker_out_of_range">Utenfor rekkevidde: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdato – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – sluttdato</string>
+    <string name="mtrl_picker_range_header_selected">%1$s–%2$s</string>
+    <string name="mtrl_picker_range_header_title">Velg periode</string>
+    <string name="mtrl_picker_range_header_unselected">Startdato–sluttdato</string>
+    <string name="mtrl_picker_save">Lagre</string>
+    <string name="mtrl_picker_text_input_date_hint">Dato</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Sluttdato</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdato</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">å</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Bytt til kalenderinndatamodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Trykk for å bytte til å velge dag</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Bytt til tekstinndatamodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Trykk for å bytte til å velge år</string>
+    <string name="mtrl_timepicker_cancel">Avbryt</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Navigasjonsmeny"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Ikke valgt"</string>
+    <string msgid="875452955155264703" name="off">"Av"</string>
+    <string msgid="8655164131929253426" name="on">"På"</string>
+    <string name="password_toggle_content_description">Vis passordet</string>
+    <string msgid="5941395253238309765" name="range_end">"Områdeslutt"</string>
+    <string msgid="7097486360902471446" name="range_start">"Områdestart"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Søk"</string>
+    <string msgid="6043586758067023" name="selected">"Valgt"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stripe_acc_label_card_number">Kortnummer</string>
+    <string name="stripe_acc_label_card_number_node">%s, kortnummer</string>
+    <string name="stripe_acc_label_cvc_node">%s, CVC</string>
+    <string name="stripe_acc_label_expiry_date">Utløpsdato</string>
+    <string name="stripe_acc_label_expiry_date_node">%s, utløpsdato</string>
+    <string name="stripe_acc_label_zip">ZIP-kode</string>
+    <string name="stripe_acc_label_zip_short">ZIP</string>
+    <string name="stripe_add_bank_account">Legg til bankkonto</string>
+    <string name="stripe_add_new_payment_method">Legg til en ny betalingsmetode</string>
+    <string name="stripe_add_payment_method">Legg til betalingsmetode</string>
+    <string name="stripe_added">Lagt til %s</string>
+    <string name="stripe_address_city_required">Skriv inn byen din</string>
+    <string name="stripe_address_country_invalid">Landet er ugyldig</string>
+    <string name="stripe_address_county_required">Skriv inn fylket ditt</string>
+    <string name="stripe_address_label_address">Adresse</string>
+    <string name="stripe_address_label_address_line1">Adresselinje 1</string>
+    <string name="stripe_address_label_address_line1_optional">Adresselinje 1 (valgfritt)</string>
+    <string name="stripe_address_label_address_line2">Adresselinje 2</string>
+    <string name="stripe_address_label_address_line2_optional">Adresselinje 2 (valgfritt)</string>
+    <string name="stripe_address_label_address_optional">Adresse (valgfritt)</string>
+    <string name="stripe_address_label_ae_emirate">Emirat</string>
+    <string name="stripe_address_label_apt_optional">Leil. (valgfritt)</string>
+    <string name="stripe_address_label_au_suburb_or_city">Forstad eller by</string>
+    <string name="stripe_address_label_bb_jm_parish">Sogn</string>
+    <string name="stripe_address_label_cedex">Cedex</string>
+    <string name="stripe_address_label_city">By</string>
+    <string name="stripe_address_label_city_optional">By (valgfritt)</string>
+    <string name="stripe_address_label_country">Land</string>
+    <string name="stripe_address_label_country_or_region">Land eller region</string>
+    <string name="stripe_address_label_county">Fylke</string>
+    <string name="stripe_address_label_county_optional">Fylke (valgfritt)</string>
+    <string name="stripe_address_label_department">Avdeling</string>
+    <string name="stripe_address_label_district">Distrikt</string>
+    <string name="stripe_address_label_full_name">Fullt navn</string>
+    <string name="stripe_address_label_hk_area">Område</string>
+    <string name="stripe_address_label_ie_eircode">Eircode</string>
+    <string name="stripe_address_label_ie_townland">Bydistrikt</string>
+    <string name="stripe_address_label_in_pin">PIN</string>
+    <string name="stripe_address_label_island">Øy</string>
+    <string name="stripe_address_label_jp_prefecture">Prefektur</string>
+    <string name="stripe_address_label_kr_do_si">Do Si</string>
+    <string name="stripe_address_label_name">Navn</string>
+    <string name="stripe_address_label_neighborhood">Nabolag</string>
+    <string name="stripe_address_label_oblast">Oblast</string>
+    <string name="stripe_address_label_phone_number">Telefonnummer</string>
+    <string name="stripe_address_label_phone_number_optional">Telefonnummer (valgfritt)</string>
+    <string name="stripe_address_label_post_town">Postby eller by</string>
+    <string name="stripe_address_label_postal_code">Postnummer</string>
+    <string name="stripe_address_label_postal_code_optional">Postnummer (valgfritt)</string>
+    <string name="stripe_address_label_postcode">Postnummer</string>
+    <string name="stripe_address_label_postcode_optional">Postnummer (valgfritt)</string>
+    <string name="stripe_address_label_province">Provins</string>
+    <string name="stripe_address_label_province_optional">Provins (valgfritt)</string>
+    <string name="stripe_address_label_region_generic">Stat / provins / region</string>
+    <string name="stripe_address_label_region_generic_optional">Stat / provins / region (valgfritt)</string>
+    <string name="stripe_address_label_state">Stat</string>
+    <string name="stripe_address_label_state_optional">Stat (valgfritt)</string>
+    <string name="stripe_address_label_suburb">Forstad</string>
+    <string name="stripe_address_label_village_township">Landsby eller tettsted</string>
+    <string name="stripe_address_label_zip_code">Postnummer</string>
+    <string name="stripe_address_label_zip_code_optional">Postnummer (valgfritt)</string>
+    <string name="stripe_address_label_zip_postal_code">Postnummer</string>
+    <string name="stripe_address_label_zip_postal_code_optional">Postnummer (valgfritt)</string>
+    <string name="stripe_address_name_required">Skriv inn navnet ditt</string>
+    <string name="stripe_address_phone_number_required">Skriv inn telefonnummeret ditt</string>
+    <string name="stripe_address_postal_code_invalid">Postnummeret er ugyldig.</string>
+    <string name="stripe_address_postcode_invalid">Postnummeret ditt er ugyldig</string>
+    <string name="stripe_address_province_required">Skriv inn provinsen din</string>
+    <string name="stripe_address_region_generic_required">Skriv inn din stat/provins/region</string>
+    <string name="stripe_address_required">Skriv inn adressen din</string>
+    <string name="stripe_address_search_content_description">Søk</string>
+    <string name="stripe_address_state_required">Skriv inn stat</string>
+    <string name="stripe_address_zip_invalid">Postnummeret ditt er ugyldig.</string>
+    <string name="stripe_address_zip_postal_invalid">Postnummeret ditt er ugyldig</string>
+    <string name="stripe_affirm_buy_now_pay_later">Betal over tid med &lt;img src=\"affirm\">.</string>
+    <string name="stripe_afterpay_clearpay_message"><![CDATA[Betal med <num_installments/> rentefri avdrag på <installment_price/> med <img/>]]></string>
+    <string name="stripe_au_becs_account_name">Navn på kontoen</string>
+    <string name="stripe_au_becs_bsb_number">BSB-nummer</string>
+    <string name="stripe_au_becs_mandate">Ved å angi detaljer for bankkonto og bekrefte betalingen godtar du denne forespørselen om direktedebitering og &lt;a href=\"https://stripe.com/au-becs-dd-service-agreement/legal\"> tjenesteavtalen for forespørsel om direktedebitering&lt;/a>, og godkjenner at Stripe Payments Australia Pty Ltd ACN 160 180 343 bruker-ID-nummer for direktedebitering 507156 (“Stripe”) debiterer kontoen din gjennom Bulk Electronic Clearing System (BECS) på vegne av %s (\"Forhandleren\") for alle beløp separat kommunisert deg av Forhandleren. Du attesterer at du enten er kontoholder eller er autorisert til å signere for kontoen vist ovenfor.</string>
+    <string name="stripe_back">Tilbake</string>
+    <string name="stripe_bank_account_ending_in">Fjern bankkontoen som slutter på %s</string>
+    <string name="stripe_becs_mandate_acceptance">\n    Ved å angi detaljer for bankkonto og bekrefte betalingen godtar du denne\n    forespørselen om direktedebitering og tjenesteavtalen for forespørsel om direktedebitering, og godkjenner at\n    Stripe Payments Australia Pty Ltd ACN 160 180 343 bruker-ID-nummer for direktedebitering 507156\n    (“Stripe”) debiterer kontoen din gjennom Bulk Electronic Clearing System (BECS) på\n    vegne av %1$s (\"Forhandleren\") for alle beløp separat kommunisert deg\n    av Forhandleren. Du attesterer at du enten er kontoholder eller er autorisert til å\n    signere for kontoen vist ovenfor.\n    </string>
+    <string name="stripe_becs_widget_account_number">Kontonummer</string>
+    <string name="stripe_becs_widget_account_number_incomplete">Kontonummeret er ufullstendig.</string>
+    <string name="stripe_becs_widget_account_number_required">Kontonummer er påkrevd.</string>
+    <string name="stripe_becs_widget_bsb">BSB</string>
+    <string name="stripe_becs_widget_bsb_incomplete">Du skrev inn ufullstendig BSB.</string>
+    <string name="stripe_becs_widget_bsb_invalid">Du skrev inn ugyldig BSB.</string>
+    <string name="stripe_becs_widget_email">E-postadresse</string>
+    <string name="stripe_becs_widget_email_invalid">E-postadressen er ugyldig.</string>
+    <string name="stripe_becs_widget_email_required">E-postadresse er påkrevd.</string>
+    <string name="stripe_becs_widget_name">Navn</string>
+    <string name="stripe_becs_widget_name_required">Navn er påkrevd.</string>
+    <string name="stripe_billing_details">Fakturaadresse</string>
+    <string name="stripe_billing_same_as_shipping">Fakturaaddresse er samme som levering</string>
+    <string name="stripe_blank_and_required">Dette feltet kan ikke være tomt.</string>
+    <string name="stripe_cancel">Avbryt</string>
+    <string name="stripe_card_declined">Kortet ditt ble avvist</string>
+    <string name="stripe_card_ending_in">%1$s som slutter på %2$s</string>
+    <string name="stripe_change">Endre</string>
+    <string name="stripe_close">Lukk</string>
+    <string name="stripe_contact_information">Kontaktinformasjon</string>
+    <string name="stripe_continue_button_label">Fortsett</string>
+    <string name="stripe_delete_payment_method">Slett betalingsmetode</string>
+    <string name="stripe_delete_payment_method_prompt_title">Slette betalingsmåte?</string>
+    <string name="stripe_done">Ferdig</string>
+    <string name="stripe_edit">Rediger</string>
+    <string name="stripe_email">E-post</string>
+    <string name="stripe_email_is_invalid">E-posten din er ugyldig.</string>
+    <string name="stripe_eps_bank">EPS Bank</string>
+    <string name="stripe_expiration_date_hint">MM / ÅÅ</string>
+    <string name="stripe_expired_card">Kortet ditt har utløpt</string>
+    <string name="stripe_expiry_date_hint">MM/ÅÅ</string>
+    <string name="stripe_expiry_label_short">Utløp</string>
+    <string name="stripe_failure_connection_error">Det har oppstått et problem under tilkoblingen til betalingstjenesten. Kontroller Internett-forbindelsen og prøv igjen.</string>
+    <string name="stripe_failure_reason_authentication">Vi kan ikke godkjenne betalingsmåten din. Vennligst velg en annen betalingsmetode og prøv igjen.</string>
+    <string name="stripe_failure_reason_timed_out">Tidsavbrudd ved godkjennelse av betalingsmåten din - prøv igjen</string>
+    <string name="stripe_form_label_optional">%s (valgfritt)</string>
+    <string name="stripe_fpx_bank_offline">%s – frakoblet</string>
+    <string name="stripe_generic_decline">Betalingsmetoden din ble avvist.</string>
+    <string name="stripe_iban_incomplete">IBAN-nummeret du la inn er ufullstendig.</string>
+    <string name="stripe_iban_invalid_country">IBAN-nummeret du la inn er ugyldig, «%s» er ikke en gyldig landskode.</string>
+    <string name="stripe_iban_invalid_start">IBAN-nummeret skal starte med en tosifret landskode.</string>
+    <string name="stripe_ideal_bank">iDEAL Bank</string>
+    <string name="stripe_incomplete_expiry_date">Kortets utløpsdato er ufullstendig.</string>
+    <string name="stripe_incomplete_phone_number">Ufullstendig telefonnummer</string>
+    <string name="stripe_inline_sign_up_header">Lagre informasjonen min for sikker 1-klikk-utsjekking</string>
+    <string name="stripe_internal_error">Det oppstod en intern feil.</string>
+    <string name="stripe_invalid_bank_account_iban">IBAN-nummeret du la inn er ugyldig.</string>
+    <string name="stripe_invalid_card_number">Kortnummeret er ugyldig.</string>
+    <string name="stripe_invalid_cvc">Kortets sikkerhetskode er ugyldig.</string>
+    <string name="stripe_invalid_email_address">Ugyldig e-postadresse: %s</string>
+    <string name="stripe_invalid_expiry_month">Kortets utløpsmåned er ugyldig.</string>
+    <string name="stripe_invalid_expiry_year">Kortets utløpsår er ugyldig.</string>
+    <string name="stripe_invalid_owner_name">Navnet er ugyldig.</string>
+    <string name="stripe_invalid_shipping_information">Ugyldig leveringsadresse</string>
+    <string name="stripe_invalid_upi_id">Ugyldig UPI-ID</string>
+    <string name="stripe_invalid_zip">Postnummeret er ufullstendig.</string>
+    <string name="stripe_klarna_buy_now_pay_later">Kjøp nå eller betal senere med Klarna.</string>
+    <string name="stripe_klarna_pay_later">Betal senere med Klarna.</string>
+    <string name="stripe_log_out">Logg ut av Link</string>
+    <string name="stripe_name_on_card">Navn på kort</string>
+    <string name="stripe_p24_bank">Przelewy24 Bank</string>
+    <string name="stripe_pay_button_amount">Betal %s</string>
+    <string name="stripe_payment_method_add_new_card">Legg til nytt kort …</string>
+    <string name="stripe_payment_method_add_new_fpx">Velg bankkonto (FPX) …</string>
+    <string name="stripe_payment_method_bank">Bank</string>
+    <string name="stripe_paymentsheet_ach_continue_mandate"><![CDATA[Ved å fortsette godtar du å autorisere betalinger i samsvar med <terms>disse vilkårene</terms>.]]></string>
+    <string name="stripe_paymentsheet_ach_save_mandate"><![CDATA[Ved å lagre bankkontoen for %s godtar du å autorisere betalinger i samsvar med <terms>disse vilkårene</terms>.]]></string>
+    <string name="stripe_paymentsheet_ach_something_went_wrong">Noe gikk galt under tilkobling av kontoen din.\nPrøv igjen senere.</string>
+    <string name="stripe_paymentsheet_add_payment_method_button_label">+ Legg til</string>
+    <string name="stripe_paymentsheet_add_payment_method_card_information">Kortinformasjon</string>
+    <string name="stripe_paymentsheet_add_payment_method_title">Legg til betalingsinformasjon</string>
+    <string name="stripe_paymentsheet_address_element_primary_button">Lagre adresse</string>
+    <string name="stripe_paymentsheet_address_element_shipping_address">Forsendelsesadresse</string>
+    <string name="stripe_paymentsheet_buy_using_upi_id">Kjøp med UPI-ID</string>
+    <string name="stripe_paymentsheet_choose_payment_method">Velg en betalingsmetode</string>
+    <string name="stripe_paymentsheet_close">Lukk</string>
+    <string name="stripe_paymentsheet_enter_address_manually">Skriv inn adresse manuelt</string>
+    <string name="stripe_paymentsheet_microdeposit">Stripe vil sette inn et innskudd på USD 0,01 på kontoen din innen 1–2 virkedager. Deretter vil du få en e-post med instruksjoner for å fullføre betalingen til %s.</string>
+    <string name="stripe_paymentsheet_or_pay_using">Eller betal med</string>
+    <string name="stripe_paymentsheet_or_pay_with_card">Eller betal med et kort</string>
+    <string name="stripe_paymentsheet_pay_button_label">Betal</string>
+    <string name="stripe_paymentsheet_pay_using">Betal ved å bruke</string>
+    <string name="stripe_paymentsheet_pay_with_bank_title">Betal med bankkontoen din med noen få trinn.</string>
+    <string name="stripe_paymentsheet_payment_method_au_becs_debit">AU BECS-direktedebitering</string>
+    <string name="stripe_paymentsheet_payment_method_card">Kort</string>
+    <string name="stripe_paymentsheet_payment_method_sepa_debit">SEPA Debit</string>
+    <string name="stripe_paymentsheet_primary_button_processing">Behandler …</string>
+    <string name="stripe_paymentsheet_remove_bank_account_title">Fjern bankkonto</string>
+    <string name="stripe_paymentsheet_remove_pm">Fjern %s</string>
+    <string name="stripe_paymentsheet_save_for_future_payments">Lagre til fremtidige betalinger</string>
+    <string name="stripe_paymentsheet_save_this_card_with_merchant_name">Lagre kortet til fremtidige betalinger hos %s</string>
+    <string name="stripe_paymentsheet_select_payment_method">Velg betalingsmetode</string>
+    <string name="stripe_paymentsheet_total_amount">Total: %s</string>
+    <string name="stripe_paypal_mandate">Ved å bekrefte betalingen med PayPal, tillater du %s å belaste PayPal for fremtidige betalinger i samsvar med vilkårene deres.</string>
+    <string name="stripe_pm_set_as_default">Angi som standard betalingsmetode</string>
+    <string name="stripe_price_free">Gratis</string>
+    <string name="stripe_processing_error">Det oppstod en feil ved prosessering av kortet -- prøv igjen om et par sekunder</string>
+    <string name="stripe_remove">Fjern</string>
+    <string name="stripe_removed">Fjernet %s</string>
+    <string name="stripe_save_for_future_payments_with_merchant_name">Lagre til fremtidige betalinger til %s</string>
+    <string name="stripe_scan_card">Skann kort</string>
+    <string name="stripe_secure_checkout">Sikker utsjekking</string>
+    <string name="stripe_sepa_mandate">Ved å oppgi betalingsinformasjonen din og bekrefte denne betalingen gir du tillatelse til at (A) %s og Stripe, vår leverandør for betalingstjenesten, sende anmodning til banken din om å belaste kontoen din og (B) banken din belaster kontoen din i samsvar med anmodningen. Som del av dine rettigheter kan du kreve å få beløpet tilbakeført i henhold til avtalen du har med banken. Tilbakeføringskrav må fremsettes innen 8 uker etter at kontoen ble belastet. Rettighetene dine blir forklart i en erklæring som du kan få fra banken. Du godtar å motta varsler om fremtidige belastninger opptil to dager før de skjer.</string>
+    <string name="stripe_setup_button_label">Konfigurer</string>
+    <string name="stripe_show_menu">Vis meny</string>
+    <string name="stripe_sign_up">Bli med i Link</string>
+    <string name="stripe_sign_up_header">Sikker 1-klikk-utsjekking</string>
+    <string name="stripe_sign_up_message">Betal raskere hos %s og tusenvis av andre forhandlere.</string>
+    <string name="stripe_sign_up_terms"><![CDATA[Ved å bli med i Link, godtar du <terms>vilkårene</terms> og <privacy>personvernerklæringen</privacy>.]]></string>
+    <string name="stripe_title_add_a_card">Legg til kort</string>
+    <string name="stripe_title_add_an_address">Angi adresse</string>
+    <string name="stripe_title_bank_account">Bankkonto</string>
+    <string name="stripe_title_payment_method">Betalingsmåte</string>
+    <string name="stripe_title_select_shipping_method">Velg forsendelsesmetode</string>
+    <string name="stripe_upi_id_label">UPI-ID</string>
+    <string name="stripe_upi_polling_cancel">Avbryt og betal på en annen måte</string>
+    <string name="stripe_upi_polling_header">Godkjenn betaling</string>
+    <string name="stripe_upi_polling_message">Åpne UPI-appen for å godkjenne betalingen innen %s</string>
+    <string name="stripe_upi_polling_payment_failed_message">Gå tilbake og velg en annen betalingsmetode</string>
+    <string name="stripe_upi_polling_payment_failed_title">Betaling mislyktes</string>
+    <string name="stripe_verification_change_email">Endre e-post</string>
+    <string name="stripe_verification_code_sent">Kode sendt</string>
+    <string name="stripe_verification_header">Skriv inn verifiseringskoden</string>
+    <string name="stripe_verification_header_inline">Logg inn på Link-kontoen din</string>
+    <string name="stripe_verification_header_prefilled">Bruk den lagrede informasjonen din til å betale raskere</string>
+    <string name="stripe_verification_message">Skriv inn koden sendt til %s for å bruke Link til å betale som standard.</string>
+    <string name="stripe_verification_not_email">Er du ikke %s?</string>
+    <string name="stripe_verification_resend">Send koden på nytt</string>
+    <string name="stripe_verify_your_payment">Verifiser betalingen din</string>
+    <string name="stripe_wallet_bank_account_terms"><![CDATA[Ved å fortsette godtar du å autorisere betalinger i samsvar med <terms>vilkårene</terms>.]]></string>
+    <string name="stripe_wallet_collapsed_payment">Betaling</string>
+    <string name="stripe_wallet_default">Standard</string>
+    <string name="stripe_wallet_expanded_title">Betalingsmetoder</string>
+    <string name="stripe_wallet_pay_another_way">Betal på en annen måte</string>
+    <string name="stripe_wallet_recollect_cvc_error">For sikkerhets skyld må du skrive inn sikkerhetskoden for kortet ditt på nytt.</string>
+    <string name="stripe_wallet_remove_account_confirmation">Er du sikker på at du vil fjerne denne tilkoblede kontoen?</string>
+    <string name="stripe_wallet_remove_card">Fjern kort</string>
+    <string name="stripe_wallet_remove_card_confirmation">Er du sikker på at du vil fjerne dette kortet?</string>
+    <string name="stripe_wallet_remove_linked_account">Fjern tilkoblet konto</string>
+    <string name="stripe_wallet_set_as_default">Angi som standard</string>
+    <string name="stripe_wallet_unavailable">Utilgjengelig for dette kjøpet</string>
+    <string name="stripe_wallet_update_card">Oppdater kort</string>
+    <string name="stripe_wallet_update_expired_card_error">Dette kortet er utløpt. Oppdater kortinformasjonen eller velg en annen betalingsmetode.</string>
+    <string name="sumup_app_outdated">Versjonen av appen du bruker er utdatert, vennligst oppgrader til nyeste versjon.</string>
+    <string name="sumup_bt_reset_air_message">Trykk og hold strømknappen inne til displayet viser %1$s. Dette kan ta litt tid. Når %2$s dukker opp, slipper du på/av-knappen.</string>
+    <string name="sumup_bt_reset_instructions_message">Følg disse to stegene for å løse tilkoblingsproblemet mellom enheten og kortleseren.</string>
+    <string name="sumup_bt_reset_instructions_title">Tilbakestilling av Bluetooth</string>
+    <string name="sumup_bt_reset_mobile_description">Trykk på knappen nedenfor for å tilbakestille Bluetooth på denne enheten.</string>
+    <string name="sumup_bt_reset_option_phone">På telefonen din</string>
+    <string name="sumup_bt_reset_option_reader">På kortleseren din</string>
+    <string name="sumup_bt_reset_option_tablet">På nettbrettet ditt</string>
+    <string name="sumup_btn_call_support">Ring nå</string>
+    <string name="sumup_btn_cancel">Avbryt</string>
+    <string name="sumup_btn_connect">Koble til</string>
+    <string name="sumup_btn_dismiss">Avvis</string>
+    <string name="sumup_btn_done">Ferdig</string>
+    <string name="sumup_btn_edit">Rediger</string>
+    <string name="sumup_btn_later">Senere</string>
+    <string name="sumup_btn_next">Neste</string>
+    <string name="sumup_btn_no">Nei</string>
+    <string name="sumup_btn_ok">OK</string>
+    <string name="sumup_btn_previous">Tilbake</string>
+    <string name="sumup_btn_proceed">Fortsett</string>
+    <string name="sumup_btn_rescan">Skann igjen</string>
+    <string name="sumup_btn_retry">Prøv igjen</string>
+    <string name="sumup_btn_skip">Hopp over</string>
+    <string name="sumup_btn_yes">Ja</string>
+    <string name="sumup_button_retry">Prøv igjen</string>
+    <string name="sumup_camera_permission_request_text">For å ta bilde av ditt produkt trenger SumUp tilgang til ditt kamera</string>
+    <string name="sumup_cancel_pending_payment_message">Er du sikker på at du vil kansellere denne?</string>
+    <string name="sumup_cancel_pending_payment_title">Ventende betaling</string>
+    <string name="sumup_card_checkout_cvv_hint">CVV</string>
+    <string name="sumup_card_checkout_expiry_date_label">Utløpsdato</string>
+    <string name="sumup_card_checkout_expiry_month_hint">MM</string>
+    <string name="sumup_card_checkout_expiry_year_hint">ÅÅ</string>
+    <string name="sumup_card_checkout_insert_and_turn_on_card_reader">Vennligst koble til og slå på kortterminalen</string>
+    <string name="sumup_card_checkout_security_code">Sikkerhetskode</string>
+    <string name="sumup_card_reader_battery_level">%1$d%% Batteri</string>
+    <string name="sumup_checking_firmware_info">Ser etter firmwareoppdateringer</string>
+    <string name="sumup_checkout_connecting_bt">Kobler til…</string>
+    <string name="sumup_checkout_power_on_reader">Slå på kortterminal</string>
+    <string name="sumup_confirm_pairing_air">Vennligst bekreft tilkoblingsforespørselen på din %1$s OG på kortleseren.</string>
+    <string name="sumup_confirm_pairing_air_ios">Hvis bedt om vennligst bekreft tilkoblingsforespørselen på din %1$s OG på kortleseren.</string>
+    <string name="sumup_connection_lost">Mistet forbindelsen</string>
+    <string name="sumup_downloading_firmware">Last ned firmwareoppdatering</string>
+    <string name="sumup_elv_legal_text">Ich ermächtige %1$s, %2$s, %3$s, %4$s, und von diesem hierzu beauftragten Dritte („die Unternehmen“) den heute fälligen, oben genannten Betrag von meinem Bankkonto durch Lastschrift einzuziehen. Ich weise mein Kreditinstitut unwiderruflich an bei Nichteinlösung der Lastschrift den Unternehmen und/oder der HIT GmbH, Eiffestraße 76, 20537 Hamburg auf Anforderung meinen Namen und meine Anschrift zur Geltendmachung der Forderung mitzuteilen. Datenschutzrechtliche Information: Meine Zahlungsdaten (Kontonummer, Bankleitzahl, Kartenverfallsdatum, Kartenfolgenummer, Datum, Uhrzeit, Zahlungsbetrag, Terminalkennung, Ort, Unternehmen und Filiale) werden zur Kartenprüfung und Zahlungsabwicklung an SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland weitergegeben. Sollte im Rahmen der Zahlungsabwicklung die Lastschrift von meiner Bank nicht eingelöst werden (Rücklastschrift) oder sollte ich der Lastschrift widersprechen, stimme ich zu, dass diese Tatsachen in eine Sperrdatei aufgenommen werden außer wenn ich im Zusammenhang mit dem Widerruf erklärtermaßen Rechte aus dem zu Grunde liegenden Geschäft (z.B. Gewährleistungsrechte) geltend gemacht habe. Die Sperrung wird nach vollständigem Forderungsausgleich wieder aufgehoben und die gespeicherten Daten gelöscht. Dritte, die eine vertragliche Vereinbarung mit den Unternehmen zur Nutzung der Sperrdatei haben, können für Zwecke der Missbrauchsbekämpfung und zur Risikominimierung von Zahlungsausfällen ihre elektronischen Zahlungsvorgänge gegen die Sperrdatei abgleichen. Speichernde Stelle für die Zwecke der Kartenprüfung und Zahlungsabwicklung sind die HIT GmbH, Eiffestr. 76, 20537 Hamburg und die SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland, die auch die Sperrdatei für teilnehmende Händler führen. Diese Unternehmen erteilen insoweit auch an anderen Händler, die auf die Sperrdatei zugreifen eine Empfehlung, ob eine Zahlung im Wege des Lastschrifteinzugs akzeptiert werden sollte.</string>
+    <string name="sumup_elv_legal_text_short">Hiermit erteile ich die Ermächtigung zum Lastschrifteinzug.</string>
+    <string name="sumup_err_no_recent_geo_location_received">Ingen posisjon funnet. Vennligst pass på at din GPS eller posisjonsfunksjon er aktivert og fungerende.  </string>
+    <string name="sumup_error">Feil</string>
+    <string name="sumup_error_cannot_send_email">Kan ikke sende e-post; ingen konfigurert e-postapp funnet.</string>
+    <string name="sumup_error_io">Kunne ikke koble til serveren. Vennligst sjekk dine nettverksinnstillinger og prøv igjen.</string>
+    <string name="sumup_error_payment_method_required">Betalingsmetode påbudt</string>
+    <string name="sumup_error_payment_method_required_desc">For å bruke SumUp må minst en betalingsmetode være aktiv.</string>
+    <string name="sumup_error_system_webview_exception">Noe gikk galt med Android System WebView. Oppdater den eller ring support.</string>
+    <string name="sumup_error_unexpected_response">Vi har fått et uventet svar fra serveren. Vennligst prøv igjen.</string>
+    <string name="sumup_external_storage_permission_request_text">For å laste ned utbetalingsrapporter trenger SumUp tilgang til din enhets eksterne lagring</string>
+    <string name="sumup_failed_transaction">Transaksjon mislyktes</string>
+    <string name="sumup_firmware_update_canceled">Oppdatering avbrutt</string>
+    <string name="sumup_fragment_send_receipt">Send kvittering</string>
+    <string name="sumup_geolocation_unavailable_title">Posisjon påbudt</string>
+    <string name="sumup_grant_usb_permission">For å fortsette må du gi tillatelse til tilgang via USB.</string>
+    <string name="sumup_help">Hjelp</string>
+    <string name="sumup_installment_cancelled">Avbrutt</string>
+    <string name="sumup_items_many">%1$s artikler</string>
+    <string name="sumup_items_none">Ingen artikler</string>
+    <string name="sumup_items_one">En artikkel</string>
+    <string name="sumup_l10n_app_processing">Behandler…</string>
+    <string name="sumup_l10n_card_checkout_card_number">Kortnummer</string>
+    <string name="sumup_l10n_card_checkout_checking_device">Sjekker kortleser…</string>
+    <string name="sumup_l10n_card_checkout_insert_card_reader">Sett inn kortleser</string>
+    <string name="sumup_l10n_err_card_payment_expired">Kortet ditt er utløpt. Vennligst bruk et annet kort.</string>
+    <string name="sumup_l10n_order_hint_custom_item">vare</string>
+    <string name="sumup_l10n_payment_failure">Transaksjon mislyktes</string>
+    <string name="sumup_l10n_phone_number_confirmation_invalid_for_country">%1$s ser ikke ut som et gyldig mobilnummer for %2$s. \n \nVennligst rediger nummeret du la enn eller legg inn en gyldig internasjonal landskode hvis det er et nummer fra et annet land enn %2$s.</string>
+    <string name="sumup_l10n_phone_number_confirmation_outside_of_country">%1$s ser ut som et mobilnummer for utenfor %2$s. \n \nVennligst sjekk med kunden at nummeret er korrekt før du fortsetter.</string>
+    <string name="sumup_l10n_print_failed_cover_open">Printerdeksel er åpent. Lukk dekselet og prøv igjen.</string>
+    <string name="sumup_l10n_print_failed_generic">Kunne ikke skrive ut. Sjekk printeren og prøv igjen.</string>
+    <string name="sumup_l10n_print_failed_image_unavailable">Kunne ikke laste ned kvitteringsinfo. Prøv igjen.</string>
+    <string name="sumup_l10n_print_failed_paper_empty">Printer er tom for papir.</string>
+    <string name="sumup_l10n_print_failed_printer_offline">Kunne ikke koble til kvitteringsprinteren.</string>
+    <string name="sumup_label_external_storage">Ekstern lagring</string>
+    <string name="sumup_location_permission_request_text">For å kunne tilby en sikker tjeneste må SumUp vite hvor transaksjoner forekommer. Derfor trenger SumUp tilgang til din posisjon mens du bruker appen.</string>
+    <string name="sumup_location_permission_request_title">Stedstjenester</string>
+    <string name="sumup_login_btn_forgot_password">Glemt passord</string>
+    <string name="sumup_login_btn_log_in">Logg inn</string>
+    <string name="sumup_login_btn_title">Logg inn</string>
+    <string name="sumup_login_error_email_invalid">Sjekk at e-postadressen er lagt inn riktig</string>
+    <string name="sumup_login_error_email_missing">Legg inn e-postadressen til din SumUp-konto</string>
+    <string name="sumup_login_error_password_missing">Legg inn ditt SumUp-passord</string>
+    <string name="sumup_login_error_shelves_not_loaded">Beklager, vi kunne ikke hente din kontoinformasjon. Logg inn igjen.</string>
+    <string name="sumup_login_failed_message">Et problem oppstod med din kontos konfigurasjon. Vennligst prøv igjen eller ring support.</string>
+    <string name="sumup_login_failed_title">Innlogging mislyktes</string>
+    <string name="sumup_login_hint_email">E-postadresse</string>
+    <string name="sumup_login_hint_password">Passord</string>
+    <string name="sumup_login_session_expired">Du ble logget ut, mest sannsynlig grunnet en innlogging på samme konto på en annen enhet.</string>
+    <string name="sumup_merchant_activation_code">Activation Code</string>
+    <string name="sumup_navigation_payment_methods">Betalingsmetoder</string>
+    <string name="sumup_navigation_payment_methods_multiple_options">Betalingsmetoder</string>
+    <string name="sumup_no_account_question">Har du ikke konto?</string>
+    <string name="sumup_no_air_usb_device">Enhet ikke gjenkjent. Vennligst koble til SumUp Air kortleser.</string>
+    <string name="sumup_no_usb_device">Plugg inn USB kabelen i en Air kortleser som er slått på og tillat USB tilgang.</string>
+    <string name="sumup_order_charge">Belast</string>
+    <string name="sumup_pairing_in_notification_bar">Vennligst sjekk meldingsfeltet for tilkoblingsforespørselen</string>
+    <string name="sumup_pax_setup_add_terminal">Ny terminal</string>
+    <string name="sumup_payment_setting_card_reader">Kortleser</string>
+    <string name="sumup_payment_setting_cash_payment">Kontantbetaling</string>
+    <string name="sumup_payment_to_title">Betalt til</string>
+    <string name="sumup_permission_explanation_continue">Fortsett</string>
+    <string name="sumup_phone">telefon</string>
+    <string name="sumup_please_wait">Vennligst vent…</string>
+    <string name="sumup_please_wait_connecting">Vennligst vent. Kobler til…</string>
+    <string name="sumup_pp_btn_fw_abort">Avbryt oppdatering</string>
+    <string name="sumup_pp_setup_air_no_btle">Din enhet støtter ikke Bluetooth 4.0. Vennligst sjekk om en softwareoppdatering er tilgjengelig for din enhet.</string>
+    <string name="sumup_pp_setup_charge_batteries">Pass på at batteriene i kortleseren er ladet</string>
+    <string name="sumup_pp_setup_check_power">Vennligst sjekk at kortterminalen er slått på.</string>
+    <string name="sumup_pp_setup_connected">Tilkoblet!</string>
+    <string name="sumup_pp_setup_connection_failed">Kunne ikke koble til. Vennligst prøv igjen eller ring SumUps support på %1$s.</string>
+    <string name="sumup_pp_setup_connection_failed_no_support">Kunne ikke koble til kortterminalen. Prøv på nytt.</string>
+    <string name="sumup_pp_setup_do_firmware_update_now_mandatory">Vennligst oppdater før %1$s.</string>
+    <string name="sumup_pp_setup_firmware_cancel_sure">Er du sikker på at du vil avbryte oppdateringen?</string>
+    <string name="sumup_pp_setup_firmware_update_do_now">En firmwareoppdatering er tilgjengelig for din kortleser. Oppdateringen vil ta et par minutter.\n\nVi anbefaler på det sterkeste at du installerer oppdateringen for optimal bruk av terminalen.</string>
+    <string name="sumup_pp_setup_firmware_update_installing">Installerer, vennligst vent..</string>
+    <string name="sumup_pp_setup_firmware_update_minutes_remaining">%1$s minutter igjen</string>
+    <string name="sumup_pp_setup_firmware_update_one_minute_remaining">Ett minutt igjen</string>
+    <string name="sumup_pp_setup_help_additional_steps">Det ser ut som om du fremdeles ikke kan koble til terminalen. Du kan prøve ett av disse stegene:</string>
+    <string name="sumup_pp_setup_help_air_reset">TIlbakestill kortterminalen ved å holde av/på-knappen nede i 20 sekunder. Vennligst pass på at terminalen er slått av og ikke koblet til en lader.</string>
+    <string name="sumup_pp_setup_help_bt_toggle_button">Tilbakestill Bluetooth</string>
+    <string name="sumup_pp_setup_help_bt_toggle_header">Vi kan ikke koble til terminalen via Bluetooth.\nVennligst prøv å tilbakestille din Bluetooth-tilkobling før du prøver igjen.</string>
+    <string name="sumup_pp_setup_help_give_up">Eventuelt kan du ta kontakt med vår support på %1$s</string>
+    <string name="sumup_pp_setup_help_optional_support">Hvis du trenger ytterligere hjelp vennligst ta kontakt med vår support på %1$s</string>
+    <string name="sumup_pp_setup_help_pin_plus_replace_batteries">Replace the batteries of the card terminal</string>
+    <string name="sumup_pp_setup_help_reboot_device">Slå din %1$s av og på igjen</string>
+    <string name="sumup_pp_setup_mode_to_bt">Sjekk at enheten er i Bluetoothmodus. Bytt modus ved å trykke på terminalens av/på-knapp i 10 sekunder</string>
+    <string name="sumup_pp_setup_multiple_devices">Fant flere terminaler.</string>
+    <string name="sumup_pp_setup_searching">Skanner for kortlesere</string>
+    <string name="sumup_pp_setup_select_bt_device">Sammenlign de siste sifrene i serienummeret på terminalens bakside.</string>
+    <string name="sumup_pp_setup_text_firmware_update_failed">Oppdateringen mislyktes. Vennligst slå kortterminalen av/på igjen og prøv igjen.</string>
+    <string name="sumup_pp_setup_text_firmware_update_ongoing">Vennligst ikke bruk telefonen din til oppdateringen er fullført.</string>
+    <string name="sumup_print">Print</string>
+    <string name="sumup_print_autoprint_receipts">Skriv alltid ut kvitteringer</string>
+    <string name="sumup_print_failed_bluetooth_disabled">Bluetooth er av. Slå på Bluetooth og prøv igjen.</string>
+    <string name="sumup_print_failed_no_cash_drawer">Valgt printer støtter ikke kassaskuff.</string>
+    <string name="sumup_print_no_printers_found">Fant ingen printere.</string>
+    <string name="sumup_print_open_cash_drawer">Åpne kassaskuff</string>
+    <string name="sumup_print_open_drawer_automatically">Åpne skuff automatisk</string>
+    <string name="sumup_print_searching_printers">Søker etter printere…</string>
+    <string name="sumup_print_select_printer">Velg Printer</string>
+    <string name="sumup_print_test_page">Skriv ut testside</string>
+    <string name="sumup_printer_available">Tilgjengelig</string>
+    <string name="sumup_printer_settings_copies_label">Antall kopier</string>
+    <string name="sumup_printer_settings_disabled">Deaktivert</string>
+    <string name="sumup_printer_settings_none_paired">Ikke tilkoblet</string>
+    <string name="sumup_printer_settings_toggle_label">Aktiver utskrift av kvitteringer</string>
+    <string name="sumup_printer_unavailable">Ikke tilgjengelig</string>
+    <string name="sumup_reader_not_found_message">Kortleseren som ender på %1$s ble ikke funnet. Forsikre deg om at leseren er slått på og innen rekkevidde.</string>
+    <string name="sumup_reader_off_and_unplugged_message">Forsikre deg om at enheten er slått av og koblet fra strømforsyningen.</string>
+    <string name="sumup_reader_off_and_unplugged_title">Koble fra og slå av</string>
+    <string name="sumup_receipt_request_failed">Sending av kvittering mislyktes. Vennligst sjekk din internettilkobling og prøv igjen. \n\nAlternativt kan du sende en kvittering for denne transaksjonen når som helst fra \'Salgshistorikk\'-skjermen.</string>
+    <string name="sumup_reset_reader_confirmation_message">Etter å ha sluppet strømknappen, vil du høre et pip som bekrefter at Bluetooth er tilbakestilt.</string>
+    <string name="sumup_reset_reader_confirmation_title">Tilbakestilling fullført</string>
+    <string name="sumup_reset_reader_title">Start tilbakestillingen</string>
+    <string name="sumup_select_an_option">Select an option</string>
+    <string name="sumup_send_receipt_email_field_label">E-postadresse</string>
+    <string name="sumup_send_receipt_phone_number_label">Mobiltelefonnummer</string>
+    <string name="sumup_service_unavailable_message">Vi jobber hardt med å fikse problemet. Vennligst prøv igjen senere.</string>
+    <string name="sumup_service_unavailable_title">Tjeneste utilgjengelig</string>
+    <string name="sumup_sign_up">Registrer deg</string>
+    <string name="sumup_signature_btn_close_legal_page">Lukk brukeravtale</string>
+    <string name="sumup_signature_in_parcelados">in %1$d parcelados</string>
+    <string name="sumup_signature_sign_here">Vennligst signer her</string>
+    <string name="sumup_signature_try_again_button_title">Prøv på nytt</string>
+    <string name="sumup_successful_transaction">Vellykket transaksjon</string>
+    <string name="sumup_tablet">nettbrett</string>
+    <string name="sumup_tipping_signature_including_tip_hint">(inkl. %1$s tips)</string>
+    <string name="sumup_transaction_cancelled_card_not_charged">Kort ble ikke belastet.</string>
+    <string name="sumup_transaction_cancelled_generic">Transaksjon avbrutt</string>
+    <string name="sumup_transaction_cancelled_reader_error">Enhet ga ikke svar som forventet </string>
+    <string name="sumup_transaction_cancelled_reader_error_detail">Vennligst sjekk at din enhet er ladet og av volumet et skrudd opp til maksimum volum.</string>
+    <string name="sumup_transaction_connection_lost">Mistet tilkobling til SumUp-serveren</string>
+    <string name="sumup_transaction_failed_generic">Transaksjon mislyktes</string>
+    <string name="sumup_transaction_message_checking_status">Vennligst vent - vi sjekker transaksjonsstatusen</string>
+    <string name="sumup_transaction_not_processed_desc">Transaksjonen kunne ikke behandles grunnet nettverksfeil</string>
+    <string name="sumup_transaction_not_processed_details">Kortet ble ikke belastet. Du kan trygt prøve å utføre transaksjonen igjen.</string>
+    <string name="sumup_transaction_unexpected_response">En feil oppstod under kommunikasjon med serveren.</string>
+    <string name="sumup_tx_cancel_please_wait">Transaksjonen avbrytes, vennligst vent</string>
+    <string name="sumup_tx_cancel_power_off">For å kansellere transaksjonen vennligst trykk av/på-knappen på kortterminalen.</string>
+    <string name="sumup_verification_camera_permission_request_title">Kamera</string>
+    <string name="sumup_verify_phone_number">Bekreft mobilnummer</string>
+    <string msgid="2561197295334830845" name="switch_role">"Bryter"</string>
+    <string msgid="1672349317127674378" name="tab">"Fane"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> prosent."</string>
+    <string name="wallet_buy_button_place_holder">Kjøp med Google</string>
+</resources>

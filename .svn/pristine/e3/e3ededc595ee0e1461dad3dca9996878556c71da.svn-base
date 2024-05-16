@@ -1,0 +1,27 @@
+-dontwarn org.joda.convert.FromString
+-dontwarn org.joda.convert.ToString
+-keepattributes EnclosingMethod
+
+
+-dontwarn com.sumup.merchant.ui.**
+-dontwarn org.apache.commons.io.FileUtils
+-keep class com.sumup.merchant.ui.** { *; }
+-keep class com.squareup.otto.** {*; }
+-keep class microsoft.aspnet.** { *; }
+-keep class sms.** { *; }
+-keep class com.cabdespatch.driverapp.newbeta.sms.** { *; }
+-keep class com.cabdespatch.driversapp.sms.** { *; }
+-keep class com.prosperity.driversapp.sms.** { *; }
+-keep class com.cabdespatch.driversapp.devmode.sms.** { *; }
+-keepclassmembers enum * { *; }
+-keepclassmembers class * {
+    @com.google.gson.annotations.SerializedName <fields>;
+}
+
+
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends java.lang.Exception
+
+-keep class com.crashlytics.** { *; }
+-dontwarn com.crashlytics.**

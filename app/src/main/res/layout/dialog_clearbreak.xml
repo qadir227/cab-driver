@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:theme="@style/dialog_style"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<View
+		android:background="@color/colorPrimaryDark"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_alignLeft="@+id/actualcontent"
+		android:layout_alignRight="@id/actualcontent"
+		android:layout_alignTop="@id/actualcontent"
+		android:layout_alignBottom="@id/actualcontent"/>
+
+	<LinearLayout
+		android:id="@+id/actualcontent"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="240dp"
+		android:paddingTop="@dimen/dialog_horizontal_padding"
+		android:paddingBottom="@dimen/dialog_horizontal_padding"
+		android:paddingLeft="@dimen/dialog_vertical_padding"
+		android:paddingRight="@dimen/dialog_vertical_padding">
+
+		<ImageButton
+			android:id="@+id/dlg_btnBack"
+			android:background="@drawable/layout_listitem"
+			android:layout_marginBottom="@dimen/activity_horizontal_margin"
+			android:src="@drawable/n_icoback"
+			android:tint="@color/Black"
+			android:layout_width="@dimen/back_ico"
+			android:layout_height="@dimen/back_ico"
+			android:scaleType="centerInside"
+			android:layout_gravity="left"/>
+
+
+
+		<LinearLayout
+			android:id="@+id/dlg_CLEAR"
+			android:layout_marginBottom="@dimen/activity_horizontal_margin"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/layout_listitem"
+			android:clickable="true"
+			android:orientation="horizontal">
+
+			<ImageButton
+				android:scaleType="fitCenter"
+				android:duplicateParentState="true"
+				android:layout_width="@dimen/menu_ico"
+				android:layout_height="@dimen/menu_ico"
+				android:background="@null"
+				android:clickable="false"
+				android:tint="@color/Black"
+				android:src="@drawable/n_icoyes" />
+
+			<TextView
+				android:duplicateParentState="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/activity_horizontal_margin"
+				android:gravity="center_vertical"
+				android:paddingBottom="5dip"
+				android:text="Clear"
+				android:textSize="32dip" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/dlg_BREAK"
+			android:layout_marginBottom="@dimen/activity_horizontal_margin"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/layout_listitem"
+			android:clickable="true"
+			android:orientation="horizontal">
+
+			<ImageButton
+				android:scaleType="fitCenter"
+				android:duplicateParentState="true"
+				android:layout_width="@dimen/menu_ico"
+				android:layout_height="@dimen/menu_ico"
+				android:background="@null"
+				android:clickable="false"
+				android:src="@drawable/n_icobreak" />
+
+			<TextView
+				android:duplicateParentState="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/activity_horizontal_margin"
+				android:gravity="center_vertical"
+				android:paddingBottom="5dip"
+				android:text="Break"
+				android:textSize="32dip" />
+		</LinearLayout>
+
+
+
+
+
+
+
+	</LinearLayout>
+</RelativeLayout>

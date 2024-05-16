@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificare nouă</item>
+    <item quantity="few">%d notificări noi</item>
+    <item quantity="other">%d de notificări noi</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigați la ecranul de pornire"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigați în sus"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mai multe opțiuni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gata"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Afișați tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Alegeți o aplicație"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DEZACTIVAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meniu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Căutați…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ștergeți interogarea"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Termen de căutare"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Căutați"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Trimiteți interogarea"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Căutare vocală"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Trimiteți la"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Trimiteți folosind <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Restrângeți"</string>
+    <string name="bottomsheet_action_collapse">Restrângeți foaia din partea de jos</string>
+    <string name="bottomsheet_action_expand">Extindeți foaia din partea de jos</string>
+    <string name="bottomsheet_action_expand_halfway">Extinde pe ecran complet</string>
+    <string name="bottomsheet_drag_handle_clicked">Ghidaj de tragere atins de două ori</string>
+    <string name="bottomsheet_drag_handle_content_description">Ghidaj de tragere</string>
+    <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
+    <string name="clear_text_end_icon_content_description">Ștergeți textul</string>
+    <string msgid="406453423630273620" name="close_drawer">"Închide meniul de navigare"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Închide foaia"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Activați</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s nu va funcționa decât dacă activați serviciile Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Activați serviciile Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalați</string>
+    <string name="common_google_play_services_install_text">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe dispozitivul dvs.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Descărcați serviciile Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilitatea serviciilor Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Eroare a serviciilor Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s întâmpină probleme privind serviciile Google Play. Încercați din nou.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nu va rula fără serviciile Google Play, care nu sunt acceptate de dispozitivul dvs.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Actualizați</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s nu va rula decât dacă actualizați serviciile Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Actualizați serviciile Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s nu va rula fără serviciile Google Play, care momentan se actualizează.</string>
+    <string name="common_google_play_services_wear_update_text">Este necesară o nouă versiune a serviciilor Google Play. Se vor actualiza automat în curând.</string>
+    <string name="common_open_on_phone">Deschideți pe telefon</string>
+    <string name="common_signin_button_text">Conectați-vă</string>
+    <string name="common_signin_button_text_long">Conectați-vă cu Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkul a fost copiat în clipboard"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Intrare nevalidă"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Fereastră pop-up"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Meniu drop-down"</string>
+    <string name="error_icon_content_description">Eroare</string>
+    <string name="exposed_dropdown_menu_content_description">Afișați meniul drop-down</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiază linkul"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Deschide în browser"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Trimite linkul"</string>
+    <string name="icon_content_description">Pictogramă de dialog</string>
+    <string msgid="6827826412747255547" name="in_progress">"În curs"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Bifată parțial"</string>
+    <string name="item_view_role_description">Filă</string>
+    <string name="material_clock_toggle_content_description">Selectați ora</string>
+    <string name="material_hour_24h_suffix">%1$s ore</string>
+    <string name="material_hour_selection">Selectați ora</string>
+    <string name="material_hour_suffix">Ora %1$s</string>
+    <string name="material_minute_selection">Selectați minutele</string>
+    <string name="material_minute_suffix">%1$s minute</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Pentru a introduce ora, comutați la modul ceas.</string>
+    <string name="material_timepicker_hour">Ora</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Selectați ora</string>
+    <string name="material_timepicker_text_input_mode_description">Pentru a introduce ora, comutați la modul de introducere a textului.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificare nouă</string>
+    <string name="mtrl_chip_close_icon_content_description">Eliminați %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Peste %1$d notificări noi</string>
+    <string name="mtrl_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="mtrl_picker_a11y_prev_month">Treceți la luna anterioară</string>
+    <string name="mtrl_picker_announce_current_selection">Selecția actuală: %1$s</string>
+    <string name="mtrl_picker_cancel">Anulați</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selectați data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selectată</string>
+    <string name="mtrl_picker_day_of_week_column_header">Coloana cu zile: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format nevalid.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplu: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Folosiți: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Interval nevalid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigați la anul %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fără acoperire: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de începere – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data de încheiere</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selectați intervalul</string>
+    <string name="mtrl_picker_range_header_unselected">Data de începere – data de încheiere</string>
+    <string name="mtrl_picker_save">Salvați</string>
+    <string name="mtrl_picker_text_input_date_hint">Dată</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de încheiere</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de începere</string>
+    <string name="mtrl_picker_text_input_day_abbr">z</string>
+    <string name="mtrl_picker_text_input_month_abbr">l</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Comutați la modul introducere în calendar</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Atingeți pentru a comuta la selectarea unei zile</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Comutați la modul de introducere a textului</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Atingeți pentru a comuta la selectarea unui an</string>
+    <string name="mtrl_timepicker_cancel">Anulați</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Meniu de navigare"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Neselectat"</string>
+    <string msgid="875452955155264703" name="off">"Dezactivat"</string>
+    <string msgid="8655164131929253426" name="on">"Activat"</string>
+    <string name="password_toggle_content_description">Afișați parola</string>
+    <string msgid="5941395253238309765" name="range_end">"Sfârșit de interval"</string>
+    <string msgid="7097486360902471446" name="range_start">"Început de interval"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Căutați"</string>
+    <string msgid="6043586758067023" name="selected">"Selectat"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sumup_app_outdated">Versiunea aplicației pe care o utilizezi este depășită, te rugăm să faci upgrade la cea mai recentă versiune.</string>
+    <string name="sumup_bt_reset_air_message">Apăsă și menține apăsat butonul de pornire până când pe afișaj apare %1$s. Acest lucru poate dura un moment. Odată ce %2$s apare, eliberează imediat butonul de pornire.</string>
+    <string name="sumup_bt_reset_instructions_message">Efectuează acești doi pași pentru a rezolva problema conexiunii dintre acest dispozitiv și terminalul mPOS.</string>
+    <string name="sumup_bt_reset_instructions_title">Resetare Bluetooth</string>
+    <string name="sumup_bt_reset_mobile_description">Atinge butonul de mai jos pentru a reseta Bluetooth pe acest dispozitiv.</string>
+    <string name="sumup_bt_reset_option_phone">Pe telefonul tău</string>
+    <string name="sumup_bt_reset_option_reader">Pe cititorul de carduri</string>
+    <string name="sumup_bt_reset_option_tablet">Pe tableta ta</string>
+    <string name="sumup_btn_call_support">Apelează acum</string>
+    <string name="sumup_btn_cancel">Anulează</string>
+    <string name="sumup_btn_connect">Conectează</string>
+    <string name="sumup_btn_dismiss">Anulare</string>
+    <string name="sumup_btn_done">Efectuat</string>
+    <string name="sumup_btn_edit">Editare</string>
+    <string name="sumup_btn_later">Mai târziu</string>
+    <string name="sumup_btn_next">Următorul</string>
+    <string name="sumup_btn_no">Nu</string>
+    <string name="sumup_btn_ok">O.K.</string>
+    <string name="sumup_btn_previous">Anterior</string>
+    <string name="sumup_btn_proceed">Execută</string>
+    <string name="sumup_btn_rescan">Rescanează</string>
+    <string name="sumup_btn_retry">Încearcă din nou</string>
+    <string name="sumup_btn_skip">Treci peste</string>
+    <string name="sumup_btn_yes">Da</string>
+    <string name="sumup_button_retry">Încearcă din nou</string>
+    <string name="sumup_camera_permission_request_text">Pentru a face o poză cu produsul tău, SumUp are nevoie de acces la camera ta foto</string>
+    <string name="sumup_cancel_pending_payment_message">Ești sigur(ă) că dorești să anulezi această achiziție?</string>
+    <string name="sumup_cancel_pending_payment_title">Plată în așteptare</string>
+    <string name="sumup_card_checkout_cvv_hint">CVV</string>
+    <string name="sumup_card_checkout_expiry_date_label">Data expirării</string>
+    <string name="sumup_card_checkout_expiry_month_hint">LL</string>
+    <string name="sumup_card_checkout_expiry_year_hint">AA</string>
+    <string name="sumup_card_checkout_insert_and_turn_on_card_reader">Te rugăm să te conectezi și să pornești terminalul mPOS</string>
+    <string name="sumup_card_checkout_security_code">Cod de securitate</string>
+    <string name="sumup_card_reader_battery_level">%1$d%% Battery</string>
+    <string name="sumup_checking_firmware_info">Verificarea actualizărilor firmware-ului</string>
+    <string name="sumup_checkout_connecting_bt">Se conectează…</string>
+    <string name="sumup_checkout_power_on_reader">Pornește terminalul mPOS</string>
+    <string name="sumup_confirm_pairing_air">Te rugăm să confirmi cererea de asociere pe %1$s CÂT ȘI pe terminalul mPOS.</string>
+    <string name="sumup_confirm_pairing_air_ios">Dacă ți se solicită, te rugăm să confirmi cererea de asociere pe %1$s CÂT ȘI pe terminalul mPOS.</string>
+    <string name="sumup_connection_lost">Conexiunea a fost pierdută</string>
+    <string name="sumup_downloading_firmware">Descarcă actualizarea firmware-ului</string>
+    <string name="sumup_elv_legal_text">Ich ermächtige %1$s, %2$s, %3$s, %4$s, und von diesem hierzu beauftragten Dritte („die Unternehmen“) den heute fälligen, oben genannten Betrag von meinem Bankkonto durch Lastschrift einzuziehen. Ich weise mein Kreditinstitut unwiderruflich an bei Nichteinlösung der Lastschrift den Unternehmen und/oder der HIT GmbH, Eiffestraße 76, 20537 Hamburg auf Anforderung meinen Namen und meine Anschrift zur Geltendmachung der Forderung mitzuteilen. Datenschutzrechtliche Information: Meine Zahlungsdaten (Kontonummer, Bankleitzahl, Kartenverfallsdatum, Kartenfolgenummer, Datum, Uhrzeit, Zahlungsbetrag, Terminalkennung, Ort, Unternehmen und Filiale) werden zur Kartenprüfung und Zahlungsabwicklung an SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland weitergegeben. Sollte im Rahmen der Zahlungsabwicklung die Lastschrift von meiner Bank nicht eingelöst werden (Rücklastschrift) oder sollte ich der Lastschrift widersprechen, stimme ich zu, dass diese Tatsachen in eine Sperrdatei aufgenommen werden außer wenn ich im Zusammenhang mit dem Widerruf erklärtermaßen Rechte aus dem zu Grunde liegenden Geschäft (z.B. Gewährleistungsrechte) geltend gemacht habe. Die Sperrung wird nach vollständigem Forderungsausgleich wieder aufgehoben und die gespeicherten Daten gelöscht. Dritte, die eine vertragliche Vereinbarung mit den Unternehmen zur Nutzung der Sperrdatei haben, können für Zwecke der Missbrauchsbekämpfung und zur Risikominimierung von Zahlungsausfällen ihre elektronischen Zahlungsvorgänge gegen die Sperrdatei abgleichen. Speichernde Stelle für die Zwecke der Kartenprüfung und Zahlungsabwicklung sind die HIT GmbH, Eiffestr. 76, 20537 Hamburg und die SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland, die auch die Sperrdatei für teilnehmende Händler führen. Diese Unternehmen erteilen insoweit auch an anderen Händler, die auf die Sperrdatei zugreifen eine Empfehlung, ob eine Zahlung im Wege des Lastschrifteinzugs akzeptiert werden sollte.</string>
+    <string name="sumup_elv_legal_text_short">Hiermit erteile ich die Ermächtigung zum Lastschrifteinzug.</string>
+    <string name="sumup_err_no_recent_geo_location_received">Nu a fost găsită nicio locație Te rugăm să te asiguri că serviciile GPS sau de locație sunt activate și funcționale.  </string>
+    <string name="sumup_error">Eroare</string>
+    <string name="sumup_error_cannot_send_email">Nu se poate trimite e-mail; nu a fost găsită nicio aplicație de e-mail configurată.</string>
+    <string name="sumup_error_io">Nu s-a putut realiza conectarea la server. Te rugăm să verifici conexiunea la rețea și să încerci din nou.</string>
+    <string name="sumup_error_payment_method_required">Modalitate de plată necesară</string>
+    <string name="sumup_error_payment_method_required_desc">Pentru a utiliza SumUp, trebuie să fie activă cel puțin o metodă de plată.</string>
+    <string name="sumup_error_system_webview_exception">Ceva nu a mers bine cu Android System WebView. Actualizează-l sau apelează centrul de asistență.</string>
+    <string name="sumup_error_unexpected_response">Am primit un răspuns neașteptat din partea serverului. Te rugăm să încerci din nou.</string>
+    <string name="sumup_external_storage_permission_request_text">Pentru a descărca rapoarte de plată, SumUp are nevoie de acces la stocarea externă a dispozitivului</string>
+    <string name="sumup_failed_transaction">Tranzacţie eșuată</string>
+    <string name="sumup_firmware_update_canceled">Actualizarea a fost anulată</string>
+    <string name="sumup_fragment_send_receipt">Trimite bon de plată</string>
+    <string name="sumup_geolocation_unavailable_title">Geo-locația este necesară</string>
+    <string name="sumup_grant_usb_permission">Pentru a continua, trebuie să acorzi permisiunea de a accesa prin USB.</string>
+    <string name="sumup_help">Asistență</string>
+    <string name="sumup_installment_cancelled">Anulat</string>
+    <string name="sumup_items_many">%1$s articole</string>
+    <string name="sumup_items_none">Fără articole</string>
+    <string name="sumup_items_one">Un articol</string>
+    <string name="sumup_l10n_app_processing">Prelucrare…</string>
+    <string name="sumup_l10n_card_checkout_card_number">Număr de card</string>
+    <string name="sumup_l10n_card_checkout_checking_device">Verificarea terminalului mPOS…</string>
+    <string name="sumup_l10n_card_checkout_insert_card_reader">Introdu terminalul mPOS</string>
+    <string name="sumup_l10n_err_card_payment_expired">Cardul tău a expirat. Te rugăm să utilizezi un card diferit.</string>
+    <string name="sumup_l10n_order_hint_custom_item">articol</string>
+    <string name="sumup_l10n_payment_failure">Transaction Failed</string>
+    <string name="sumup_l10n_phone_number_confirmation_invalid_for_country">%1$s nu arată ca un număr mobil valid pentru %2$s.Te rugăm să editezi numărul pe care l-ai introdus sau să introduci un cod de apelare internațional valid dacă este un număr mobil în afara valorii %2$s.</string>
+    <string name="sumup_l10n_phone_number_confirmation_outside_of_country">%1$s arată ca un număr de telefon mobil aflat în afara %2$s.Te rugăm să confirmi cu clientul că numărul este corect, înainte de a continua.</string>
+    <string name="sumup_l10n_print_failed_cover_open">Capacul imprimantei este deschis. Închide capacul și încearcă din nou.</string>
+    <string name="sumup_l10n_print_failed_generic">Nu s-a putut imprima. Te rugăm să verifici imprimanta și să încerci din nou.</string>
+    <string name="sumup_l10n_print_failed_image_unavailable">Nu s-au putut descărca informațiile despre bonul de plată. Încearcă din nou.</string>
+    <string name="sumup_l10n_print_failed_paper_empty">Imprimanta a rămas fără hârtie.</string>
+    <string name="sumup_l10n_print_failed_printer_offline">Nu s-a putut realiza conectarea la imprimanta bonurilor de plată.</string>
+    <string name="sumup_label_external_storage">Stocare externă</string>
+    <string name="sumup_location_permission_request_text">Pentru a oferi un serviciu sigur, SumUp trebuie să știe unde au loc tranzacțiile. Prin urmare, SumUp trebuie să poată să îți acceseze locația în timp ce utilizezi aplicația.</string>
+    <string name="sumup_location_permission_request_title">Servicii de localizare</string>
+    <string name="sumup_login_btn_forgot_password">Ai uitat parola</string>
+    <string name="sumup_login_btn_log_in">Autentificare</string>
+    <string name="sumup_login_btn_title">Autentificare</string>
+    <string name="sumup_login_error_email_invalid">Te rugăm să verifici dacă adresa de e-mail este introdusă corect</string>
+    <string name="sumup_login_error_email_missing">Introduci adresa de e-mail a contului tău SumUp</string>
+    <string name="sumup_login_error_password_missing">Introdu parola contului tău SumUp</string>
+    <string name="sumup_login_error_shelves_not_loaded">Ne pare rău, informațiile contului tău nu au putut fi preluate.Încercă să te autentifici din nou.</string>
+    <string name="sumup_login_failed_message">A apărut o problemă la configurația contului. Te rugăm să încerci din nou sau să contactezi echipa de asistență.</string>
+    <string name="sumup_login_failed_title">Autentificare eșuată</string>
+    <string name="sumup_login_hint_email">Adresa de email</string>
+    <string name="sumup_login_hint_password">Parolă</string>
+    <string name="sumup_login_session_expired">Ai fost deconectat(ă), cel mai probabil din cauza conectării la același cont pe un alt dispozitiv.</string>
+    <string name="sumup_merchant_activation_code">Activation Code</string>
+    <string name="sumup_navigation_payment_methods">Modalitate de plată</string>
+    <string name="sumup_navigation_payment_methods_multiple_options">Modalitate de plată</string>
+    <string name="sumup_no_account_question">Nu ai cont?</string>
+    <string name="sumup_no_air_usb_device">Acest dispozitiv nu este cunoscut. Te rugăm să conectezi un terminal SumUp Air.</string>
+    <string name="sumup_no_usb_device">Conectează terminalului mPOS Air printr-un cablu USB și permite accesul în setările dispozitivului.</string>
+    <string name="sumup_order_charge">Debitează</string>
+    <string name="sumup_pairing_in_notification_bar">Te rugăm să verifici bara de notificări pentru solicitarea de asociere</string>
+    <string name="sumup_pax_setup_add_terminal">New terminal</string>
+    <string name="sumup_payment_setting_card_reader">terminal mPOS</string>
+    <string name="sumup_payment_setting_cash_payment">Plăți în numerar</string>
+    <string name="sumup_payment_to_title">Plătit către</string>
+    <string name="sumup_permission_explanation_continue">Continuare</string>
+    <string name="sumup_phone">telefon</string>
+    <string name="sumup_please_wait">Te rugăm să aștepți…</string>
+    <string name="sumup_please_wait_connecting">Te rugăm să aștepți. Se conectează…</string>
+    <string name="sumup_pp_btn_fw_abort">Anulează actualizarea</string>
+    <string name="sumup_pp_setup_air_no_btle">Dispozitivul tău nu acceptă Bluetooth 4.0. Te rugăm să verifici dacă este disponibilă o actualizare software pentru dispozitivul tău.</string>
+    <string name="sumup_pp_setup_charge_batteries">Te rugăm să te asiguri că bateriile din terminalul mPOS sunt încărcate</string>
+    <string name="sumup_pp_setup_check_power">Te rugăm să te asiguri că terminalul este pornit</string>
+    <string name="sumup_pp_setup_connected">Conectat!</string>
+    <string name="sumup_pp_setup_connection_failed">Nu se poate conecta. Încearcă din nou sau apelează echipa de asistență la %1$s</string>
+    <string name="sumup_pp_setup_connection_failed_no_support">Nu s-a putut realiza conectarea la terminalul mPOS. Te rugăm să încerci din nou.</string>
+    <string name="sumup_pp_setup_do_firmware_update_now_mandatory">Te rugăm să te asiguri că actualizezi înainte de %1$s.</string>
+    <string name="sumup_pp_setup_firmware_cancel_sure">Ești sigur(ă) că dorești să anulezi această actualizare?</string>
+    <string name="sumup_pp_setup_firmware_update_do_now">O actualizare de firmware este disponibilă pentru terminalul mPOS. Actualizarea va dura câteva minute. \n\nÎți recomandăm să instalezi actualizarea pentru a asigura performanța optimă a dispozitivului.</string>
+    <string name="sumup_pp_setup_firmware_update_installing">Instalare în curs, te rugăm să aștepți ..</string>
+    <string name="sumup_pp_setup_firmware_update_minutes_remaining">%1$s minute rămase</string>
+    <string name="sumup_pp_setup_firmware_update_one_minute_remaining">Un minut rămas</string>
+    <string name="sumup_pp_setup_help_additional_steps">Se pare că mai întâmpinați dificultăți de conectare la terminal. Puteți încerca unul dintre acești pași suplimentari:</string>
+    <string name="sumup_pp_setup_help_air_reset">Resetează terminalul ținând apăsat butonul de pornire timp de 20 de secunde. Te rugăm să te asiguri că terminalul este oprit și nu este conectat la un încărcător.</string>
+    <string name="sumup_pp_setup_help_bt_toggle_button">Resetare Bluetooth</string>
+    <string name="sumup_pp_setup_help_bt_toggle_header">Nu ne putem conecta la terminal prin Bluetooth.\nÎncearcă să resetezi conexiunea bluetooth înainte de a încerca din nou.</string>
+    <string name="sumup_pp_setup_help_give_up">Alternativ, te rugăm să contactezi echipa noastră de asistență la %1$s</string>
+    <string name="sumup_pp_setup_help_optional_support">Dacă ai nevoie de ajutor suplimentar, te rugăm să contactezi echipa noastră de asistență la %1$s</string>
+    <string name="sumup_pp_setup_help_pin_plus_replace_batteries">Replace the batteries of the card terminal</string>
+    <string name="sumup_pp_setup_help_reboot_device">Repornește-ți %1$s</string>
+    <string name="sumup_pp_setup_mode_to_bt">Asigură-te că camera dispozitivului tău funcționează. Schimbă modul apăsând butonul de pornire al terminalului timp de 10 secunde</string>
+    <string name="sumup_pp_setup_multiple_devices">Mai multe terminale prezente.</string>
+    <string name="sumup_pp_setup_searching">Scanarea terminalelor mPOS</string>
+    <string name="sumup_pp_setup_select_bt_device">Compară ultimele cifre de pe ecran cu numărul de serie din spatele terminalului.</string>
+    <string name="sumup_pp_setup_text_firmware_update_failed">Actualizarea a eșuat. Te rugăm să oprești și să pornești din nou terminalul, apoi să încerci din nou.</string>
+    <string name="sumup_pp_setup_text_firmware_update_ongoing">Te rugăm să nu folosești telefonul până când actualizarea nu este finalizată.</string>
+    <string name="sumup_print">Imprimare</string>
+    <string name="sumup_print_autoprint_receipts">Imprimă întotdeauna bonurile de plată</string>
+    <string name="sumup_print_failed_bluetooth_disabled">Bluetooth este dezactivat. Activează Bluetooth și încearcă din nou.</string>
+    <string name="sumup_print_failed_no_cash_drawer">Imprimanta selectată nu acceptă un sertar de numerar.</string>
+    <string name="sumup_print_no_printers_found">Nicio imprimantă găsită.</string>
+    <string name="sumup_print_open_cash_drawer">Deschide sertarul de numerar</string>
+    <string name="sumup_print_open_drawer_automatically">Deschide sertarul automat</string>
+    <string name="sumup_print_searching_printers">Căutarea imprimantelor…</string>
+    <string name="sumup_print_select_printer">Selectează imprimantă</string>
+    <string name="sumup_print_test_page">Imprimă o pagină test</string>
+    <string name="sumup_printer_available">Disponibil</string>
+    <string name="sumup_printer_settings_copies_label">Numărul copiilor</string>
+    <string name="sumup_printer_settings_disabled">Inactiv</string>
+    <string name="sumup_printer_settings_none_paired">Nu este asociată dispozitivului</string>
+    <string name="sumup_printer_settings_toggle_label">Activează imprimarea bonului de plată</string>
+    <string name="sumup_printer_unavailable">Indisponibil</string>
+    <string name="sumup_reader_not_found_message">Terminalul mPOS care se termină cu %1$s nu a fost găsit. Te rugăm să te asiguri că terminalul este pornit și se află în raza de acțiune.</string>
+    <string name="sumup_reader_off_and_unplugged_message">Asigură-te că dispozitivul este oprit și deconectat de la sursa de alimentare.</string>
+    <string name="sumup_reader_off_and_unplugged_title">Deconectează și oprește</string>
+    <string name="sumup_receipt_request_failed">Trimiterea bonului de plată a eșuat. Te rugăm să verifici conectivitatea la internet și să încerci din nou.Eventual, poți trimite oricând un bon de plată pentru această tranzacție din ecranul „Istoricul vânzărilor”.</string>
+    <string name="sumup_reset_reader_confirmation_message">După eliberarea butonului de pornire, vei auzi un semnal sonor care confirmă faptul că Bluetooth a fost resetat.</string>
+    <string name="sumup_reset_reader_confirmation_title">Resetare finalizată</string>
+    <string name="sumup_reset_reader_title">Pornește resetarea</string>
+    <string name="sumup_select_an_option">Selectează o opțiune</string>
+    <string name="sumup_send_receipt_email_field_label">Adresa de email</string>
+    <string name="sumup_send_receipt_phone_number_label">Număr de telefon mobil</string>
+    <string name="sumup_service_unavailable_message">Lucrăm la remedierea problemei. Te rugăm să încerci din nou mai târziu.</string>
+    <string name="sumup_service_unavailable_title">Serviciul nu este disponibil</string>
+    <string name="sumup_sign_up">Înscrie-te</string>
+    <string name="sumup_signature_btn_close_legal_page">Închide Termenii și condițiile</string>
+    <string name="sumup_signature_in_parcelados">in %1$d parcelados</string>
+    <string name="sumup_signature_sign_here">Te rugăm să te înscrii aici</string>
+    <string name="sumup_signature_try_again_button_title">Încearcă din nou</string>
+    <string name="sumup_successful_transaction">Tranzacţia a avut loc cu succes</string>
+    <string name="sumup_tablet">tabletă</string>
+    <string name="sumup_tipping_signature_including_tip_hint">(incl. bacșis %1$s)</string>
+    <string name="sumup_transaction_cancelled_card_not_charged">Cardul nu a fost debitat.</string>
+    <string name="sumup_transaction_cancelled_generic">Tranzacţie anulată</string>
+    <string name="sumup_transaction_cancelled_reader_error">Dispozitivul nu a răspuns așa cum era de așteptat </string>
+    <string name="sumup_transaction_cancelled_reader_error_detail">Te rugăm să te asiguri că dispozitivul tău este încărcat și volumul telefonului tău este setat la maxim.</string>
+    <string name="sumup_transaction_connection_lost">Conexiunea a fost pierdută la serverul SumUp</string>
+    <string name="sumup_transaction_failed_generic">Tranzacţie eșuată</string>
+    <string name="sumup_transaction_message_checking_status">Te rugăm să aștepți - verificăm starea tranzacției</string>
+    <string name="sumup_transaction_not_processed_desc">Tranzacția nu a putut fi procesată din cauza problemelor din rețea</string>
+    <string name="sumup_transaction_not_processed_details">Cardul nu a fost încărcat. Poți încerca din nou tranzacția, în siguranță.</string>
+    <string name="sumup_transaction_unexpected_response">A apărut o eroare la comunicarea cu serverul</string>
+    <string name="sumup_tx_cancel_please_wait">Tranzacția este anulată, te rugăm să aștepți</string>
+    <string name="sumup_tx_cancel_power_off">Pentru a anula tranzacția, te rugăm să apeși butonul de pornire de pe terminal</string>
+    <string name="sumup_verification_camera_permission_request_title">Camera foto</string>
+    <string name="sumup_verify_phone_number">Verificați numărul de telefon mobil</string>
+    <string msgid="2561197295334830845" name="switch_role">"Comută"</string>
+    <string msgid="1672349317127674378" name="tab">"Filă"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> %%."</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+</resources>

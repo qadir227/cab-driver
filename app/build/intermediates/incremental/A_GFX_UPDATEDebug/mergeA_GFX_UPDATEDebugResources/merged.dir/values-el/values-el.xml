@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d νέα ειδοποίηση</item>
+    <item quantity="other">%d νέες ειδοποιήσεις</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Εμφάνιση όλων"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Επιλέξτε μια εφαρμογή"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"διάστημα"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Κοινοποίηση σε"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Κοινοποίηση στην εφαρμογή <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string name="bottomsheet_action_collapse">Σύμπτυξη του φύλλου κάτω μέρους</string>
+    <string name="bottomsheet_action_expand">Ανάπτυξη του φύλλου κάτω μέρους</string>
+    <string name="bottomsheet_action_expand_halfway">Ανάπτυξη μέχρι τη μέση</string>
+    <string name="bottomsheet_drag_handle_clicked">Η λαβή μεταφοράς πατήθηκε δύο φορές</string>
+    <string name="bottomsheet_drag_handle_content_description">Λαβή μεταφοράς</string>
+    <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
+    <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
+    <string name="clear_text_end_icon_content_description">Διαγραφή κειμένου</string>
+    <string msgid="406453423630273620" name="close_drawer">"Κλείσιμο του μενού πλοήγησης"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Κλείσιμο φύλλου"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Ενεργοποίηση</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Η εφαρμογή %1$s δεν θα λειτουργήσει εάν δεν έχετε ενεργοποιήσει τις υπηρεσίες Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Ενεργοποίηση υπηρεσιών Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Εγκατάσταση</string>
+    <string name="common_google_play_services_install_text">Η εφαρμογή %1$s δεν μπορεί να εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες λείπουν από τη συσκευή σας.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Λήψη υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Διαθεσιμότητα υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Σφάλμα Υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Η εφαρμογή %1$s αντιμετωπίζει κάποιο πρόβλημα με τις υπηρεσίες Google Play. Προσπαθήστε ξανά.</string>
+    <string name="common_google_play_services_unsupported_text">Η εφαρμογή %1$s δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες δεν υποστηρίζονται από τη συσκευή σας.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Ενημέρωση</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Η εφαρμογή %1$s θα εκτελεστεί αφού ενημερώσετε τις Υπηρεσίες Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Ενημέρωση υπηρεσιών Google Play</string>
+    <string name="common_google_play_services_updating_text">Η εφαρμογή %1$s δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες ενημερώνονται αυτήν τη στιγμή.</string>
+    <string name="common_google_play_services_wear_update_text">Απαιτείται νέα έκδοση των υπηρεσιών Google Play. Θα ενημερωθεί σύντομα.</string>
+    <string name="common_open_on_phone">Άνοιγμα σε τηλέφωνο</string>
+    <string name="common_signin_button_text">Σύνδεση</string>
+    <string name="common_signin_button_text_long">Συνδεθείτε με το Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Ο σύνδεσμος αντιγράφηκε στο πρόχειρο"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Μη έγκυρη καταχώριση"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Αναδυόμενο παράθυρο"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Αναπτυσσόμενο μενού"</string>
+    <string name="error_icon_content_description">Σφάλμα</string>
+    <string name="exposed_dropdown_menu_content_description">Εμφάνιση αναπτυσσόμενου μενού</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Αντιγραφή συνδέσμου"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Άνοιγμα σε πρόγραμμα περιήγησης"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Κοινοποίηση συνδέσμου"</string>
+    <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
+    <string msgid="6827826412747255547" name="in_progress">"Σε εξέλιξη"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Έγινε μερικός έλεγχος"</string>
+    <string name="item_view_role_description">Καρτέλα</string>
+    <string name="material_clock_toggle_content_description">Επιλέξτε π.μ. ή μ.μ.</string>
+    <string name="material_hour_24h_suffix">%1$s ώρες</string>
+    <string name="material_hour_selection">Επιλογή ώρας</string>
+    <string name="material_hour_suffix">%1$s ακριβώς</string>
+    <string name="material_minute_selection">Επιλογή λεπτών</string>
+    <string name="material_minute_suffix">%1$s λεπτά</string>
+    <string name="material_timepicker_am">ΠΜ</string>
+    <string name="material_timepicker_clock_mode_description">Κάντε εναλλαγή στη λειτουργία ρολογιού, για την εισαγωγή της ώρας.</string>
+    <string name="material_timepicker_hour">Ώρα</string>
+    <string name="material_timepicker_minute">Λεπτό</string>
+    <string name="material_timepicker_pm">ΜΜ</string>
+    <string name="material_timepicker_select_time">Επιλέξτε ώρα</string>
+    <string name="material_timepicker_text_input_mode_description">Κάντε εναλλαγή στη λειτουργία εισαγωγής κειμένου, για την εισαγωγή της ώρας.</string>
+    <string name="mtrl_badge_numberless_content_description">Νέα ειδοποίηση</string>
+    <string name="mtrl_chip_close_icon_content_description">Κατάργηση %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Πάνω από %1$d νέες ειδοποιήσεις</string>
+    <string name="mtrl_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="mtrl_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
+    <string name="mtrl_picker_announce_current_selection">Τρέχουσα επιλογή: %1$s</string>
+    <string name="mtrl_picker_cancel">Ακύρωση</string>
+    <string name="mtrl_picker_confirm">ΟΚ</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Επιλογή ημερομηνίας</string>
+    <string name="mtrl_picker_date_header_unselected">Επιλεγμένη ημερομηνία</string>
+    <string name="mtrl_picker_day_of_week_column_header">Στήλη ημερών: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Μη έγκυρη μορφή.</string>
+    <string name="mtrl_picker_invalid_format_example">Παράδειγμα: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Χρησιμοποιήστε: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Μη έγκυρο εύρος.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Πλοήγηση στο έτος %1$s</string>
+    <string name="mtrl_picker_out_of_range">Εκτός εύρους: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ημερομηνία έναρξης – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Επιλογή εύρους</string>
+    <string name="mtrl_picker_range_header_unselected">Ημερομηνία έναρξης – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_save">Αποθήκευση</string>
+    <string name="mtrl_picker_text_input_date_hint">Ημερομηνία</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ημερομηνία έναρξης</string>
+    <string name="mtrl_picker_text_input_day_abbr">η</string>
+    <string name="mtrl_picker_text_input_month_abbr">μ</string>
+    <string name="mtrl_picker_text_input_year_abbr">ε</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Εναλλαγή στη λειτουργία εισαγωγής ημερολογίου</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Πατήστε για εναλλαγή για την επιλογή ημέρας</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Εναλλαγή στη λειτουργία εισαγωγής κειμένου</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Πατήστε για εναλλαγή για την επιλογή έτους</string>
+    <string name="mtrl_timepicker_cancel">Ακύρωση</string>
+    <string name="mtrl_timepicker_confirm">ΟΚ</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Μενού πλοήγησης"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Δεν έχει επιλεχθεί"</string>
+    <string msgid="875452955155264703" name="off">"Ανενεργό"</string>
+    <string msgid="8655164131929253426" name="on">"Ενεργό"</string>
+    <string name="password_toggle_content_description">Εμφάνιση κωδικού πρόσβασης</string>
+    <string msgid="5941395253238309765" name="range_end">"Τέλος εύρους"</string>
+    <string msgid="7097486360902471446" name="range_start">"Αρχή εύρους"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Αναζήτηση"</string>
+    <string msgid="6043586758067023" name="selected">"Επιλεγμένο"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sumup_app_outdated">Η έκδοση της εφαρμογής που χρησιμοποιείτε είναι παλιά. Παρακαλούμε κάντε αναβάθμιση στην τελευταία έκδοση.</string>
+    <string name="sumup_bt_reset_air_message">Κρατήστε πατημένο το κουμπί τροφοδοσίας μέχρι να εμφανιστεί το %1$s. Μπορεί να διαρκέσει λίγο. Μόλις εμφανιστεί το %2$s, ελευθερώστε το κουμπί τροφοδοσίας.</string>
+    <string name="sumup_bt_reset_instructions_message">Ακολουθήστε αυτά τα δύο βήματα, για να επιλύσετε το πρόβλημα σύνδεσης μεταξύ αυτής της συσκευής και του τερματικού.</string>
+    <string name="sumup_bt_reset_instructions_title">Επαναρρύθμιση Bluetooth</string>
+    <string name="sumup_bt_reset_mobile_description">Πατήστε το παρακάτω κουμπί, για να επαναρρυθμίσετε το Bluetooth σε αυτήν τη συσκευή.</string>
+    <string name="sumup_bt_reset_option_phone">Στο τηλέφωνό σας</string>
+    <string name="sumup_bt_reset_option_reader">Στο τερματικό σας</string>
+    <string name="sumup_bt_reset_option_tablet">Στο τάμπλετ σας</string>
+    <string name="sumup_btn_call_support">Κλήση τώρα</string>
+    <string name="sumup_btn_cancel">Ακύρωση</string>
+    <string name="sumup_btn_connect">Σύνδεση</string>
+    <string name="sumup_btn_dismiss">Απόρριψη</string>
+    <string name="sumup_btn_done">Τέλος</string>
+    <string name="sumup_btn_edit">Επεξεργασία</string>
+    <string name="sumup_btn_later">Αργότερα</string>
+    <string name="sumup_btn_next">Επόμενο</string>
+    <string name="sumup_btn_no">Όχι</string>
+    <string name="sumup_btn_ok">OK</string>
+    <string name="sumup_btn_previous">Προηγούμενο</string>
+    <string name="sumup_btn_proceed">Συνέχεια</string>
+    <string name="sumup_btn_rescan">Νέα σάρωση</string>
+    <string name="sumup_btn_retry">Νέα δοκιμή</string>
+    <string name="sumup_btn_skip">Παράβλεψη</string>
+    <string name="sumup_btn_yes">Ναι</string>
+    <string name="sumup_button_retry">Ξαναπροσπαθήστε</string>
+    <string name="sumup_camera_permission_request_text">Για να τραβήξετε μια φωτογραφία του προϊόντος σας, η SumUp χρειάζεται πρόσβαση στην κάμερά σας</string>
+    <string name="sumup_cancel_pending_payment_message">Είστε σίγουροι ότι θέλετε να ακυρώσετε αυτήν τη συναλλαγή;</string>
+    <string name="sumup_cancel_pending_payment_title">Εκρεμμής πληρωμή</string>
+    <string name="sumup_card_checkout_cvv_hint">CVV</string>
+    <string name="sumup_card_checkout_expiry_date_label">Ημερομηνία λήξης</string>
+    <string name="sumup_card_checkout_expiry_month_hint">ΜΜ</string>
+    <string name="sumup_card_checkout_expiry_year_hint">ΕΕ</string>
+    <string name="sumup_card_checkout_insert_and_turn_on_card_reader">Παρακαλούμε συνδεθείτε και ενεργοποιήστε το τερματικό</string>
+    <string name="sumup_card_checkout_security_code">Κωδικός ασφαλείας</string>
+    <string name="sumup_card_reader_battery_level">%1$d%% μπαταρία</string>
+    <string name="sumup_checking_firmware_info">Έλεγχος για ενημερώσεις λογισμικού</string>
+    <string name="sumup_checkout_connecting_bt">Γίνεται σύνδεση…</string>
+    <string name="sumup_checkout_power_on_reader">Ενεργοποίηση τερματικού</string>
+    <string name="sumup_confirm_pairing_air">Παρακαλούμε επιβεβαιώστε το αίτημα ζευγοποίησης στο %1$s ΚΑΙ στο τερματικό σας.</string>
+    <string name="sumup_confirm_pairing_air_ios">Αν σας ζητηθεί, επιβεβαιώστε το αίτημα ζευγοποίησης στο %1$s σας ΚΑΙ στο τερματικό.</string>
+    <string name="sumup_connection_lost">Διακοπή σύνδεσης</string>
+    <string name="sumup_downloading_firmware">Γίνεται download της ενημέρωσης λογισμικού</string>
+    <string name="sumup_elv_legal_text">Ich ermächtige %1$s, %2$s, %3$s, %4$s, und von diesem hierzu beauftragten Dritte („die Unternehmen“) den heute fälligen, oben genannten Betrag von meinem Bankkonto durch Lastschrift einzuziehen. Ich weise mein Kreditinstitut unwiderruflich an bei Nichteinlösung der Lastschrift den Unternehmen und/oder der HIT GmbH, Eiffestraße 76, 20537 Hamburg auf Anforderung meinen Namen und meine Anschrift zur Geltendmachung der Forderung mitzuteilen. Datenschutzrechtliche Information: Meine Zahlungsdaten (Kontonummer, Bankleitzahl, Kartenverfallsdatum, Kartenfolgenummer, Datum, Uhrzeit, Zahlungsbetrag, Terminalkennung, Ort, Unternehmen und Filiale) werden zur Kartenprüfung und Zahlungsabwicklung an SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland weitergegeben. Sollte im Rahmen der Zahlungsabwicklung die Lastschrift von meiner Bank nicht eingelöst werden (Rücklastschrift) oder sollte ich der Lastschrift widersprechen, stimme ich zu, dass diese Tatsachen in eine Sperrdatei aufgenommen werden außer wenn ich im Zusammenhang mit dem Widerruf erklärtermaßen Rechte aus dem zu Grunde liegenden Geschäft (z.B. Gewährleistungsrechte) geltend gemacht habe. Die Sperrung wird nach vollständigem Forderungsausgleich wieder aufgehoben und die gespeicherten Daten gelöscht. Dritte, die eine vertragliche Vereinbarung mit den Unternehmen zur Nutzung der Sperrdatei haben, können für Zwecke der Missbrauchsbekämpfung und zur Risikominimierung von Zahlungsausfällen ihre elektronischen Zahlungsvorgänge gegen die Sperrdatei abgleichen. Speichernde Stelle für die Zwecke der Kartenprüfung und Zahlungsabwicklung sind die HIT GmbH, Eiffestr. 76, 20537 Hamburg und die SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland, die auch die Sperrdatei für teilnehmende Händler führen. Diese Unternehmen erteilen insoweit auch an anderen Händler, die auf die Sperrdatei zugreifen eine Empfehlung, ob eine Zahlung im Wege des Lastschrifteinzugs akzeptiert werden sollte.</string>
+    <string name="sumup_elv_legal_text_short">Hiermit erteile ich die Ermächtigung zum Lastschrifteinzug.</string>
+    <string name="sumup_err_no_recent_geo_location_received">Η τοποθεσία σας δεν βρέθηκε. Βεβαιωθείτε ότι είναι ενεργοποιημένο το GPS ή οι υπηρεσίες τοποθεσίας, και ελέγξτε ότι λειτουργούν σωστά.  </string>
+    <string name="sumup_error">Σφάλμα</string>
+    <string name="sumup_error_cannot_send_email">Μη δυνατή αποστολή του email. Δεν βρέθηκε ρυθμισμένη εφαρμογή για email.</string>
+    <string name="sumup_error_io">Η σύνδεση στον διακομιστή δεν ήταν δυνατή. Παρακαλούμε ελέγξτε τη σύνδεση του ίντερνετ και προσπαθήστε ξανά.</string>
+    <string name="sumup_error_payment_method_required">Απαιτείται η μέθοδος πληρωμής</string>
+    <string name="sumup_error_payment_method_required_desc">Για να χρησιμοποιήσετε την SumUp, πρέπει να είναι ενεργή τουλάχιστον μια μέθοδος πληρωμής.</string>
+    <string name="sumup_error_system_webview_exception">Παρουσιάστηκε σφάλμα με το Android System WebView. Ενημερώστε την εφαρμογή ή επικοινωνήστε με την ομάδα υποστήριξης.</string>
+    <string name="sumup_error_unexpected_response">Υπήρξε μη αναμενόμενη απάντηση από τον διακομιστή. Παρακαλούμε προσπαθήστε ξανά.</string>
+    <string name="sumup_external_storage_permission_request_text">Για να κατεβάσετε τις αναφορές εξόφλησης, η SumUp χρειάζεται πρόσβαση στον εξωτερικό χώρο αποθήκευσης της συσκευής σας</string>
+    <string name="sumup_failed_transaction">Ανεπιτυχής συναλλαγή</string>
+    <string name="sumup_firmware_update_canceled">Η ενημέρωση ακυρώθηκε</string>
+    <string name="sumup_fragment_send_receipt">Αποστολή απόδειξης</string>
+    <string name="sumup_geolocation_unavailable_title">Απαιτείται η τρέχουσα τοποθεσία σας</string>
+    <string name="sumup_grant_usb_permission">Για να συνεχίσετε, θα πρέπει να δώσετε άδεια για πρόσβαση μέσω USB.</string>
+    <string name="sumup_help">Βοήθεια</string>
+    <string name="sumup_installment_cancelled">Ακυρώθηκε</string>
+    <string name="sumup_items_many">%1$s προϊόντα</string>
+    <string name="sumup_items_none">Κανένα προϊόν</string>
+    <string name="sumup_items_one">Ένα προϊόν</string>
+    <string name="sumup_l10n_app_processing">Επεξεργασία…</string>
+    <string name="sumup_l10n_card_checkout_card_number">Αριθμός κάρτας</string>
+    <string name="sumup_l10n_card_checkout_checking_device">Έλεγχος τερματικού…</string>
+    <string name="sumup_l10n_card_checkout_insert_card_reader">Εισάγετε το τερματικό</string>
+    <string name="sumup_l10n_err_card_payment_expired">Η κάρτα σας έχει λήξει. Παρακαλούμε χρησιμοποιήστε διαφορετική κάρτα.</string>
+    <string name="sumup_l10n_order_hint_custom_item">προϊόν</string>
+    <string name="sumup_l10n_payment_failure">Ανεπιτυχής συναλλαγή</string>
+    <string name="sumup_l10n_phone_number_confirmation_invalid_for_country">Ο αριθμός %1$s δεν αποτελεί έγκυρο αριθμό κινητού τηλεφώνου για την χώρα: %2$s.\n\nΠαρακαλούμε αλλάξτε τον καταχωρημένο αριθμό ή εισάγετε τον έγκυρο διεθνή κωδικό κλήσης, αν πρόκειται για αριθμό που δεν ανήκει στη χώρα: %2$s.</string>
+    <string name="sumup_l10n_phone_number_confirmation_outside_of_country">Ο αριθμός %1$s δεν αποτελεί έγκυρο αριθμό κινητού τηλεφώνου για την χώρα: %2$s.\n\nΠροτού συνεχίσετε, ο πελάτης θα πρέπει να επιβεβαιώσει ότι ο αριθμός είναι σωστός.</string>
+    <string name="sumup_l10n_print_failed_cover_open">Το κάλυμμα του εκτυπωτή είναι ανοιχτό. Κλείστε το κάλυμμα και προσπαθήστε ξανά.</string>
+    <string name="sumup_l10n_print_failed_generic">Η εκτύπωση δεν ήταν εφικτή. Ελέγξτε τον εκτυπωτή και προσπαθήστε ξανά.</string>
+    <string name="sumup_l10n_print_failed_image_unavailable">Δεν ήταν εφικτό το download των στοιχείων της απόδειξης. Προσπαθήστε ξανά.</string>
+    <string name="sumup_l10n_print_failed_paper_empty">Το χαρτί στον εκτυπωτή έχει τελειώσει.</string>
+    <string name="sumup_l10n_print_failed_printer_offline">Η σύνδεση με τον εκτυπωτή αποδείξεων δεν ήταν εφικτή.</string>
+    <string name="sumup_label_external_storage">Εξωτερική αποθήκευση</string>
+    <string name="sumup_location_permission_request_text">Για την ασφαλή εξυπηρέτησή σας, η SumUp πρέπει να γνωρίζει την τοποθεσία πραγματοποίησης των συναλλαγών. Επομένως, η SumUp χρειάζεται πρόσβαση στην τοποθεσία σας ενώ χρησιμοποιείτε την εφαρμογή.</string>
+    <string name="sumup_location_permission_request_title">Υπηρεσίες τοποθεσίας</string>
+    <string name="sumup_login_btn_forgot_password">Ξέχασα τον κωδικό πρόσβασης</string>
+    <string name="sumup_login_btn_log_in">Σύνδεση</string>
+    <string name="sumup_login_btn_title">Σύνδεση</string>
+    <string name="sumup_login_error_email_invalid">Βεβαιωθείτε ότι έχετε εισάγει σωστά τη διεύθυνση email</string>
+    <string name="sumup_login_error_email_missing">Εισάγετε την διεύθυνση email του SumUp λογαριασμού σας</string>
+    <string name="sumup_login_error_password_missing">Εισάγετε τον κωδικό πρόσβασης του SumUp λογαριασμού σας</string>
+    <string name="sumup_login_error_shelves_not_loaded">Δυστυχώς δεν μπορέσαμε να φορτώσουμε τα στοιχεία του λογαριασμού σας.\nΠροσπαθήστε να συνδεθείτε ξανά.</string>
+    <string name="sumup_login_failed_message">Εμφανίστηκε σφάλμα κατά τη ρύθμιση του λογαριασμού σας. Παρακαλούμε προσπαθήστε ξανά ή καλέστε το Τμήμα Υποστήριξης.</string>
+    <string name="sumup_login_failed_title">Ανεπιτυχής σύνδεση</string>
+    <string name="sumup_login_hint_email">Διεύθυνση email</string>
+    <string name="sumup_login_hint_password">Κωδικός πρόσβασης</string>
+    <string name="sumup_login_session_expired">Αποσυνδεθήκατε, επειδή μάλλον συνδεθήκατε στον ίδιο λογαριασμό από άλλη συσκευή.</string>
+    <string name="sumup_merchant_activation_code">Activation Code</string>
+    <string name="sumup_navigation_payment_methods">Μέθοδοι πληρωμής</string>
+    <string name="sumup_navigation_payment_methods_multiple_options">Μέθοδοι πληρωμής</string>
+    <string name="sumup_no_account_question">Δεν έχετε λογαριασμό;</string>
+    <string name="sumup_no_air_usb_device">Δεν είναι δυνατή η αναγνώριση αυτής της συσκευής. Συνδέστε ένα τερματικό SumUp Air.</string>
+    <string name="sumup_no_usb_device">Συνδέστε το τερματικό σας Air μέσω ενός καλωδίου USB και επιτρέψτε την πρόσβαση από τις ρυθμίσεις της συσκευής σας.</string>
+    <string name="sumup_order_charge">Χρέωση</string>
+    <string name="sumup_pairing_in_notification_bar">Ελέγξτε τη γραμμή ειδοποιήσεων για το αίτημα ζευγοποίησης</string>
+    <string name="sumup_pax_setup_add_terminal">Νέο τερματικό</string>
+    <string name="sumup_payment_setting_card_reader">Τερματικό</string>
+    <string name="sumup_payment_setting_cash_payment">Πληρωμή με μετρητά</string>
+    <string name="sumup_payment_to_title">Πληρωμή στον έμπορο</string>
+    <string name="sumup_permission_explanation_continue">Συνέχεια</string>
+    <string name="sumup_phone">τηλέφωνο</string>
+    <string name="sumup_please_wait">Παρακαλούμε περιμένετε…</string>
+    <string name="sumup_please_wait_connecting">Παρακαλώ περιμένετε. Γίνεται σύνδεση…</string>
+    <string name="sumup_pp_btn_fw_abort">Ακύρωση ενημέρωσης</string>
+    <string name="sumup_pp_setup_air_no_btle">Η συσκευή σας δεν υποστηρίζει την έκδοση Bluetooth 4.0. Ελέγξτε αν διατίθεται ενημέρωση λογισμικού για τη συσκευή σας.</string>
+    <string name="sumup_pp_setup_charge_batteries">Βεβαιωθείτε ότι είναι φορτισμένες οι μπαταρίες του τερματικού</string>
+    <string name="sumup_pp_setup_check_power">Παρακαλούμε ελέγξτε ότι έχει ενεργοποιηθεί το τερματικό</string>
+    <string name="sumup_pp_setup_connected">Συνδεθήκατε!</string>
+    <string name="sumup_pp_setup_connection_failed">Μη εφικτή σύνδεση. Προσπαθήστε ξανά ή καλέστε το Τμήμα Υποστήριξης στο %1$s</string>
+    <string name="sumup_pp_setup_connection_failed_no_support">Δεν ήταν δυνατή η σύνδεση στο τερματικό της κάρτας. Δοκιμάστε ξανά.</string>
+    <string name="sumup_pp_setup_do_firmware_update_now_mandatory">Θα πρέπει να κάνετε την ενημέρωση πριν τις %1$s.</string>
+    <string name="sumup_pp_setup_firmware_cancel_sure">Θέλετε σίγουρα να ακυρώσετε την ενημέρωση;</string>
+    <string name="sumup_pp_setup_firmware_update_do_now">Διατίθεται νέα ενημέρωση λογισμικού για το τερματικό σας. Η ενημέρωση διαρκεί λίγα λεπτά.\n\nΣας συνιστούμε να εγκαταστήσετε την ενημέρωση, για να εξασφαλίσετε την ιδανική λειτουργία της συσκευής σας.</string>
+    <string name="sumup_pp_setup_firmware_update_installing">Εγκατάσταση, παρακαλώ περιμένετε..</string>
+    <string name="sumup_pp_setup_firmware_update_minutes_remaining">Απομένουν %1$s λεπτά</string>
+    <string name="sumup_pp_setup_firmware_update_one_minute_remaining">Απομένει ένα λεπτό</string>
+    <string name="sumup_pp_setup_help_additional_steps">Φαίνεται ότι ακόμα υπάρχει πρόβλημα με τη σύνδεση του τερματικού. Μπορείτε να κάνετε μια από τις παρακάτω ενέργειες:</string>
+    <string name="sumup_pp_setup_help_air_reset">Πιέστε παρατεταμένα το πλήκτρο ενεργοποίησης για 20 δευτερόλεπτα, για να επαναφέρετε το τερματικό. Παρακαλούμε βεβαιωθείτε ότι το τερματικό είναι απενεργοποιημένο και ότι δεν φορτίζεται.</string>
+    <string name="sumup_pp_setup_help_bt_toggle_button">Επαναφορά Bluetooth</string>
+    <string name="sumup_pp_setup_help_bt_toggle_header">Η σύνδεση με το τερματικό μέσω Bluetooth δεν ήταν εφικτή.\nΠαρακαλούμε επανεκκινήστε τη σύνδεση του Bluetooth και προσπαθήστε ξανά.</string>
+    <string name="sumup_pp_setup_help_give_up">Διαφορετικά, παρακαλούμε επικοινωνήστε με το Τμήμα Υποστήριξης στο %1$s</string>
+    <string name="sumup_pp_setup_help_optional_support">Αν χρειάζεστε περαιτέρω βοήθεια, παρακαλούμε επικοινωνήστε με το Τμήμα Υποστήριξης στο %1$s</string>
+    <string name="sumup_pp_setup_help_pin_plus_replace_batteries">Replace the batteries of the card terminal</string>
+    <string name="sumup_pp_setup_help_reboot_device">Επανεκκινήστε το %1$s</string>
+    <string name="sumup_pp_setup_mode_to_bt">Βεβαιωθείτε ότι η συσκευή είναι στη λειτουργία Bluetooth. Αλλάξτε λειτουργία πατώντας το πλήκτρο ενεργοποίησης για 10 δεύτερα</string>
+    <string name="sumup_pp_setup_multiple_devices">Βρέθηκαν πολλά τερματικά.</string>
+    <string name="sumup_pp_setup_searching">Σάρωση για τερματικά</string>
+    <string name="sumup_pp_setup_select_bt_device">Συγκρίνετε τα τελευταία ψηφία του σειριακού αριθμού στην πίσω πλευρά του τερματικού.</string>
+    <string name="sumup_pp_setup_text_firmware_update_failed">Η ενημέρωση δεν έγινε. Παρακαλούμε απενεργοποιήστε και ενεργοποιήστε ξανά το τερματικό και ξαναπροσπαθήστε.</string>
+    <string name="sumup_pp_setup_text_firmware_update_ongoing">Απαγορεύεται να χρησιμοποιείτε το τηλέφωνό σας μέχρι την ολοκλήρωση της ενημέρωσης.</string>
+    <string name="sumup_print">Εκτύπωση</string>
+    <string name="sumup_print_autoprint_receipts">Να εκτυπώνονται πάντα αποδείξεις</string>
+    <string name="sumup_print_failed_bluetooth_disabled">Το Bluetooth είναι απενεργοποιημένο. Ενεργοποιήστε το Bluetooth και προσπαθήστε ξανά.</string>
+    <string name="sumup_print_failed_no_cash_drawer">Ο επιλεγμένος εκτυπωτής δεν υποστηρίζει ταμειακό συρτάρι.</string>
+    <string name="sumup_print_no_printers_found">Δεν βρέθηκαν εκτυπωτές.</string>
+    <string name="sumup_print_open_cash_drawer">Άνοιγμα ταμειακού συρταριού</string>
+    <string name="sumup_print_open_drawer_automatically">Αυτόματο άνοιγμα συρταριού</string>
+    <string name="sumup_print_searching_printers">Αναζήτηση εκτυπωτών…</string>
+    <string name="sumup_print_select_printer">Επιλέξτε εκτυπωτή</string>
+    <string name="sumup_print_test_page">Εκτύπωση δοκιμαστικής σελίδας</string>
+    <string name="sumup_printer_available">Διαθέσιμος</string>
+    <string name="sumup_printer_settings_copies_label">Αριθμός αντιγράφων</string>
+    <string name="sumup_printer_settings_disabled">Ανενεργό</string>
+    <string name="sumup_printer_settings_none_paired">Μη συνδεδεμένο</string>
+    <string name="sumup_printer_settings_toggle_label">Ενεργοποίηση εκτύπωσης</string>
+    <string name="sumup_printer_unavailable">Μη διαθέσιμο</string>
+    <string name="sumup_reader_not_found_message">Η κάρτα που λήγει σε %1$s δεν βρέθηκε. Βεβαιωθείτε ότι το τερματικό είναι ενεργοποιημένο και εντός εμβέλειας.</string>
+    <string name="sumup_reader_off_and_unplugged_message">Βεβαιωθείτε ότι η συσκευή είναι απενεργοποιημένη και αποσυνδεδεμένη από την παροχή ρεύματος.</string>
+    <string name="sumup_reader_off_and_unplugged_title">Αποσυνδέστε και απενεργοποιήστε</string>
+    <string name="sumup_receipt_request_failed">Ανεπιτυχής αποστολή της απόδειξης. Παρακαλούμε ελέγξτε τη συνδεσή σας και προσπαθήστε ξανά.\n\nΕναλλακτικά, μπορείτε να στείλετε την απόδειξη για αυτήν τη συναλλαγή από την οθόνη \"Ιστορικό πωλήσεων\".</string>
+    <string name="sumup_reset_reader_confirmation_message">Αφού απελευθερώσετε το κουμπί τροφοδοσίας, θα ακούσετε ένα μπιπ που επιβεβαιώνει ότι το Bluetooth έχει επαναρρυθμιστεί.</string>
+    <string name="sumup_reset_reader_confirmation_title">Ολοκλήρωση επαναρρύθμισης</string>
+    <string name="sumup_reset_reader_title">Ξεκινήστε την επαναρρύθμιση</string>
+    <string name="sumup_select_an_option">Select an option</string>
+    <string name="sumup_send_receipt_email_field_label">Διεύθυνση email</string>
+    <string name="sumup_send_receipt_phone_number_label">Αριθμός κινητού τηλεφώνου</string>
+    <string name="sumup_service_unavailable_message">Καταβάλουμε προσπάθειες για να επιδιορθώσουμε το πρόβλημα. Παρακαλούμε προσπαθήστε ξανά αργότερα.</string>
+    <string name="sumup_service_unavailable_title">Μη διαθέσιμη υπηρεσία</string>
+    <string name="sumup_sign_up">Εγγραφείτε</string>
+    <string name="sumup_signature_btn_close_legal_page">Κλείσιμο όρων</string>
+    <string name="sumup_signature_in_parcelados">in %1$d parcelados</string>
+    <string name="sumup_signature_sign_here">Υπογράψτε εδώ</string>
+    <string name="sumup_signature_try_again_button_title">Δοκιμάστε ξανά</string>
+    <string name="sumup_successful_transaction">Επιτυχής συναλλαγή</string>
+    <string name="sumup_tablet">tablet</string>
+    <string name="sumup_tipping_signature_including_tip_hint">(μαζί με %1$s φιλοδώρημα)</string>
+    <string name="sumup_transaction_cancelled_card_not_charged">Η κάρτα δεν χρεώθηκε.</string>
+    <string name="sumup_transaction_cancelled_generic">Η συναλλαγή ακυρώθηκε</string>
+    <string name="sumup_transaction_cancelled_reader_error">Η απόκριση της συσκευής δεν ήταν η αναμενόμενη </string>
+    <string name="sumup_transaction_cancelled_reader_error_detail">Βεβαιωθείτε ότι η συσκευή σας είναι φορτισμένη και ότι έχετε ρυθμίσει τη μέγιστη ένταση ήχου στο τηλέφωνό σας.</string>
+    <string name="sumup_transaction_connection_lost">Η σύνδεση με τον διακομιστή της SumUp χάθηκε.</string>
+    <string name="sumup_transaction_failed_generic">Ανεπιτυχής συναλλαγή</string>
+    <string name="sumup_transaction_message_checking_status">Παρακαλώ περιμένετε - ελέγχουμε την κατάσταση της συναλλαγής</string>
+    <string name="sumup_transaction_not_processed_desc">Η επεξεργασία της συναλλαγής δεν ήταν εφικτή λόγω προβλημάτων στο δίκτυο</string>
+    <string name="sumup_transaction_not_processed_details">Η κάρτα δεν χρεώθηκε. Προσπαθήστε να κάνετε πάλι την συναλλαγή.</string>
+    <string name="sumup_transaction_unexpected_response">Εμφανίστηκε σφάλμα κατά την επικοινωνία με τον διακομιστή</string>
+    <string name="sumup_tx_cancel_please_wait">Η συναλλαγή ακυρώνεται, παρακαλώ περιμένετε</string>
+    <string name="sumup_tx_cancel_power_off">Για να ακυρώσετε τη συναλλαγή, πιέστε το πλήκτρο ενεργοποίησης στο τερματικό</string>
+    <string name="sumup_verification_camera_permission_request_title">Κάμερα</string>
+    <string name="sumup_verify_phone_number">Επιβεβαίωση αρ. κινητού τηλεφώνου</string>
+    <string msgid="2561197295334830845" name="switch_role">"Εναλλαγή"</string>
+    <string msgid="1672349317127674378" name="tab">"Καρτέλα"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> τοις εκατό."</string>
+    <string name="wallet_buy_button_place_holder">Αγορά μέσω Google</string>
+</resources>

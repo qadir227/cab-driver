@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/n_appbackground"
+        android:layout_alignLeft="@+id/actualcontent"
+        android:layout_alignRight="@id/actualcontent"
+        android:layout_alignTop="@id/actualcontent"
+        android:layout_alignBottom="@id/actualcontent"/>
+
+    <LinearLayout
+        android:id="@+id/actualcontent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dialog_horizontal_padding"
+        android:paddingBottom="@dimen/dialog_horizontal_padding"
+        android:paddingLeft="@dimen/dialog_vertical_padding"
+        android:paddingRight="@dimen/dialog_vertical_padding">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/dlgDriverNotes_btnBack"
+                android:background="@null"
+                android:src="@null"
+                android:layout_width="@dimen/back_ico"
+                android:layout_height="@dimen/back_ico"
+                android:scaleType="centerInside"
+                android:layout_gravity="right"/>
+
+            <Space
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:id="@+id/dlgPrice_btnPanic"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_panic" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/dlgPrice_lblTitle"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dialog_title"
+            android:text="@string/dlg_drivernotes_title"/>
+
+        <EditText
+            android:id="@+id/dlgDriverNotes_txtNotes"
+            android:hint="@string/enter_notes_here"
+            android:minLines="5"
+            android:gravity="bottom"
+            android:digits=" 1234567890.,+-*/\\!?;:=@#$£abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+        <ImageButton
+            android:id="@+id/dlgDriverNotes_btnGo"
+            android:layout_gravity="right"
+            android:layout_width="@dimen/yesno_ico_width"
+            android:layout_height="@dimen/yesno_ico_height"
+            android:scaleType="centerInside"
+            android:background="@drawable/layout_listitem"
+            android:src="@drawable/n_icoyes"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

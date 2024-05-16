@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              style="@style/Root"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:id="@+id/frmDriverMessage_base"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".DriverMessage" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/frmSoundChooser_btnBack"
+            android:background="@drawable/layout_listitem"
+            android:tint="@color/colorPrimary"
+            android:src="@drawable/n_icoback"
+            android:layout_width="@dimen/back_ico"
+            android:layout_height="@dimen/back_ico"
+            android:scaleType="centerInside"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/frmSoundChooser_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sounds"
+            android:textSize="@dimen/activity_title"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/frmDriverMessage_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list"
+                tools:listitem="@layout/row_media_browser"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/frmSoundChooser_btnAddNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_listitem"
+                android:src="@drawable/n_icospeak"
+                android:layout_gravity="right"/>
+
+            </LinearLayout>
+
+</RelativeLayout>
+
+</LinearLayout>

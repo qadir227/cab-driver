@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+	<ImageView
+		android:id="@+id/imgBackground"
+		android:src="@drawable/n_appbackground"
+		android:scaleType="fitXY"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_alignLeft="@+id/actualcontent"
+		android:layout_alignRight="@id/actualcontent"
+		android:layout_alignTop="@id/actualcontent"
+		android:layout_alignBottom="@id/actualcontent"/>
+
+	<LinearLayout
+		android:id="@+id/actualcontent"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:paddingTop="@dimen/dialog_horizontal_padding"
+		android:paddingBottom="@dimen/dialog_horizontal_padding"
+		android:paddingLeft="@dimen/dialog_vertical_padding"
+		android:paddingRight="@dimen/dialog_vertical_padding">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:paddingTop="@dimen/dialog_horizontal_padding"
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:src="@drawable/big_icon"
+					android:id="@+id/messagebox_new_image"
+					android:scaleType="centerInside"
+					android:layout_width="@dimen/messagebox_new_icon_width"
+					android:layout_height="@dimen/messagebox_new_icon_height"/>
+
+				<TextView
+					android:text="@string/notification_cab_lock_install_title"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:textSize="@dimen/dialog_title"
+					android:gravity="center"/>
+
+			</LinearLayout>
+
+
+
+			<ScrollView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="@dimen/dialog_horizontal_padding"
+				android:paddingBottom="@dimen/dialog_horizontal_padding">
+
+				<TextView
+					android:textSize="@dimen/dialog_content"
+					android:text="@string/dialog_install_cablock_top_content"
+					android:layout_width="match_parent"
+					android:layout_height="fill_parent"
+					android:gravity="center"/>
+			</ScrollView>
+
+		</LinearLayout>
+
+		<TextView
+			android:text="Download Now"
+			android:id="@+id/btnDownloadNow"
+			android:clickable="true"
+			android:textColor="@color/dialog_button_text_only"
+			android:textSize="@dimen/message_box_button_text"
+			android:layout_marginTop="8dip"
+			android:layout_gravity="right"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:text="Show Downloads"
+			android:id="@+id/btnShowDownloads"
+			android:clickable="true"
+			android:textColor="@color/dialog_button_text_only"
+			android:textSize="@dimen/message_box_button_text"
+			android:layout_marginTop="8dip"
+			android:layout_gravity="right"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+
+
+	</LinearLayout>
+</RelativeLayout>

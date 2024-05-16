@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.cabdespatch.driversapp",
+  "variantName": "A_GFX_UPDATEDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 5130007,
+      "versionName": "5.137c-d",
+      "outputFile": "app-A_GFX_UPDATE-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

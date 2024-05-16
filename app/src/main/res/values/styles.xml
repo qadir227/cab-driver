@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:textColor">@color/ui_text</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:alertDialogStyle">@style/AppDlg</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="menu_style" parent="AppTheme">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textColorPrimary">@color/Black</item>
+    </style>
+
+    <style name="dialog_style" parent="AppTheme"></style>
+    <style name="Yellow_Button" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:paddingLeft">@dimen/dialog_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/dialog_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/dialog_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/dialog_vertical_padding</item>
+        <item name="android:background">@drawable/yellow_button</item>
+    </style>
+
+    <style name="select_button" parent="Yellow_Button">
+        <item name="android:background">@drawable/yellow_button_round</item>
+    </style>
+
+
+    <style name="CardWidgetStyle" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="editTextStyle">@style/EditTextOverride</item>
+        <item name="android:editTextStyle">@style/EditTextOverride</item>
+    </style>
+
+    <style name="EditTextOverride" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorForegroundPrimaryDarkBackground</item>
+        <item name="android:textColorHint">@color/colorHintPrimaryDarkBackground</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+    <style name="RadioButtonStyle" parent="CheckBoxStyle">
+        <item name="android:textColor">@color/ui_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:buttonTint">@color/radiobox_tint</item>
+        <item name="buttonTint">@color/radiobox_tint</item>
+        <item name="android:button">@drawable/radiobutton</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="@android:style/Widget.Holo.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/ui_text</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:drawablePadding">12dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:button">@drawable/checkbox</item>
+        <item name="android:buttonTint">@color/checkbox_tint</item>
+        <item name="buttonTint">@color/checkbox_tint</item>
+        <item name="android:layout_width">@dimen/checkbox_size</item>
+        <item name="android:layout_height">@dimen/checkbox_size</item>
+    </style>
+
+
+    <style name="AppDlg" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/n_appbackground</item>
+        <item name="android:bottomBright">@color/White</item>
+        <item name="android:bottomDark">@color/White</item>
+        <item name="android:bottomMedium">@color/White</item>
+        <item name="android:centerBright">@color/White</item>
+        <item name="android:centerDark">@color/White</item>
+        <item name="android:centerMedium">@color/White</item>
+        <item name="android:fullBright">@color/Orange</item>
+        <item name="android:fullDark">@color/Orange</item>
+        <item name="android:topBright">@color/Blue</item>
+        <item name="android:topDark">@color/Blue</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Root" parent="AppTheme">
+        <!-- <item name="android:background">@drawable/n_appbackground</item>  -->
+    </style>
+
+    <style name="YellowBase">
+        <item name="android:background">@drawable/n_yellowbase</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="YellowInner">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="YellowItemText">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Dialog">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AppTheme.Float" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

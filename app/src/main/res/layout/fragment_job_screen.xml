@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/n_appbackground"
+    style="@style/Root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JobScreen" >
+
+
+    <RelativeLayout
+        android:tag="safe_hide"
+        tools:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/frmJob_btnMenu"
+                    android:tag="SAFETY"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_width="@dimen/action_ico"
+                    android:layout_height="@dimen/action_ico"
+                    android:layout_gravity="left"
+                    android:background="@drawable/layout_listitem"
+                    android:src="@drawable/n_icomenu" />
+
+                <ImageButton
+                    android:id="@+id/frmJob_btnPay"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:tag="SAFETY"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_width="@dimen/action_ico"
+                    android:layout_height="@dimen/action_ico"
+                    android:layout_gravity="left"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/layout_listitem"
+                    android:src="@drawable/n_ico_card" />
+
+                <ImageButton
+                    android:id="@+id/frmJob_btnMeter"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:tag="SAFETY"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_width="@dimen/action_ico"
+                    android:layout_height="@dimen/action_ico"
+                    android:layout_gravity="left"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/layout_listitem"
+                    android:src="@drawable/n_ico_meter" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/fragFairMeter"
+                android:background="@color/meter_background"
+                tools:layout_height="64dp"
+                android:visibility="visible"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <RelativeLayout
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ViewFlipper
+                    android:id="@+id/frmJob_ViewFlipper"
+                    android:layout_marginLeft="@dimen/jobdetail_vertical_margin"
+                    android:layout_marginRight="@dimen/jobdetail_vertical_margin"
+                    android:layout_marginTop="@dimen/jobdetail_horizontal_margin"
+                    android:layout_marginBottom="@dimen/jobdetail_horizontal_margin"
+                    tools:background="#22FFFF00"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:id="@+id/frmJob_btnPlay"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    android:background="@null"
+                    android:src="@drawable/n_icoplay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:id="@+id/frmJob_layoutSafetyPanel"
+                android:tag="SAFETY"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+
+
+
+                <ImageButton
+                    android:id="@+id/frmJob_btnJobButton"
+                    tools:src="@drawable/btn_jstc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@null" />
+
+                <!--
+               <LinearLayout
+                   android:orientation="horizontal"
+                   android:id="@+id/frmJob_btnJobButton"
+                   tools:src="@drawable/btn_jstc"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_gravity="center"
+                   android:padding="@dimen/job_button_padding"
+                   android:background="@color/Yellow"
+                   android:src="@null" >
+
+                   <ImageView
+                       android:src="@drawable/n_ico3g"
+                       android:layout_weight="30"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent" />
+
+                   <TextView
+                       tools:text="STC"
+                       android:textSize="28dp"
+                       android:gravity="center"
+                       android:textColor="@color/Black"
+                       android:layout_width="0dp"
+                       android:layout_weight="70"
+                       android:layout_height="match_parent" />
+
+               </LinearLayout>
+
+-->
+
+                <ImageButton
+                    android:id="@+id/frmJob_btnPanic"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/btn_panic" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:background="@color/TransparentBlack"
+            android:id="@+id/dlg_container"
+            android:visibility="gone"
+            tools:visibility="invisible"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:tag="safe_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Red"
+            android:gravity="center"
+            android:textSize="60dp"
+            android:text="@string/safety_panel_text"/>
+
+    </LinearLayout>
+
+</LinearLayout>

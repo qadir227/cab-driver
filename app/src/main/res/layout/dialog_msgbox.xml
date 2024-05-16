@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/n_appbackground"
+        android:scaleType="fitXY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/actualcontent"
+        android:layout_alignRight="@id/actualcontent"
+        android:layout_alignTop="@id/actualcontent"
+        android:layout_alignBottom="@id/actualcontent"/>
+
+    <LinearLayout
+        android:id="@+id/actualcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dialog_horizontal_padding"
+        android:paddingBottom="@dimen/dialog_horizontal_padding"
+        android:paddingLeft="@dimen/dialog_vertical_padding"
+        android:paddingRight="@dimen/dialog_vertical_padding">
+
+        <LinearLayout
+            android:theme="@style/dialog_style"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dlg_msgbox_lblTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/dialog_title"
+                android:paddingBottom="@dimen/dialog_horizontal_padding"
+                tools:text="Message Title"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/dlg_msgbox_lblSubTitle"
+                android:textSize="@dimen/dialog_subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:text="Subtitle"
+                android:paddingBottom="@dimen/dialog_horizontal_padding"
+                android:gravity="center"/>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dialog_horizontal_padding"
+                android:paddingBottom="@dimen/dialog_horizontal_padding"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip">
+
+                <TextView
+                    android:id="@+id/dlg_msgbox_lblMessage"
+                    android:textSize="@dimen/dialog_content"
+                    tools:text="This is the dialog content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"/>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/dlg_msgbox_layoutYesNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/dlg_msgbox_btnNo"
+                android:layout_width="@dimen/yesno_ico_width"
+                android:layout_height="@dimen/yesno_ico_height"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:background="@drawable/layout_listitem"
+                android:src="@drawable/n_icono"/>
+
+
+            <ImageButton
+                android:id="@+id/dlg_msgbox_btnYes"
+                android:layout_width="@dimen/yesno_ico_width"
+                android:layout_height="@dimen/yesno_ico_height"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:background="@drawable/layout_listitem"
+                android:src="@drawable/n_icoyes"/>
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/dlg_msgbox_btnOk"
+            android:layout_width="@dimen/yesno_ico_width"
+            android:layout_height="@dimen/yesno_ico_height"
+            android:layout_gravity="right"
+            android:scaleType="centerInside"
+            android:background="@drawable/layout_listitem"
+            android:src="@drawable/n_icoyes"/>
+
+        <TextView
+            android:id="@+id/dlg_msgbox_lblFootnote"
+            android:paddingBottom="@dimen/dialog_horizontal_padding"
+            android:textSize="@dimen/dialog_subtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</RelativeLayout>

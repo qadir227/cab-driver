@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cabdespatch.driversapp"
+    android:versionCode="5130007"
+    android:versionName="5.137c-d" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" /> <!-- Also implied, but also really needed -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="true" /> <!-- any location is good enough for us -->
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="true" /> <!-- Only necessary because of missing checks. See: APPS-801 -->
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="true" /> <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+    <queries>
+
+        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+        <package android:name="com.android.chrome" />
+        <!-- Added to check the default browser that will host the AuthFlow. -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data android:scheme="http" />
+        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <permission
+        android:name="com.cabdespatch.driversapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.cabdespatch.driversapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.cabdespatch.driverapp.beta.CabApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:installLocation="internalOnly"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.StripePaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.DriverPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.DriverDocumentActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.cabdespatch.driversapp.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <!--
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"></meta-data>
+        </provider>
+        -->
+        <activity android:name="com.cabdespatch.driverapp.beta.activities2017.UpdateActivity" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.PaymentActivity"
+            android:label="@string/title_activity_payment"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name="com.cabdespatch.driverapp.beta.activities2017.TestActivity" />
+
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+        <service
+            android:name="com.cabdespatch.driverapp.beta.services.FirebaseMessagingService"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.cabdespatch.driverapp.beta.services.DataService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location"
+            android:label="Cab Despatch Data Service" />
+        <service
+            android:name="com.cabdespatch.driverapp.beta.services.UiBlockerService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Cab Despatch Security Service" />
+        <service
+            android:name="com.cabdespatch.driverapp.beta.services.SpeakService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.Launcher"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:mimeType="text/*" />
+                <data android:pathPattern=".*\\.cdxda" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.LoginActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.EngineerModeMenu"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.Password"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.FileBrowser"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.AutoPlot"
+            android:hardwareAccelerated="false"
+            android:label="@string/title_activity_auto_plot"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.ResumerActivity"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.ErrorActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.PlotList"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.JobTotals"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.DriverMessage"
+            android:hardwareAccelerated="false"
+            android:label="@string/title_activity_driver_message"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.ViewMessages"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.ComposeMessage"
+            android:hardwareAccelerated="@bool/hw_acc_edit_text"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.PanicActivity"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.Settings"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.ResetApp"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.ViewJobHistory"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.DocumentScanner"
+            android:hardwareAccelerated="false"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.ManagerModeMenu"
+            android:hardwareAccelerated="false"
+            android:label="@string/title_activity_manager_mode_menu" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.SoundChooser"
+            android:hardwareAccelerated="false"
+            android:label="@string/title_activity_sound_chooser" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities.POD"
+            android:label="@string/title_activity_pod" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.LoggedInHost"
+            android:label="@string/title_activity_logged_in_host"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.DataMonitorActivity"
+            android:label="Dev Monitor"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.cabdespatch.driverapp.beta.activities2017.PermissionActivity"
+            android:label="@string/app_name" />
+
+        <receiver
+            android:name="com.cabdespatch.driverapp.beta.InteropServices"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="999" >
+                <action android:name="com.cabdespatch.interop.RESULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.sumup.merchant.reader.identitylib.ui.activities.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="locked"
+            android:theme="@style/SumUpTheme.ActionBarNoShadow"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.sumup.merchant.reader.ui.activities.CardReaderPaymentAPIDrivenPageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/SumUpTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.sumup.merchant.reader.ui.activities.PaymentSettingsActivity"
+            android:label="@string/sumup_navigation_payment_methods"
+            android:screenOrientation="locked"
+            android:theme="@style/SumUpTheme" />
+        <activity
+            android:name="com.sumup.merchant.reader.ui.activities.CardReaderSetupActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/SumUpTheme.ActionBarNoShadow" />
+        <activity
+            android:name="com.sumup.merchant.reader.troubleshooting.ui.BtTroubleshootingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/SumUpTheme.ActionBarNoShadow" />
+        <activity
+            android:name="com.sumup.merchant.reader.api.LoadSumUpCardReaderSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/sumup_navigation_payment_methods"
+            android:screenOrientation="locked"
+            android:theme="@style/SumUpTheme" >
+        </activity>
+        <activity
+            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+            android:exported="false"
+            android:theme="@style/StripePaymentSheetDefaultTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+            android:exported="false"
+            android:theme="@style/StripePaymentSheetDefaultTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+            android:exported="false"
+            android:theme="@style/StripePaymentSheetDefaultTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+            android:exported="false"
+            android:theme="@style/StripePaymentSheetDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+            android:exported="false"
+            android:theme="@style/StripePaymentSheetDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.link.LinkForegroundActivity"
+            android:autoRemoveFromRecents="true"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:theme="@style/StripeTransparentTheme" />
+        <activity
+            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+            android:autoRemoveFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/StripeTransparentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="complete"
+                    android:path="/com.cabdespatch.driversapp"
+                    android:scheme="link-popup" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+            android:exported="false"
+            android:theme="@style/StripePaymentSheetDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+            android:exported="false"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.PaymentMethodsActivity"
+            android:exported="false"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.PaymentFlowActivity"
+            android:exported="false"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+            android:exported="false"
+            android:theme="@style/StripeDefaultTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.stripe.android.view.PaymentRelayActivity"
+            android:exported="false"
+            android:theme="@style/StripeTransparentTheme" />
+        <!--
+        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+        launched the browser Activity will also handle the return URL deep link.
+        -->
+        <activity
+            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@style/StripeTransparentTheme" />
+        <activity
+            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/StripeTransparentTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Must match `DefaultReturnUrl#value`. -->
+                <data
+                    android:host="payment_return_url"
+                    android:path="/com.cabdespatch.driversapp"
+                    android:scheme="stripesdk" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+            android:exported="false"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+            android:exported="false"
+            android:theme="@style/StripeGooglePayDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+            android:exported="false"
+            android:theme="@style/StripeGooglePayDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+            android:exported="false"
+            android:theme="@style/StripePayLauncherDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+            android:exported="false"
+            android:theme="@style/StripeTransparentTheme" />
+        <activity
+            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+            android:exported="false"
+            android:theme="@style/Stripe3DS2Theme" />
+        <activity
+            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+                <data
+                    android:host="link-accounts"
+                    android:pathPrefix="/com.cabdespatch.driversapp/authentication_return"
+                    android:scheme="stripe-auth" />
+
+                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+                <data
+                    android:host="link-native-accounts"
+                    android:pathPrefix="/com.cabdespatch.driversapp/authentication_return"
+                    android:scheme="stripe-auth" />
+
+                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+                <data
+                    android:host="link-accounts"
+                    android:path="/com.cabdespatch.driversapp/success"
+                    android:scheme="stripe-auth" />
+                <data
+                    android:host="link-accounts"
+                    android:path="/com.cabdespatch.driversapp/cancel"
+                    android:scheme="stripe-auth" />
+
+                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+                <data
+                    android:host="native-redirect"
+                    android:pathPrefix="/com.cabdespatch.driversapp"
+                    android:scheme="stripe-auth" />
+
+                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+                <data
+                    android:host="auth-redirect"
+                    android:pathPrefix="/com.cabdespatch.driversapp"
+                    android:scheme="stripe" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+            android:exported="false"
+            android:theme="@style/StripeDefaultTheme" />
+        <activity
+            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+            android:exported="false"
+            android:theme="@style/StripeDefaultTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <provider
+            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+            android:authorities="com.cabdespatch.driversapp.financialconnections-init"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.cabdespatch.driversapp.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.cabdespatch.driversapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="aia-compat-api-min-version"
+            android:value="1" />
+    </application>
+
+</manifest>

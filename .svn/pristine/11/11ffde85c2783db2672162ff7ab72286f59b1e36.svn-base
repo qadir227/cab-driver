@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Root"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/n_appbackground"
+    android:id="@+id/frmDriver_base"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+        </ListView>
+
+
+
+        <LinearLayout
+            android:id="@+id/frmDriver_layoutSafetyPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/frmDriver_btnJobButton"
+                    android:tag="SAFETY"
+                    android:text="Login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/frmDriver_btnPanic"
+                android:tag="SAFETY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_panic" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--
+    what's this doing here?
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.cabdespatch.driverapp.beta.fragments.StatusBar"
+        android:tag="androidsucks12345"
+        tools:layout="@layout/fragment_statusbar" />-->
+
+
+</LinearLayout>

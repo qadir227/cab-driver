@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d nové upozornenie</item>
+    <item quantity="few">%d nové upozornenia</item>
+    <item quantity="many">%d new notifications</item>
+    <item quantity="other">%d nových upozornení</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Prejsť na plochu"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Prejsť nahor"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ďalšie možnosti"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Zobraziť všetky"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Vybrať aplikáciu"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"VYP."</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ZAP."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"odstrániť"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"medzerník"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Vyhľadať…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Vymazať dopyt"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Vyhľadávací dopyt"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Hľadať"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Odoslať dopyt"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Hlasové vyhľadávanie"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Zdieľať s"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Zdieľať s aplikáciou <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Zbaliť"</string>
+    <string name="bottomsheet_action_collapse">Zbaliť dolný hárok</string>
+    <string name="bottomsheet_action_expand">Rozbaliť dolný hárok</string>
+    <string name="bottomsheet_action_expand_halfway">Rozbaliť napoly</string>
+    <string name="bottomsheet_drag_handle_clicked">Dvojité klepnutie na presúvadlo</string>
+    <string name="bottomsheet_drag_handle_content_description">Presúvadlo</string>
+    <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
+    <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Vymazať text</string>
+    <string msgid="406453423630273620" name="close_drawer">"Zavrieť navigačnú ponuku"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Zavrieť hárok"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Povoliť</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">Aplikácia %1$s bude fungovať až po povolení služieb Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Inštalovať</string>
+    <string name="common_google_play_services_install_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na zariadení nemáte.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnosť služieb Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Chyba služieb Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Aplikácia %1$s má problémy so službami Google Play. Skúste to znova.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikáciu %1$s nebude možné spustiť bez služieb Google Play, ktoré vaše zariadenie nepodporuje.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Aktualizovať</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
+    <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
+    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
+    <string name="common_open_on_phone">Otvoriť v telefóne</string>
+    <string name="common_signin_button_text">Prihlásiť sa</string>
+    <string name="common_signin_button_text_long">Prihlásiť sa do účtu Google</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Odkaz bol skopírovaný do schránky"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Neplatný vstup"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Vyskakovacie okno"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Rozbaľovacia ponuka"</string>
+    <string name="error_icon_content_description">Chyba</string>
+    <string name="exposed_dropdown_menu_content_description">Zobraziť rozbaľovaciu ponuku</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopírovať odkaz"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Otvoriť v prehliadači"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Zdieľať odkaz"</string>
+    <string name="icon_content_description">Ikona dialógového okna</string>
+    <string msgid="6827826412747255547" name="in_progress">"Prebieha"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Čiastočne začiarknuté"</string>
+    <string name="item_view_role_description">Tabulátor</string>
+    <string name="material_clock_toggle_content_description">Vyberte AM alebo PM</string>
+    <string name="material_hour_24h_suffix">%1$s hodín</string>
+    <string name="material_hour_selection">Vybrať hodinu</string>
+    <string name="material_hour_suffix">%1$s</string>
+    <string name="material_minute_selection">Vyberte minúty</string>
+    <string name="material_minute_suffix">%1$s min</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Ak chcete zadať čas, prepnite na režim hodín.</string>
+    <string name="material_timepicker_hour">Hodina</string>
+    <string name="material_timepicker_minute">Minúta</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Vyberte čas</string>
+    <string name="material_timepicker_text_input_mode_description">Ak chcete zadať čas, prepnite na textový režim vstupu</string>
+    <string name="mtrl_badge_numberless_content_description">Nové upozornenie</string>
+    <string name="mtrl_chip_close_icon_content_description">Odstrániť položku %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Viac než %1$d nových upozornení</string>
+    <string name="mtrl_picker_a11y_next_month">Ďalší mesiac</string>
+    <string name="mtrl_picker_a11y_prev_month">Predchádzajúci mesiac</string>
+    <string name="mtrl_picker_announce_current_selection">Aktuálny výber: %1$s</string>
+    <string name="mtrl_picker_cancel">Zrušiť</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Vyberte dátum</string>
+    <string name="mtrl_picker_date_header_unselected">Vybraný dátum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Stĺpec dní: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
+    <string name="mtrl_picker_invalid_format_example">Príklad: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Použite: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Prejsť na rok %1$s</string>
+    <string name="mtrl_picker_out_of_range">Mimo rozsahu: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Dátum začatia – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – dátum ukončenia</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
+    <string name="mtrl_picker_range_header_unselected">Dátum začatia – dátum ukončenia</string>
+    <string name="mtrl_picker_save">Uložiť</string>
+    <string name="mtrl_picker_text_input_date_hint">Dátum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Dátum ukončenia</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Dátum začatia</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Prepnúť na kalendárový režim vstupu</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím prepnete na výber dňa</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Prepnúť na textový režim vstupu</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím prepnete na výber roka</string>
+    <string name="mtrl_timepicker_cancel">Zrušiť</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Navigačná ponuka"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Nevybrané"</string>
+    <string msgid="875452955155264703" name="off">"Vypnuté"</string>
+    <string msgid="8655164131929253426" name="on">"Zapnuté"</string>
+    <string name="password_toggle_content_description">Zobraziť heslo</string>
+    <string msgid="5941395253238309765" name="range_end">"Koniec rozsahu"</string>
+    <string msgid="7097486360902471446" name="range_start">"Začiatok rozsahu"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Hľadať"</string>
+    <string msgid="6043586758067023" name="selected">"Vybrané"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sumup_app_outdated">Používate starú verziu aplikácie SumUp. Prosím, aktualizujte ju na najnovšiu verziu.</string>
+    <string name="sumup_bt_reset_air_message">Stlačte a držte vypínač až kým sa na displeji nezobrazí nápis %1$s. Jeho zobrazenie môže chvíľu trvať. Po zobrazení nápisu %2$s vypínač ihneď pustite.</string>
+    <string name="sumup_bt_reset_instructions_message">Ak máte problém s pripojením tohto zariadenia k platobnému terminálu, postupujte nasledovne.</string>
+    <string name="sumup_bt_reset_instructions_title">Reštartovanie Bluetooth</string>
+    <string name="sumup_bt_reset_mobile_description">Kliknutím na tlačidlo nižšie reštartujte funkciu Bluetooth v tomto zariadení.</string>
+    <string name="sumup_bt_reset_option_phone">Telefón</string>
+    <string name="sumup_bt_reset_option_reader">Platobný terminál</string>
+    <string name="sumup_bt_reset_option_tablet">Tablet</string>
+    <string name="sumup_btn_call_support">Zavolať teraz</string>
+    <string name="sumup_btn_cancel">Zrušiť</string>
+    <string name="sumup_btn_connect">Pripojiť</string>
+    <string name="sumup_btn_dismiss">OK</string>
+    <string name="sumup_btn_done">Hotovo</string>
+    <string name="sumup_btn_edit">Upraviť</string>
+    <string name="sumup_btn_later">Neskôr</string>
+    <string name="sumup_btn_next">Ďalej</string>
+    <string name="sumup_btn_no">Nie</string>
+    <string name="sumup_btn_ok">OK</string>
+    <string name="sumup_btn_previous">Späť</string>
+    <string name="sumup_btn_proceed">Ďalej</string>
+    <string name="sumup_btn_rescan">Vyhľadať znova</string>
+    <string name="sumup_btn_retry">Skúsiť znova</string>
+    <string name="sumup_btn_skip">Preskočiť</string>
+    <string name="sumup_btn_yes">Áno</string>
+    <string name="sumup_button_retry">Skúsiť znova</string>
+    <string name="sumup_camera_permission_request_text">Pre vytvorenie fotografie položky potrebuje aplikácia SumUp prístup k fotoaparátu na vašom mobilnom zariadení.</string>
+    <string name="sumup_cancel_pending_payment_message">Naozaj chcete zrušiť túto transakciu?</string>
+    <string name="sumup_cancel_pending_payment_title">Platba čaká na vybavenie</string>
+    <string name="sumup_card_checkout_cvv_hint">CVV</string>
+    <string name="sumup_card_checkout_expiry_date_label">Platnosť karty do</string>
+    <string name="sumup_card_checkout_expiry_month_hint">MM</string>
+    <string name="sumup_card_checkout_expiry_year_hint">RR</string>
+    <string name="sumup_card_checkout_insert_and_turn_on_card_reader">Prosím, pripojte a zapnite terminál.</string>
+    <string name="sumup_card_checkout_security_code">Bezpečnostný kód</string>
+    <string name="sumup_card_reader_battery_level">%1$d%% batérie.</string>
+    <string name="sumup_checking_firmware_info">Vyhľadávanie aktualizácií pre softvér terminálu</string>
+    <string name="sumup_checkout_connecting_bt">Prebieha pripájanie…</string>
+    <string name="sumup_checkout_power_on_reader">Zapnúť platobný terminál</string>
+    <string name="sumup_confirm_pairing_air">Potvrďte žiadosť o spárovanie na vašom %1$s A ZÁROVEŇ na platobnom terminále.</string>
+    <string name="sumup_confirm_pairing_air_ios">Po výzve prosím potvrďte žiadosť o spárovanie na vašom %1$s A ZÁROVEŇ na platobnom terminále.</string>
+    <string name="sumup_connection_lost">Strata pripojenia</string>
+    <string name="sumup_downloading_firmware">Prebieha sťahovanie aktualizácie softvéru</string>
+    <string name="sumup_elv_legal_text">Ich ermächtige %1$s, %2$s, %3$s, %4$s, und von diesem hierzu beauftragten Dritte („die Unternehmen“) den heute fälligen, oben genannten Betrag von meinem Bankkonto durch Lastschrift einzuziehen. Ich weise mein Kreditinstitut unwiderruflich an bei Nichteinlösung der Lastschrift den Unternehmen und/oder der HIT GmbH, Eiffestraße 76, 20537 Hamburg auf Anforderung meinen Namen und meine Anschrift zur Geltendmachung der Forderung mitzuteilen. Datenschutzrechtliche Information: Meine Zahlungsdaten (Kontonummer, Bankleitzahl, Kartenverfallsdatum, Kartenfolgenummer, Datum, Uhrzeit, Zahlungsbetrag, Terminalkennung, Ort, Unternehmen und Filiale) werden zur Kartenprüfung und Zahlungsabwicklung an SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland weitergegeben. Sollte im Rahmen der Zahlungsabwicklung die Lastschrift von meiner Bank nicht eingelöst werden (Rücklastschrift) oder sollte ich der Lastschrift widersprechen, stimme ich zu, dass diese Tatsachen in eine Sperrdatei aufgenommen werden außer wenn ich im Zusammenhang mit dem Widerruf erklärtermaßen Rechte aus dem zu Grunde liegenden Geschäft (z.B. Gewährleistungsrechte) geltend gemacht habe. Die Sperrung wird nach vollständigem Forderungsausgleich wieder aufgehoben und die gespeicherten Daten gelöscht. Dritte, die eine vertragliche Vereinbarung mit den Unternehmen zur Nutzung der Sperrdatei haben, können für Zwecke der Missbrauchsbekämpfung und zur Risikominimierung von Zahlungsausfällen ihre elektronischen Zahlungsvorgänge gegen die Sperrdatei abgleichen. Speichernde Stelle für die Zwecke der Kartenprüfung und Zahlungsabwicklung sind die HIT GmbH, Eiffestr. 76, 20537 Hamburg und die SumUp Ltd, Hospitality House, 16–20 South Cumberland Street, Dublin 2, Irland, die auch die Sperrdatei für teilnehmende Händler führen. Diese Unternehmen erteilen insoweit auch an anderen Händler, die auf die Sperrdatei zugreifen eine Empfehlung, ob eine Zahlung im Wege des Lastschrifteinzugs akzeptiert werden sollte.</string>
+    <string name="sumup_elv_legal_text_short">Hiermit erteile ich die Ermächtigung zum Lastschrifteinzug.</string>
+    <string name="sumup_err_no_recent_geo_location_received">Lokalitu sa nepodarilo identifikovať. Uistite sa, že sú lokalizačné/GPS služby na vašom mobilnom zariadení zapnuté a fungujú.  </string>
+    <string name="sumup_error">Chyba</string>
+    <string name="sumup_error_cannot_send_email">E-mail nie je možné odoslať - nebola nájdená žiadna e-mailová služba.</string>
+    <string name="sumup_error_io">Pripojenie k vzdialenému serveru SumUp sa nepodarilo. Prosím, skontrolujte pripojenie k internetu a skúste to znova.</string>
+    <string name="sumup_error_payment_method_required">Výber spôsobu platby je povinný</string>
+    <string name="sumup_error_payment_method_required_desc">Pre používanie SumUp musí byť aktívny aspoň jeden spôsob platby.</string>
+    <string name="sumup_error_system_webview_exception">Mrzí nás to, ale pri používaní Android System WebView došlo k chybe. Aplikáciu aktualizujte alebo kontaktujte zákaznícku podporu.</string>
+    <string name="sumup_error_unexpected_response">Nastala nečakaná chyba v komunikácii so vzdialeným serverom SumUp. Prosím, skúste to znova.</string>
+    <string name="sumup_external_storage_permission_request_text">Aby ste si mohli sťahovať prehľady poukázaných platieb, musíte povoliť prístup k externému úložisku vášho zariadenia</string>
+    <string name="sumup_failed_transaction">Platbu sa nepodarilo zrealizovať</string>
+    <string name="sumup_firmware_update_canceled">Aktualizácia zrušená</string>
+    <string name="sumup_fragment_send_receipt">Odoslať potvrdenie o platbe</string>
+    <string name="sumup_geolocation_unavailable_title">Úkon vyžaduje geo-lokalizáciu.</string>
+    <string name="sumup_grant_usb_permission">Ak chcete pokračovať, musíte povoliť prístup cez USB.</string>
+    <string name="sumup_help">Pomoc</string>
+    <string name="sumup_installment_cancelled">Zrušené</string>
+    <string name="sumup_items_many">Položiek: %1$s</string>
+    <string name="sumup_items_none">Žiadne položky</string>
+    <string name="sumup_items_one">1 položka</string>
+    <string name="sumup_l10n_app_processing">Prebieha spracovanie…</string>
+    <string name="sumup_l10n_card_checkout_card_number">Číslo karty</string>
+    <string name="sumup_l10n_card_checkout_checking_device">Prebieha kontrola terminálu…</string>
+    <string name="sumup_l10n_card_checkout_insert_card_reader">Pripojiť platobný terminál</string>
+    <string name="sumup_l10n_err_card_payment_expired">Platnosť karty vypršala. Prosím, použite inú kartu.</string>
+    <string name="sumup_l10n_order_hint_custom_item">položka</string>
+    <string name="sumup_l10n_payment_failure">Transakciu sa nepodarilo zrealizovať</string>
+    <string name="sumup_l10n_phone_number_confirmation_invalid_for_country">%1$s nevyzerá ako platné číslo mobilného telefónu pre %2$s.\n\nProsím, upravte zadané číslo alebo vložte platnú medzinárodnú predvoľbu, ak ide o mobilné číslo mimo %2$s.</string>
+    <string name="sumup_l10n_phone_number_confirmation_outside_of_country">​%1$s​ vyzerá ako zahraničné mobilné telefónne číslo mimo ​%2$s​.\n\nPred pokračovaním prosím overte správnosť zadaného čísla so zákazníkom.</string>
+    <string name="sumup_l10n_print_failed_cover_open">Kryt tlačiarne je otvorený. Zatvorte ho a skúste to znova.</string>
+    <string name="sumup_l10n_print_failed_generic">Potvrdenie o platbe sa nepodarilo vytlačiť. Skontrolujte tlačiareň a skúste to znova.</string>
+    <string name="sumup_l10n_print_failed_image_unavailable">Údaje o potvrdení platby sa nepodarilo načítať. Skúste to znova.</string>
+    <string name="sumup_l10n_print_failed_paper_empty">Minula sa papierová páska do tlačiarne.</string>
+    <string name="sumup_l10n_print_failed_printer_offline">Pripojenie k tlačiarni sa nepodarilo.</string>
+    <string name="sumup_label_external_storage">Externé úložisko</string>
+    <string name="sumup_location_permission_request_text">Pre bezpečné poskytovanie služieb je nutné, aby SumUp poznal miesto realizácie platobných transakcií. Aplikácia SumUp preto potrebuje prístup k lokalizačným službám na vašom mobilnom zariadení.</string>
+    <string name="sumup_location_permission_request_title">Informácie o polohe</string>
+    <string name="sumup_login_btn_forgot_password">Zabudnuté heslo</string>
+    <string name="sumup_login_btn_log_in">Prihlásiť sa</string>
+    <string name="sumup_login_btn_title">Prihlásiť sa</string>
+    <string name="sumup_login_error_email_invalid">Skontrolujte, či je e-mailová adresa zadaná správne</string>
+    <string name="sumup_login_error_email_missing">Zadajte e-mailovú adresu, na ktorú je zaregistrovaný váš účet SumUp</string>
+    <string name="sumup_login_error_password_missing">Zadajte heslo k vášmu účtu SumUp</string>
+    <string name="sumup_login_error_shelves_not_loaded">Ľutujeme, informácie z vášho účtu sa nepodarilo načítať.\nProsím, skúste sa prihlásiť znova.</string>
+    <string name="sumup_login_failed_message">Nastal problém s konfiguráciou vášho účtu SumUp. Prosím, skúste to znova alebo kontaktujte Tím zákazníckej podpory.</string>
+    <string name="sumup_login_failed_title">Prihlásenie sa nepodarilo</string>
+    <string name="sumup_login_hint_email">E-mailová adresa</string>
+    <string name="sumup_login_hint_password">Heslo</string>
+    <string name="sumup_login_session_expired">Boli ste odhlásený - pravdepodobne z dôvodu prihlásenia sa pod rovnakým účtom SumUp na iné mobilné zariadenie.</string>
+    <string name="sumup_merchant_activation_code">Activation Code</string>
+    <string name="sumup_navigation_payment_methods">Spôsoby platby</string>
+    <string name="sumup_navigation_payment_methods_multiple_options">Spôsoby platby</string>
+    <string name="sumup_no_account_question">Ešte nemáte svoj účet SumUp?</string>
+    <string name="sumup_no_air_usb_device">Neznáme zariadenie. Prosím, pripojte platobný terminál SumUp Air.</string>
+    <string name="sumup_no_usb_device">Pripojte platobný terminál SumUp Air s pomocou USB kábla. V nastaveniach zariadenia následne povoľte prístup cez USB.</string>
+    <string name="sumup_order_charge">Zaplatiť</string>
+    <string name="sumup_pairing_in_notification_bar">Prosím, skontrolujte, či žiadosť o spárovanie nie je v notifikáciách</string>
+    <string name="sumup_pax_setup_add_terminal">Nový terminál</string>
+    <string name="sumup_payment_setting_card_reader">Platobný terminál</string>
+    <string name="sumup_payment_setting_cash_payment">Platba v hotovosti</string>
+    <string name="sumup_payment_to_title">Platba voči</string>
+    <string name="sumup_permission_explanation_continue">Pokračovať</string>
+    <string name="sumup_phone">smartfón</string>
+    <string name="sumup_please_wait">Prosím, čakajte…</string>
+    <string name="sumup_please_wait_connecting">Prosím, čakajte. Prebieha pripájanie…</string>
+    <string name="sumup_pp_btn_fw_abort">Prerušiť aktualizáciu</string>
+    <string name="sumup_pp_setup_air_no_btle">Vaše mobilné zariadenie nepodporuje Bluetooth vo verzii 4.0 či vyššej. Prosím, skontrolujte, či nie je k dispozícii aktualizácia.</string>
+    <string name="sumup_pp_setup_charge_batteries">Uistite sa, že batérie platobného terminálu sú nabité.</string>
+    <string name="sumup_pp_setup_check_power">Uistite sa, že terminál je zapnutý</string>
+    <string name="sumup_pp_setup_connected">Terminál bol pripojený!</string>
+    <string name="sumup_pp_setup_connection_failed">Pripojenie sa nepodarilo. Skúste to znova alebo kontaktujte Tím zákazníckej podpory na %1$s</string>
+    <string name="sumup_pp_setup_connection_failed_no_support">Pri pripájaní k platobnému terminálu došlo k chybe. Skúste to, prosím, znovu.</string>
+    <string name="sumup_pp_setup_do_firmware_update_now_mandatory">Prosím, dbajte na to, aby aktualizácia prebehla pred %1$s.</string>
+    <string name="sumup_pp_setup_firmware_cancel_sure">Naozaj chcete aktualizáciu ukončiť?</string>
+    <string name="sumup_pp_setup_firmware_update_do_now">K dispozícii je aktualizácia softwéru vášho platobného terminálu. Jej inštalácia potrvá niekoľko minút. \n\nPre zachovanie optimálnej funkčnosti vášho terminálu vám dôrazne odporúčame aktualizáciu si stiahnuť a nainštalovať.</string>
+    <string name="sumup_pp_setup_firmware_update_installing">Prebieha inštalácia. Prosím, čakajte.</string>
+    <string name="sumup_pp_setup_firmware_update_minutes_remaining">Zostáva %1$s minút</string>
+    <string name="sumup_pp_setup_firmware_update_one_minute_remaining">Zostáva ešte jedna minúta</string>
+    <string name="sumup_pp_setup_help_additional_steps">Zdá sa, že sa vám stále nedarí pripojiť k platobnému terminálu. Môžete vyskúšať jeden z nasledujúcich krokov:</string>
+    <string name="sumup_pp_setup_help_air_reset">Resetujte terminál tak, že na 20 sekúnd podržíte jeho vypínač stlačený. Uistite sa pri tom, že terminál je vypnutý a nie je pripojený k nabíjačke.</string>
+    <string name="sumup_pp_setup_help_bt_toggle_button">Resetovať Bluetooth</string>
+    <string name="sumup_pp_setup_help_bt_toggle_header">Spojenie s terminálom cez Bluetooth sa nepodarilo. Predtým, ako sa o spojenie pokúsite opätovne, skúste znova nastaviť pripojenie cez Bluetooth.</string>
+    <string name="sumup_pp_setup_help_give_up">Prípadne kontaktujte náš Tím zákazníckej podpory na %1$s</string>
+    <string name="sumup_pp_setup_help_optional_support">V prípade potreby prosím kontaktujte náš Tím zákazníckej podpory na %1$s.</string>
+    <string name="sumup_pp_setup_help_pin_plus_replace_batteries">Replace the batteries of the card terminal</string>
+    <string name="sumup_pp_setup_help_reboot_device">Reštartovať %1$s</string>
+    <string name="sumup_pp_setup_mode_to_bt">Uistite sa, že terminál je nastavený v móde pripojenia pomocou Bluetooth. Mód zmeníte stlačením vypínača terminálu na 10 sekúnd.</string>
+    <string name="sumup_pp_setup_multiple_devices">Našlo sa viacero terminálov</string>
+    <string name="sumup_pp_setup_searching">Vyhľadávanie platobného terminálu</string>
+    <string name="sumup_pp_setup_select_bt_device">Prosím, porovnajte posledné číslice sériového čísla na zadnej strane terminálu</string>
+    <string name="sumup_pp_setup_text_firmware_update_failed">Aktualizáciu sa nepodarilo dokončiť. Prosím, vypnite a zapnite váš terminál a skúste to znova.</string>
+    <string name="sumup_pp_setup_text_firmware_update_ongoing">Po dobu aktualizácie prosím nepoužívajte vaše mobilné zariadenie.</string>
+    <string name="sumup_print">Vytlačiť</string>
+    <string name="sumup_print_autoprint_receipts">Vždy tlačiť potvrdenie o platbe</string>
+    <string name="sumup_print_failed_bluetooth_disabled">Pripojenie Bluetooth nie je povolené. Povoľte Bluetooth a skúste to znova.</string>
+    <string name="sumup_print_failed_no_cash_drawer">Zvolená tlačiareň nepodporuje použitie pokladničnej zásuvky.</string>
+    <string name="sumup_print_no_printers_found">Neboli nájdené žiadne tlačiarne</string>
+    <string name="sumup_print_open_cash_drawer">Otvoriť pokladničnú zásuvku</string>
+    <string name="sumup_print_open_drawer_automatically">Automaticky otvoriť pokladničnú zásuvku</string>
+    <string name="sumup_print_searching_printers">Vyhľadávanie tlačiarní…</string>
+    <string name="sumup_print_select_printer">Vybrať tlačiaren</string>
+    <string name="sumup_print_test_page">Vytlačiť skúšobnú stránku</string>
+    <string name="sumup_printer_available">Dostupné</string>
+    <string name="sumup_printer_settings_copies_label">Počet kópií</string>
+    <string name="sumup_printer_settings_disabled">Deaktivované</string>
+    <string name="sumup_printer_settings_none_paired">Nespárované</string>
+    <string name="sumup_printer_settings_toggle_label">Aktivovať tlač potvrdení</string>
+    <string name="sumup_printer_unavailable">Nedostupné</string>
+    <string name="sumup_reader_not_found_message">Platobný terminál, ktorého sériové číslo sa končí číslicami %1$s, nebol nájdený. Uistite sa, že je terminál zapnutý a že sa nachádza v dosahu vášho zariadenia.</string>
+    <string name="sumup_reader_off_and_unplugged_message">Uistite sa, že je zariadenie vypnuté a odpojené od zdroja napájania.</string>
+    <string name="sumup_reader_off_and_unplugged_title">Odpojte a vypnite zariadenie</string>
+    <string name="sumup_receipt_request_failed">Odoslanie potvrdenia o platbe sa nepodarilo. Skontrolujte pripojenie k internetu a skúste to znova.\n\nPotvrdenie o tejto platbe je v prípade potreby možné odoslať i kedykoľvek neskôr z obrazovky \"História predaja\".</string>
+    <string name="sumup_reset_reader_confirmation_message">Po uvoľnení vypínača budete počuť pípnutie potvrdzujúce, že funkcia Bluetooth bola reštartovaná.</string>
+    <string name="sumup_reset_reader_confirmation_title">Reštartovanie úspešné</string>
+    <string name="sumup_reset_reader_title">Začnite s reštartom</string>
+    <string name="sumup_select_an_option">Vyberte možnosť</string>
+    <string name="sumup_send_receipt_email_field_label">E-mailová adresa</string>
+    <string name="sumup_send_receipt_phone_number_label">Číslo mobilného telefónu</string>
+    <string name="sumup_service_unavailable_message">Na odstránení chyby pracujeme. Skúste to, prosím, opäť neskôr.</string>
+    <string name="sumup_service_unavailable_title">Služba je nedostupná</string>
+    <string name="sumup_sign_up">Zaregistrovať sa</string>
+    <string name="sumup_signature_btn_close_legal_page">Zatvoriť podmienky</string>
+    <string name="sumup_signature_in_parcelados">in %1$d parcelados</string>
+    <string name="sumup_signature_sign_here">Podpíšte sa sem</string>
+    <string name="sumup_signature_try_again_button_title">Skúsiť znova</string>
+    <string name="sumup_successful_transaction">Platba úspešná</string>
+    <string name="sumup_tablet">tablet</string>
+    <string name="sumup_tipping_signature_including_tip_hint">(vrátane prepitného %1$s)</string>
+    <string name="sumup_transaction_cancelled_card_not_charged">Karta nebola zaťažená žiadnou platbou.</string>
+    <string name="sumup_transaction_cancelled_generic">Platba zrušená</string>
+    <string name="sumup_transaction_cancelled_reader_error">Terminál neodpovedá </string>
+    <string name="sumup_transaction_cancelled_reader_error_detail">Uistite sa, že váš terminál je nabitý a hlasitosť vášho mobilného zariadenia je nastavená na maximum.</string>
+    <string name="sumup_transaction_connection_lost">Strata pripojenia k vzdialenému serveru SumUp.</string>
+    <string name="sumup_transaction_failed_generic">Platbu sa nepodarilo zrealizovať</string>
+    <string name="sumup_transaction_message_checking_status">Prosím, čakajte - kontrolujeme stav transakcie</string>
+    <string name="sumup_transaction_not_processed_desc">Platbu sa nepodarilo zrealizovať kvôli problémom so sieťou.</string>
+    <string name="sumup_transaction_not_processed_details">Karta nebola zaťažená žiadnou platbou. Platbu sa môžete pokúsiť zrealizovať znova.</string>
+    <string name="sumup_transaction_unexpected_response">Počas komunikácie so vzdialeným serverom SumUp nastala chyba</string>
+    <string name="sumup_tx_cancel_please_wait">Prebieha rušenie transakcie, prosím, čakajte</string>
+    <string name="sumup_tx_cancel_power_off">Pre zrušenie transakcie prosím stlačte vypínač na platobnom terminále</string>
+    <string name="sumup_verification_camera_permission_request_title">Fotoaparát</string>
+    <string name="sumup_verify_phone_number">Overiť číslo mobilného telefónu</string>
+    <string msgid="2561197295334830845" name="switch_role">"Prepnúť"</string>
+    <string msgid="1672349317127674378" name="tab">"Karta"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> %%"</string>
+    <string name="wallet_buy_button_place_holder">Kúpiť cez Google</string>
+</resources>

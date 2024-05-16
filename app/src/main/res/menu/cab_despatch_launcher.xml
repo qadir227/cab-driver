@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_ManagerMode"
+        android:orderInCategory="100"
+        android:title="Manager Mode"/>
+
+    <item
+        android:id="@+id/menu_EngineerMode"
+        android:orderInCategory="100"
+        android:title="Engineer Mode"/>
+
+</menu>

@@ -1,0 +1,399 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/Root"
+                xmlns:tools="http://schemas.android.com/tools"
+                tools:background="@drawable/n_appbackground"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+             <!-- Reset App-->
+            <LinearLayout
+                android:onClick="btnReset_Click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/reset_heading"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+            <!-- Update Hosted -->
+            <LinearLayout
+                android:onClick="btnUpdate_Click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/manager_mode_update_app_directly"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+            <!-- Connectionless Data -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <CheckBox
+                    android:id="@+id/managerMode_chkSignalR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Use new data system if available"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+            <!-- Flight Mode Hack-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <CheckBox
+                    android:id="@+id/managerMode_chkFlightHack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/flight_mode_hack"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textStyle="italic"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:textSize="20dip"
+                android:text="@string/warning_requires_root"/>
+
+            <!-- Fair Meter-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:clickable="false"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:background="@drawable/layout_listitem">
+
+
+                <CheckBox
+                    android:id="@+id/managerMode_chkFairMeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/enable_meter"
+                    android:textColor="@color/checkbox_tint_disabled"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+
+
+            <!-- Alternative Location Providers -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <CheckBox
+                    android:id="@+id/managerMode_chkAlternativeLocationProviders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:text="@string/use_alternative_location_providers"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+
+            <!-- Enforce minimum distance -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <CheckBox
+                    android:id="@+id/managerMode_chkEnforceMovementAmountLimits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/use_enforce_movement_limits"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+            <!-- Require GPS -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <CheckBox
+                    android:id="@+id/managerMode_chkRequireGps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/do_gps_checks"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+
+            <!-- Mobile data checks -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <CheckBox
+                    android:id="@+id/managerMode_chkRequireMobileData"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/do_mobiledata_checks"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+            <!-- Lock Web Access -->
+            <LinearLayout
+                android:onClick="btnLockWebsites_Click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/manager_mode_lock_web_access"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+
+
+
+            <!-- Update Play Store
+            <LinearLayout
+                android:onClick="btnPlayStore_Click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/manager_mode_update_play_store"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout> -->
+
+
+
+            <!-- Go Google, Go! -->
+            <LinearLayout
+                android:onClick="btnGoogle_Click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/manager_mode_google"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+
+            <!-- Job Offer Sounds -->
+            <LinearLayout
+                android:onClick="btnMusic_Click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/manager_mode_job_offer_music"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+
+            <!-- Log -->
+            <LinearLayout
+                android:onClick="btnLog_Click"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/manager_engineer_menu_item_clear"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/layout_listitem">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/manager_mode_show_logs"
+                    android:textSize="28dip"
+                    android:layout_marginLeft="6dip"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

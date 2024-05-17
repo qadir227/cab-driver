@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	style="@style/Root"
+	tools:background="@drawable/n_appbackground"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+
+        
+	 <TextView
+	     android:id="@+id/frmJobOffer_lblTitle"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center"
+	     android:layout_span="2"
+	     android:paddingBottom="12dip"
+	     android:text="Job Offer"
+	     android:textSize="@dimen/activity_title"/>
+	 
+        <TextView
+          tools:text="Pickup Plot"
+			android:background="@color/Black"
+          android:id="@+id/frmJobOffer_lblPickupPlot"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:textSize="@dimen/job_offer_plot"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin">
+        
+        	<View 
+            android:background="@color/Black"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignLeft="@+id/actualcontent"
+            android:layout_alignRight="@id/actualcontent"
+            android:layout_alignTop="@id/actualcontent"
+            android:layout_alignBottom="@id/actualcontent"/>
+        
+			<TableLayout
+		    android:id="@+id/actualcontent"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingBottom="@dimen/activity_vertical_margin"
+		    android:paddingLeft="@dimen/activity_horizontal_margin"
+		    android:paddingRight="@dimen/activity_horizontal_margin"
+		    android:paddingTop="@dimen/activity_vertical_margin"
+		    android:stretchColumns="0,1"
+		    android:visibility="visible" >
+		
+		    <TableRow android:layout_width="fill_parent" >
+		
+		        <TextView
+		            android:id="@+id/frmJobOffer_lblJobDistance"
+                    tools:text="Distance"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_span="2"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:text=""
+		            android:textSize="@dimen/job_offer_detail"/>
+		    </TableRow>
+		
+		    <TableRow android:layout_width="fill_parent" >
+		
+		        <TextView
+		            android:id="@+id/frmJobOffer_lblGPSPlot"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_span="2"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:text=""
+		            android:textSize="@dimen/job_offer_detail"/>
+		    </TableRow>
+		
+		    <TableRow>
+		
+		        <TextView
+		            android:id="@+id/frmJobOffer_lblMode"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_span="2"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:text=""
+		            android:textSize="@dimen/job_offer_detail"/>
+		    </TableRow>
+		
+		    <TableRow
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+		
+		        <TextView
+		            android:id="@+id/frmJobOffer_lblVehicleType"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginTop="6dip"
+		            android:layout_span="2"
+		            android:gravity="center"
+		            android:text=""
+		            android:textSize="@dimen/job_offer_detail"/>
+		    </TableRow>
+		    
+			<TableRow android:layout_width="fill_parent" >
+		
+		        <TextView
+		            android:id="@+id/frmJobOffer_lblJobTime"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_span="2"
+		            android:layout_weight="1"
+		            android:gravity="center"
+		            android:visibility="gone"
+		            android:text=""
+		            android:textSize="@dimen/job_offer_detail"/>
+		    </TableRow>
+		
+		    <TableRow
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content">
+		
+		            <ProgressBar
+		                android:id="@+id/frmJobOffer_prgTimeout"
+		                android:layout_span="2"
+		                style="?android:attr/progressBarStyleHorizontal"
+		                android:paddingBottom="@dimen/activity_vertical_margin"
+						android:paddingLeft="@dimen/activity_horizontal_margin"
+						android:paddingRight="@dimen/activity_horizontal_margin"
+						android:paddingTop="@dimen/activity_vertical_margin"
+						tools:progress="25"
+						android:progressTint="#ffff8B00"
+						android:progressBackgroundTint="#DDffF000"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content" />
+
+		    </TableRow>
+
+				<TableRow
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<LinearLayout
+						android:id="@+id/layFare"
+						android:visibility="gone"
+						tools:visibility="visible"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+						<ImageView
+							android:src="@drawable/coin"
+							android:layout_marginRight="24dip"
+							android:layout_width="@dimen/job_offer_icon"
+							android:layout_height="@dimen/job_offer_icon"/>
+						<TextView
+							android:id="@+id/lblFare"
+							tools:text="£5.25"
+							android:textSize="@dimen/job_offer_detail_new"
+							android:gravity="center_vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"/>
+
+					</LinearLayout>
+
+				</TableRow>
+				<TableRow
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					<androidx.legacy.widget.Space
+						android:id="@+id/laySpacer"
+						android:visibility="gone"
+						tools:visibility="visible"
+						android:layout_height="12dp"
+						android:layout_width="match_parent"/>
+				</TableRow>
+
+				<TableRow
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:id="@+id/layDestinationPlot"
+						android:visibility="gone"
+						tools:visibility="visible"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+						<ImageView
+							android:src="@drawable/n_iconavigate"
+							app:tint="@color/ui_text"
+							android:layout_marginRight="24dip"
+							android:layout_width="@dimen/job_offer_icon"
+							android:layout_height="@dimen/job_offer_icon"/>
+						<TextView
+							android:id="@+id/lblDestinationPlot"
+							android:textSize="@dimen/job_offer_detail_new"
+							tools:text="BS"
+							android:gravity="center_vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"/>
+
+					</LinearLayout>
+
+
+				</TableRow>
+
+		</TableLayout>
+		
+		<LinearLayout
+		    android:id="@+id/frmJobOffer_layPleaseWait"
+		    android:visibility="invisible"
+            tools:visibility="visible"
+		    android:paddingLeft="@dimen/activity_horizontal_margin"
+			android:paddingRight="@dimen/activity_horizontal_margin"
+		    android:layout_alignLeft="@+id/actualcontent"
+            android:layout_alignRight="@id/actualcontent"
+            android:layout_alignTop="@id/actualcontent"
+            android:layout_alignBottom="@id/actualcontent"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+  		      <ProgressBar
+  		          android:layout_gravity="center"
+	        	  android:layout_width="wrap_content"
+	       		  android:layout_height="wrap_content"/>
+		    
+		    
+		  <TextView
+		        android:paddingLeft="@dimen/dialog_horizontal_margin"
+		        android:textSize="@dimen/dialog_content"
+		        android:text="Please Wait..."
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:gravity="center"/>
+		    
+		</LinearLayout>	
+			
+	</RelativeLayout>
+
+
+
+  </LinearLayout>
+  
+  <LinearLayout
+      		android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+		    android:paddingLeft="@dimen/activity_horizontal_margin"
+		    android:paddingRight="@dimen/activity_horizontal_margin"
+		    android:paddingTop="@dimen/activity_vertical_margin"
+            android:gravity="bottom">
+
+
+                    <ImageButton
+                          android:id="@+id/frmJobOffer_btnReject"
+                          android:layout_width="0dp"
+				          android:layout_height="wrap_content"
+				          android:layout_weight="1"
+				          android:scaleType="centerInside"
+				          android:background="@drawable/layout_listitem"
+				          android:src="@drawable/n_icono"/>
+
+                    <ImageButton
+                          android:id="@+id/frmJobOffer_btnAccept"
+                          android:layout_width="0dp"
+				          android:layout_height="wrap_content"
+				          android:layout_weight="1"
+				          android:scaleType="centerInside"
+				          android:background="@drawable/layout_listitem"
+				          android:src="@drawable/n_icoyes"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

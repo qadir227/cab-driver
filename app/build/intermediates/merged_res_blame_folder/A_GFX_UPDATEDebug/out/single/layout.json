@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_navlocation.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_navlocation.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_clearbreak.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_clearbreak.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_google_pay_checkout.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_google_pay_checkout.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_settings_voicemode.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_voicemode.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_popout.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_popout.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_lcd.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_lcd.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_sound_chooser.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_sound_chooser.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_pod.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_pod.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_list.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_list.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/menu.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/menu.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/lcd_number.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/lcd_number.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_logged_in.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_logged_in.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/messageitem.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/messageitem.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_messagebox_new.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_messagebox_new.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_startup.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_startup.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/filemanager_row.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/filemanager_row.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_document_scan.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_document_scan.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/toast.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/toast.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_filebrowser.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_filebrowser.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_settings.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_initial_setup.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_initial_setup.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_engineerpassword.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_engineerpassword.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_drivernotes.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_drivernotes.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_web_view.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/job_detail.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/job_detail.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_installcablock.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_installcablock.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_datamonitor.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_datamonitor.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_launchermain.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_launchermain.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_datawarning.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_datawarning.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_auto_plot.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_auto_plot.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/notification.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/notification.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_settings_navlocation.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_navlocation.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_manager_mode_menu.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_manager_mode_menu.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_update.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_update.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/row_plot.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_plot.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_driverscreen.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/layout/fragment_driverscreen.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_settings_display.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_display.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_stripe_payment.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_stripe_payment.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/row_jobtotal.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_jobtotal.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_payment.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_driver_message.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_driver_message.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_password.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_password.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_settings_officenumber.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_officenumber.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/overlay_backtocabdespatch.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/overlay_backtocabdespatch.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_viewinflipper.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_viewinflipper.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_pobstc.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/layout/dialog_pobstc.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_composemessage.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_composemessage.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_driver_payment.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_driver_payment.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_busy.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_busy.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_engineermenu.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_engineermenu.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_job_screen.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-A_GFX_UPDATE-89:/layout/fragment_job_screen.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_logged_in_host.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_logged_in_host.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_fair_meter.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_fair_meter.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_panic.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_panic.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_waitingtime.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_waitingtime.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_joboffer.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_joboffer.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_statusbar.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_statusbar.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_settings_meter.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_meter.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/row_cars.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_cars.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_msgbox.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_msgbox.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/row_media_browser.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/row_media_browser.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/dialog_price.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/dialog_price.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_settings_runmode.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_runmode.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_test.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_test.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_break.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_break.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/fragment_settings_job_screen_start.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/fragment_settings_job_screen_start.xml"
+    },
+    {
+        "merged": "com.cabdespatch.driverapp.beta.app-mergeA_GFX_UPDATEDebugResources-87:/layout/activity_login_compat.xml",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_login_compat.xml"
+    }
+]

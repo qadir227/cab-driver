@@ -68,6 +68,7 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"இணைப்பை நகலெடு"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"உலாவியில் திற"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"இணைப்பைப் பகிர்"</string>
+    <string name="gpay_logo_description">Google Pay</string>
     <string name="icon_content_description">உரையாடல் ஐகான்</string>
     <string msgid="6827826412747255547" name="in_progress">"செயலிலுள்ளது"</string>
     <string msgid="7933458017204019916" name="indeterminate">"சில மட்டுமே தேர்ந்தெடுக்கப்பட்டுள்ளன"</string>

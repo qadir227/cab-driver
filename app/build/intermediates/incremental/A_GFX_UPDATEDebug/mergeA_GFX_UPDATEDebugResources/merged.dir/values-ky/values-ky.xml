@@ -55,7 +55,7 @@
     <string msgid="9053896323427875356" name="common_google_play_services_update_text">Google Play кызматтары жаңыртылмайынча %1$s иштебейт.</string>
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play кызматтарын жаңыртуу</string>
     <string name="common_google_play_services_updating_text">Google Play кызматтарысыз %1$s иштебейт, алар учурда жаңыртылууда.</string>
-    <string name="common_google_play_services_wear_update_text">Google Play кызматтарынын жаңы версиясы талап кылынат. Бир аздан кийин ал өзү эле жаңыртылат.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play кызматтарынын жаңы версиясы талап кылынат. Бир аздан кийин ал өзү эле жаңырат.</string>
     <string name="common_open_on_phone">Телефондо ачык</string>
     <string name="common_signin_button_text">Кирүү</string>
     <string name="common_signin_button_text_long">Google менен кирүү</string>
@@ -68,6 +68,7 @@
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Шилтемени көчүрүү"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Серепчиден ачуу"</string>
     <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Шилтемени бөлүшүү"</string>
+    <string name="gpay_logo_description">Google Pay</string>
     <string name="icon_content_description">Диалог сүрөтчөсү</string>
     <string msgid="6827826412747255547" name="in_progress">"Аткарылууда"</string>
     <string msgid="7933458017204019916" name="indeterminate">"Жарым-жартылай текшерилди"</string>

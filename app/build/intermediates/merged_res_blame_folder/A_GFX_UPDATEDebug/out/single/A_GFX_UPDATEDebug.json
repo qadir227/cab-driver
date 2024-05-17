@@ -144,6 +144,10 @@
         "source": "com.cabdespatch.driverapp.beta.app-main-92:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/layout_activity_google_pay_checkout.xml.flat",
+        "source": "com.cabdespatch.driverapp.beta.app-main-92:/layout/activity_google_pay_checkout.xml"
+    },
+    {
         "merged": "com.cabdespatch.driverapp.beta.app-merged_res-88:/drawable-xhdpi_ic_launcher.png.flat",
         "source": "com.cabdespatch.driverapp.beta.app-main-92:/drawable-xhdpi/ic_launcher.png"
     },

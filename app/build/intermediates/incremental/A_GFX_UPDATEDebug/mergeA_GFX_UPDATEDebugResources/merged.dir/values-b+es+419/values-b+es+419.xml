@@ -14,6 +14,7 @@
     <string name="clear_text_end_icon_content_description">Borrar texto</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="gpay_logo_description">Google Pay</string>
     <string name="icon_content_description">Ícono de diálogo</string>
     <string name="item_view_role_description">Pestaña</string>
     <string name="material_clock_toggle_content_description">Selecciona a.m. o p.m.</string>

@@ -25,6 +25,7 @@ import com.cabdespatch.driverapp.beta.SETTINGSMANAGER;
 import com.cabdespatch.driverapp.beta.STATUSMANAGER;
 import com.cabdespatch.driverapp.beta.activities.AnyActivity;
 import com.cabdespatch.driverapp.beta.cdToast;
+import com.cabdespatch.driverapp.beta.gpay.CheckoutActivity;
 import com.cabdespatch.libcabapiandroid.Apis.AnyApiRequest;
 import com.cabdespatch.libcabapiandroid.Apis.CabApi.CabApiRequest;
 import com.cabdespatch.libcabapiandroid.Apis.CabApi.DriverPayAndGoBalanceApi;
@@ -81,6 +82,13 @@ public class DriverPaymentActivity extends AnyActivity implements CabApiRequest.
                         Log.e("Click", "Gpay");
                         Toast.makeText(DriverPaymentActivity.this,
                                 "G Pay", Toast.LENGTH_SHORT).show();
+
+                        Intent mIntent = new Intent(DriverPaymentActivity.this, CheckoutActivity.class);
+                        Log.e("amountDue", AmountDue + "");
+                        mIntent.putExtra("amountDue", AmountDue);
+
+                        startActivity(mIntent);
+
                         break;
                     case R.id.radioButtonPayPal:
                         Log.e("Click", "PayPal");

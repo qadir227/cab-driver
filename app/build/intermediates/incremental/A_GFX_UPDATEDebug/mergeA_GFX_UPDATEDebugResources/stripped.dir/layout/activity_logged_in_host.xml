@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_logged_in_host"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/n_appbackground"
+    tools:context="com.cabdespatch.driverapp.beta.activities2017.LoggedInHost">
+
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:visibility="visible"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_width="@dimen/large_spinner_please_wait"
+            android:layout_height="@dimen/large_spinner_please_wait"/>
+
+        <Button
+            android:id="@+id/btnResumeApp"
+            android:enabled="false"
+            android:layout_below="@id/progress"
+            android:text="@string/resume_app"
+            android:textSize="@dimen/menu_header_text"
+            android:background="@drawable/menu_overlay_item"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.cabdespatch.driverapp.beta.fragments.StatusBar"
+        android:id="@+id/status_bar_logged_in"
+        tools:layout="@layout/fragment_statusbar" />
+
+    <FrameLayout
+        android:layout_below="@id/status_bar_logged_in"
+        android:id="@+id/fragMain"
+        android:padding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:background="@color/TransparentBlack"
+        android:id="@+id/menuBackground"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</RelativeLayout>

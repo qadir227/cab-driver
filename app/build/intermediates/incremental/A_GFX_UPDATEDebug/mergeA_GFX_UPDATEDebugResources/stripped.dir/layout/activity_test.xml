@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:background="@drawable/n_appbackground"
+	style="@style/Root"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".JobScreen" >
+
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingBottom="@dimen/activity_vertical_margin"
+			android:paddingTop="@dimen/activity_vertical_margin"
+			android:orientation="vertical">
+
+
+
+
+
+			<LinearLayout
+				android:paddingLeft="@dimen/activity_horizontal_margin"
+				android:paddingRight="@dimen/activity_horizontal_margin"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:layout_height="0dp"
+				android:layout_weight="1">
+
+
+
+
+				<TextView
+					android:id="@+id/frmTest_lblTest"
+					android:layout_alignParentBottom="true"
+					android:textSize="24dp"
+					android:minLines="3"
+					tools:text="Pick up: 123 Some Road somewhere"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+
+				<EditText
+					android:id="@+id/frmTest_txtTest1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"/>
+
+				<EditText
+					android:id="@+id/frmTest_txtTest2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"/>
+
+				<EditText
+					android:id="@+id/frmTest_txtTest3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"/>
+
+				<EditText
+					android:id="@+id/frmTest_txtTest4"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"/>
+
+
+
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+
+		<FrameLayout
+			android:background="@color/TransparentBlack"
+			android:id="@+id/dlg_container"
+			android:visibility="gone"
+			tools:visibility="invisible"
+			android:clickable="true"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" />
+
+	</RelativeLayout>
+
+
+
+</LinearLayout>

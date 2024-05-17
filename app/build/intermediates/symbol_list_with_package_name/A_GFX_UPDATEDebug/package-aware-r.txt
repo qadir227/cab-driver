@@ -1026,6 +1026,10 @@ attr passwordToggleTint
 attr passwordToggleTintMode
 attr pathMotionArc
 attr path_percent
+attr payButtonGenericBackground
+attr payButtonGenericLogoImage
+attr payButtonGenericRippleColor
+attr payButtonGenericRippleMask
 attr percentHeight
 attr percentWidth
 attr percentX
@@ -2243,6 +2247,12 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color overlay_menu_outline
+color pay_button_generic_background_color_dark
+color pay_button_generic_background_color_light
+color pay_button_generic_background_outline_color_dark
+color pay_button_generic_background_outline_color_light
+color pay_button_generic_ripple_color_dark
+color pay_button_generic_ripple_color_light
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -3254,6 +3264,10 @@ dimen overlay_margin_leftright
 dimen overlay_margin_topbottom
 dimen overlay_menu_item_text
 dimen overlay_menuu_outline
+dimen pay_button_generic_min_height
+dimen pay_button_generic_min_width
+dimen pay_image_generic_height
+dimen pay_image_generic_width
 dimen payment_result_screen_image_padding
 dimen payment_screen_text
 dimen payment_settings_icon_size
@@ -3591,6 +3605,8 @@ drawable generic_vector_led
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gpay_logo
+drawable gpay_logo_generic_dark
+drawable gpay_logo_generic_light
 drawable ic_action_lifebuoy
 drawable ic_action_remove
 drawable ic_arrow_back_black_24
@@ -3774,6 +3790,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pay_button_generic_background_dark
+drawable pay_button_generic_background_light
+drawable pay_button_generic_background_mask_dark
+drawable pay_button_generic_background_mask_light
 drawable payment_air_connected
 drawable payment_air_lite_connected
 drawable payment_air_lite_searching
@@ -4329,6 +4349,9 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailDescription
+id detailPrice
+id detailTitle
 id details
 id dialog_button
 id dimensions
@@ -4629,6 +4652,7 @@ id ghost_view
 id ghost_view_holder
 id gone
 id googleMaterial2
+id googlePayButton
 id google_pay_button_layout
 id google_pay_payment_button
 id google_pay_primary_button
@@ -4892,6 +4916,8 @@ id password_toggle
 id path
 id pathRelative
 id pay_button
+id pay_button_logo
+id pay_button_view
 id payed_to_label
 id payment_options_primary_button_fragment_container_view
 id payment_sheet_primary_button_fragment_container_view
@@ -5339,6 +5365,7 @@ layout activity_driver_payment
 layout activity_engineermenu
 layout activity_engineerpassword
 layout activity_filebrowser
+layout activity_google_pay_checkout
 layout activity_joboffer
 layout activity_launchermain
 layout activity_list
@@ -5475,6 +5502,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout overlay_backtocabdespatch
+layout paybutton_generic
 layout row_cars
 layout row_jobtotal
 layout row_media_browser
@@ -5665,6 +5693,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string checking_in
+string checkout_item_description
 string circuitfees
 string clear_text_end_icon_content_description
 string close_drawer
@@ -5725,11 +5754,14 @@ string fallback_menu_item_share_link
 string fcm_fallback_notification_channel_label
 string firebase_database_url
 string flight_mode_hack
+string gateway_replace_name_example
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_pay_status_unavailable
 string google_storage_bucket
+string gpay_logo_description
 string hello_blank_fragment
 string hello_world
 string hide_bottom_view_on_scroll_behavior
@@ -5875,6 +5907,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string payment
+string payments_show_name
 string pence
 string permission_error
 string permission_failed_quit_message
@@ -6861,6 +6894,8 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style PayButtonGenericDarkTheme
+style PayButtonGenericLightTheme
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

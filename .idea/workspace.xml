@@ -45,11 +45,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "ScreenRecorder.SavePath": "/Users/qadirhussain/Downloads",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "last_directory_selection": "/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/res/drawable",
-    "last_opened_file_path": "/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/res/drawable",
+    "last_opened_file_path": "/Users/qadirhussain/Desktop/workspace/android/Cab_Despatch_Android_2015/app/src/main/res/layout",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -59,7 +60,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/cabdespatch/driverapp/beta/gpay" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cabdespatch.driverapp.beta.gpay" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,7 +156,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/cabdespatch/driverapp/beta/activities2017/DriverPaymentActivity.java</url>
-          <line>218</line>
+          <line>226</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -165,22 +171,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/cabdespatch/driverapp/beta/activities2017/DriverPaymentActivity.java</url>
-          <line>243</line>
+          <line>251</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/cabdespatch/driverapp/beta/activities2017/DriverPaymentActivity.java</url>
-          <line>254</line>
+          <line>262</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/cabdespatch/driverapp/beta/activities2017/DriverPaymentActivity.java</url>
-          <line>271</line>
+          <line>279</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/cabdespatch/driverapp/beta/activities2017/DriverPaymentActivity.java</url>
-          <line>228</line>
+          <line>236</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

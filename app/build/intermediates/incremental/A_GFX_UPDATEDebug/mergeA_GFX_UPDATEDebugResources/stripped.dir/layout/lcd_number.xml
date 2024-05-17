@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                tools:background="#000000"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/meter_digit_margin"
+                android:layout_marginRight="@dimen/meter_digit_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <com.cabdespatch.driverapp.beta.views.FontableTextView
+        app:TextFont="digital.ttf"
+        android:id="@+id/baseDigit"
+        android:text="0"
+        android:textSize="@dimen/lcd_font"
+        android:alpha="0.3"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.cabdespatch.driverapp.beta.views.FontableTextView
+        app:TextFont="digital.ttf"
+        android:id="@+id/actualDigit"
+        android:layout_alignRight="@id/baseDigit"
+        tools:text="0"
+        android:textSize="@dimen/lcd_font"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="gpay_logo_description">Google Pay</string>
     <string name="stripe_acc_label_card_number">Numero ng kard</string>
     <string name="stripe_acc_label_card_number_node">%s, Numero ng kard</string>
     <string name="stripe_acc_label_cvc_node">%s, CVC</string>

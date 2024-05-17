@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/settingstitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_job_screen_first_slide"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/fragSettings_slide_time"
+            android:layout_marginLeft="@dimen/settings_indent"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="@string/setting_tag_time"
+            android:text="@string/slide_time"/>
+
+        <RadioButton
+            android:id="@+id/fragSettings_slide_price"
+            android:layout_marginLeft="@dimen/settings_indent"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="@string/setting_tag_price"
+            android:text="@string/slide_price"/>
+
+        <RadioButton
+            android:id="@+id/fragSettings_slide_pickup"
+            android:layout_marginLeft="@dimen/settings_indent"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="@string/setting_tag_pickup"
+            android:text="@string/slide_pickup"/>
+
+        <RadioButton
+            android:id="@+id/fragSettings_slide_destination"
+            android:layout_marginLeft="@dimen/settings_indent"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="@string/setting_tag_destination"
+            android:text="@string/slide_destination"/>
+
+        <RadioButton
+            android:id="@+id/fragSettings_slide_name"
+            android:layout_marginLeft="@dimen/settings_indent"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="@string/setting_tag_name"
+            android:text="@string/slide_name"/>
+
+        <RadioButton
+            android:id="@+id/fragSettings_slide_comments"
+            android:layout_marginLeft="@dimen/settings_indent"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="@string/setting_tag_comments"
+            android:text="@string/slide_comments"/>
+
+    </RadioGroup>
+
+</LinearLayout>

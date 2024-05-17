@@ -1,0 +1,453 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1">
+	    
+	    <ScrollView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:fillViewport="true">
+	        
+	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+	        <!-- Demo Device -->
+	        <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <CheckBox
+                android:id="@+id/engineer_chkDemo"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+              
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Demo Mode"
+                android:textSize="18dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+
+	        <!-- Full Screen -->
+	        <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <CheckBox
+                android:id="@+id/engineer_chkFullScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+              
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Full Screen"
+                android:textSize="18dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+	        
+	        <!-- Lockdown -->
+	        <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <CheckBox
+                  android:id="@+id/engineer_chkLockdown"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+              
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Lock Down Device*"
+                android:textSize="18dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+        	
+	        <!-- Logfile -->
+	        <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <CheckBox
+                android:id="@+id/engineer_chkLogFile"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+              
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Generate Debug Log"
+                android:textSize="18dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+        	
+	         <!-- Fixed Location -->
+	        <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <CheckBox
+                android:id="@+id/engineer_chkFixedLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+              
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Fixed GPS Location"
+                android:textSize="18dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+
+			<!-- Fire Data -->
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:clickable="true"
+				android:background="@drawable/layout_listitem">
+
+
+				<CheckBox
+					android:id="@+id/engineer_chkFireData"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textSize="28dip"
+					android:layout_marginLeft="6dip"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:gravity="center_vertical"
+					android:text="Fire Data"
+					android:textSize="18dip"
+					android:layout_marginLeft="6dip"/>
+
+			</LinearLayout>
+
+			<!-- Debug Yapi Url -->
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:clickable="true"
+				android:background="@drawable/layout_listitem">
+
+
+				<CheckBox
+					android:id="@+id/engineer_chkYapiDebug"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:textSize="28dip"
+					android:layout_marginLeft="6dip"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent"
+					android:gravity="center_vertical"
+					android:text="Yapi @ Debug Host"
+					android:textSize="18dip"
+					android:layout_marginLeft="6dip"/>
+
+			</LinearLayout>
+	        
+	         <!-- Manage Apps-->
+	        <LinearLayout
+              android:onClick="btnManageApps_Click"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Manage Apps"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+	        
+	        <!-- Install APK -->
+	        <LinearLayout
+              android:onClick="btnInstallAPK_Click"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Install APK"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+        	
+			<!-- GPS_Test -->
+	        <LinearLayout
+              android:onClick="btnGPSTest_Click"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="GPS Test"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+        	
+	        <!-- Remove System Apps -->
+	        <LinearLayout
+              android:onClick="btnRootUninstall_Click"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="System App Remover"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+        	
+	        <!-- Launch URL -->
+	        <LinearLayout
+              android:onClick="btnLaunchURL_Click"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Launch URL"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+        	
+	        <LinearLayout
+			  android:id="@+id/engineerLayoutLaunchUrl"
+			  android:visibility="gone"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+	            
+	            <EditText 
+	                android:id="@+id/engineerTxtUrl"
+	                android:inputType="textUri"
+	                android:layout_width="0dp"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1"/>
+	            <Button
+	                android:onClick="btnGo_Click"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text=" GO "/>
+	            
+	        </LinearLayout>
+	        
+	        
+	         <!-- Plot Tool -->
+	        <LinearLayout
+              android:onClick="btnPlotTool_Click"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:clickable="true"
+              android:background="@drawable/layout_listitem">
+
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="Plot Tools"
+                android:textSize="28dip"
+                android:layout_marginLeft="6dip"/>
+
+        	</LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Location 1 Lat:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:tag="lat_fixed_1"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/txt_loc1_lat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Location 1 Lon:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:tag="lon_fixed_1"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/txt_loc1_lon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Location 2 Lat:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:tag="lat_fixed_2"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/txt_loc2_lat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Location 2 Lon:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:tag="lon_fixed_2"
+                    android:inputType="numberDecimal"
+                    android:id="@+id/txt_loc2_lon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        	
+	        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="*for lockdown to be sucessfull, first ensure that auto updating of market apps is not enabled, then select Cab Despatch Launcher as your default launcher"
+                android:textSize="12dip"
+                android:layout_marginLeft="6dip"/>
+
+
+	         
+	        
+	    </LinearLayout>
+	        
+	    
+	   
+	    
+	    </ScrollView>
+	    
+	</LinearLayout>
+	
+		    <Button
+	        android:id="@+id/engineermode_btnDebug"
+	        android:visibility="invisible"
+	        android:text="Debug"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              tools:background="@drawable/n_appbackground"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+       <ImageButton
+	        android:id="@+id/jobDetailIcon"
+	        android:background="@null"
+	        android:clickable="false"
+	        android:layout_width="128dip"
+	        android:layout_height="128dip"
+	        android:scaleType="centerCrop"
+	        android:src="@drawable/big_icon"/>
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+	    <TextView
+	        android:id="@+id/jobDetailHeading"
+	        android:textSize="@dimen/job_detail_heading"
+	        android:maxLines="1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingBottom="@dimen/activity_vertical_margin"
+	        android:gravity="center"
+	        tools:text="Heading"/>
+	    
+	    <TextView
+        android:id="@+id/jobDetailText"
+        android:textSize="@dimen/job_detail_detail"
+        android:gravity="center_horizontal"
+        android:ellipsize="end"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/job_detail_button_height"
+        tools:text="Details"/>
+	    
+    </LinearLayout>
+    
+    
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/jobDetail_btnPopOut"
+                android:background="@drawable/layout_listitem"
+                android:layout_width="@dimen/job_detail_button_width"
+                android:layout_height="@dimen/job_detail_button_height"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:src="@drawable/n_ico_popout"/>
+            
+            <ImageButton 
+		        android:id="@+id/jobDetail_btnSpeak"
+                android:background="@drawable/layout_listitem"
+                android:layout_width="@dimen/job_detail_button_width"
+                android:layout_height="@dimen/job_detail_button_height"
+                android:scaleType="centerInside"
+		        android:visibility="gone"
+                tools:visibility="visible"
+		        android:src="@drawable/n_icospeak"/>
+            
+            <ImageButton 
+		        android:id="@+id/jobDetail_btnNavigate"
+                android:background="@drawable/layout_listitem"
+                android:layout_width="@dimen/job_detail_button_width"
+                android:layout_height="@dimen/job_detail_button_height"
+                android:scaleType="centerInside"
+		        android:visibility="gone"
+                tools:visibility="visible"
+		        android:src="@drawable/n_iconavigate"/>
+
+
+            
+        </LinearLayout>
+
+
+</RelativeLayout>
